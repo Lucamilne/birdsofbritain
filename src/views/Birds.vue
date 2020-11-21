@@ -1,15 +1,46 @@
 <template>
-    <v-list two-line>
-        <v-list-item
-          v-for="bird in getListOfBirds"
-          :key="bird"
-        >
-          <v-list-item-content>
-            <v-list-item-title v-html="bird"></v-list-item-title>
-            <v-list-item-subtitle v-html="birds[bird].scientificName"></v-list-item-subtitle>
-          </v-list-item-content>
-        </v-list-item>
-    </v-list>
+  <v-container>
+    <v-row>
+      <v-col
+        cols="12"
+        md="6"
+        lg="4"
+        xl="3"
+        v-for="bird in sliceOfBirdList"
+        :key="birds[bird].name"
+      >
+        <v-card tile>
+          <v-list-item three-line>
+            <v-list-item-content>
+              <div class="overline mb-4">
+                {{ birds[bird].population.type }}
+              </div>
+              <v-list-item-title class="headline mb-1">
+                {{ birds[bird].name }}
+              </v-list-item-title>
+              <v-list-item-subtitle>{{
+                birds[bird].scientificName
+              }}</v-list-item-subtitle>
+            </v-list-item-content>
+            <v-list-item-avatar tile size="120" color="grey lighten-4">
+              <img
+                :src="require(`../assets/birds/${birds[bird].images[0]}`)"
+                :alt="birds[bird].name"
+              />
+            </v-list-item-avatar>
+          </v-list-item>
+          <v-card-actions class="d-flex justify-space-between">
+            <v-btn text color="primary">Learn more</v-btn>
+            <v-avatar :color="birds[bird].conservationStatus.toLowerCase()" size="12" class="mr-2">
+            </v-avatar>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+    </v-row>
+    <div class="text-center">
+      <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
+    </div>
+  </v-container>
 </template>
 
 <script>
@@ -18,12 +49,26 @@ import birds from "@/common/birds.js";
 export default {
   name: "Birds",
   data: () => ({
-    birds: birds.data
+    page: 1,
+    resultsPerPage: 24,
+    birds: birds.data,
   }),
   computed: {
-      getListOfBirds() {
-        return Object.keys(birds.data)
-      },
-    }
+    sliceOfBirdList() {
+      const start = (this.page - 1) * this.resultsPerPage;
+      const end = this.page * this.resultsPerPage;
+
+      return Object.keys(birds.data).slice(start, end);
+    },
+    numberOfPages() {
+      return Math.ceil(Object.keys(birds.data).length / this.resultsPerPage);
+    },
+  },
 };
 </script>
+
+<style scoped>
+.v-avatar img {
+  object-fit: cover;
+}
+</style>
