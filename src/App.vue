@@ -46,6 +46,7 @@ export default {
     drawer: false,
     value: null,
     items: [
+      { name: "Home", icon: "mdi-home", route: "/" },
       { name: "Identify", icon: "mdi-binoculars", route: "/identify" },
       { name: "Browse", icon: "mdi-bird", route: "/browse" },
       { name: "Guide", icon: "mdi-book-open-outline", route: "/guide" },
