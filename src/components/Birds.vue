@@ -29,21 +29,18 @@
               />
             </v-list-item-avatar>
           </v-list-item>
-          <v-card-actions class="d-flex justify-space-between">
+          <v-card-actions>
             <v-btn
               text
               color="primary"
               @click.stop="
-                $router.push({ name: 'bird', params: { id: toKebabCase(bird) }})
+                $router.push({
+                  name: 'bird',
+                  params: { id: toKebabCase(bird) },
+                })
               "
               >Learn more</v-btn
             >
-            <v-avatar
-              :color="birds[bird].conservationStatus.toLowerCase()"
-              size="12"
-              class="mr-2"
-            >
-            </v-avatar>
           </v-card-actions>
         </v-card>
       </v-col>
@@ -79,7 +76,7 @@ export default {
     toKebabCase(bird) {
       return bird.toLowerCase().replace(" ", "-");
     },
-  },
+  }
 };
 </script>
 

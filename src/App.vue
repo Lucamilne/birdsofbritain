@@ -47,9 +47,9 @@ export default {
     value: null,
     items: [
       { name: "Home", icon: "mdi-home", route: "/" },
-      { name: "Identify", icon: "mdi-binoculars", route: "/identify" },
-      { name: "Browse", icon: "mdi-bird", route: "/browse" },
-      { name: "Guide", icon: "mdi-book-open-outline", route: "/guide" },
+      { name: "Identify", icon: "mdi-magnify", route: "/identify" },
+      { name: "Browse", icon: "mdi-binoculars", route: "/browse" },
+      { name: "Your Area", icon: "mdi-map-marker", route: "/guide" },
     ],
   }),
 };

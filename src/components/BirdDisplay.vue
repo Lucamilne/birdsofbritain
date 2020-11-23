@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto" max-width="700">
+  <v-card class="mx-auto" max-width="900">
     <v-img
       class="align-end mb-3"
       contain
@@ -20,19 +20,21 @@
         }}</v-subheader>
         <p :key="index">{{ bird[section.value] }}</p>
       </template>
-      <v-subheader class="px-0">{{
-        bird.features.habitat.length > 1 ? "Habitats" : "Habitat"
-      }}</v-subheader>
-      <v-chip
-        v-for="habitat in bird.features.habitat"
-        :key="habitat"
-        class="mr-2 mb-2"
-        color="primary"
-        label
-        outlined
-      >
-        {{ habitat }}
-      </v-chip>
+      <div v-if="bird.features">
+        <v-subheader class="px-0">{{
+          bird.features.habitat.length > 1 ? "Habitats" : "Habitat"
+        }}</v-subheader>
+        <v-chip
+          v-for="habitat in bird.features.habitat"
+          :key="habitat"
+          class="mr-2 mb-2"
+          color="primary"
+          label
+          outlined
+        >
+          {{ habitat }}
+        </v-chip>
+      </div>
     </v-card-text>
     <v-simple-table>
       <template v-slot:default>

@@ -11889,4 +11889,19 @@ birds.data = {
     }
   }
 }
+
+birds.listOfBirds = function () {
+  return Object.keys(birds.data)
+}
+
+birds.birdsByPath = function () {
+  let birdsByPath = new Object();
+
+  birds.listOfBirds().forEach(bird => {
+    birdsByPath[bird.toLowerCase().replace(" ", "-")] = bird;
+  })
+
+  return birdsByPath;
+}
+
 module.exports = birds;

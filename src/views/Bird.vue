@@ -7,12 +7,12 @@
 
 <script>
 import birds from "@/common/birds.js";
-import BirdDisplay from "@/components/BirdDisplay"
+import BirdDisplay from "@/components/BirdDisplay";
 
 export default {
   name: "Bird",
   components: {
-      BirdDisplay
+    BirdDisplay,
   },
   data: function () {
     return {
@@ -21,9 +21,7 @@ export default {
   },
   computed: {
     bird() {
-      const bird = this.$route.params.id.replaceAll("-", " ");
-
-      return bird[0].toUpperCase() + bird.substring(1);
+      return birds.birdsByPath()[this.$route.params.id];
     },
   },
 };

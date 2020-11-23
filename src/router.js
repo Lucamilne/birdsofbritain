@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
-import Birds from "./views/Birds.vue";
+import Browse from "./views/Browse.vue";
 import Bird from "./views/Bird.vue";
 
 Vue.use(Router);
@@ -16,7 +16,7 @@ export default new Router({
         {
             path: "/browse",
             name: "browse",
-            component: Birds
+            component: Browse
         },
         {
             path: "/browse/:id",
