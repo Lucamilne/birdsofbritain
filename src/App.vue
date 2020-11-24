@@ -28,7 +28,7 @@
     <v-main>
       <router-view />
     </v-main>
-    <v-footer color="primary" app>
+    <v-footer color="primary">
       <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
   </v-app>

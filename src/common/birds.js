@@ -4227,16 +4227,16 @@ birds.data = {
         "Medium thickness"
       ],
       "Beak": [
-        "Grassland",
-        "Marine and intertidal",
-        "Wetland"
-      ],
-      "habitat": [
         "Black",
         "Brown",
         "Cream/buff",
         "Grey",
         "White"
+      ],
+      "habitat": [
+        "Grassland",
+        "Marine and intertidal",
+        "Wetland"
       ]
     }
   },
@@ -11902,6 +11902,82 @@ birds.birdsByPath = function () {
   })
 
   return birdsByPath;
+}
+
+birds.listOfFamilies = function () {
+  var familyArray = [];
+
+  birds.listOfBirds().forEach(bird => {
+    if (!familyArray.includes(birds.data[bird].family)) {
+      familyArray.push(birds.data[bird].family)
+    }
+  })
+
+  return familyArray;
+}
+
+birds.listOfFeatures = {
+  featherColor: [
+    "Black",
+    "Brown",
+    "Cream/buff",
+    "White",
+    "Grey",
+    "Orange",
+    "Red",
+    "Blue",
+    "Yellow",
+    "Green",
+    "Pink/purple"
+  ],
+  legColor: [
+    "Black",
+    "Red",
+    "Blue",
+    "Brown",
+    "Pink",
+    "White",
+    "Green",
+    "Orange",
+    "Grey",
+    "Yellow",
+    "Medium length",
+    "Medium thickness",
+    "Curved",
+    "Hooked",
+    "Powerful",
+    "Chunky"
+  ],
+  Beak: [
+    "Black",
+    "Brown",
+    "Medium length",
+    "Hooked",
+    "Medium thickness",
+    "Red",
+    "Long",
+    "Thin",
+    "Curved",
+    "Chunky",
+    "Duck-like",
+    "Yellow",
+    "Short",
+    "Powerful",
+    "Orange",
+    "White",
+    "Blue",
+    "Green"
+  ],
+  habitat: [
+    "Marine and intertidal",
+    "Wetland",
+    "Grassland",
+    "Farmland",
+    "Woodland",
+    "Upland",
+    "Urban and suburban",
+    "Heathland"
+  ]
 }
 
 module.exports = birds;
