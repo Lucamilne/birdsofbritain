@@ -48,7 +48,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -197,7 +197,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "Red",
@@ -244,7 +244,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -292,7 +292,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -339,7 +339,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -426,7 +426,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -732,7 +732,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -868,7 +868,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -980,7 +980,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -1075,7 +1075,7 @@ birds.data = {
         "Black",
         "Blue",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "Red",
         "White"
       ],
@@ -1165,7 +1165,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -1298,7 +1298,7 @@ birds.data = {
     "audio": null,
     "features": {
       "featherColor": [
-        "Cream/buff",
+        "Cream",
         "Orange",
         "White",
         "Yellow"
@@ -1344,7 +1344,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Red",
         "White"
       ],
@@ -1387,11 +1387,11 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
         "Orange",
-        "Pink/purple",
+        "Pink/Purple",
         "Red",
         "White",
         "Yellow"
@@ -1439,7 +1439,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Yellow"
       ],
@@ -1528,7 +1528,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
         "Yellow"
@@ -1571,7 +1571,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White",
         "Yellow"
@@ -1615,9 +1615,9 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -1711,9 +1711,9 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "Red",
         "White"
       ],
@@ -1999,7 +1999,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff"
+        "Cream"
       ],
       "legColor": [
         "Brown",
@@ -2042,7 +2042,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -2089,7 +2089,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Red",
         "White"
@@ -2134,7 +2134,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -2266,7 +2266,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -2315,7 +2315,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "Red",
@@ -2363,7 +2363,7 @@ birds.data = {
         "Blue",
         "Brown",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "Red",
         "White"
       ],
@@ -2449,7 +2449,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -2496,7 +2496,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -2586,7 +2586,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
         "Orange",
@@ -2636,7 +2636,7 @@ birds.data = {
         "Black",
         "Green",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -2723,7 +2723,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
         "Orange",
@@ -2811,7 +2811,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -2898,7 +2898,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey"
       ],
       "legColor": [
@@ -2942,7 +2942,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
         "White"
@@ -2987,7 +2987,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -3032,7 +3032,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
         "Orange",
@@ -3079,7 +3079,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -3165,7 +3165,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "Red",
@@ -3212,7 +3212,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White",
         "Yellow"
@@ -3302,7 +3302,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Red",
         "White",
         "Yellow"
@@ -3348,10 +3348,10 @@ birds.data = {
     "features": {
       "featherColor": [
         "Black",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -3397,7 +3397,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -3444,7 +3444,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -3535,7 +3535,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -3669,7 +3669,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -3713,7 +3713,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -3757,7 +3757,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Red",
         "White"
@@ -3802,7 +3802,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Blue",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
         "White",
@@ -3935,7 +3935,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Black",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
         "Red",
@@ -3985,7 +3985,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
         "White",
@@ -4033,7 +4033,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -4078,7 +4078,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Black",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -4130,7 +4130,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -4174,7 +4174,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -4229,7 +4229,7 @@ birds.data = {
       "Beak": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -4264,7 +4264,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Black",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White",
         "Yellow"
@@ -4309,7 +4309,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -4400,7 +4400,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -4542,7 +4542,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -4592,7 +4592,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -4682,9 +4682,9 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Orange",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -4771,7 +4771,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -4814,7 +4814,7 @@ birds.data = {
     "audio": null,
     "features": {
       "featherColor": [
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -4859,7 +4859,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "White",
         "Yellow"
@@ -4948,9 +4948,9 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -4995,7 +4995,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "Red"
@@ -5176,7 +5176,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -5357,9 +5357,9 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "Red",
         "White"
       ],
@@ -5406,7 +5406,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Black",
-        "Cream/buff",
+        "Cream",
         "Red",
         "White"
       ],
@@ -5450,7 +5450,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -5495,9 +5495,9 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "Red",
         "White"
       ],
@@ -5626,7 +5626,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Red"
       ],
       "legColor": [
@@ -5670,7 +5670,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -5714,7 +5714,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -5761,7 +5761,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -5803,7 +5803,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Orange",
         "White"
       ],
@@ -5890,7 +5890,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange"
       ],
@@ -5978,7 +5978,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White",
         "Yellow"
@@ -6022,8 +6022,8 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
-        "Pink/purple",
+        "Cream",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -6115,7 +6115,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
         "White"
@@ -6166,7 +6166,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Orange",
         "White"
@@ -6257,7 +6257,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -6301,7 +6301,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -6365,10 +6365,10 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -6467,7 +6467,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -6513,7 +6513,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -6693,7 +6693,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -6736,7 +6736,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -6779,7 +6779,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -6824,7 +6824,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -6957,7 +6957,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Orange",
         "White"
       ],
@@ -7056,11 +7056,11 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
         "Orange",
-        "Pink/purple",
+        "Pink/Purple",
         "Red",
         "White"
       ],
@@ -7147,7 +7147,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Black",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -7192,7 +7192,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -7239,7 +7239,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White",
         "Yellow"
@@ -7332,7 +7332,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White",
         "Yellow"
@@ -7375,7 +7375,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -7463,7 +7463,7 @@ birds.data = {
         "Black",
         "Brown",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -7505,7 +7505,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -7676,7 +7676,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "Red",
@@ -7727,7 +7727,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Red",
         "White"
@@ -7776,7 +7776,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
         "White"
@@ -7824,7 +7824,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "Red",
@@ -7870,7 +7870,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -8051,7 +8051,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -8100,7 +8100,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "Red",
@@ -8145,7 +8145,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Orange",
         "Red",
         "White"
@@ -8193,7 +8193,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -8238,7 +8238,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -8324,7 +8324,7 @@ birds.data = {
       "featherColor": [
         "Blue",
         "Green",
-        "Pink/purple",
+        "Pink/Purple",
         "Red",
         "White"
       ],
@@ -8377,7 +8377,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -8420,7 +8420,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "Red",
@@ -8468,9 +8468,9 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -8513,7 +8513,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -8601,7 +8601,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -8730,7 +8730,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -8777,7 +8777,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -8819,7 +8819,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -9019,7 +9019,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White",
         "Yellow"
       ],
@@ -9130,7 +9130,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Orange",
         "White"
@@ -9176,7 +9176,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White",
         "Yellow"
@@ -9218,7 +9218,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -9335,7 +9335,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "White",
         "Yellow"
@@ -9380,7 +9380,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff"
+        "Cream"
       ],
       "legColor": [
         "Pink"
@@ -9511,7 +9511,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -9544,7 +9544,7 @@ birds.data = {
     "family": "Buntings",
     "conservationStatus": "Amber",
     "protectedBy": "The Wildlife and Countryside Act 1981",
-    "description": "Snow buntings are large buntings, with striking 'snowy' plumages. Males in summer have all white heads and underparts contrasting with a black mantle and wing tips. Females are a more mottled above. In autumn and winter birds develop a sandy/buff wash to their plumage and males have more mottled upperparts.",
+    "description": "Snow buntings are large buntings, with striking 'snowy' plumages. Males in summer have all white heads and underparts contrasting with a black mantle and wing tips. Females are a more mottled above. In autumn and winter birds develop a sandy wash to their plumage and males have more mottled upperparts.",
     "diet": "Seeds and insects.",
     "length": "16-17cm",
     "wingspan": "32-38cm",
@@ -9600,7 +9600,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Orange",
         "White"
       ],
@@ -9689,7 +9689,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -9736,7 +9736,7 @@ birds.data = {
     "audio": null,
     "features": {
       "featherColor": [
-        "Cream/buff",
+        "Cream",
         "White",
         "Yellow"
       ],
@@ -9779,7 +9779,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -9822,7 +9822,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -9913,10 +9913,10 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -9968,7 +9968,7 @@ birds.data = {
         "Blue",
         "Green",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -10013,7 +10013,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -10057,7 +10057,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Orange",
         "White"
       ],
@@ -10144,7 +10144,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Blue",
-        "Cream/buff",
+        "Cream",
         "Orange",
         "Red",
         "White"
@@ -10190,7 +10190,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -10232,7 +10232,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -10278,7 +10278,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -10325,7 +10325,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
         "White",
@@ -10371,7 +10371,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -10414,7 +10414,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -10457,7 +10457,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -10503,7 +10503,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -10548,7 +10548,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -10591,7 +10591,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -10680,10 +10680,10 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -10728,9 +10728,9 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Orange",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -10821,9 +10821,9 @@ birds.data = {
       "featherColor": [
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -10864,7 +10864,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -10913,9 +10913,9 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "Red",
         "White",
         "Yellow"
@@ -10960,7 +10960,7 @@ birds.data = {
         "Black",
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
         "White"
@@ -11004,7 +11004,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -11051,7 +11051,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Orange",
         "White"
       ],
@@ -11097,7 +11097,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -11145,7 +11145,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -11192,10 +11192,10 @@ birds.data = {
       "featherColor": [
         "Blue",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "Orange",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -11284,11 +11284,11 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Grey",
         "Orange",
-        "Pink/purple",
+        "Pink/Purple",
         "White",
         "Yellow"
       ],
@@ -11332,7 +11332,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey",
         "White"
       ],
@@ -11373,7 +11373,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "Yellow"
       ],
@@ -11418,7 +11418,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -11462,7 +11462,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Green",
         "White",
         "Yellow"
@@ -11507,7 +11507,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff"
+        "Cream"
       ],
       "legColor": [
         "Brown",
@@ -11551,7 +11551,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -11596,7 +11596,7 @@ birds.data = {
         "Blue",
         "Brown",
         "Grey",
-        "Pink/purple",
+        "Pink/Purple",
         "White"
       ],
       "legColor": [
@@ -11642,7 +11642,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Brown",
-        "Cream/buff",
+        "Cream",
         "White"
       ],
       "legColor": [
@@ -11687,7 +11687,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Grey"
       ],
       "legColor": [
@@ -11729,7 +11729,7 @@ birds.data = {
     "features": {
       "featherColor": [
         "Black",
-        "Cream/buff",
+        "Cream",
         "Green",
         "White",
         "Yellow"
@@ -11866,7 +11866,7 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
-        "Cream/buff",
+        "Cream",
         "Orange",
         "Yellow"
       ],
@@ -11920,7 +11920,7 @@ birds.listOfFeatures = {
   featherColor: [
     "Black",
     "Brown",
-    "Cream/buff",
+    "Cream",
     "White",
     "Grey",
     "Orange",
@@ -11928,7 +11928,7 @@ birds.listOfFeatures = {
     "Blue",
     "Yellow",
     "Green",
-    "Pink/purple"
+    "Pink/Purple"
   ],
   legColor: [
     "Black",
@@ -11948,7 +11948,7 @@ birds.listOfFeatures = {
     "Powerful",
     "Chunky"
   ],
-  Beak: [
+  beak: [
     "Black",
     "Brown",
     "Medium length",
