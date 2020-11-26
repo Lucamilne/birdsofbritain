@@ -1,6 +1,6 @@
 <template>
   <v-container class="fill-height">
-    <v-card tile class="mx-auto">
+    <v-card tile outlined width="100%">
       <v-card-title class="title font-weight-regular justify-space-between">
         <span>{{ currentTitle }}</span>
         <v-avatar

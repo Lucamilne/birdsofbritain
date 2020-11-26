@@ -8,14 +8,16 @@
             :color="active ? 'primary' : 'white'"
             class="d-flex align-center"
             :dark="active ? true : false"
-            height="150"
-            @click="toggle; $emit('selected');"
+            @click="
+              toggle;
+              $emit('selected');
+            "
           >
-            <v-scroll-y-transition>
-              <div class="overline flex-grow-1 text-center">
+            <v-responsive :aspect-ratio="1 / 1" class="d-flex align-center">
+              <div class="overline text-center">
                 {{ item }}
               </div>
-            </v-scroll-y-transition>
+            </v-responsive>
           </v-card>
         </v-item>
       </v-col>
