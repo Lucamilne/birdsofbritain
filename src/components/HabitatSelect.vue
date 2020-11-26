@@ -8,8 +8,8 @@
             :color="active ? 'primary' : 'white'"
             class="d-flex align-center"
             :dark="active ? true : false"
-            height="200"
-            @click="toggle"
+            height="150"
+            @click="toggle; $emit('selected');"
           >
             <v-scroll-y-transition>
               <div class="overline flex-grow-1 text-center">

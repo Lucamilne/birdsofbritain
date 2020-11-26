@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class="fill-height">
     <v-card tile class="mx-auto">
       <v-card-title class="title font-weight-regular justify-space-between">
         <span>{{ currentTitle }}</span>
@@ -13,7 +13,7 @@
       <v-card-text>
         <v-window v-model="step">
           <v-window-item :value="1">
-            <HabitatSelect />
+            <HabitatSelect v-on:selected="step++"/>
           </v-window-item>
 
           <v-window-item :value="2">
@@ -68,9 +68,9 @@ export default {
     currentTitle() {
       switch (this.step) {
         case 1:
-          return "Where was it spotted?";
+          return "Where did you spot it?";
         case 2:
-          return "What colours was the feathers?";
+          return "What colours are the feathers?";
         default:
           return "Account created";
       }
