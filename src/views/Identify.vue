@@ -2,7 +2,7 @@
   <v-container class="fill-height">
     <v-card tile outlined width="100%">
       <v-card-title class="title font-weight-regular justify-space-between">
-        <span>{{ currentTitle }}</span>
+        <span>{{ currentTitle.title }}</span>
         <v-avatar
           color="primary lighten-2"
           class="subheading white--text"
@@ -10,6 +10,7 @@
           v-text="step"
         ></v-avatar>
       </v-card-title>
+      <v-card-subtitle>{{ currentTitle.subtitle }}</v-card-subtitle>
       <v-card-text>
         <v-window v-model="step">
           <v-window-item :value="1">
@@ -68,11 +69,11 @@ export default {
     currentTitle() {
       switch (this.step) {
         case 1:
-          return "Where did you spot it?";
+          return { title: "Where did you spot it?", subtitle: "Choose from the habitats listed below" };
         case 2:
-          return "What colours are the feathers?";
+          return { title: "What colours are the plumage?", subtitle: "The plumage is the bird's feathers collectively" };
         default:
-          return "Account created";
+          return { title: "Account created", subtitle: "Blah blah" };
       }
     },
   },
