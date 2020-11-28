@@ -1,20 +1,23 @@
 <template>
   <v-container class="fill-height">
-    <v-card tile outlined width="100%">
+    <v-card flat max-width="980" class="mx-auto">
       <v-card-title class="title font-weight-regular justify-space-between">
         <span>{{ currentTitle.title }}</span>
         <v-avatar
           color="primary lighten-2"
           class="subheading white--text"
-          size="24"
+          size="28"
           v-text="step"
         ></v-avatar>
       </v-card-title>
       <v-card-subtitle>{{ currentTitle.subtitle }}</v-card-subtitle>
+
+      <v-divider></v-divider>
+
       <v-card-text>
         <v-window v-model="step">
           <v-window-item :value="1">
-            <HabitatSelect v-on:selected="step++"/>
+            <HabitatSelect v-on:selected="step++" />
           </v-window-item>
 
           <v-window-item :value="2">
@@ -22,17 +25,9 @@
           </v-window-item>
 
           <v-window-item :value="3">
-            <div class="pa-4 text-center">
-              <v-img
-                class="mb-4"
-                contain
-                height="128"
-                src="https://cdn.vuetifyjs.com/images/logos/v.svg"
-              ></v-img>
-              <h3 class="title font-weight-light mb-2">Welcome to Vuetify</h3>
-              <span class="caption grey--text">Thanks for signing up!</span>
-            </div>
+            <BeakSelect />
           </v-window-item>
+          
         </v-window>
       </v-card-text>
 
@@ -52,12 +47,14 @@
 <script>
 import HabitatSelect from "../components/HabitatSelect";
 import FeatherSelect from "../components/FeatherSelect";
+import BeakSelect from "../components/BeakSelect";
 
 export default {
   name: "Identify",
   components: {
     HabitatSelect,
     FeatherSelect,
+    BeakSelect
   },
   data: function () {
     return {
@@ -69,11 +66,17 @@ export default {
     currentTitle() {
       switch (this.step) {
         case 1:
-          return { title: "Where did you spot it?", subtitle: "Choose from the habitats listed below" };
+          return {
+            title: "Where did you spot it?",
+            subtitle: "Choose from the habitats listed below",
+          };
         case 2:
-          return { title: "What colours are the plumage?", subtitle: "The plumage is the bird's feathers collectively" };
+          return {
+            title: "What colours was the plumage?",
+            subtitle: "The plumage is the bird's feathers collectively",
+          };
         default:
-          return { title: "Account created", subtitle: "Blah blah" };
+          return { title: "How would you describe it's beak?", subtitle: "Choose all the options you believe to be true" };
       }
     },
   },

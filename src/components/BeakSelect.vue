@@ -1,5 +1,5 @@
 <template>
-  <v-item-group v-model="habitat">
+  <v-item-group v-model="selected" multiple>
     <v-row>
       <v-col v-for="(item, i) in items" :key="i" cols="6" md="3">
         <v-item v-slot="{ active, toggle }">
@@ -8,10 +8,7 @@
             :color="active ? 'primary' : 'white'"
             class="d-flex align-center"
             :dark="active ? true : false"
-            @click="
-              toggle;
-              $emit('selected');
-            "
+            @click="toggle"
           >
             <v-responsive :aspect-ratio="4 / 3" class="d-flex align-center">
               <div class="overline text-center">
@@ -29,11 +26,12 @@
 import birds from "@/common/birds.js";
 
 export default {
-  name: "HabitatSelect",
+  name: "FeatherSelect",
   data: function () {
     return {
-      items: birds.listOfFeatures.habitat,
-      habitat: null,
+      birds: birds.data,
+      items: birds.listOfFeatures.beak,
+      selected: [],
     };
   },
 };

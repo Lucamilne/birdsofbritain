@@ -57,9 +57,9 @@ birds.data = {
       "Beak": [
         "Black",
         "Brown",
-        "Medium length",
+        "Regular length",
         "Hooked",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal"
@@ -255,7 +255,7 @@ birds.data = {
       ],
       "Beak": [
         "Brown",
-        "Medium length",
+        "Regular length",
         "Hooked",
         "Chunky"
       ],
@@ -301,7 +301,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Duck-like",
         "Chunky"
       ],
@@ -352,7 +352,7 @@ birds.data = {
         "Brown",
         "Yellow",
         "Short",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Wetland"
@@ -478,7 +478,7 @@ birds.data = {
       "Beak": [
         "Black",
         "Short",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Woodland",
@@ -519,9 +519,9 @@ birds.data = {
       "Beak": [
         "Black",
         "Red",
-        "Medium length",
+        "Regular length",
         "Powerful",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal"
@@ -604,7 +604,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Thin"
       ],
       "habitat": [
@@ -651,8 +651,8 @@ birds.data = {
         "Black",
         "Orange",
         "Red",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -698,8 +698,8 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal",
@@ -832,8 +832,8 @@ birds.data = {
         "Brown",
         "Orange",
         "Yellow",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Woodland",
@@ -1036,7 +1036,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Duck-like",
         "Chunky"
       ],
@@ -1174,7 +1174,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Duck-like",
         "Chunky"
       ],
@@ -1260,7 +1260,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -1310,7 +1310,7 @@ birds.data = {
         "Brown",
         "Orange",
         "Yellow",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -1493,9 +1493,9 @@ birds.data = {
       "Beak": [
         "Orange",
         "Red",
-        "Medium length",
+        "Regular length",
         "Curved",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -1627,7 +1627,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Thin"
       ],
       "habitat": [
@@ -1674,8 +1674,8 @@ birds.data = {
         "Green",
         "Red",
         "Yellow",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -1788,7 +1788,7 @@ birds.data = {
       "Beak": [
         "Black",
         "Brown",
-        "Medium length",
+        "Regular length",
         "Thin"
       ],
       "habitat": [
@@ -1917,7 +1917,7 @@ birds.data = {
       "Beak": [
         "Black",
         "White",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -1967,7 +1967,7 @@ birds.data = {
         "Long",
         "Hooked",
         "Powerful",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal",
@@ -2100,8 +2100,8 @@ birds.data = {
       "Beak": [
         "Black",
         "Yellow",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -2184,7 +2184,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Curved",
         "Chunky"
       ],
@@ -2229,9 +2229,9 @@ birds.data = {
       "Beak": [
         "Black",
         "Yellow",
-        "Medium length",
+        "Regular length",
         "Curved",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Woodland",
@@ -2415,7 +2415,7 @@ birds.data = {
       "Beak": [
         "Black",
         "Short",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Upland",
@@ -2459,8 +2459,8 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -2688,8 +2688,8 @@ birds.data = {
       "Beak": [
         "Black",
         "Yellow",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Woodland",
@@ -2777,9 +2777,9 @@ birds.data = {
       "Beak": [
         "Black",
         "Yellow",
-        "Medium length",
+        "Regular length",
         "Hooked",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal"
@@ -2906,7 +2906,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Thin"
       ],
       "habitat": [
@@ -2997,7 +2997,7 @@ birds.data = {
       "Beak": [
         "Red",
         "Yellow",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -3088,7 +3088,7 @@ birds.data = {
       "Beak": [
         "Black",
         "Yellow",
-        "Medium length",
+        "Regular length",
         "Hooked",
         "Powerful",
         "Chunky"
@@ -3131,8 +3131,8 @@ birds.data = {
         "Brown",
         "Orange",
         "Red",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Woodland"
@@ -3222,8 +3222,8 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -3497,7 +3497,7 @@ birds.data = {
       "Beak": [
         "Red",
         "Yellow",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -3549,7 +3549,7 @@ birds.data = {
         "Red",
         "Long",
         "Powerful",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal",
@@ -3679,7 +3679,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Hooked",
         "Thin"
       ],
@@ -3721,7 +3721,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Hooked",
         "Powerful",
         "Chunky"
@@ -3855,7 +3855,7 @@ birds.data = {
         "Yellow",
         "Long",
         "Powerful",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -4093,7 +4093,7 @@ birds.data = {
         "Yellow",
         "Long",
         "Powerful",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Woodland",
@@ -4223,8 +4223,8 @@ birds.data = {
       ],
       "legColor": [
         "Black",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "Beak": [
         "Black",
@@ -4365,9 +4365,9 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Powerful",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal"
@@ -4503,7 +4503,7 @@ birds.data = {
       "Beak": [
         "Red",
         "Yellow",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -4643,7 +4643,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -4824,8 +4824,8 @@ birds.data = {
       "Beak": [
         "Red",
         "Yellow",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -4872,7 +4872,7 @@ birds.data = {
         "Black",
         "Brown",
         "Long",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Grassland",
@@ -4911,7 +4911,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Chunky"
       ],
       "habitat": [
@@ -4959,7 +4959,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -5057,7 +5057,7 @@ birds.data = {
         "Red",
         "Long",
         "Powerful",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -5100,8 +5100,8 @@ birds.data = {
       ],
       "Beak": [
         "Yellow",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal"
@@ -5143,8 +5143,8 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal",
@@ -5232,8 +5232,8 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -5276,7 +5276,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Hooked",
         "Thin"
       ],
@@ -5319,7 +5319,7 @@ birds.data = {
       "Beak": [
         "Red",
         "Yellow",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -5416,7 +5416,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Chunky"
       ],
       "habitat": [
@@ -5590,7 +5590,7 @@ birds.data = {
         "Black",
         "Long",
         "Powerful",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -5634,7 +5634,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Chunky"
       ],
       "habitat": [
@@ -5681,7 +5681,7 @@ birds.data = {
         "Black",
         "Brown",
         "Red",
-        "Medium length",
+        "Regular length",
         "Thin"
       ],
       "habitat": [
@@ -5770,8 +5770,8 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Grassland",
@@ -5812,8 +5812,8 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Grassland",
@@ -5857,7 +5857,7 @@ birds.data = {
         "Black",
         "Yellow",
         "Long",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal",
@@ -5988,9 +5988,9 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Hooked",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal"
@@ -6074,7 +6074,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -6180,9 +6180,9 @@ birds.data = {
         "Black",
         "Brown",
         "Red",
-        "Medium length",
+        "Regular length",
         "Duck-like",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Woodland",
@@ -6222,7 +6222,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Hooked",
         "Thin"
       ],
@@ -6266,7 +6266,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Hooked",
         "Chunky"
       ],
@@ -6428,8 +6428,8 @@ birds.data = {
       "Beak": [
         "Black",
         "Red",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -6477,7 +6477,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Hooked",
         "Chunky"
       ],
@@ -6523,8 +6523,8 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Woodland",
@@ -6615,7 +6615,7 @@ birds.data = {
         "Black",
         "Red",
         "Yellow",
-        "Medium length",
+        "Regular length",
         "Chunky"
       ],
       "habitat": [
@@ -6702,7 +6702,7 @@ birds.data = {
       "Beak": [
         "Black",
         "Brown",
-        "Medium length",
+        "Regular length",
         "Thin"
       ],
       "habitat": [
@@ -6790,9 +6790,9 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Powerful",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Woodland",
@@ -6832,7 +6832,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Hooked",
         "Powerful",
         "Chunky"
@@ -6877,7 +6877,7 @@ birds.data = {
         "Red",
         "Long",
         "Powerful",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -6923,7 +6923,7 @@ birds.data = {
       "Beak": [
         "Black",
         "Brown",
-        "Medium length",
+        "Regular length",
         "Curved",
         "Hooked",
         "Chunky"
@@ -7202,7 +7202,7 @@ birds.data = {
       "Beak": [
         "Black",
         "Red",
-        "Medium length",
+        "Regular length",
         "Duck-like",
         "Chunky"
       ],
@@ -7342,9 +7342,9 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Hooked",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal"
@@ -7429,7 +7429,7 @@ birds.data = {
         "Orange",
         "Red",
         "Yellow",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -7473,7 +7473,7 @@ birds.data = {
         "Black",
         "Orange",
         "Long",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal"
@@ -7554,7 +7554,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -7599,7 +7599,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -7928,7 +7928,7 @@ birds.data = {
       "Beak": [
         "Black",
         "Yellow",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -8019,7 +8019,7 @@ birds.data = {
         "Black",
         "Long",
         "Powerful",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal",
@@ -8157,8 +8157,8 @@ birds.data = {
       "Beak": [
         "Black",
         "Yellow",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Woodland",
@@ -8290,8 +8290,8 @@ birds.data = {
       "Beak": [
         "Black",
         "Yellow",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -8330,7 +8330,7 @@ birds.data = {
       ],
       "legColor": [
         "Red",
-        "Medium length",
+        "Regular length",
         "Curved",
         "Hooked",
         "Powerful",
@@ -8338,7 +8338,7 @@ birds.data = {
       ],
       "Beak": [
         "Red",
-        "Medium length",
+        "Regular length",
         "Curved",
         "Hooked",
         "Powerful",
@@ -8386,8 +8386,8 @@ birds.data = {
       "Beak": [
         "Black",
         "Orange",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Grassland",
@@ -8480,7 +8480,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Thin"
       ],
       "habitat": [
@@ -8564,7 +8564,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -8612,7 +8612,7 @@ birds.data = {
         "Brown",
         "Red",
         "Long",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal"
@@ -8745,7 +8745,7 @@ birds.data = {
         "Orange",
         "Long",
         "Curved",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -8804,7 +8804,7 @@ birds.data = {
     "family": "Sandpipers, snipes and phalaropes",
     "conservationStatus": "Amber",
     "protectedBy": "The Wildlife and Countryside Act 1981",
-    "description": "The sanderling is a small, plump, energetic wading bird. It has a short straight black bill and medium length black legs. It is pale grey above and white underneath, and there is a black mark at its shoulder where the folded wing meets the body. It does not breed in the UK, but is a winter visitor and passage migrant in spring and autumn, journeying to and from their high Arctic breeding grounds.",
+    "description": "The sanderling is a small, plump, energetic wading bird. It has a short straight black bill and Regular length black legs. It is pale grey above and white underneath, and there is a black mark at its shoulder where the folded wing meets the body. It does not breed in the UK, but is a winter visitor and passage migrant in spring and autumn, journeying to and from their high Arctic breeding grounds.",
     "diet": "Small marine worms, crustaceans and molluscs.",
     "length": "20-21cm",
     "wingspan": "36-39cm",
@@ -8829,7 +8829,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Thin"
       ],
       "habitat": [
@@ -8876,7 +8876,7 @@ birds.data = {
         "Yellow",
         "Long",
         "Powerful",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal",
@@ -8985,7 +8985,7 @@ birds.data = {
       "Beak": [
         "Black",
         "Brown",
-        "Medium length",
+        "Regular length",
         "Curved",
         "Hooked",
         "Chunky"
@@ -9097,7 +9097,7 @@ birds.data = {
         "Yellow",
         "Long",
         "Hooked",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal"
@@ -9187,7 +9187,7 @@ birds.data = {
       "Beak": [
         "Black",
         "Short",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal"
@@ -9389,7 +9389,7 @@ birds.data = {
         "Black",
         "Brown",
         "Short",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -9436,8 +9436,8 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal",
@@ -9477,7 +9477,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Duck-like",
         "Chunky"
       ],
@@ -9610,8 +9610,8 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Woodland",
@@ -9653,7 +9653,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Hooked",
         "Thin"
       ],
@@ -9747,7 +9747,7 @@ birds.data = {
         "Black",
         "Yellow",
         "Long",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal",
@@ -9926,7 +9926,7 @@ birds.data = {
       "Beak": [
         "Black",
         "Yellow",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Thin"
       ],
@@ -9979,7 +9979,7 @@ birds.data = {
       "Beak": [
         "Brown",
         "Orange",
-        "Medium length",
+        "Regular length",
         "Thin"
       ],
       "habitat": [
@@ -10022,8 +10022,8 @@ birds.data = {
       "Beak": [
         "Black",
         "Yellow",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -10110,7 +10110,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Hooked",
         "Thin"
       ],
@@ -10242,9 +10242,9 @@ birds.data = {
       "Beak": [
         "Black",
         "Orange",
-        "Medium length",
+        "Regular length",
         "Duck-like",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -10338,7 +10338,7 @@ birds.data = {
         "Black",
         "Long",
         "Duck-like",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Grassland",
@@ -10381,8 +10381,8 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Grassland",
@@ -10512,7 +10512,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Curved",
         "Thin"
       ],
@@ -10601,9 +10601,9 @@ birds.data = {
       "Beak": [
         "Black",
         "Orange",
-        "Medium length",
+        "Regular length",
         "Duck-like",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Farmland",
@@ -10645,8 +10645,8 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
-        "Medium thickness"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Marine and intertidal",
@@ -10693,7 +10693,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Thin"
       ],
       "habitat": [
@@ -10880,7 +10880,7 @@ birds.data = {
         "Long",
         "Curved",
         "Powerful",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Grassland",
@@ -10970,7 +10970,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Thin"
       ],
       "habitat": [
@@ -11429,7 +11429,7 @@ birds.data = {
         "Black",
         "Brown",
         "Green",
-        "Medium length",
+        "Regular length",
         "Thin"
       ],
       "habitat": [
@@ -11560,7 +11560,7 @@ birds.data = {
       "Beak": [
         "Black",
         "Short",
-        "Medium thickness"
+        "Regular thickness"
       ],
       "habitat": [
         "Woodland",
@@ -11608,7 +11608,7 @@ birds.data = {
         "Black",
         "Brown",
         "Orange",
-        "Medium length",
+        "Regular length",
         "Thin"
       ],
       "habitat": [
@@ -11740,7 +11740,7 @@ birds.data = {
       ],
       "Beak": [
         "Black",
-        "Medium length",
+        "Regular length",
         "Thin"
       ],
       "habitat": [
@@ -11829,7 +11829,7 @@ birds.data = {
       "Beak": [
         "Red",
         "Yellow",
-        "Medium length",
+        "Regular length",
         "Powerful",
         "Chunky"
       ],
@@ -11941,32 +11941,32 @@ birds.listOfFeatures = {
     "Orange",
     "Grey",
     "Yellow",
-    "Medium length",
-    "Medium thickness",
+    "Regular length",
+    "Regular thickness",
     "Curved",
     "Hooked",
     "Powerful",
     "Chunky"
   ],
   beak: [
-    "Black",
-    "Brown",
-    "Medium length",
-    "Hooked",
-    "Medium thickness",
-    "Red",
+    // "Black",
+    // "Brown",
+    // "Red",
+    // "Yellow",
+    // "Orange",
+    // "White",
+    // "Blue",
+    // "Green",
+    "Short",
+    "Regular length",
     "Long",
     "Thin",
-    "Curved",
+    "Regular thickness",
     "Chunky",
+    "Hooked",
+    "Curved",
     "Duck-like",
-    "Yellow",
-    "Short",
     "Powerful",
-    "Orange",
-    "White",
-    "Blue",
-    "Green"
   ],
   habitat: [
     "Marine and intertidal",
