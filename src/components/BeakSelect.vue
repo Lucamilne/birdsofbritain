@@ -11,6 +11,12 @@
             @click="toggle"
           >
             <v-responsive :aspect-ratio="4 / 3" class="d-flex align-center">
+              <v-img
+                class="icon"
+                :src="require(`../assets/icons/${beaks[item]}.svg`)"
+              >
+              </v-img>
+
               <div class="overline text-center">
                 {{ item }}
               </div>
@@ -32,7 +38,29 @@ export default {
       birds: birds.data,
       items: birds.listOfFeatures.beak,
       selected: [],
+      beaks: {
+        Short: "short-beak",
+        "Regular length": "medium-thickness",
+        Long: "long-beak",
+        Thin: "thin-beak",
+        "Regular thickness": "medium-thickness",
+        Chunky: "chunky-beak",
+        Hooked: "hooked-beak",
+        Curved: "curved-beak",
+        "Duck-like": "duck-like-beak",
+        Powerful: "powerful-beak",
+      },
     };
   },
 };
 </script>
+
+<style scoped>
+.icon {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0.15;
+  width: 60%;
+}
+</style>
