@@ -13,6 +13,7 @@
 
 <script>
 import Birds from "../components/Birds";
+// import BirdsByHabitat from "../components/BirdsByHabitat";
 
 export default {
   name: "Browse",
@@ -20,7 +21,7 @@ export default {
     return {
       tabs: [
         { label: "Species", icon: "", component: Birds },
-        // { label: "Family", icon: "", component: Birds },
+        // { label: "Habitat", icon: "", component: BirdsByHabitat },
         // { label: "Habitat", icon: "", component: Birds },
       ],
     };
