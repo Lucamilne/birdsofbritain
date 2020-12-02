@@ -6,12 +6,15 @@
           <v-card
             tile
             :color="active ? colors[item] : 'white'"
-            class="d-flex align-center"
+            :class="`d-flex align-center ${active ? 'background' : ''}`"
             :dark="active ? true : false"
             @click="toggle"
           >
-            <v-responsive :aspect-ratio="4 / 3" class="d-flex align-center">
-              <div class="overline text-center">
+            <v-responsive
+              :aspect-ratio="4 / 3"
+              class="d-flex align-center text-center"
+            >
+              <div class="overline">
                 {{ item }}
               </div>
             </v-responsive>
@@ -29,22 +32,21 @@ export default {
   name: "FeatherSelect",
   data: function () {
     return {
-      exampleBird: "Bullfinch",
       birds: birds.data,
       items: birds.listOfFeatures.featherColor,
       selected: [],
       colors: {
         Black: "black",
+        Blue: "indigo",
         Brown: "brown darken-2",
-        Cream: "brown lighten-4",
-        White: "grey lighten-1",
+        Cream: "brown lighten-3",
+        Green: "green",
         Grey: "grey darken-2",
-        Orange: "orange darken-2",
-        Red: "red darken-2",
-        Blue: "blue darken-2",
-        Yellow: "amber darken-2",
-        Green: "green darken-2",
-        "Pink/Purple": "pink darken-2",
+        Orange: "orange darken-1",
+        "Pink/Purple": "pink accent-4",
+        Red: "red",
+        Yellow: "yellow darken-1",
+        White: "grey lighten-2",
       },
     };
   },
@@ -65,3 +67,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.background {
+  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+}
+</style>

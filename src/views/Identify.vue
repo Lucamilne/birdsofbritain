@@ -72,7 +72,7 @@ export default {
           };
         case 2:
           return {
-            title: "What colours was the plumage?",
+            title: "What colours were the plumage?",
             subtitle: "The plumage is the bird's feathers collectively",
           };
         default:
