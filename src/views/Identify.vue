@@ -1,6 +1,8 @@
 <template>
   <v-container class="fill-height">
+    {{featherColor}}
     <v-card flat max-width="980" class="mx-auto">
+      {{habitat}}
       <v-card-title class="title font-weight-regular justify-space-between">
         <span>{{ currentTitle.title }}</span>
         <v-avatar
@@ -17,17 +19,16 @@
       <v-card-text>
         <v-window v-model="step">
           <v-window-item :value="1">
-            <HabitatSelect v-on:selected="step++" />
+            <HabitatSelect v-on:habitat="habitat = $event" />
           </v-window-item>
 
           <v-window-item :value="2">
-            <FeatherSelect />
+            <FeatherSelect v-on:feather-color="featherColor = [$event]"/>
           </v-window-item>
 
           <v-window-item :value="3">
             <BeakSelect />
           </v-window-item>
-          
         </v-window>
       </v-card-text>
 
@@ -54,11 +55,13 @@ export default {
   components: {
     HabitatSelect,
     FeatherSelect,
-    BeakSelect
+    BeakSelect,
   },
   data: function () {
     return {
-      selected: [],
+      habitat: null,
+      featherColor: [],
+      beak: null,
       step: 1,
     };
   },
@@ -76,7 +79,10 @@ export default {
             subtitle: "The plumage is the bird's feathers collectively",
           };
         default:
-          return { title: "How would you describe it's beak?", subtitle: "Choose all the options you believe to be true" };
+          return {
+            title: "How would you describe it's beak?",
+            subtitle: "Choose all the options you believe to be true",
+          };
       }
     },
   },

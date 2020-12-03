@@ -11919,11 +11919,18 @@ birds.listOfFamilies = function () {
 birds.searchCharacteristics = function (habitat, featherColor, beak) {
   var birdArray = []
 
-  birds.listOfBirds().forEach(bird => {
-    birds.data[bird]
+  birds.listOfBirds().forEach(el => {
+    const bird = birds.data[el].features;
 
-    //unfinished
+    if (bird) {
+      if (bird.featherColor.includes(featherColor) && bird.Beak.includes(beak) && bird.habitat.includes(habitat)) {
+        birdArray.push(el);
+      }
+    }
   })
+
+  console.log(birdArray)
+  return birdArray;
 }
 
 birds.listOfFeatures = {

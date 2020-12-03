@@ -1,7 +1,7 @@
 <template>
-  <v-item-group v-model="selected" multiple>
+  <v-item-group multiple v-model="selected">
     <v-row>
-      <v-col v-for="(item, i) in items" :key="i" cols="6" md="3">
+      <v-col v-for="item in items" :key="item" cols="6" md="3">
         <v-item v-slot="{ active, toggle }">
           <v-card
             tile
@@ -22,6 +22,7 @@
         </v-item>
       </v-col>
     </v-row>
+    Selected: {{ selected }}
   </v-item-group>
 </template>
 
@@ -34,7 +35,7 @@ export default {
     return {
       birds: birds.data,
       items: birds.listOfFeatures.featherColor,
-      selected: [],
+      featherColors: [],
       colors: {
         Black: "black",
         Blue: "indigo",
@@ -55,6 +56,28 @@ export default {
       return birds.data[this.exampleBird].features.featherColor
         .join(", ")
         .toLowerCase();
+    },
+    selected: {
+      get: function () {
+        const indexes = [];
+
+        this.featherColors.forEach((color) => {
+          indexes.push(this.items.indexOf(color));
+        });
+
+        console.log(indexes)
+        return indexes;
+      },
+      set: function (newValue) {
+        const arr = [];
+
+        newValue.forEach((index) => {
+          arr.push(this.items[index]);
+        });
+
+        console.log(arr);
+        return arr;
+      },
     },
   },
   methods: {

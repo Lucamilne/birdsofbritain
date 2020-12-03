@@ -1,5 +1,5 @@
 <template>
-  <v-item-group v-model="habitat">
+  <v-item-group>
     <v-row>
       <v-col v-for="(item, i) in items" :key="i" cols="6" md="3">
         <v-item v-slot="{ active, toggle }">
@@ -10,7 +10,7 @@
             :dark="active ? true : false"
             @click="
               toggle;
-              $emit('selected');
+              $emit('habitat', item);
             "
           >
             <v-responsive :aspect-ratio="4 / 3" class="d-flex align-center">
@@ -33,7 +33,6 @@ export default {
   data: function () {
     return {
       items: birds.listOfFeatures.habitat,
-      habitat: null,
     };
   },
 };
