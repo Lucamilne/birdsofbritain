@@ -1,8 +1,6 @@
 <template>
   <v-container class="fill-height">
-    {{featherColor}}
     <v-card flat max-width="980" class="mx-auto">
-      {{habitat}}
       <v-card-title class="title font-weight-regular justify-space-between">
         <span>{{ currentTitle.title }}</span>
         <v-avatar
@@ -23,7 +21,7 @@
           </v-window-item>
 
           <v-window-item :value="2">
-            <FeatherSelect v-on:feather-color="featherColor = [$event]"/>
+            <FeatherSelect v-on:feather-color="featherColor = $event"/>
           </v-window-item>
 
           <v-window-item :value="3">

@@ -1,5 +1,9 @@
 <template>
-  <v-item-group multiple v-model="selected">
+  <v-item-group
+    multiple
+    v-model="selected"
+    @change="$emit('feather-color', indexFeatherColors())"
+  >
     <v-row>
       <v-col v-for="item in items" :key="item" cols="6" md="3">
         <v-item v-slot="{ active, toggle }">
@@ -22,7 +26,6 @@
         </v-item>
       </v-col>
     </v-row>
-    Selected: {{ selected }}
   </v-item-group>
 </template>
 
@@ -35,7 +38,7 @@ export default {
     return {
       birds: birds.data,
       items: birds.listOfFeatures.featherColor,
-      featherColors: [],
+      selected: [],
       colors: {
         Black: "black",
         Blue: "indigo",
@@ -57,28 +60,6 @@ export default {
         .join(", ")
         .toLowerCase();
     },
-    selected: {
-      get: function () {
-        const indexes = [];
-
-        this.featherColors.forEach((color) => {
-          indexes.push(this.items.indexOf(color));
-        });
-
-        console.log(indexes)
-        return indexes;
-      },
-      set: function (newValue) {
-        const arr = [];
-
-        newValue.forEach((index) => {
-          arr.push(this.items[index]);
-        });
-
-        console.log(arr);
-        return arr;
-      },
-    },
   },
   methods: {
     randomBird() {
@@ -86,6 +67,11 @@ export default {
       const randomNumber = Math.floor(Math.random() * numberOfBirds);
 
       this.exampleBird = birds.listOfBirds()[randomNumber];
+    },
+    indexFeatherColors() {
+      return this.selected.map((index) => {
+        return this.items[index];
+      });
     },
   },
 };
