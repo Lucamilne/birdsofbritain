@@ -11923,18 +11923,13 @@ birds.searchCharacteristics = function (habitat, featherColor, beak) {
     return;
   }
 
-  console.log(habitat)
-  console.log(featherColor) //array
-  console.log(beak) //array
-
-  //this is broken! might have to add another for loop for arrays....
   var birdArray = []
 
   birds.listOfBirds().forEach(el => {
     const bird = birds.data[el].features;
 
     if (bird) {
-      if (bird.featherColor.includes(featherColor) && bird.Beak.includes(beak) && bird.habitat.includes(habitat)) {
+      if (featherColor.every(el => bird.featherColor.indexOf(el) > -1) && beak.every(el => bird.Beak.indexOf(el) > -1) && bird.habitat.includes(habitat)) {
         birdArray.push(el);
       }
     }
