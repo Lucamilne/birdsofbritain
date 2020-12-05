@@ -1,12 +1,12 @@
 <template>
-  <v-item-group>
+  <v-item-group v-model="selected" @change="$emit('habitat', indexToHabitat())">
     <v-row>
       <v-col v-for="(item, i) in items" :key="i" cols="6" md="3">
-        <v-item v-slot="{ active, toggle }"  @change="$emit('habitat', item)">
+        <v-item v-slot="{ active, toggle }">
           <v-card
             tile
             :color="active ? 'primary' : 'white'"
-            :class="`d-flex align-center ${active ? 'background' : ''}`"
+            class="d-flex align-center"
             :dark="active ? true : false"
             @click="toggle"
           >
@@ -29,8 +29,14 @@ export default {
   name: "HabitatSelect",
   data: function () {
     return {
+      selected: null,
       items: birds.listOfFeatures.habitat,
     };
   },
+  methods: {
+    indexToHabitat() {
+      return this.items[this.selected];
+    }
+  }
 };
 </script>

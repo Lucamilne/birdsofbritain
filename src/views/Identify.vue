@@ -25,7 +25,7 @@
           </v-window-item>
 
           <v-window-item :value="3">
-            <BeakSelect />
+            <BeakSelect v-on:beak="beak = $event" />
           </v-window-item>
         </v-window>
       </v-card-text>
@@ -44,13 +44,23 @@
         >
           Next
         </v-btn>
-        <v-btn v-else-if="step === 3" depressed> Search </v-btn>
+        <v-btn
+          v-else-if="step === 3"
+          :disabled="!currentValue"
+          color="primary"
+          depressed
+          @click="search(habitat, featherColor, beak)"
+        >
+          Search
+        </v-btn>
       </v-card-actions>
     </v-card>
   </v-container>
 </template>
 
 <script>
+import birds from "@/common/birds.js";
+
 import HabitatSelect from "../components/HabitatSelect";
 import FeatherSelect from "../components/FeatherSelect";
 import BeakSelect from "../components/BeakSelect";
@@ -68,6 +78,7 @@ export default {
       featherColor: null,
       beak: null,
       step: 1,
+      search: birds.searchCharacteristics
     };
   },
   computed: {
@@ -103,9 +114,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.background {
-  background-image: url("../assets/textures/xv.png");
-}
-</style>

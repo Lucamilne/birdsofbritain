@@ -10,7 +10,7 @@
           <v-card
             tile
             :color="active ? 'primary' : 'white'"
-            :class="`d-flex align-center ${active ? 'background' : ''}`"
+            class="d-flex align-center"
             :dark="active ? true : false"
             @click="toggle"
           >
@@ -54,13 +54,6 @@ export default {
       },
     };
   },
-  computed: {
-    colorsToString() {
-      return birds.data[this.exampleBird].features.featherColor
-        .join(", ")
-        .toLowerCase();
-    },
-  },
   methods: {
     randomBird() {
       const numberOfBirds = birds.listOfBirds().length;
@@ -69,6 +62,10 @@ export default {
       this.exampleBird = birds.listOfBirds()[randomNumber];
     },
     indexFeatherColors() {
+      if (this.selected.length < 1) {
+        return null;
+      }
+
       return this.selected.map((index) => {
         return this.items[index];
       });

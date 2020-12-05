@@ -1,18 +1,22 @@
 <template>
-  <v-item-group v-model="selected" multiple>
+  <v-item-group
+    v-model="selected"
+    multiple
+    @change="$emit('beak', indexToBeak())"
+  >
     <v-row>
       <v-col v-for="(item, i) in items" :key="i" cols="6" md="3">
         <v-item v-slot="{ active, toggle }">
           <v-card
             tile
             :color="active ? 'primary' : 'white'"
-            @class="`d-flex align-center ${active ? 'background' : ''}`"
+            class="d-flex align-center"
             :dark="active ? true : false"
             @click="toggle"
           >
             <v-responsive :aspect-ratio="4 / 3" class="d-flex align-center">
               <v-img
-                class="icon"
+                :class="`icon ${active ? 'invert' : ''}`"
                 :src="require(`../assets/icons/${beaks[item]}.svg`)"
               >
               </v-img>
@@ -52,6 +56,17 @@ export default {
       },
     };
   },
+  methods: {
+    indexToBeak() {
+      if (this.selected.length < 1) {
+        return null;
+      }
+      
+      return this.selected.map((index) => {
+        return this.items[index];
+      });
+    },
+  },
 };
 </script>
 
@@ -62,5 +77,10 @@ export default {
   bottom: 0;
   opacity: 0.15;
   width: 60%;
+}
+.invert {
+  filter: invert(1);
+  transform: scale(1.25);
+  transition: all 650ms ease;
 }
 </style>

@@ -11917,6 +11917,17 @@ birds.listOfFamilies = function () {
 }
 
 birds.searchCharacteristics = function (habitat, featherColor, beak) {
+  //This is to catch unintended searches. Shouldn't be necessary and will be deleted in prod.
+  if (!habitat || !featherColor || !beak) {
+    console.log("Missing value!")
+    return;
+  }
+
+  console.log(habitat)
+  console.log(featherColor) //array
+  console.log(beak) //array
+
+  //this is broken! might have to add another for loop for arrays....
   var birdArray = []
 
   birds.listOfBirds().forEach(el => {

@@ -18,7 +18,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar app color="primary" dark>
+    <v-app-bar app color="primary" dark class="app-bar">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>Birds of Britain</v-toolbar-title>
       <v-spacer></v-spacer>
@@ -28,8 +28,9 @@
     <v-main>
       <router-view />
     </v-main>
-    <v-footer color="primary">
-      <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
+    <v-footer color="primary" class="app-bar">
+      <span class="white--text">&copy; {{ new Date().getFullYear() }} Luca Milne
+      </span>
     </v-footer>
   </v-app>
 </template>
@@ -54,3 +55,10 @@ export default {
   }),
 };
 </script>
+
+<style scoped>
+.app-bar {
+  background-image: url("./assets/textures/xv.png");
+  background-repeat: repeat;
+}
+</style>
