@@ -6,7 +6,7 @@
           <v-card
             tile
             :color="active ? 'primary' : 'white'"
-            class="d-flex align-center"
+            :class="`d-flex align-center ${active ? 'background' : ''}`"
             :dark="active ? true : false"
             @click="toggle"
           >

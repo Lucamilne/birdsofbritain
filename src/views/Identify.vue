@@ -21,7 +21,7 @@
           </v-window-item>
 
           <v-window-item :value="2">
-            <FeatherSelect v-on:feather-color="featherColor = $event"/>
+            <FeatherSelect v-on:feather-color="featherColor = $event" />
           </v-window-item>
 
           <v-window-item :value="3">
@@ -33,11 +33,18 @@
       <v-divider></v-divider>
 
       <v-card-actions>
-        <v-btn :disabled="step === 1" text @click="step--"> Back </v-btn>
+        <v-btn :disabled="step === 1" text @click="step--">Back </v-btn>
         <v-spacer></v-spacer>
-        <v-btn :disabled="step === 3" color="primary" depressed @click="step++">
+        <v-btn
+          v-if="step !== 3"
+          :disabled="!currentValue"
+          color="primary"
+          depressed
+          @click="step++"
+        >
           Next
         </v-btn>
+        <v-btn v-else-if="step === 3" depressed> Search </v-btn>
       </v-card-actions>
     </v-card>
   </v-container>
@@ -58,7 +65,7 @@ export default {
   data: function () {
     return {
       habitat: null,
-      featherColor: [],
+      featherColor: null,
       beak: null,
       step: 1,
     };
@@ -83,6 +90,22 @@ export default {
           };
       }
     },
+    currentValue() {
+      switch (this.step) {
+        case 1:
+          return this.habitat;
+        case 2:
+          return this.featherColor;
+        default:
+          return this.beak;
+      }
+    },
   },
 };
 </script>
+
+<style>
+.background {
+  background-image: url("../assets/textures/xv.png");
+}
+</style>

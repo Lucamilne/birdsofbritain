@@ -9,7 +9,7 @@
         <v-item v-slot="{ active, toggle }">
           <v-card
             tile
-            :color="active ? colors[item] : 'white'"
+            :color="active ? 'primary' : 'white'"
             :class="`d-flex align-center ${active ? 'background' : ''}`"
             :dark="active ? true : false"
             @click="toggle"
@@ -77,8 +77,3 @@ export default {
 };
 </script>
 
-<style scoped>
-.background {
-  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
-}
-</style>
