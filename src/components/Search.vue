@@ -5,7 +5,7 @@
     filled
     hide-details
     single-line
-    append-outer-icon="mdi-magnify"
+    append-icon="mdi-magnify"
     :items="listOfBirds"
     label="Search"
     outlined
