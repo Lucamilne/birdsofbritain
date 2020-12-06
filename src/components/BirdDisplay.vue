@@ -48,7 +48,7 @@
     </v-simple-table>
     <vuetify-audio
       v-if="bird.audio"
-      :file="file"
+      :file="bird.audio"
       flat
       color="primary"
     ></vuetify-audio>
@@ -70,7 +70,6 @@ export default {
   },
   data: function () {
     return {
-      file: this.bird.audio,
       sections: [
         { label: "Family", value: "family" },
         { label: "Description", value: "description" },
