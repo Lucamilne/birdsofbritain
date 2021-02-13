@@ -117,7 +117,7 @@ birds.data = {
     "family": "Avocets and stilts",
     "conservationStatus": "Amber",
     "protectedBy": "The Wildlife and Countryside Act 1981",
-    "description": "The avocet is a distinctively-patterned black and white wader with a long up-curved beak. This Schedule 1 species is the emblem of the RSPB and symbolises the bird protection movement in the UK more than any other species. Its return in the 1940s and subsequent increase in numbers represents one of the most successful conservation and protection projects.",
+    "description": "The avocet is a distinctively-patterned black and white wader with a long up-curved beak. Its return in the 1940s and subsequent increase in numbers represents one of the most successful conservation and protection projects.",
     "diet": "Aquatic insects and their larvae, crustaceans and worms.",
     "length": "42-45cm",
     "wingspan": "77-80cm",

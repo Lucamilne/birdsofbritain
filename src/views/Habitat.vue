@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-list>
-      <v-list-item-subtitle>{{ habitat }} birds</v-list-item-subtitle>
+      <v-list-item-subtitle>{{habitat}} birds</v-list-item-subtitle>
       <v-row>
         <v-col
           cols="12"

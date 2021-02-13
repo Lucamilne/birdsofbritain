@@ -1,23 +1,28 @@
 <template>
   <v-card class="mx-auto" max-width="980">
-    <v-img
-      class="align-end mb-3"
-      contain
-      min-height="300"
-      :src="require(`../assets/birds/${bird.images[0]}`)"
+    <v-card-title>{{ bird.name }}</v-card-title>
+    <v-card-subtitle class="pb-0">{{ bird.scientificName }}</v-card-subtitle>
+    <v-carousel
+      v-model="model"
+      :cycle="true"
+      interval="4000"
+      :show-arrows-on-hover="true"
+
     >
-      <v-card-title>{{ bird.name }}</v-card-title>
-      <v-card-subtitle class="pb-0">{{ bird.scientificName }}</v-card-subtitle>
-    </v-img>
-    <v-card-title class="overline population">
+      <v-carousel-item
+        v-for="(image, i) in bird.images"
+        :key="i"
+        :src="require(`../assets/birds/${image}`)"
+      >
+      </v-carousel-item>
+    </v-carousel>
+    <v-card-title class="overline position-absolute top right">
       {{ bird.population.type }}
     </v-card-title>
-    <v-divider></v-divider>
+    <!-- <v-divider></v-divider> -->
     <v-card-text class="text--primary">
       <template v-for="(section, index) in sections">
-        <v-subheader class="px-0" :key="section.label">{{
-          section.label
-        }}</v-subheader>
+        <v-subheader class="px-0" :key="section.label">{{ section.label }}</v-subheader>
         <p :key="index">{{ bird[section.value] }}</p>
       </template>
       <div v-if="bird.features">
@@ -31,6 +36,12 @@
           color="primary"
           label
           outlined
+          @click="
+            $router.push({
+              name: 'habitats',
+              params: { id: toKebabCase(habitat) },
+            })
+          "
         >
           {{ habitat }}
         </v-chip>
@@ -54,9 +65,7 @@
     ></vuetify-audio>
     <v-divider></v-divider>
     <v-card-actions>
-      <v-btn color="primary" text @click.stop="$router.push('/browse')"
-        >Explore</v-btn
-      >
+      <v-btn color="primary" text @click.stop="$router.push('/browse')">Browse</v-btn>
     </v-card-actions>
   </v-card>
 </template>
@@ -70,6 +79,7 @@ export default {
   },
   data: function () {
     return {
+      model: 0,
       sections: [
         { label: "Family", value: "family" },
         { label: "Description", value: "description" },
@@ -83,12 +93,25 @@ export default {
       ],
     };
   },
+  methods: {
+    toKebabCase(habitat) {
+      return habitat.toLowerCase().replaceAll(" ", "-");
+    },
+  },
 };
 </script>
 
 <style scoped>
-.population {
+.position-absolute {
   position: absolute;
+}
+.top {
   top: 0;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
 }
 </style>

@@ -55,10 +55,3 @@ export default {
   }),
 };
 </script>
-
-<style scoped>
-.app-bar {
-  background-image: url("./assets/textures/xv.png");
-  background-repeat: repeat;
-}
-</style>
