@@ -35,7 +35,7 @@
               color="primary"
               @click.stop="
                 $router.push({
-                  name: 'bird',
+                  name: 'birds',
                   params: { id: toKebabCase(bird) },
                 })
               "
@@ -74,7 +74,7 @@ export default {
   },
   methods: {
     toKebabCase(bird) {
-      return bird.toLowerCase().replace(" ", "-");
+      return bird.toLowerCase().replaceAll(" ", "-");
     },
   }
 };

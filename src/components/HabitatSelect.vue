@@ -30,7 +30,7 @@ export default {
   data: function () {
     return {
       selected: null,
-      items: birds.listOfFeatures.habitat,
+      items: birds.listOfFeatures.habitats,
     };
   },
   methods: {

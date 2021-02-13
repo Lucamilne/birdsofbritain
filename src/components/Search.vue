@@ -11,7 +11,7 @@
     outlined
     @input="
       $router.push({
-        name: 'bird',
+        name: 'birds',
         params: { id: toKebabCase(value) },
       }).catch(() => {})
     "

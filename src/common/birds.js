@@ -4218,20 +4218,18 @@ birds.data = {
       "featherColor": [
         "Black",
         "Brown",
+        "Cream",
         "Grey",
         "White"
       ],
       "legColor": [
         "Black",
-        "Regular length",
-        "Regular thickness"
+        "Brown"
       ],
       "Beak": [
         "Black",
-        "Brown",
-        "Cream",
-        "Grey",
-        "White"
+        "Regular length",
+        "Regular thickness"
       ],
       "habitat": [
         "Grassland",
@@ -11894,16 +11892,6 @@ birds.listOfBirds = function () {
   return Object.keys(birds.data)
 }
 
-birds.birdsByPath = function () {
-  let birdsByPath = new Object();
-
-  birds.listOfBirds().forEach(bird => {
-    birdsByPath[bird.toLowerCase().replace(" ", "-")] = bird;
-  })
-
-  return birdsByPath;
-}
-
 birds.listOfFamilies = function () {
   var familyArray = [];
 
@@ -11917,7 +11905,6 @@ birds.listOfFamilies = function () {
 }
 
 birds.searchCharacteristics = function (habitat, featherColor, beak) {
-  //This is to catch unintended searches. Shouldn't be necessary and will be deleted in prod.
   if (!habitat || !featherColor || !beak) {
     console.log("Missing value!")
     return;
@@ -11964,12 +11951,6 @@ birds.listOfFeatures = {
     "Orange",
     "Grey",
     "Yellow",
-    "Regular length",
-    "Regular thickness",
-    "Curved",
-    "Hooked",
-    "Powerful",
-    "Chunky"
   ],
   beak: [
     "Short",
@@ -11983,7 +11964,7 @@ birds.listOfFeatures = {
     "Duck-like",
     "Powerful",
   ],
-  habitat: [
+  habitats: [
     "Marine and intertidal",
     "Wetland",
     "Grassland",
@@ -11995,9 +11976,28 @@ birds.listOfFeatures = {
   ]
 }
 
-
 birds.birdsByHabitat = {
   "Marine and intertidal": ["Arctic skua", "Arctic tern", "Avocet", "Bar-tailed godwit", "Barn owl", "Barnacle goose", "Bewick's swan", "Black guillemot", "Black redstart", "Black tern", "Black-headed gull", "Black-necked grebe", "Black-tailed godwit", "Black-throated diver", "Brent goose", "Canada goose", "Chough", "Common gull", "Common sandpiper", "Common scoter", "Common tern", "Coot", "Cormorant", "Curlew", "Curlew sandpiper", "Dotterel", "Dunlin", "Eider", "Fulmar", "Gadwall", "Gannet", "Glaucous gull", "Golden plover", "Goldeneye", "Goosander", "Great black-backed gull", "Great crested grebe", "Great northern diver", "Great shearwater", "Great skua", "Great white egret", "Green sandpiper", "Greenshank", "Grey heron", "Grey phalarope", "Grey plover", "Grey wagtail", "Greylag goose", "Guillemot", "Hen harrier", "Herring gull", "Hooded crow", "Iceland gull", "Kingfisher", "Kittiwake", "Knot", "Lapland bunting", "Lapwing", "Leach's petrel", "Lesser black-backed gull", "Little auk", "Little egret", "Little grebe", "Little gull", "Little stint", "Little tern", "Long-tailed duck", "Long-tailed skua", "Mallard", "Manx shearwater", "Marsh harrier", "Meadow pipit", "Mediterranean gull", "Merlin", "Mute swan", "Osprey", "Oystercatcher", "Pectoral sandpiper", "Peregrine", "Pied wagtail", "Pink-footed goose", "Pintail", "Pochard", "Pomarine skua", "Puffin", "Purple sandpiper", "Raven", "Razorbill", "Red-backed shrike", "Red-breasted merganser", "Red-necked grebe", "Red-necked phalarope", "Red-throated diver", "Redshank", "Ringed plover", "Rock dove", "Rock pipit", "Roseate tern", "Rough-legged buzzard", "Sanderling", "Sandwich tern", "Scaup", "Shag", "Shelduck", "Shore lark", "Short-eared owl", "Shoveler", "Skylark", "Slavonian grebe", "Smew", "Snipe", "Snow bunting", "Sooty shearwater", "Spoonbill", "Spotted redshank", "Starling", "Stonechat", "Storm petrel", "Teal", "Temminck's stint", "Tufted duck", "Turnstone", "Twite", "Velvet scoter", "Whimbrel", "White-fronted goose", "White-tailed eagle", "Whooper swan", "Wigeon", "Yellow-legged gull"], "Wetland": ["Arctic tern", "Avocet", "Bar-tailed godwit", "Barn owl", "Barnacle goose", "Bearded tit", "Bewick's swan", "Bittern", "Black tern", "Black-headed gull", "Black-necked grebe", "Black-tailed godwit", "Black-throated diver", "Brent goose", "Canada goose", "Carrion crow", "Cattle egret", "Cetti's warbler", "Chiffchaff", "Common gull", "Common redpoll", "Common sandpiper", "Common tern", "Coot", "Cormorant", "Corncrake", "Crane", "Cuckoo", "Curlew", "Curlew sandpiper", "Dipper", "Dunlin", "Egyptian goose", "Gadwall", "Garganey", "Glaucous gull", "Golden plover", "Goldeneye", "Goosander", "Goshawk", "Grasshopper warbler", "Great black-backed gull", "Great crested grebe", "Great grey shrike", "Great northern diver", "Great white egret", "Green sandpiper", "Greenshank", "Grey heron", "Grey phalarope", "Grey plover", "Grey wagtail", "Greylag goose", "Hen harrier", "Herring gull", "Hobby", "Hooded crow", "House martin", "Iceland gull", "Jack snipe", "Kingfisher", "Knot", "Lapwing", "Lesser black-backed gull", "Lesser redpoll", "Lesser spotted woodpecker", "Little egret", "Little grebe", "Little gull", "Little ringed plover", "Little stint", "Little tern", "Long-eared owl", "Magpie", "Mallard", "Mandarin", "Marsh harrier", "Meadow pipit", "Mediterranean gull", "Merlin", "Montagu's harrier", "Moorhen", "Mute swan", "Nightingale", "Osprey", "Oystercatcher", "Pectoral sandpiper", "Peregrine", "Pied wagtail", "Pink-footed goose", "Pintail", "Pochard", "Red-breasted merganser", "Red-crested pochard", "Red-necked grebe", "Red-necked phalarope", "Red-throated diver", "Redshank", "Reed bunting", "Reed warbler", "Ringed plover", "Rock pipit", "Rough-legged buzzard", "Ruddy duck", "Ruff", "Sand martin", "Sanderling", "Sandwich tern", "Scaup", "Sedge warbler", "Shelduck", "Short-eared owl", "Shoveler", "Slavonian grebe", "Smew", "Snipe", "Sparrowhawk", "Spoonbill", "Spotted crake", "Spotted redshank", "Starling", "Stonechat", "Swallow", "Swift", "Taiga bean goose", "Teal", "Temminck's stint", "Tufted duck", "Tundra bean goose", "Turnstone", "Water pipit", "Water rail", "Whimbrel", "White-fronted goose", "White-tailed eagle", "Whooper swan", "Wigeon", "Wood sandpiper", "Yellow wagtail", "Yellow-legged gull"], "Grassland": ["Avocet", "Bar-tailed godwit", "Barn owl", "Barnacle goose", "Black-headed gull", "Black-tailed godwit", "Blackbird", "Brent goose", "Buzzard", "Canada goose", "Carrion crow", "Cattle egret", "Chaffinch", "Common gull", "Coot", "Corn bunting", "Corncrake", "Crane", "Curlew", "Curlew sandpiper", "Dotterel", "Dunlin", "Dunnock", "Egyptian goose", "Fieldfare", "Gadwall", "Garganey", "Golden plover", "Goshawk", "Grasshopper warbler", "Great grey shrike", "Great white egret", "Green woodpecker", "Grey heron", "Grey partridge", "Grey plover", "Greylag goose", "Hen harrier", "Herring gull", "Hobby", "Hooded crow", "Hoopoe", "Jack snipe", "Jackdaw", "Kestrel", "Lapland bunting", "Lapwing", "Lesser black-backed gull", "Lesser whitethroat", "Linnet", "Little egret", "Little owl", "Little ringed plover", "Little stint", "Magpie", "Mallard", "Meadow pipit", "Mediterranean gull", "Merlin", "Mistle thrush", "Montagu's harrier", "Moorhen", "Mute swan", "Nightingale", "Oystercatcher", "Pectoral sandpiper", "Peregrine", "Pheasant", "Pied wagtail", "Pink-footed goose", "Pintail", "Quail", "Red-backed shrike", "Red-legged partridge", "Redshank", "Redwing", "Reed bunting", "Ring ouzel", "Ringed plover", "Rook", "Ruff", "Sanderling", "Shelduck", "Short-eared owl", "Shoveler", "Skylark", "Snipe", "Song thrush", "Sparrowhawk", "Spotted redshank", "Starling", "Stone-curlew", "Stonechat", "Swallow", "Swift", "Taiga bean goose", "Teal", "Temminck's stint", "Tree pipit", "Tundra bean goose", "Turtle dove", "Twite", "Water rail", "Wheatear", "Whimbrel", "Whinchat", "White-fronted goose", "Whitethroat", "Whooper swan", "Wigeon", "Willow warbler", "Wood sandpiper", "Woodpigeon", "Wryneck", "Yellow wagtail", "Yellowhammer"], "Farmland": ["Barn owl", "Barnacle goose", "Bewick's swan", "Black redstart", "Black-headed gull", "Blackbird", "Blackcap", "Blue tit", "Brambling", "Brent goose", "Bullfinch", "Buzzard", "Canada goose", "Carrion crow", "Cattle egret", "Chaffinch", "Chiffchaff", "Chough", "Cirl bunting", "Collared dove", "Common gull", "Common redpoll", "Corn bunting", "Corncrake", "Crane", "Cuckoo", "Curlew", "Dotterel", "Dunnock", "Egyptian goose", "Fieldfare", "Garden warbler", "Golden plover", "Goldfinch", "Goshawk", "Great black-backed gull", "Great grey shrike", "Great tit", "Great white egret", "Green sandpiper", "Green woodpecker", "Greenfinch", "Grey heron", "Grey partridge", "Greylag goose", "Hen harrier", "Herring gull", "Hobby", "Hooded crow", "Hoopoe", "House martin", "House sparrow", "Iceland gull", "Jackdaw", "Jay", "Kestrel", "Kingfisher", "Lapland bunting", "Lapwing", "Lesser black-backed gull", "Lesser redpoll", "Lesser whitethroat", "Linnet", "Little egret", "Little owl", "Long-eared owl", "Long-tailed tit", "Magpie", "Mallard", "Marsh harrier", "Meadow pipit", "Mediterranean gull", "Merlin", "Mistle thrush", "Montagu's harrier", "Moorhen", "Mute swan", "Oystercatcher", "Peregrine", "Pheasant", "Pied wagtail", "Pink-footed goose", "Quail", "Raven", "Red kite", "Red-backed shrike", "Red-legged partridge", "Redwing", "Reed bunting", "Reed warbler", "Ring ouzel", "Robin", "Rock dove", "Rook", "Rough-legged buzzard", "Ruff", "Sand martin", "Sedge warbler", "Shelduck", "Short-eared owl", "Skylark", "Snipe", "Snow bunting", "Song thrush", "Sparrowhawk", "Spotted flycatcher", "Starling", "Stock dove", "Stone-curlew", "Stonechat", "Swallow", "Swift", "Taiga bean goose", "Tawny owl", "Tree sparrow", "Treecreeper", "Tundra bean goose", "Turtle dove", "Twite", "Waxwing", "Wheatear", "Whinchat", "White-fronted goose", "White-tailed eagle", "Whitethroat", "Whooper swan", "Woodcock", "Woodlark", "Woodpigeon", "Wren", "Wryneck", "Yellow wagtail", "Yellow-legged gull", "Yellowhammer"], "Woodland": ["Black grouse", "Blackbird", "Blackcap", "Blue tit", "Brambling", "Bullfinch", "Buzzard", "Capercaillie", "Carrion crow", "Chaffinch", "Chiffchaff", "Coal tit", "Common redpoll", "Crested tit", "Crossbill", "Cuckoo", "Dunnock", "Fieldfare", "Firecrest", "Garden warbler", "Goldcrest", "Golden oriole", "Golden pheasant", "Goshawk", "Great spotted woodpecker", "Great tit", "Green woodpecker", "Greenfinch", "Grey heron", "Hawfinch", "Hobby", "Honey buzzard", "Hooded crow", "Jackdaw", "Jay", "Lesser redpoll", "Lesser spotted woodpecker", "Lesser whitethroat", "Little owl", "Long-eared owl", "Long-tailed tit", "Magpie", "Mandarin", "Marsh tit", "Mistle thrush", "Nightingale", "Nightjar", "Nuthatch", "Parrot crossbill", "Pheasant", "Pied flycatcher", "Raven", "Red kite", "Red-backed shrike", "Redstart", "Redwing", "Ring-necked parakeet", "Robin", "Rook", "Scottish crossbill", "Siskin", "Song thrush", "Spotted flycatcher", "Starling", "Stock dove", "Tawny owl", "Tree pipit", "Tree sparrow", "Treecreeper", "Turtle dove", "Whinchat", "Whitethroat", "Willow tit", "Willow warbler", "Wood warbler", "Woodcock", "Woodlark", "Woodpigeon", "Wren", "Yellow-browed warbler"], "Upland": ["Black grouse", "Buzzard", "Carrion crow", "Common sandpiper", "Cuckoo", "Curlew", "Dipper", "Dotterel", "Dunlin", "Golden eagle", "Golden plover", "Goosander", "Goshawk", "Great black-backed gull", "Grey wagtail", "Hen harrier", "Hooded crow", "Jackdaw", "Lapwing", "Magpie", "Meadow pipit", "Merlin", "Oystercatcher", "Peregrine", "Ptarmigan", "Raven", "Red grouse", "Red kite", "Redshank", "Redstart", "Ring ouzel", "Short-eared owl", "Skylark", "Snipe", "Snow bunting", "Starling", "Swallow", "Twite", "Wheatear", "Whimbrel", "Whinchat", "White-tailed eagle", "Woodcock"], "Urban and suburban": ["Black redstart", "Black-headed gull", "Blackbird", "Blackcap", "Blue tit", "Brambling", "Bullfinch", "Canada goose", "Carrion crow", "Chaffinch", "Chiffchaff", "Coal tit", "Collared dove", "Common gull", "Coot", "Cormorant", "Cuckoo", "Dunnock", "Fieldfare", "Firecrest", "Garden warbler", "Goldcrest", "Goldfinch", "Great black-backed gull", "Great crested grebe", "Great spotted woodpecker", "Great tit", "Green woodpecker", "Greenfinch", "Grey heron", "Grey wagtail", "Greylag goose", "Hawfinch", "Herring gull", "Hobby", "Hooded crow", "Hoopoe", "House martin", "House sparrow", "Jackdaw", "Jay", "Kestrel", "Kingfisher", "Lesser black-backed gull", "Lesser redpoll", "Lesser spotted woodpecker", "Lesser whitethroat", "Linnet", "Little egret", "Little grebe", "Little owl", "Long-tailed tit", "Magpie", "Mallard", "Marsh tit", "Mediterranean gull", "Mistle thrush", "Moorhen", "Mute swan", "Nuthatch", "Pheasant", "Pied flycatcher", "Pied wagtail", "Pochard", "Raven", "Red kite", "Red-legged partridge", "Redstart", "Redwing", "Reed bunting", "Reed warbler", "Ring-necked parakeet", "Robin", "Rock dove", "Rook", "Sedge warbler", "Siskin", "Song thrush", "Sparrowhawk", "Spotted flycatcher", "Starling", "Stock dove", "Swallow", "Swift", "Tawny owl", "Tree sparrow", "Treecreeper", "Tufted duck", "Turtle dove", "Water rail", "Waxwing", "Whitethroat", "Willow tit", "Willow warbler", "Wood warbler", "Woodcock", "Woodpigeon", "Wren", "Wryneck", "Yellow-browed warbler", "Yellow-legged gull", "Yellowhammer"], "Heathland": ["Buzzard", "Carrion crow", "Chaffinch", "Chiffchaff", "Coal tit", "Cuckoo", "Dartford warbler", "Dunlin", "Golden plover", "Grasshopper warbler", "Great grey shrike", "Hobby", "Kestrel", "Lesser redpoll", "Linnet", "Long-tailed tit", "Magpie", "Meadow pipit", "Mistle thrush", "Nightjar", "Red-backed shrike", "Red-legged partridge", "Skylark", "Sparrowhawk", "Stone-curlew", "Stonechat", "Tree pipit", "Turtle dove", "Whinchat", "Whitethroat", "Willow warbler", "Woodlark", "Wren", "Yellowhammer"]
+}
+
+birds.birdsByPath = function () {
+  let birdsByPath = new Object();
+
+  birds.listOfBirds().forEach(bird => {
+    birdsByPath[bird.toLowerCase().replaceAll(" ", "-")] = bird;
+  })
+
+  return birdsByPath;
+}
+
+birds.habitatByPath = function () {
+  let habitatByPath = new Object();
+
+  birds.listOfFeatures.habitats.forEach(habitat => {
+    habitatByPath[habitat.toLowerCase().replaceAll(" ", "-")] = habitat;
+  })
+
+  return habitatByPath;
 }
 
 module.exports = birds;

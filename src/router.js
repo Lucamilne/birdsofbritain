@@ -4,6 +4,7 @@ import Home from "./views/Home.vue";
 import Identify from "./views/Identify.vue";
 import Browse from "./views/Browse.vue";
 import Bird from "./views/Bird.vue";
+import Habitat from "./views/Habitat.vue";
 
 Vue.use(Router);
 
@@ -25,8 +26,18 @@ export default new Router({
             component: Browse
         },
         {
-            path: "/browse/:id",
-            name: "bird",
+            path: "/habitats/:id",
+            name: "habitats",
+            component: Habitat
+        },
+        // {
+        //     path: "/families/:id",
+        //     name: "families",
+        //     component: Families,
+        // },
+        {
+            path: "/birds/:id",
+            name: "birds",
             component: Bird,
         }
     ]

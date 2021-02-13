@@ -1,19 +1,17 @@
 <template>
-  <v-container>
-    <v-tabs>
-      <v-tab v-for="tab in tabs" :key="tab.label">
-        {{ tab.label }}
-      </v-tab>
-      <v-tab-item v-for="tab in tabs" :key="tab.label">
-        <component :is="tab.component"></component>
-      </v-tab-item>
-    </v-tabs>
-  </v-container>
+  <v-tabs>
+    <v-tab v-for="tab in tabs" :key="tab.label">
+      {{ tab.label }}
+    </v-tab>
+    <v-tab-item v-for="tab in tabs" :key="tab.label">
+      <component :is="tab.component"></component>
+    </v-tab-item>
+  </v-tabs>
 </template>
 
 <script>
 import Birds from "../components/Birds";
-// import BirdsByHabitat from "../components/BirdsByHabitat";
+import Habitats from "../components/Habitats";
 
 export default {
   name: "Browse",
@@ -21,8 +19,7 @@ export default {
     return {
       tabs: [
         { label: "Species", icon: "", component: Birds },
-        // { label: "Habitat", icon: "", component: BirdsByHabitat },
-        // { label: "Habitat", icon: "", component: Birds },
+        { label: "Habitat", icon: "", component: Habitats },
       ],
     };
   },
