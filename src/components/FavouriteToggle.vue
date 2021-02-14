@@ -6,13 +6,13 @@
           icon
           v-bind="attrs"
           v-on="on"
-          :color="localFavourites.includes(bird) ? 'yellow' : null"
+          :color="localFavourites.includes(bird) ? 'red' : null"
           @click="toggleFavourite"
         >
-          <v-icon>mdi-star</v-icon>
+          <v-icon>mdi-heart</v-icon>
         </v-btn>
       </template>
-      <span>Favourite</span>
+      <span>{{ localFavourites.includes(bird) ? 'Remove favourite' : 'Favourite' }}</span>
     </v-tooltip>
   </div>
 </template>

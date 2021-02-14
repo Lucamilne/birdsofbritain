@@ -1,7 +1,7 @@
 <template>
   <v-container>
-    <v-list>
-      <v-list-item-subtitle>Favourite birds</v-list-item-subtitle>
+    <v-list v-if="localFavourites.length > 0">
+      <v-list-item-subtitle>Your favourite birds</v-list-item-subtitle>
       <v-row>
         <v-col
           cols="12"
@@ -44,6 +44,7 @@
                 >Learn more</v-btn
               >
             </v-card-actions>
+            <FavouriteToggle :bird="bird" class="position-absolute bottom right ma-2" />
           </v-card>
         </v-col>
       </v-row>
@@ -52,14 +53,22 @@
     <div class="text-center" v-if="localFavourites.length > resultsPerPage">
       <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
     </div>
+
+    <v-card v-if="localFavourites.length === 0" flat class="text-center">
+      <v-card-subtitle>No favourites added</v-card-subtitle>
+    </v-card>
   </v-container>
 </template>
 
 <script>
 import birds from "@/common/birds.js";
+import FavouriteToggle from "@/components/FavouriteToggle.vue";
 
 export default {
   name: "Favourites",
+  components: {
+    FavouriteToggle,
+  },
   data: () => ({
     localFavourites: localStorage.getItem("favouriteBirds")
       ? JSON.parse(localStorage.getItem("favouriteBirds"))
@@ -85,5 +94,14 @@ export default {
 <style scoped>
 .v-avatar img {
   object-fit: cover;
+}
+.position-absolute {
+  position: absolute;
+}
+.bottom {
+  bottom: 0;
+}
+.right {
+  right: 0;
 }
 </style>

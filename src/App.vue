@@ -29,8 +29,9 @@
       <router-view />
     </v-main>
     <v-footer color="primary" class="app-bar">
-      <span class="white--text">&copy; {{ new Date().getFullYear() }} Luca Milne
-      </span>
+      <a v-for="link in links" :key="link.title" :href="link.href" target="_blank">
+        <v-icon dark class="mr-1">{{link.icon}}</v-icon> 
+      </a>
     </v-footer>
   </v-app>
 </template>
@@ -50,8 +51,12 @@ export default {
       { name: "Home", icon: "mdi-home", route: "/" },
       { name: "Identify", icon: "mdi-magnify", route: "/identify" },
       { name: "Browse", icon: "mdi-binoculars", route: "/browse" },
-      { name: "Favourites", icon: "mdi-star", route: "/favourites" },
+      { name: "Favourites", icon: "mdi-heart", route: "/favourites" },
     ],
+    links: [
+      { href: "https://github.com/Lucamilne/birdsofbritain", icon: "mdi-github", title: "Github" },
+      { href: "https://www.linkedin.com/in/luca-milne/", icon: "mdi-linkedin", title: "LinkedIn" },
+    ]
   }),
 };
 </script>
