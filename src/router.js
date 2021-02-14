@@ -6,6 +6,7 @@ import Browse from "./views/Browse.vue";
 import Bird from "./views/Bird.vue";
 import Habitat from "./views/Habitat.vue";
 import Family from "./views/Family.vue";
+import Favourites from "./views/Favourites.vue";
 
 Vue.use(Router);
 
@@ -35,6 +36,11 @@ export default new Router({
             path: "/families/:id",
             name: "families",
             component: Family,
+        },
+        {
+            path: "/favourites",
+            name: "favourites",
+            component: Favourites,
         },
         {
             path: "/birds/:id",

@@ -50,7 +50,7 @@ export default {
       { name: "Home", icon: "mdi-home", route: "/" },
       { name: "Identify", icon: "mdi-magnify", route: "/identify" },
       { name: "Browse", icon: "mdi-binoculars", route: "/browse" },
-      { name: "Your Area", icon: "mdi-map-marker", route: "/guide" },
+      { name: "Favourites", icon: "mdi-star", route: "/favourites" },
     ],
   }),
 };

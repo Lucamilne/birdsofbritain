@@ -17,13 +17,15 @@
       >
       </v-carousel-item>
     </v-carousel>
-    <v-card-title class="overline position-absolute top right">
-      {{ bird.population.type }}
-    </v-card-title>
-    <!-- <v-divider></v-divider> -->
-    <v-card-text class="text--primary">
+    <FavouriteToggle class="position-absolute top right ma-4" :bird="bird.name"/>
+    <v-card-text class="text--primary position-relative">
+      <v-card-title class="overline position-absolute top right ma-4">
+        {{ bird.population.type }}
+      </v-card-title>
       <template v-for="(section, index) in sections">
-        <v-subheader class="px-0" :key="section.label">{{ section.label }}</v-subheader>
+        <v-subheader class="px-0" :key="section.label">{{
+          section.label
+        }}</v-subheader>
         <p :key="index">{{ bird[section.value] }}</p>
       </template>
       <div v-if="bird.features">
@@ -66,17 +68,22 @@
     ></vuetify-audio>
     <v-divider></v-divider>
     <v-card-actions>
-      <v-btn color="primary" text @click.stop="$router.push('/browse')">Browse</v-btn>
+      <v-btn color="primary" text @click.stop="$router.push('/browse')"
+        >Browse</v-btn
+      >
     </v-card-actions>
   </v-card>
 </template>
 
 <script>
+import FavouriteToggle from "./FavouriteToggle.vue";
+
 export default {
   name: "BirdDisplay",
   props: ["bird"],
   components: {
     VuetifyAudio: () => import("vuetify-audio"),
+    FavouriteToggle,
   },
   data: function () {
     return {
@@ -103,6 +110,9 @@ export default {
 </script>
 
 <style scoped>
+.position-relative {
+  position: relative;
+}
 .position-absolute {
   position: absolute;
 }

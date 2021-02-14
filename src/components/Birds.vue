@@ -42,6 +42,13 @@
               >Learn more</v-btn
             >
           </v-card-actions>
+          <v-icon
+            v-if="localFavourites.includes(bird)"
+            color="yellow"
+            class="position-absolute bottom right ma-3"
+          >
+            mdi-star
+          </v-icon>
         </v-card>
       </v-col>
     </v-row>
@@ -60,6 +67,7 @@ export default {
     page: 1,
     resultsPerPage: 24,
     birds: birds.data,
+    localFavourites: localStorage.getItem("favouriteBirds") ? JSON.parse(localStorage.getItem("favouriteBirds")) : []
   }),
   computed: {
     sliceOfBirdList() {
@@ -76,12 +84,21 @@ export default {
     toKebabCase(bird) {
       return bird.toLowerCase().replaceAll(" ", "-");
     },
-  }
+  },
 };
 </script>
 
 <style scoped>
 .v-avatar img {
   object-fit: cover;
+}
+.position-absolute {
+  position: absolute;
+}
+.bottom {
+  bottom: 0;
+}
+.right {
+  right: 0;
 }
 </style>

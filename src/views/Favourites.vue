@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-list>
-      <v-list-item-subtitle>{{family}}</v-list-item-subtitle>
+      <v-list-item-subtitle>Favourite birds</v-list-item-subtitle>
       <v-row>
         <v-col
           cols="12"
@@ -9,25 +9,25 @@
           lg="4"
           xl="3"
           v-for="bird in sliceOfBirdList"
-          :key="birds.data[bird].name"
+          :key="birds[bird].name"
         >
           <v-card tile>
             <v-list-item three-line>
               <v-list-item-content>
                 <div class="overline mb-4">
-                  {{ birds.data[bird].population.type }}
+                  {{ birds[bird].population.type }}
                 </div>
                 <v-list-item-title class="headline mb-1">
-                  {{ birds.data[bird].name }}
+                  {{ birds[bird].name }}
                 </v-list-item-title>
                 <v-list-item-subtitle>{{
-                  birds.data[bird].scientificName
+                  birds[bird].scientificName
                 }}</v-list-item-subtitle>
               </v-list-item-content>
               <v-list-item-avatar tile size="120" color="grey lighten-4">
                 <img
-                  :src="require(`../assets/birds/${birds.data[bird].images[0]}`)"
-                  :alt="birds.data[bird].name"
+                  :src="require(`../assets/birds/${birds[bird].images[0]}`)"
+                  :alt="birds[bird].name"
                 />
               </v-list-item-avatar>
             </v-list-item>
@@ -49,7 +49,7 @@
       </v-row>
     </v-list>
 
-    <div class="text-center" v-if="birds.birdsByFamily[family].length > resultsPerPage">
+    <div class="text-center" v-if="localFavourites.length > resultsPerPage">
       <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
     </div>
   </v-container>
@@ -59,29 +59,24 @@
 import birds from "@/common/birds.js";
 
 export default {
-  name: "Family",
+  name: "Favourites",
   data: () => ({
+    localFavourites: localStorage.getItem("favouriteBirds")
+      ? JSON.parse(localStorage.getItem("favouriteBirds"))
+      : [],
     page: 1,
     resultsPerPage: 24,
-    birds: birds,
+    birds: birds.data,
   }),
   computed: {
-    family() {
-      return birds.familyByPath()[this.$route.params.id];
-    },
     sliceOfBirdList() {
       const start = (this.page - 1) * this.resultsPerPage;
       const end = this.page * this.resultsPerPage;
 
-      return birds.birdsByFamily[this.family].slice(start, end);
+      return this.localFavourites.slice(start, end);
     },
     numberOfPages() {
-      return Math.ceil(birds.birdsByFamily[this.family].length / this.resultsPerPage);
-    },
-  },
-  methods: {
-    toKebabCase(bird) {
-      return bird.toLowerCase().replaceAll(" ", "-");
+      return Math.ceil(this.localFavourites.length / this.resultsPerPage);
     },
   },
 };
