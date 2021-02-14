@@ -7,7 +7,8 @@
       :cycle="true"
       interval="4000"
       :show-arrows-on-hover="true"
-
+      :progress="true"
+      :hide-delimiters="true"
     >
       <v-carousel-item
         v-for="(image, i) in bird.images"

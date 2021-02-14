@@ -12,6 +12,7 @@
 <script>
 import Birds from "../components/Birds";
 import Habitats from "../components/Habitats";
+import Families from "../components/Families";
 
 export default {
   name: "Browse",
@@ -20,6 +21,7 @@ export default {
       tabs: [
         { label: "Species", icon: "", component: Birds },
         { label: "Habitat", icon: "", component: Habitats },
+        { label: "Family", icon: "", component: Families }
       ],
     };
   },

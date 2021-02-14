@@ -11892,18 +11892,6 @@ birds.listOfBirds = function () {
   return Object.keys(birds.data)
 }
 
-birds.listOfFamilies = function () {
-  var familyArray = [];
-
-  birds.listOfBirds().forEach(bird => {
-    if (!familyArray.includes(birds.data[bird].family)) {
-      familyArray.push(birds.data[bird].family)
-    }
-  })
-
-  return familyArray;
-}
-
 birds.searchCharacteristics = function (habitat, featherColor, beak) {
   if (!habitat || !featherColor || !beak) {
     console.log("Missing value!")
@@ -11973,6 +11961,388 @@ birds.listOfFeatures = {
     "Upland",
     "Urban and suburban",
     "Heathland"
+  ],
+}
+
+birds.birdsByFamily = {
+  "Warblers": [
+    "Aquatic warbler",
+    "Blackcap",
+    "Cetti's warbler",
+    "Chiffchaff",
+    "Dartford warbler",
+    "Garden warbler",
+    "Grasshopper warbler",
+    "Lesser whitethroat",
+    "Marsh warbler",
+    "Reed warbler",
+    "Savi's warbler",
+    "Sedge warbler",
+    "Whitethroat",
+    "Willow warbler",
+    "Wood warbler",
+    "Yellow-browed warbler"
+  ],
+  "Skuas": [
+    "Arctic skua",
+    "Great skua",
+    "Long-tailed skua",
+    "Pomarine skua"
+  ],
+  "Gulls and terns": [
+    "Arctic tern",
+    "Black tern",
+    "Black-headed gull",
+    "Common gull",
+    "Common tern",
+    "Glaucous gull",
+    "Great black-backed gull",
+    "Herring gull",
+    "Iceland gull",
+    "Kittiwake",
+    "Lesser black-backed gull",
+    "Little gull",
+    "Little tern",
+    "Mediterranean gull",
+    "Roseate tern",
+    "Sandwich tern",
+    "Yellow-legged gull"
+  ],
+  "Avocets and stilts": [
+    "Avocet"
+  ],
+  "Petrels and shearwaters": [
+    "Balearic shearwater",
+    "Fulmar",
+    "Great shearwater",
+    "Leach's petrel",
+    "Manx shearwater",
+    "Sooty shearwater",
+    "Storm petrel"
+  ],
+  "Sandpipers, snipes and phalaropes": [
+    "Bar-tailed godwit",
+    "Black-tailed godwit",
+    "Common sandpiper",
+    "Curlew",
+    "Curlew sandpiper",
+    "Dunlin",
+    "Green sandpiper",
+    "Greenshank",
+    "Grey phalarope",
+    "Jack snipe",
+    "Knot",
+    "Little stint",
+    "Pectoral sandpiper",
+    "Purple sandpiper",
+    "Red-necked phalarope",
+    "Redshank",
+    "Ruff",
+    "Sanderling",
+    "Snipe",
+    "Spotted redshank",
+    "Temminck's stint",
+    "Turnstone",
+    "Whimbrel",
+    "Wood sandpiper",
+    "Woodcock"
+  ],
+  "Owls": [
+    "Barn owl",
+    "Little owl",
+    "Long-eared owl",
+    "Short-eared owl",
+    "Tawny owl"
+  ],
+  "Ducks, geese and swans": [
+    "Barnacle goose",
+    "Bewick's swan",
+    "Brent goose",
+    "Canada goose",
+    "Common scoter",
+    "Egyptian goose",
+    "Eider",
+    "Gadwall",
+    "Garganey",
+    "Goldeneye",
+    "Goosander",
+    "Greylag goose",
+    "Long-tailed duck",
+    "Mallard",
+    "Mandarin",
+    "Mute swan",
+    "Pink-footed goose",
+    "Pintail",
+    "Pochard",
+    "Red-breasted merganser",
+    "Ruddy duck",
+    "Scaup",
+    "Shelduck",
+    "Shoveler",
+    "Smew",
+    "Taiga bean goose",
+    "Teal",
+    "Tufted duck",
+    "Tundra bean goose",
+    "Velvet scoter",
+    "White-fronted goose",
+    "Whooper swan",
+    "Wigeon"
+  ],
+  "Bearded tit": [
+    "Bearded tit"
+  ],
+  "Herons, storks and ibises": [
+    "Bittern",
+    "Cattle egret",
+    "Great white egret",
+    "Grey heron",
+    "Little egret",
+    "Spoonbill"
+  ],
+  "Grouse": [
+    "Black grouse",
+    "Capercaillie",
+    "Ptarmigan",
+    "Red grouse"
+  ],
+  "Auks": [
+    "Black guillemot",
+    "Guillemot",
+    "Little auk",
+    "Puffin",
+    "Razorbill"
+  ],
+  "Chats": [
+    "Black redstart",
+    "Bluethroat",
+    "Nightingale",
+    "Redstart",
+    "Stonechat",
+    "Wheatear",
+    "Whinchat"
+  ],
+  "Grebes": [
+    "Black-necked grebe",
+    "Great crested grebe",
+    "Little grebe",
+    "Red-necked grebe",
+    "Slavonian grebe"
+  ],
+  "Divers": [
+    "Black-throated diver",
+    "Great northern diver",
+    "Red-throated diver"
+  ],
+  "Thrushes": [
+    "Blackbird",
+    "Fieldfare",
+    "Mistle thrush",
+    "Redwing",
+    "Ring ouzel",
+    "Song thrush"
+  ],
+  "Tits": [
+    "Blue tit",
+    "Coal tit",
+    "Crested tit",
+    "Great tit",
+    "Marsh tit",
+    "Willow tit"
+  ],
+  "Finches": [
+    "Brambling",
+    "Bullfinch",
+    "Chaffinch",
+    "Common redpoll",
+    "Common rosefinch",
+    "Crossbill",
+    "Goldfinch",
+    "Greenfinch",
+    "Hawfinch",
+    "Lesser redpoll",
+    "Linnet",
+    "Parrot crossbill",
+    "Scottish crossbill",
+    "Serin",
+    "Siskin",
+    "Twite"
+  ],
+  "Kites, hawks and eagles": [
+    "Buzzard",
+    "Golden eagle",
+    "Goshawk",
+    "Hen harrier",
+    "Honey buzzard",
+    "Marsh harrier",
+    "Montagu's harrier",
+    "Red kite",
+    "Rough-legged buzzard",
+    "Sparrowhawk",
+    "White-tailed eagle"
+  ],
+  "Crows": [
+    "Carrion crow",
+    "Chough",
+    "Hooded crow",
+    "Jackdaw",
+    "Jay",
+    "Magpie",
+    "Raven",
+    "Rook"
+  ],
+  "Buntings": [
+    "Cirl bunting",
+    "Corn bunting",
+    "Lapland bunting",
+    "Reed bunting",
+    "Snow bunting",
+    "Yellowhammer"
+  ],
+  "Pigeons and doves": [
+    "Collared dove",
+    "Rock dove",
+    "Stock dove",
+    "Turtle dove",
+    "Woodpigeon"
+  ],
+  "Rails, crakes and coots": [
+    "Coot",
+    "Corncrake",
+    "Moorhen",
+    "Spotted crake",
+    "Water rail"
+  ],
+  "Cormorants and shags": [
+    "Cormorant",
+    "Shag"
+  ],
+  "Cranes": [
+    "Crane"
+  ],
+  "Cuckoos": [
+    "Cuckoo"
+  ],
+  "Dippers": [
+    "Dipper"
+  ],
+  "Plovers": [
+    "Dotterel",
+    "Golden plover",
+    "Grey plover",
+    "Lapwing",
+    "Little ringed plover",
+    "Ringed plover"
+  ],
+  "Accentors": [
+    "Dunnock"
+  ],
+  "Kinglets and Firecrests": [
+    "Firecrest",
+    "Goldcrest"
+  ],
+  "Boobies and gannets": [
+    "Gannet"
+  ],
+  "Orioles": [
+    "Golden oriole"
+  ],
+  "Pheasants and partridges": [
+    "Golden pheasant",
+    "Grey partridge",
+    "Pheasant",
+    "Quail",
+    "Red-legged partridge"
+  ],
+  "Shrikes": [
+    "Great grey shrike",
+    "Red-backed shrike"
+  ],
+  "Woodpeckers": [
+    "Great spotted woodpecker",
+    "Green woodpecker",
+    "Lesser spotted woodpecker",
+    "Wryneck"
+  ],
+  "Pipits and wagtails": [
+    "Grey wagtail",
+    "Meadow pipit",
+    "Pied wagtail",
+    "Rock pipit",
+    "Tree pipit",
+    "Water pipit",
+    "Yellow wagtail"
+  ],
+  "Falcons": [
+    "Hobby",
+    "Kestrel",
+    "Merlin",
+    "Peregrine"
+  ],
+  "Hoopoe": [
+    "Hoopoe"
+  ],
+  "Swallows and martins": [
+    "House martin",
+    "Sand martin",
+    "Swallow"
+  ],
+  "Old World sparrows": [
+    "House sparrow",
+    "Tree sparrow"
+  ],
+  "Kingfishers": [
+    "Kingfisher"
+  ],
+  "Long-tailed tits": [
+    "Long-tailed tit"
+  ],
+  "Nightjars": [
+    "Nightjar"
+  ],
+  "Nuthatches": [
+    "Nuthatch"
+  ],
+  "Osprey": [
+    "Osprey"
+  ],
+  "Oystercatchers": [
+    "Oystercatcher"
+  ],
+  "Old World flycatchers and chats": [
+    "Pied flycatcher",
+    "Robin",
+    "Spotted flycatcher"
+  ],
+  "Duck, goose and swan family": [
+    "Red-crested pochard"
+  ],
+  "Parrots": [
+    "Ring-necked parakeet"
+  ],
+  "Larks": [
+    "Shore lark",
+    "Skylark",
+    "Woodlark"
+  ],
+  "Treecreepers": [
+    "Short-toed treecreeper",
+    "Treecreeper"
+  ],
+  "Starling": [
+    "Starling"
+  ],
+  "Thick-knees": [
+    "Stone-curlew"
+  ],
+  "Swifts": [
+    "Swift"
+  ],
+  "Waxwings": [
+    "Waxwing"
+  ],
+  "Wrens": [
+    "Wren"
   ]
 }
 
@@ -11998,6 +12368,16 @@ birds.habitatByPath = function () {
   })
 
   return habitatByPath;
+}
+
+birds.familyByPath = function () {
+  let familyByPath = new Object();
+
+  Object.keys(birds.birdsByFamily).forEach(family => {
+    familyByPath[family.toLowerCase().replaceAll(" ", "-")] = family;
+  })
+
+  return familyByPath;
 }
 
 module.exports = birds;
