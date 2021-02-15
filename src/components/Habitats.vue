@@ -2,10 +2,16 @@
   <v-container>
     <v-item-group v-model="selected">
       <v-row>
-        <v-col v-for="(habitat, i) in habitats" :key="i" cols="6" md="3">
+        <v-col
+          v-for="(habitat, i) in habitats"
+          :key="i"
+          cols="12"
+          sm="6"
+          lg="3"
+        >
           <v-item v-slot="{ active, toggle }">
             <v-card
-              tile
+              flat
               :color="active ? 'primary' : 'white'"
               class="d-flex align-center"
               :dark="active ? true : false"
@@ -17,11 +23,13 @@
                 });
               "
             >
-              <v-responsive :aspect-ratio="4 / 3" class="d-flex align-center">
-                <div class="overline text-center">
-                  {{ habitat }}
-                </div>
-              </v-responsive>
+              <v-img
+                :aspect-ratio="4 / 3"
+                :src="require(`../assets/habitats/thumbnails/${toKebabCase(habitat)}.jpg`)"
+                class="d-flex align-center text-center"
+              >
+                <span class="overline white--text"> {{ habitat.replaceAll(" and ", " & ") }} </span>
+              </v-img>
             </v-card>
           </v-item>
         </v-col>
