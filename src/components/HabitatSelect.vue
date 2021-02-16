@@ -3,24 +3,31 @@
     <v-row>
       <v-col v-for="(item, i) in items" :key="i" cols="6" md="3">
         <v-item v-slot="{ active, toggle }">
-          <v-card
-            flat
-            class="d-flex align-center"
-            :dark="active ? true : false"
-            @click="toggle"
-          >
             <v-img
-                :aspect-ratio="4 / 3"
-                :src="require(`../assets/habitats/thumbnails/${toKebabCase(item)}.jpg`)"
-                class="d-flex align-center text-center"
-              >
-                <span class="overline white--text"> {{ item.replaceAll(" and ", " & ") }} </span>
-                <!-- <v-badge v-if="active" class="ml-1 position-absolute center" color="green" icon="mdi-check" /> -->
-                  <v-icon v-if="active" dark color="green" class="position-absolute top-right background">
-                    mdi-check-circle
-                  </v-icon>
-              </v-img>
-          </v-card>
+              v-ripple
+              @click="toggle"
+              :aspect-ratio="4 / 3"
+              :src="
+                require(`../assets/habitats/thumbnails/${toKebabCase(
+                  item
+                )}.jpg`)
+              "
+              class="d-flex align-center text-center pointer"
+            >
+              <span class="overline white--text">
+                {{ item.replaceAll(" and ", " & ") }}
+              </span>
+              <v-scroll-y-transition>
+                <v-icon
+                  v-if="active"
+                  dark
+                  color="green"
+                  class="position-absolute top-right background ma-2"
+                >
+                  mdi-check-circle
+                </v-icon>
+              </v-scroll-y-transition>
+            </v-img>
         </v-item>
       </v-col>
     </v-row>
@@ -45,7 +52,7 @@ export default {
     toKebabCase(item) {
       return item.toLowerCase().replaceAll(" ", "-");
     },
-  }
+  },
 };
 </script>
 
@@ -60,5 +67,8 @@ export default {
 .background {
   background-color: white;
   border-radius: 50%;
+}
+.pointer {
+  cursor: pointer;
 }
 </style>

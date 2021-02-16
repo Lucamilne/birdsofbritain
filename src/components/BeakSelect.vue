@@ -24,6 +24,16 @@
               <div class="overline text-center">
                 {{ item }}
               </div>
+              <v-scroll-y-transition>
+                <v-icon
+                  v-if="active"
+                  dark
+                  color="green"
+                  class="position-absolute top-right background ma-2"
+                >
+                  mdi-check-circle
+                </v-icon>
+              </v-scroll-y-transition>
             </v-responsive>
           </v-card>
         </v-item>
@@ -82,5 +92,16 @@ export default {
   filter: invert(1);
   transform: scale(1.25);
   transition: all 650ms ease;
+}
+.position-absolute {
+  position: absolute;
+}
+.top-right {
+  top: 0;
+  right: 0;
+}
+.background {
+  background-color: white;
+  border-radius: 50%;
 }
 </style>
