@@ -1,14 +1,12 @@
 <template>
-  <v-container>
-    <v-list v-if="localFavourites.length > 0">
-      <v-list-item-subtitle>Your favourite birds</v-list-item-subtitle>
+  <v-container fluid>
+    <div v-if="this.results.length > 0">
       <v-row>
         <v-col
           cols="12"
           md="6"
           lg="4"
-          xl="3"
-          v-for="bird in sliceOfBirdList"
+          v-for="bird in sliceOfResults"
           :key="birds[bird].name"
         >
           <v-card tile>
@@ -44,48 +42,37 @@
                 >Learn more</v-btn
               >
             </v-card-actions>
-            <FavouriteToggle :bird="bird" class="position-absolute bottom right ma-2" />
           </v-card>
         </v-col>
       </v-row>
-    </v-list>
-
-    <div class="text-center" v-if="localFavourites.length > resultsPerPage">
-      <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
+      <div class="text-center" v-if="this.results.length > resultsPerPage">
+        <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
+      </div>
     </div>
-
-    <v-card v-if="localFavourites.length === 0" flat class="text-center">
-      <v-card-subtitle>No favourites added</v-card-subtitle>
-    </v-card>
   </v-container>
 </template>
 
 <script>
 import birds from "@/common/birds.js";
-import FavouriteToggle from "@/components/FavouriteToggle.vue";
 
 export default {
-  name: "Favourites",
-  components: {
-    FavouriteToggle,
-  },
+  name: "results",
+  props: ["results"],
   data: () => ({
-    localFavourites: localStorage.getItem("favouriteBirds")
-      ? JSON.parse(localStorage.getItem("favouriteBirds"))
-      : [],
+    model: 0,
     page: 1,
-    resultsPerPage: 24,
+    resultsPerPage: 9,
     birds: birds.data,
   }),
   computed: {
-    sliceOfBirdList() {
+    sliceOfResults() {
       const start = (this.page - 1) * this.resultsPerPage;
       const end = this.page * this.resultsPerPage;
 
-      return this.localFavourites.slice(start, end);
+      return this.results.slice(start, end);
     },
     numberOfPages() {
-      return Math.ceil(this.localFavourites.length / this.resultsPerPage);
+      return Math.ceil(this.results.length / this.resultsPerPage);
     },
   },
   methods: {
@@ -99,14 +86,5 @@ export default {
 <style scoped>
 .v-avatar img {
   object-fit: cover;
-}
-.position-absolute {
-  position: absolute;
-}
-.bottom {
-  bottom: 0;
-}
-.right {
-  right: 0;
 }
 </style>

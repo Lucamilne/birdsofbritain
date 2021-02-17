@@ -11,7 +11,7 @@
             <v-responsive v-ripple @click="toggle" class="text-center">
               <v-img
               contain
-                :aspect-ratio="4 / 3"
+                :aspect-ratio="16 / 10"
                 :src="
                   require(`../assets/feathers/${item
                     .replace('/', '')

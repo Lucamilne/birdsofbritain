@@ -1,18 +1,26 @@
 <template>
-  <v-container class="fill-height">
-    <v-card flat max-width="980" class="mx-auto">
-      <v-card-title class="title font-weight-regular justify-space-between">
+  <v-container>
+    <v-card flat>
+      <v-card-title class="justify-space-between">
         <span>{{ currentTitle.title }}</span>
-        <v-avatar
-          color="primary lighten-2"
-          class="subheading white--text"
-          size="28"
-          v-text="step"
-        ></v-avatar>
+        <v-progress-circular
+          :rotate="360"
+          :size="52"
+          :width="6"
+          :value="currentProgress"
+          color="primary"
+        >
+          <v-avatar
+            color="primary lighten-2"
+            class="subheading white--text d-none d-md-flex"
+            size="28"
+            v-text="step"
+          ></v-avatar>
+        </v-progress-circular>
       </v-card-title>
       <v-card-subtitle>{{ currentTitle.subtitle }}</v-card-subtitle>
 
-      <v-divider></v-divider>
+      <v-progress-linear :value="currentProgress"></v-progress-linear>
 
       <v-card-text>
         <v-window v-model="step">
@@ -27,6 +35,10 @@
           <v-window-item :value="3">
             <BeakSelect v-on:beak="beak = $event" />
           </v-window-item>
+
+          <v-window-item :value="4">
+            <Results :results="results" />
+          </v-window-item>
         </v-window>
       </v-card-text>
 
@@ -36,7 +48,7 @@
         <v-btn :disabled="step === 1" text @click="step--">Back </v-btn>
         <v-spacer></v-spacer>
         <v-btn
-          v-if="step !== 3"
+          v-if="step < 3"
           :disabled="!currentValue"
           color="primary"
           depressed
@@ -49,10 +61,14 @@
           :disabled="!currentValue"
           color="primary"
           depressed
-          @click="search(habitat, featherColor, beak)"
+          @click="
+            results = search(habitat, featherColor, beak);
+            step++;
+          "
         >
-          Search
+          Find
         </v-btn>
+        <v-btn v-else text @click="$router.go()"> Reset </v-btn>
       </v-card-actions>
     </v-card>
   </v-container>
@@ -64,6 +80,7 @@ import birds from "@/common/birds.js";
 import HabitatSelect from "../components/HabitatSelect";
 import FeatherSelect from "../components/FeatherSelect";
 import BeakSelect from "../components/BeakSelect";
+import Results from "../components/Results";
 
 export default {
   name: "Identify",
@@ -71,6 +88,7 @@ export default {
     HabitatSelect,
     FeatherSelect,
     BeakSelect,
+    Results,
   },
   data: function () {
     return {
@@ -78,7 +96,8 @@ export default {
       featherColor: null,
       beak: null,
       step: 1,
-      search: birds.searchCharacteristics
+      search: birds.searchCharacteristics,
+      results: null,
     };
   },
   computed: {
@@ -94,10 +113,15 @@ export default {
             title: "What colours were the plumage?",
             subtitle: "The plumage is the bird's feathers collectively",
           };
+        case 3:
+          return {
+            title: "Describe it's beak",
+            subtitle: "Choose all the options you believe to be true",
+          };
         default:
           return {
-            title: "How would you describe it's beak?",
-            subtitle: "Choose all the options you believe to be true",
+            title: "Possible matches",
+            subtitle: "Find the matches below based on your selections",
           };
       }
     },
@@ -110,6 +134,26 @@ export default {
         default:
           return this.beak;
       }
+    },
+    currentProgress() {
+      switch (this.step) {
+        case 1:
+          return 25;
+        case 2:
+          return 50;
+        case 3:
+          return 75;
+        default:
+          return 100;
+      }
+    },
+  },
+  methods: {
+    resetIdentificationProcess() {
+      this.habitat = null;
+      this.featherColor = null;
+      this.beak = null;
+      this.step = 1;
     },
   },
 };

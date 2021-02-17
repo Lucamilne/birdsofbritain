@@ -11910,7 +11910,6 @@ birds.searchCharacteristics = function (habitat, featherColor, beak) {
     }
   })
 
-  console.log(birdArray)
   return birdArray;
 }
 

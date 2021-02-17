@@ -6,8 +6,8 @@
       v-model="model"
       :cycle="true"
       interval="4000"
-      :show-arrows-on-hover="true"
-      :progress="true"
+      :show-arrows="isArrayOfImages"
+      :progress="isArrayOfImages"
       :hide-delimiters="true"
     >
       <v-carousel-item
@@ -18,6 +18,7 @@
       </v-carousel-item>
     </v-carousel>
     <FavouriteToggle class="position-absolute top right ma-4" :bird="bird.name"/>
+    <v-divider></v-divider>
     <v-card-text class="text--primary position-relative">
       <v-card-title class="overline position-absolute top right ma-4">
         {{ bird.population.type }}
@@ -100,6 +101,15 @@ export default {
         { label: "Weight", value: "weight" },
       ],
     };
+  },
+  computed: {
+    isArrayOfImages() {
+      if (this.bird.images.length > 1) {
+        return true;
+      } else {
+        return false;
+      }
+    }
   },
   methods: {
     toKebabCase(habitat) {
