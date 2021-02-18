@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:Lucamilne/Lucamilne.github.io.git master
 
 # if you are deploying to https://Lucamilne.github.io/birdsofbritain
-git push -f git@github.com:Lucamilne/birdsofbritain.git master:gh-pages
+git push -f git@github.com:lucamilne/birdsofbritain.git master:gh-pages
 
 cd -

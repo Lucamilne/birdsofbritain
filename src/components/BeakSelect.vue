@@ -5,7 +5,7 @@
     @change="$emit('beak', indexToBeak())"
   >
     <v-row>
-      <v-col v-for="(item, i) in items" :key="i" cols="6" md="3">
+      <v-col v-for="(item, i) in items" :key="i" cols="12" md="6" lg="4" xl="3">
         <v-item v-slot="{ active, toggle }">
           <v-card
             tile

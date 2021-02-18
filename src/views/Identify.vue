@@ -1,24 +1,20 @@
 <template>
   <v-container>
     <v-card flat>
-      <v-card-title class="justify-space-between">
-        <span>{{ currentTitle.title }}</span>
-        <v-progress-circular
-          :rotate="360"
-          :size="52"
-          :width="6"
-          :value="currentProgress"
-          color="primary"
-        >
-          <v-avatar
-            color="primary lighten-2"
-            class="subheading white--text d-none d-md-flex"
-            size="28"
-            v-text="step"
-          ></v-avatar>
-        </v-progress-circular>
-      </v-card-title>
-      <v-card-subtitle>{{ currentTitle.subtitle }}</v-card-subtitle>
+      <div class="d-flex justify-space-between align-center">
+        <span>
+          <v-card-title>
+            {{ currentTitle.title }}
+          </v-card-title>
+          <v-card-subtitle>{{ currentTitle.subtitle }}</v-card-subtitle>
+        </span>
+        <v-avatar
+          color="primary lighten-2"
+          class="subheading white--text d-none d-md-flex"
+          size="28"
+          v-text="step"
+        ></v-avatar>
+      </div>
 
       <v-progress-linear :value="currentProgress"></v-progress-linear>
 
@@ -110,7 +106,7 @@ export default {
           };
         case 2:
           return {
-            title: "What colours were the plumage?",
+            title: "What colours were in the plumage?",
             subtitle: "The plumage is the bird's feathers collectively",
           };
         case 3:

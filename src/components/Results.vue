@@ -6,6 +6,7 @@
           cols="12"
           md="6"
           lg="4"
+          xl="3"
           v-for="bird in sliceOfResults"
           :key="birds[bird].name"
         >
@@ -49,6 +50,9 @@
         <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
       </div>
     </div>
+    <v-card flat v-else min-height="300" class="d-flex align-center justify-center">
+      <v-card-subtitle>No matches found</v-card-subtitle>
+    </v-card>
   </v-container>
 </template>
 
