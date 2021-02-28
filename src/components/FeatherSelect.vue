@@ -5,7 +5,7 @@
     @change="$emit('feather-color', indexFeatherColors())"
   >
     <v-row>
-      <v-col v-for="item in items" :key="item" cols="12" md="6" lg="4" xl="3">
+      <v-col v-for="item in items" :key="item" cols="6" lg="4" xl="3">
         <v-item v-slot="{ active, toggle }">
           <v-card tile v-ripple="false">
             <v-responsive v-ripple @click="toggle" class="text-center">
