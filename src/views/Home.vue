@@ -8,7 +8,7 @@
       class="hero-background d-flex flex-column justify-space-between"
     >
       <v-card-text class="text-overline">Discover </v-card-text>
-      <v-card-text>
+      <v-card-text class="fadein">
         <v-img max-width="60%" :src="require('../assets/text/title.webp')"></v-img>
         <v-list-item-subtitle class="mt-2 text-wrap"
           >A comprehensive identifier of both native and migratory
@@ -29,7 +29,6 @@
           "
         >
           {{ item.name }}
-          <!-- <v-icon right>{{ item.icon }}</v-icon> -->
         </v-btn>
       </v-card-actions>
     </v-card>
@@ -46,11 +45,11 @@ export default {
         { name: "Browse", icon: "mdi-binoculars", route: "/browse" },
       ],
       images: [
-        { alt: "magpie", path: "magpie.jpg"},
-        { alt: "robin", path: "robin.jpg"},
-        { alt: "blackbird", path: "blackbird.jpg"},
-        { alt: "kingfisher", path: "kingfisher.jpg"}
-      ]
+        { alt: "magpie", path: "magpie.jpg" },
+        { alt: "robin", path: "robin.jpg" },
+        { alt: "blackbird", path: "blackbird.jpg" },
+        { alt: "kingfisher", path: "kingfisher.jpg" },
+      ],
     };
   },
 };
@@ -69,7 +68,18 @@ export default {
   background-position: center center;
   padding: 2rem;
 }
+.fadein {
+  animation: 2s ease-in fadein;
+}
 .hero-title {
   font-size: 12rem;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 </style>
