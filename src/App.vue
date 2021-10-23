@@ -20,7 +20,6 @@
 
     <v-app-bar app color="primary" dark class="app-bar">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title>Birds of Britain</v-toolbar-title>
       <v-spacer></v-spacer>
       <Search />
     </v-app-bar>
