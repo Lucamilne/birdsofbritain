@@ -73,7 +73,7 @@ export default {
 <style scoped>
 .hero-background {
     background-image: linear-gradient(to bottom, rgba(187, 200, 186, 0.6) 0%, rgba(84, 103, 71, 0.6) 100%),
-        url("../assets/images/kingfisher.jpg");
+        url("../assets/images/robin.jpg");
     background-blend-mode: soft-light;
     background-size: cover;
     background-position: center center;
