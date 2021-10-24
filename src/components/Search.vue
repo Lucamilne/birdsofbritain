@@ -41,3 +41,9 @@ export default {
   },
 };
 </script>
+
+<style>
+  .v-autocomplete.v-select--is-menu-active .v-input__icon--append .v-icon {
+    transform: none;
+  }
+</style>

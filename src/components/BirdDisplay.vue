@@ -12,8 +12,9 @@
             <v-carousel-item
                 v-for="(image, i) in bird.images"
                 :key="i"
+                eager
             >
-                <v-img :src="require(`../assets/birds/${image}`)" contain></v-img>
+                <v-img :src="require(`../assets/birds/${image}`)" contain eager></v-img>
             </v-carousel-item>
         </v-carousel>
         <FavouriteToggle class="position-absolute top right ma-4" :bird="bird.name" />
