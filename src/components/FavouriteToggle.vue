@@ -6,7 +6,7 @@
           icon
           v-bind="attrs"
           v-on="on"
-          :color="localFavourites.includes(bird) ? 'red' : null"
+          :color="localFavourites.includes(bird) ? 'red' : 'grey'"
           @click="toggleFavourite"
         >
           <v-icon>mdi-heart</v-icon>
