@@ -50,6 +50,8 @@ export default {
             switch (this.$vuetify.breakpoint.name) {
                 case "lg":
                     return "60%";
+                case "xl":
+                    return "50%";
                 default:
                     return "100%";
             }
@@ -57,6 +59,8 @@ export default {
         fontWidth() {
             switch (this.$vuetify.breakpoint.name) {
                 case "lg":
+                    return "subtitle-2";
+                case "xl":
                     return "headline";
                 default:
                     return "subtitle-2";
