@@ -29,8 +29,9 @@
     </v-main>
     <v-footer color="primary" class="app-bar">
       <a v-for="link in links" :key="link.title" :href="link.href" target="_blank">
-        <v-icon dark class="mr-1">{{link.icon}}</v-icon> 
+        <v-icon dark class="mr-1" :title="link.title">{{link.icon}}</v-icon> 
       </a>
+      <v-icon dark :title="`©${getYear()} Luca Milne`">mdi-copyright</v-icon>
     </v-footer>
   </v-app>
 </template>
@@ -57,5 +58,11 @@ export default {
       { href: "https://www.linkedin.com/in/luca-milne/", icon: "mdi-linkedin", title: "LinkedIn" },
     ]
   }),
+  methods: {
+    getYear() {
+      const date = new Date();
+      return date.getFullYear();
+    }
+  }
 };
 </script>
