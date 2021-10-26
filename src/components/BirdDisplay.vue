@@ -4,8 +4,8 @@
         <v-card-subtitle class="pb-0">{{ bird.scientificName }}</v-card-subtitle>
         <v-carousel
             v-model="model"
-            :show-arrows="isArrayOfImages"
-            :progress="isArrayOfImages"
+            :show-arrows="bird.images.length > 1"
+            :progress="bird.images.length > 1"
             :hide-delimiters="true"
             height="100%"
         >
@@ -57,7 +57,7 @@
                 </tbody>
             </template>
         </v-simple-table>
-        <vuetify-audio v-if="bird.audio" :file="bird.audio" flat color="primary"></vuetify-audio>
+        <vuetify-audio v-if="bird.audio" :file="bird.audio" flat color="primary" :key="bird.name"></vuetify-audio>
         <v-divider></v-divider>
         <v-card-actions>
             <v-btn color="primary" text @click.stop="$router.push('/browse')">Browse</v-btn>
@@ -90,15 +90,6 @@ export default {
                 { label: "Weight", value: "weight" },
             ],
         };
-    },
-    computed: {
-        isArrayOfImages() {
-            if (this.bird.images.length > 1) {
-                return true;
-            } else {
-                return false;
-            }
-        },
     },
     methods: {
         toKebabCase(habitat) {
