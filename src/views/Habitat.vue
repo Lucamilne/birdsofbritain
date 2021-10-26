@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <v-list>
-            <v-list-item-subtitle>{{ habitat }} birds</v-list-item-subtitle>
+            <v-list-item-title class="mb-4 text-center">{{ habitat }} birds</v-list-item-title>
             <v-row>
                 <v-col cols="12" md="6" lg="4" xl="3" v-for="bird in sliceOfBirdList" :key="birds[bird].name">
                     <v-card tile>
@@ -25,12 +25,7 @@
                             </router-link>
                         </v-list-item>
                         <v-card-actions>
-                            <v-btn
-                                text
-                                color="primary"
-                                :to="`/birds/${toKebabCase(bird)}`"
-                                >Learn more</v-btn
-                            >
+                            <v-btn text color="primary" :to="`/birds/${toKebabCase(bird)}`">Learn more</v-btn>
                         </v-card-actions>
                     </v-card>
                 </v-col>

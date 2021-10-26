@@ -1,5 +1,5 @@
 <template>
-  <v-tabs>
+  <v-tabs centered >
     <v-tab v-for="tab in tabs" :key="tab.label">
       {{ tab.label }}
     </v-tab>

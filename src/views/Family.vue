@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <v-list>
-            <v-list-item-subtitle>{{ family }}</v-list-item-subtitle>
+            <v-list-item-title class="mb-4 text-center">{{ family }}</v-list-item-title>
             <v-row>
                 <v-col cols="12" md="6" lg="4" xl="3" v-for="bird in sliceOfBirdList" :key="birds.data[bird].name">
                     <v-card tile>
