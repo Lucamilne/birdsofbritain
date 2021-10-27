@@ -10542,8 +10542,7 @@ birds.listOfBirds = function () {
 
 birds.searchCharacteristics = function (habitat, featherColor, beak) {
     if (!habitat || !featherColor || !beak) {
-        console.log("Missing value!")
-        return;
+        return [];
     }
 
     var birdArray = []

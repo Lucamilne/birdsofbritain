@@ -47,11 +47,10 @@
           :disabled="!currentValue"
           color="primary"
           depressed
-          @click="$router.push({name: 'results', params: { habitat: habitat, featherColor: featherColor, beak: beak}})"
+          @click="$router.push({name: 'results', query: { habitat: habitat, featherColor: featherColor.join(), beak: beak}})"
         >
           Find
         </v-btn>
-        <v-btn v-else text @click="$router.go()"> Reset </v-btn>
       </v-card-actions>
     </v-card>
   </v-container>
