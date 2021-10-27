@@ -1,5 +1,5 @@
 <template>
-    <v-item-group v-model="selected" multiple @change="$emit('beak', indexToBeak())">
+    <v-item-group v-model="selected" @change="$emit('beak', indexToBeak())">
         <v-row>
             <v-col v-for="(item, i) in items" :key="i" cols="6" lg="4" xl="3">
                 <v-item v-slot="{ active, toggle }">
@@ -47,7 +47,7 @@ export default {
         return {
             birds: birds.data,
             items: birds.listOfFeatures.beak,
-            selected: [],
+            selected: null,
             beaks: {
                 Short: "short-beak",
                 Long: "long-beak",
@@ -63,13 +63,7 @@ export default {
     },
     methods: {
         indexToBeak() {
-            if (this.selected.length < 1) {
-                return null;
-            }
-
-            return this.selected.map((index) => {
-                return this.items[index];
-            });
+            return this.items[this.selected];
         },
     },
 };

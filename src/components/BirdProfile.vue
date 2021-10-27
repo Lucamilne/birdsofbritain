@@ -67,9 +67,10 @@
 
 <script>
 import FavouriteToggle from "./FavouriteToggle.vue";
+import common from "@/common/utils.js";
 
 export default {
-    name: "BirdDisplay",
+    name: "BirdProfile",
     props: ["bird"],
     components: {
         VuetifyAudio: () => import("vuetify-audio"),
@@ -93,7 +94,7 @@ export default {
     },
     methods: {
         toKebabCase(habitat) {
-            return habitat.toLowerCase().replaceAll(" ", "-");
+            return common.toKebabCase(habitat)
         },
     },
 };

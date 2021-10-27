@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-card flat>
+    <v-card flat width="100%">
       <div class="d-flex justify-space-between align-center">
         <span>
           <v-card-title>
@@ -15,31 +15,21 @@
           v-text="step"
         ></v-avatar>
       </div>
-
       <v-progress-linear :value="currentProgress"></v-progress-linear>
+      <v-window v-model="step" class="my-4">
+        <v-window-item :value="1">
+          <HabitatSelect v-on:habitat="habitat = $event" />
+        </v-window-item>
 
-      <v-card-text>
-        <v-window v-model="step">
-          <v-window-item :value="1">
-            <HabitatSelect v-on:habitat="habitat = $event" />
-          </v-window-item>
+        <v-window-item :value="2">
+          <FeatherSelect v-on:feather-color="featherColor = $event" />
+        </v-window-item>
 
-          <v-window-item :value="2">
-            <FeatherSelect v-on:feather-color="featherColor = $event" />
-          </v-window-item>
-
-          <v-window-item :value="3">
-            <BeakSelect v-on:beak="beak = $event" />
-          </v-window-item>
-
-          <v-window-item :value="4">
-            <Results :results="results" />
-          </v-window-item>
-        </v-window>
-      </v-card-text>
-
+        <v-window-item :value="3">
+          <BeakSelect v-on:beak="beak = $event" />
+        </v-window-item>
+      </v-window>
       <v-divider></v-divider>
-
       <v-card-actions>
         <v-btn :disabled="step === 1" text @click="step--">Back </v-btn>
         <v-spacer></v-spacer>
@@ -57,10 +47,7 @@
           :disabled="!currentValue"
           color="primary"
           depressed
-          @click="
-            results = search(habitat, featherColor, beak);
-            step++;
-          "
+          @click="$router.push({name: 'results', params: { habitat: habitat, featherColor: featherColor, beak: beak}})"
         >
           Find
         </v-btn>
@@ -71,12 +58,9 @@
 </template>
 
 <script>
-import birds from "@/common/birds.js";
-
 import HabitatSelect from "../components/HabitatSelect";
 import FeatherSelect from "../components/FeatherSelect";
 import BeakSelect from "../components/BeakSelect";
-import Results from "../components/Results";
 
 export default {
   name: "Identify",
@@ -84,7 +68,6 @@ export default {
     HabitatSelect,
     FeatherSelect,
     BeakSelect,
-    Results,
   },
   data: function () {
     return {
@@ -92,8 +75,6 @@ export default {
       featherColor: null,
       beak: null,
       step: 1,
-      search: birds.searchCharacteristics,
-      results: null,
     };
   },
   computed: {
@@ -109,15 +90,10 @@ export default {
             title: "What colours were in the plumage?",
             subtitle: "The plumage is the bird's feathers collectively",
           };
-        case 3:
-          return {
-            title: "Describe it's beak",
-            subtitle: "Choose all the options you believe to be true",
-          };
         default:
           return {
-            title: "Possible matches",
-            subtitle: "Find the matches below based on your selections",
+            title: "Describe it's beak",
+            subtitle: "Choose from the options listed below",
           };
       }
     },
@@ -137,10 +113,8 @@ export default {
           return 25;
         case 2:
           return 50;
-        case 3:
-          return 75;
         default:
-          return 100;
+          return 75;
       }
     },
   },

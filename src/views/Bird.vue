@@ -1,18 +1,18 @@
 <template>
   <p v-if="!birds[bird]">404: doesn't exist</p>
   <v-container v-else>
-    <BirdDisplay :bird="birds[bird]" />
+    <BirdProfile :bird="birds[bird]" />
   </v-container>
 </template>
 
 <script>
 import birds from "@/common/birds.js";
-import BirdDisplay from "@/components/BirdDisplay";
+import BirdProfile from "@/components/BirdProfile";
 
 export default {
   name: "Bird",
   components: {
-    BirdDisplay,
+    BirdProfile,
   },
   data: function () {
     return {

@@ -21,6 +21,7 @@
 
 <script>
 import birds from "@/common/birds.js";
+import common from "@/common/utils.js";
 
 export default {
   name: "Search",
@@ -36,7 +37,7 @@ export default {
   },
   methods: {
     toKebabCase(bird) {
-      return bird.toLowerCase().replace(" ", "-");
+      return common.toKebabCase(bird);
     },
   },
 };

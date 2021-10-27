@@ -1,78 +1,55 @@
 <template>
-    <v-container>
-        <v-list>
-            <v-list-item-title class="mb-4 text-center">{{ habitat }} birds</v-list-item-title>
-            <v-row>
-                <v-col cols="12" md="6" lg="4" xl="3" v-for="bird in sliceOfBirdList" :key="birds[bird].name">
-                    <v-card tile>
-                        <v-list-item three-line>
-                            <v-list-item-content>
-                                <div class="overline mb-4">
-                                    {{ birds[bird].population.type }}
-                                </div>
-                                <v-list-item-title class="headline mb-1">
-                                    {{ birds[bird].name }}
-                                </v-list-item-title>
-                                <v-list-item-subtitle>{{ birds[bird].scientificName }}</v-list-item-subtitle>
-                            </v-list-item-content>
-                            <router-link :to="`/birds/${toKebabCase(bird)}`">
-                                <v-list-item-avatar tile size="120" color="grey lighten-4">
-                                    <img
-                                        :src="require(`../assets/birds/${birds[bird].images[0]}`)"
-                                        :alt="birds[bird].name"
-                                    />
-                                </v-list-item-avatar>
-                            </router-link>
-                        </v-list-item>
-                        <v-card-actions>
-                            <v-btn text color="primary" :to="`/birds/${toKebabCase(bird)}`">Learn more</v-btn>
-                        </v-card-actions>
-                    </v-card>
-                </v-col>
-            </v-row>
-        </v-list>
+  <v-container>
+    <v-list>
+      <v-list-item-title class="mb-4 text-center">{{ habitat }} birds</v-list-item-title>
+      <v-row>
+        <v-col
+          cols="12"
+          md="6"
+          lg="4"
+          xl="3"
+          v-for="bird in sliceOfBirdList"
+          :key="birds[bird].name"
+        >
+        <BirdTile :bird="bird" />
+        </v-col>
+      </v-row>
+    </v-list>
 
-        <div class="text-center">
-            <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
-        </div>
-    </v-container>
+    <div class="text-center">
+      <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
+    </div>
+  </v-container>
 </template>
 
 <script>
 import birds from "@/common/birds.js";
+import BirdTile from "../components/BirdTile.vue"
 
 export default {
-    name: "Habitat",
-    data: () => ({
-        page: 1,
-        resultsPerPage: 24,
-        birds: birds.data,
-        birdsByHabitat: birds.birdsByHabitat,
-    }),
-    computed: {
-        habitat() {
-            return birds.habitatByPath()[this.$route.params.id];
-        },
-        sliceOfBirdList() {
-            const start = (this.page - 1) * this.resultsPerPage;
-            const end = this.page * this.resultsPerPage;
+  name: "Habitat",
+  components: {
+    BirdTile
+  },
+  data: () => ({
+    page: 1,
+    resultsPerPage: 24,
+    birds: birds.data,
+    birdsByHabitat: birds.birdsByHabitat(),
+  }),
+  computed: {
+    habitat() {
+      return birds.habitatByPath()[this.$route.params.id];
+    },
+    sliceOfBirdList() {
+      const start = (this.page - 1) * this.resultsPerPage;
+      const end = this.page * this.resultsPerPage;
 
-            return birds.birdsByHabitat[this.habitat].slice(start, end);
-        },
-        numberOfPages() {
-            return Math.ceil(birds.birdsByHabitat[this.habitat].length / this.resultsPerPage);
-        },
+      return this.birdsByHabitat[this.habitat].slice(start, end);
     },
-    methods: {
-        toKebabCase(bird) {
-            return bird.toLowerCase().replaceAll(" ", "-");
-        },
+    numberOfPages() {
+      return Math.ceil(this.birdsByHabitat[this.habitat].length / this.resultsPerPage);
     },
+  },
 };
 </script>
-
-<style scoped>
-.v-avatar img {
-    object-fit: cover;
-}
-</style>

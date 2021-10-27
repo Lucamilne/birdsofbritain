@@ -7,6 +7,7 @@ import Bird from "./views/Bird.vue";
 import Habitat from "./views/Habitat.vue";
 import Family from "./views/Family.vue";
 import Favourites from "./views/Favourites.vue";
+import Results from "./views/Results.vue"
 
 Vue.use(Router);
 
@@ -22,6 +23,11 @@ export default new Router({
             path: "/identify",
             name: "identify",
             component: Identify
+        },
+        {
+            path: "/identify/results",
+            name: "results",
+            component: Results
         },
         {
             path: "/browse",

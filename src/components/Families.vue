@@ -32,6 +32,7 @@
 
 <script>
 import birds from "@/common/birds.js";
+import common from "@/common/utils.js";
 
 export default {
   name: "Families",
@@ -39,13 +40,12 @@ export default {
     return {
       selected: null,
       birds: birds.data,
-      families: Object.keys(birds.birdsByFamily),
-      birdsByFamily: birds.birdsByFamily,
+      families: birds.listOfFamilies,
     };
   },
   methods: {
     toKebabCase(family) {
-      return family.toLowerCase().replaceAll(" ", "-");
+      return common.toKebabCase(family);
     },
   },
 };
