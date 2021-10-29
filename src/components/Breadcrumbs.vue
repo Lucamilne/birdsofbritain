@@ -30,13 +30,19 @@ export default {
             route.forEach((crumb, index) => {
                 if (crumb) {
                     currentHref.push("/" + crumb);
-                }
 
-                breadcrumbs.push({
-                    text: crumb ? this.getCapatalisedCrumbFromPath(crumb) : "Home",
-                    disabled: index !== route.length - 1 ? false : true,
-                    path: crumb ? currentHref.join("") : "/",
-                });
+                    breadcrumbs.push({
+                        text: this.getCapatalisedCrumbFromPath(crumb),
+                        disabled: index !== route.length - 1 ? false : true,
+                        path: currentHref.join(""),
+                    });
+                } else {
+                    breadcrumbs.push({
+                        text: "Home",
+                        disabled: false,
+                        path: "/",
+                    });
+                }
             });
 
             return breadcrumbs;
