@@ -6,7 +6,7 @@
           v-for="item in items"
           :key="item.name"
           link
-          @click.stop="$router.push({ name: item.route })"
+          :to="item.path"
         >
           <v-list-item-action>
             <v-icon>{{ item.icon }}</v-icon>
@@ -48,10 +48,10 @@ export default {
     drawer: false,
     value: null,
     items: [
-      { name: "Home", icon: "mdi-home", route: "home" },
-      { name: "Identify", icon: "mdi-magnify", route: "identify" },
-      { name: "Browse", icon: "mdi-binoculars", route: "browse" },
-      { name: "Favourites", icon: "mdi-heart", route: "favourites" },
+      { name: "Home", icon: "mdi-home", path: "/" },
+      { name: "Identify", icon: "mdi-magnify", path: "/identify" },
+      { name: "Browse", icon: "mdi-binoculars", path: "/browse" },
+      { name: "Favourites", icon: "mdi-heart", path: "/favourites" },
     ],
     links: [
       { href: "https://github.com/Lucamilne/birdsofbritain", icon: "mdi-github", title: "Github" },
