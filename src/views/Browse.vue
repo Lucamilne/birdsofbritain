@@ -5,8 +5,8 @@
                 {{ tab.label }}
             </v-tab>
         </v-tabs>
+        <Breadcrumbs />
         <v-container>
-            <Breadcrumbs />
             <router-view></router-view>
         </v-container>
     </div>

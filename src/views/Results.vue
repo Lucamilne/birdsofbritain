@@ -1,32 +1,34 @@
 <template>
-    <v-container>
-        <v-list v-if="results.length > 0">
-            <Breadcrumbs />
-            <v-row>
-                <v-col cols="12" md="6" lg="4" xl="3" v-for="bird in sliceOfResults" :key="birds[bird].name">
-                    <BirdTile :bird="bird" />
-                </v-col>
-            </v-row>
-            <div class="text-center" v-if="results.length > resultsPerPage">
-                <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
-            </div>
-        </v-list>
-        <v-card flat v-else min-height="450" class="d-flex align-center justify-center">
-            <v-card-subtitle>No matches found</v-card-subtitle>
-        </v-card>
-    </v-container>
+    <div>
+        <Breadcrumbs />
+        <v-container>
+            <v-list v-if="results.length > 0">
+                <v-row>
+                    <v-col cols="12" md="6" lg="4" xl="3" v-for="bird in sliceOfResults" :key="birds[bird].name">
+                        <BirdTile :bird="bird" />
+                    </v-col>
+                </v-row>
+                <div class="text-center" v-if="results.length > resultsPerPage">
+                    <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
+                </div>
+            </v-list>
+            <v-card flat v-else min-height="450" class="d-flex align-center justify-center">
+                <v-card-subtitle>No matches found</v-card-subtitle>
+            </v-card>
+        </v-container>
+    </div>
 </template>
 
 <script>
 import birds from "@/common/birds.js";
 import BirdTile from "../components/BirdTile.vue";
-import Breadcrumbs from "../components/Breadcrumbs.vue"
+import Breadcrumbs from "../components/Breadcrumbs.vue";
 
 export default {
     name: "results",
     components: {
         BirdTile,
-        Breadcrumbs
+        Breadcrumbs,
     },
     data: () => ({
         model: 0,

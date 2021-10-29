@@ -1,34 +1,36 @@
 <template>
-    <v-container>
+    <div>
         <Breadcrumbs />
-        <v-list v-if="localFavourites.length > 0">
-            <v-row>
-                <v-col cols="12" md="6" lg="4" xl="3" v-for="bird in sliceOfBirdList" :key="birds[bird].name">
-                    <BirdTile :bird="bird" />
-                </v-col>
-            </v-row>
-        </v-list>
+        <v-container>
+            <v-list v-if="localFavourites.length > 0">
+                <v-row>
+                    <v-col cols="12" md="6" lg="4" xl="3" v-for="bird in sliceOfBirdList" :key="birds[bird].name">
+                        <BirdTile :bird="bird" />
+                    </v-col>
+                </v-row>
+            </v-list>
 
-        <div class="text-center" v-if="localFavourites.length > resultsPerPage">
-            <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
-        </div>
+            <div class="text-center" v-if="localFavourites.length > resultsPerPage">
+                <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
+            </div>
 
-        <v-card v-if="localFavourites.length === 0" flat class="text-center">
-            <v-card-subtitle>No favourites added</v-card-subtitle>
-        </v-card>
-    </v-container>
+            <v-card v-if="localFavourites.length === 0" flat class="text-center">
+                <v-card-subtitle>No favourites added</v-card-subtitle>
+            </v-card>
+        </v-container>
+    </div>
 </template>
 
 <script>
 import birds from "@/common/birds.js";
 import BirdTile from "../components/BirdTile.vue";
-import Breadcrumbs from "../components/Breadcrumbs.vue"
+import Breadcrumbs from "../components/Breadcrumbs.vue";
 
 export default {
     name: "Favourites",
     components: {
         BirdTile,
-        Breadcrumbs
+        Breadcrumbs,
     },
     data: () => ({
         localFavourites: localStorage.getItem("favouriteBirds")
