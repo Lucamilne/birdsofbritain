@@ -1,7 +1,7 @@
 <template>
     <v-container>
+        <Breadcrumbs />
         <v-list v-if="localFavourites.length > 0">
-            <v-list-item-title class="mb-4 text-center">Your favourite birds</v-list-item-title>
             <v-row>
                 <v-col cols="12" md="6" lg="4" xl="3" v-for="bird in sliceOfBirdList" :key="birds[bird].name">
                     <BirdTile :bird="bird" />
@@ -21,12 +21,14 @@
 
 <script>
 import birds from "@/common/birds.js";
-import BirdTile from "../components/BirdTile.vue"
+import BirdTile from "../components/BirdTile.vue";
+import Breadcrumbs from "../components/Breadcrumbs.vue"
 
 export default {
     name: "Favourites",
     components: {
         BirdTile,
+        Breadcrumbs
     },
     data: () => ({
         localFavourites: localStorage.getItem("favouriteBirds")

@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <v-list v-if="results.length > 0">
-            <v-list-item-title class="mb-4 text-center">Possible matches</v-list-item-title>
+            <Breadcrumbs />
             <v-row>
                 <v-col cols="12" md="6" lg="4" xl="3" v-for="bird in sliceOfResults" :key="birds[bird].name">
                     <BirdTile :bird="bird" />
@@ -20,11 +20,13 @@
 <script>
 import birds from "@/common/birds.js";
 import BirdTile from "../components/BirdTile.vue";
+import Breadcrumbs from "../components/Breadcrumbs.vue"
 
 export default {
     name: "results",
     components: {
         BirdTile,
+        Breadcrumbs
     },
     data: () => ({
         model: 0,

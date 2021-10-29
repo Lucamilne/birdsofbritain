@@ -5,25 +5,30 @@
                 {{ tab.label }}
             </v-tab>
         </v-tabs>
-        <router-view></router-view>
+        <v-container>
+            <Breadcrumbs />
+            <router-view></router-view>
+        </v-container>
     </div>
 </template>
 
 <script>
-import Species from "../components/Species";
-import Habitats from "../components/Habitats";
-import Families from "../components/Families";
+import Species from "../components/Species.vue";
+import Habitats from "../components/Habitats.vue";
+import Families from "../components/Families.vue";
+import Breadcrumbs from "../components/Breadcrumbs.vue";
 
 export default {
     name: "Browse",
-    data: function () {
-        return {
-            tabs: [
-                { label: "Species", component: Species, path: "/browse/species" },
-                { label: "Habitat", component: Habitats, path: "/browse/habitats" },
-                { label: "Family", component: Families, path: "/browse/family" },
-            ],
-        };
+    components: {
+        Breadcrumbs,
     },
+    data: () => ({
+        tabs: [
+            { label: "Species", component: Species, path: "/browse/species" },
+            { label: "Habitat", component: Habitats, path: "/browse/habitats" },
+            { label: "Family", component: Families, path: "/browse/family" },
+        ],
+    }),
 };
 </script>
