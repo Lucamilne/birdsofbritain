@@ -42,14 +42,5 @@ export default {
 .v-avatar img {
     object-fit: cover;
 }
-.position-absolute {
-    position: absolute;
-}
-.bottom {
-    bottom: 0;
-}
-.right {
-    right: 0;
-}
 </style>
 
