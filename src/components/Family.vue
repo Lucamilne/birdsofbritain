@@ -1,7 +1,6 @@
 <template>
   <v-container>
     <v-list>
-      <v-list-item-title class="mb-4 text-center">{{ habitat }} birds</v-list-item-title>
       <v-row>
         <v-col
           cols="12"
@@ -11,23 +10,19 @@
           v-for="bird in sliceOfBirdList"
           :key="birds[bird].name"
         >
-        <BirdTile :bird="bird" />
+          <BirdTile :bird="bird"/>
         </v-col>
       </v-row>
     </v-list>
-
-    <div class="text-center">
-      <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
-    </div>
   </v-container>
 </template>
 
 <script>
 import birds from "@/common/birds.js";
-import BirdTile from "../components/BirdTile.vue"
+import BirdTile from "./BirdTile.vue"
 
 export default {
-  name: "Habitat",
+  name: "Family",
   components: {
     BirdTile
   },
@@ -35,20 +30,17 @@ export default {
     page: 1,
     resultsPerPage: 24,
     birds: birds.data,
-    birdsByHabitat: birds.birdsByHabitat(),
+    birdsByFamily: birds.birdsByFamily(),
   }),
   computed: {
-    habitat() {
-      return birds.habitatByPath()[this.$route.params.id];
+    family() {
+      return birds.familyByPath()[this.$route.params.id];
     },
     sliceOfBirdList() {
       const start = (this.page - 1) * this.resultsPerPage;
       const end = this.page * this.resultsPerPage;
 
-      return this.birdsByHabitat[this.habitat].slice(start, end);
-    },
-    numberOfPages() {
-      return Math.ceil(this.birdsByHabitat[this.habitat].length / this.resultsPerPage);
+      return this.birdsByFamily[this.family].slice(start, end);
     },
   },
 };

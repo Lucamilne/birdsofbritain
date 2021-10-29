@@ -12,7 +12,7 @@
               @click="
                 toggle;
                 $router.push({
-                  name: 'habitats',
+                  name: 'habitat',
                   params: { id: toKebabCase(habitat) },
                 });
               "

@@ -23,7 +23,7 @@ import birds from "@/common/birds.js";
 import BirdTile from "./BirdTile.vue"
 
 export default {
-  name: "Birds",
+  name: "Species",
   components: {
       BirdTile
   },

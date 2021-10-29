@@ -1,13 +1,16 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
-import Identify from "./views/Identify.vue";
-import Browse from "./views/Browse.vue";
-import Bird from "./views/Bird.vue";
-import Habitat from "./views/Habitat.vue";
-import Family from "./views/Family.vue";
-import Favourites from "./views/Favourites.vue";
-import Results from "./views/Results.vue"
+import Home from "./views/Home";
+import Identify from "./views/Identify";
+import Browse from "./views/Browse";
+import Bird from "./views/Bird";
+import Species from "./components/Species"
+import Habitats from "./components/Habitats";
+import Families from "./components/Families";
+import Habitat from "./components/Habitat";
+import Family from "./components/Family";
+import Favourites from "./views/Favourites";
+import Results from "./views/Results"
 
 Vue.use(Router);
 
@@ -30,19 +33,37 @@ export default new Router({
             component: Results
         },
         {
-            path: "/browse",
+            path: "/browse/",
             name: "browse",
-            component: Browse
-        },
-        {
-            path: "/habitats/:id",
-            name: "habitats",
-            component: Habitat
-        },
-        {
-            path: "/families/:id",
-            name: "families",
-            component: Family,
+            redirect: "browse/species",
+            component: Browse,
+            children: [
+                {
+                    path: "species",
+                    name: "species",
+                    component: Species
+                },
+                {
+                    path: "habitats",
+                    name: "habitats",
+                    component: Habitats,
+                },
+                {
+                    path: "habitats/:id",
+                    name: "habitat",
+                    component: Habitat
+                },
+                {
+                    path: "family",
+                    name: "famililes",
+                    component: Families
+                },
+                {
+                    path: "family/:id",
+                    name: "family",
+                    component: Family
+                },
+            ]
         },
         {
             path: "/favourites",

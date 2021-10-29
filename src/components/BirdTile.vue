@@ -1,5 +1,5 @@
 <template>
-    <v-card v-ripple tile :to="`/birds/${toKebabCase(bird)}`">
+    <v-card tile :to="`/birds/${toKebabCase(bird)}`">
         <v-list-item three-line>
             <v-list-item-content>
                 <div class="overline mb-4">
@@ -14,9 +14,9 @@
                 <img :src="require(`../assets/birds/${birds[bird].images[0]}`)" :alt="birds[bird].name" />
             </v-list-item-avatar>
         </v-list-item>
-        <v-card-actions>
-            <v-btn text color="primary">Learn more</v-btn>
-        </v-card-actions>
+        <v-card-text>
+            <span class="text-button" color="primary">Learn More</span>
+        </v-card-text>
     </v-card>
 </template>
 
