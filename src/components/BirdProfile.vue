@@ -43,12 +43,7 @@
                     color="primary"
                     label
                     outlined
-                    @click="
-                        $router.push({
-                            name: 'habitats',
-                            params: { id: toKebabCase(habitat) },
-                        })
-                    "
+                    :to="'/browse/habitats/' + toKebabCase(habitat)"
                 >
                     {{ habitat }}
                 </v-chip>
