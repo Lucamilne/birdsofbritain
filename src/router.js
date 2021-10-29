@@ -44,12 +44,12 @@ export default new Router({
                     component: Species
                 },
                 {
-                    path: "habitats",
+                    path: "habitat",
                     name: "habitats",
                     component: Habitats,
                 },
                 {
-                    path: "habitats/:id",
+                    path: "habitat/:id",
                     name: "habitat",
                     component: Habitat
                 },

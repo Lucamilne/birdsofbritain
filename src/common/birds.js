@@ -7674,8 +7674,8 @@ birds.data = {
         "name": "Ruddy duck",
         "scientificName": "Oxyura jamaicensis",
         "images": [
-            "ruddy-duck_female_1200x675.jpg",
-            "ruddy-duck_male_1200x675.jpg"
+            "ruddy-duck_male_1200x675.jpg",
+            "ruddy-duck_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Introduced",

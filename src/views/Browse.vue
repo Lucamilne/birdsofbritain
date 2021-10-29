@@ -26,7 +26,7 @@ export default {
     data: () => ({
         tabs: [
             { label: "Species", component: Species, path: "/browse/species" },
-            { label: "Habitat", component: Habitats, path: "/browse/habitats" },
+            { label: "Habitat", component: Habitats, path: "/browse/habitat" },
             { label: "Family", component: Families, path: "/browse/family" },
         ],
     }),

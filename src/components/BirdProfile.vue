@@ -43,7 +43,7 @@
                     color="primary"
                     label
                     outlined
-                    :to="'/browse/habitats/' + toKebabCase(habitat)"
+                    :to="'/browse/habitat/' + toKebabCase(habitat)"
                 >
                     {{ habitat }}
                 </v-chip>
