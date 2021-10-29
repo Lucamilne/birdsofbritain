@@ -7439,8 +7439,8 @@ birds.data = {
         "name": "Robin",
         "scientificName": "Erithacus rubecula",
         "images": [
-            "robin_juvenile_1200x675.jpg",
-            "robin_adult_1200x675.jpg"
+            "robin_adult_1200x675.jpg",
+            "robin_juvenile_1200x675.jpg"
         ],
         "family": "Old World flycatchers and chats",
         "conservationStatus": "Green",

@@ -9,18 +9,25 @@
             :hide-delimiters="true"
             height="100%"
         >
-            <v-carousel-item
-                v-for="(image, i) in bird.images"
-                :key="i"
-                eager
-            >
-                <v-img :src="require(`../assets/birds/${image}`)" contain eager></v-img>
+            <v-carousel-item v-for="(image, i) in bird.images" :key="i" eager>
+                <v-img :src="require(`../assets/birds/${image}`)" contain eager>
+                    <v-chip
+                        v-if="getImageMetadata(image)"
+                        label
+                        small
+                        color="secondary"
+                        class="position-absolute bottom left ma-4"
+                    >
+                        <v-icon small left> mdi-label </v-icon>
+                        {{ getImageMetadata(image) }}
+                    </v-chip>
+                </v-img>
             </v-carousel-item>
         </v-carousel>
         <FavouriteToggle class="position-absolute top right ma-4" :bird="bird.name" />
         <v-divider></v-divider>
         <v-card-text class="text--primary position-relative">
-            <v-card-title class="overline position-absolute top right ma-4">
+            <v-card-title class="overline position-absolute top right mr-3">
                 {{ bird.population.type }}
             </v-card-title>
             <template v-for="(section, index) in sections">
@@ -94,7 +101,22 @@ export default {
     },
     methods: {
         toKebabCase(habitat) {
-            return common.toKebabCase(habitat)
+            return common.toKebabCase(habitat);
+        },
+        getImageMetadata(image) {
+            let metadata;
+
+            if (image.includes("male")) {
+                metadata = "Male";
+            }
+            if (image.includes("female")) {
+                metadata = "Female";
+            }
+            if (image.includes("juvenile")) {
+                metadata = "Juvenile";
+            }
+
+            return metadata;
         },
     },
 };
@@ -115,5 +137,8 @@ export default {
 }
 .right {
     right: 0;
+}
+.bottom {
+    bottom: 0;
 }
 </style>
