@@ -31,7 +31,7 @@ export default {
     data: () => ({
         model: 0,
         page: 1,
-        resultsPerPage: 9,
+        resultsPerPage: 24,
         birds: birds.data,
         search: birds.searchCharacteristics,
     }),
