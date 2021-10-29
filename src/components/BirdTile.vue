@@ -1,5 +1,5 @@
 <template>
-    <v-card tile :to="`/birds/${toKebabCase(bird)}`">
+    <v-card tile :to="`/browse/species/${toKebabCase(bird)}`">
         <v-list-item three-line>
             <v-list-item-content>
                 <div class="overline mb-4">

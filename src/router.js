@@ -66,14 +66,14 @@ export default new Router({
             ]
         },
         {
+            path: "/browse/species/:id",
+            name: "birds",
+            component: Bird,
+        },
+        {
             path: "/favourites",
             name: "favourites",
             component: Favourites,
-        },
-        {
-            path: "/birds/:id",
-            name: "birds",
-            component: Bird,
         }
     ]
 })
