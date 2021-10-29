@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-tabs centered>
+        <v-tabs centered dark background-color="secondary">
             <v-tab v-for="tab in tabs" :key="tab.label" :to="tab.path">
                 {{ tab.label }}
             </v-tab>
