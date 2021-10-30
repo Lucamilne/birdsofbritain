@@ -1,79 +1,71 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home";
-import Identify from "./views/Identify";
-import Browse from "./views/Browse";
-import Bird from "./views/Bird";
-import Species from "./components/Species"
-import Habitats from "./components/Habitats";
-import Families from "./components/Families";
-import Habitat from "./components/Habitat";
-import Family from "./components/Family";
-import Favourites from "./views/Favourites";
-import Results from "./views/Results"
 
 Vue.use(Router);
 
 export default new Router({
-    // mode: 'history',
     routes: [
         {
             path: "/",
             name: "home",
-            component: Home
+            component: () => import(/* webpackChuckName: "Home" */ "./views/Home") 
         },
         {
             path: "/identify",
             name: "identify",
-            component: Identify
+            component: () => import(/* webpackChuckName: "Identify" */ "./views/Identify") 
         },
         {
             path: "/identify/results",
             name: "results",
-            component: Results
+            component: () => import(/* webpackChuckName: "Results" */ "./views/Results") 
         },
         {
             path: "/browse/",
             name: "browse",
             redirect: "browse/species",
-            component: Browse,
+            component: () => import(/* webpackChuckName: "Browse" */ "./views/Browse"),
             children: [
                 {
                     path: "species",
                     name: "species",
-                    component: Species
+                    component: () => import(/* webpackChuckName: "Species" */ "./components/Species") 
                 },
                 {
                     path: "habitat",
                     name: "habitats",
-                    component: Habitats,
+                    component: () => import(/* webpackChuckName: "Habitats" */ "./components/Habitats") 
                 },
                 {
                     path: "habitat/:id",
                     name: "habitat",
-                    component: Habitat
+                    component: () => import(/* webpackChuckName: "Habitat" */ "./components/Habitat") 
                 },
                 {
                     path: "family",
                     name: "famililes",
-                    component: Families
+                    component: () => import(/* webpackChuckName: "Families" */ "./components/Families") 
                 },
                 {
                     path: "family/:id",
                     name: "family",
-                    component: Family
+                    component: () => import(/* webpackChuckName: "Family" */ "./components/Family") 
                 },
             ]
         },
         {
             path: "/browse/species/:id",
             name: "birds",
-            component: Bird,
+            component: () => import(/* webpackChuckName: "Bird" */ "./views/Bird") 
         },
         {
             path: "/favourites",
             name: "favourites",
-            component: Favourites,
+            component: () => import(/* webpackChuckName: "Favourites" */ "./views/Favourites") 
+        },
+        {
+            path: "*",
+            component: () => import(/* webpackChuckName: "NotFound" */ "./views/NotFound") 
         }
     ]
 })
