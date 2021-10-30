@@ -31,7 +31,6 @@ export default {
         Breadcrumbs,
     },
     data: () => ({
-        model: 0,
         page: 1,
         resultsPerPage: 24,
         birds: birds.data,
