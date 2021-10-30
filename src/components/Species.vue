@@ -21,11 +21,30 @@ export default {
         BirdTile,
     },
     data: () => ({
-        page: 1,
         resultsPerPage: 24,
         birds: birds.data,
     }),
     computed: {
+        page: {
+            get: function () {
+                if (this.$route.query.page && this.numberOfPages > 1) {
+                    return parseInt(this.$route.query.page);
+                }
+
+                this.$router.replace({
+                    name: "species",
+                    query: { page: 1 }
+                })
+
+                return 1;
+            },
+            set: function (newValue) {
+                this.$router.push({
+                    name: "species",
+                    query: { page: newValue },
+                });
+            },
+        },
         sliceOfBirdList() {
             const start = (this.page - 1) * this.resultsPerPage;
             const end = this.page * this.resultsPerPage;

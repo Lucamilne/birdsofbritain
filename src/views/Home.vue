@@ -15,11 +15,7 @@
                     v-for="item in items"
                     :key="item.name"
                     link
-                    @click.stop="
-                        $router.push(item.route).catch(() => {
-                            $router.go();
-                        })
-                    "
+                    :to="item.route"
                 >
                     {{ item.name }}
                 </v-btn>

@@ -24,7 +24,6 @@ export default {
         BirdTile,
     },
     data: () => ({
-        page: 1,
         resultsPerPage: 24,
         birds: birds.data,
         birdsByHabitat: birds.birdsByHabitat(),
@@ -32,6 +31,26 @@ export default {
     computed: {
         habitat() {
             return birds.habitatByPath()[this.$route.params.id];
+        },
+        page: {
+            get: function () {
+                if (this.$route.query.page && this.numberOfPages > 1) {
+                    return parseInt(this.$route.query.page);
+                }
+
+                this.$router.replace({
+                    name: "habitat",
+                    query: { page: 1 },
+                });
+
+                return 1;
+            },
+            set: function (newValue) {
+                this.$router.push({
+                    name: "habitat",
+                    query: { page: newValue },
+                });
+            },
         },
         sliceOfBirdList() {
             const start = (this.page - 1) * this.resultsPerPage;
