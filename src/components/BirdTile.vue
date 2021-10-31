@@ -5,7 +5,7 @@
                 <div class="overline mb-4">
                     {{ birds[bird].population.type }}
                 </div>
-                <v-list-item-title class="headline mb-1">
+                <v-list-item-title class="headline">
                     {{ birds[bird].name }}
                 </v-list-item-title>
                 <v-list-item-subtitle>{{ birds[bird].scientificName }}</v-list-item-subtitle>

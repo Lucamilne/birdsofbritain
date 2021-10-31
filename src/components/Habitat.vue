@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div v-if="habitat">
         <v-list>
             <v-row>
                 <v-col cols="12" md="6" lg="4" xl="3" v-for="bird in sliceOfBirdList" :key="birds[bird].name">
@@ -21,7 +21,7 @@ import BirdTile from "./BirdTile.vue";
 export default {
     name: "Habitat",
     components: {
-        BirdTile,
+        BirdTile
     },
     data: () => ({
         resultsPerPage: 24,
@@ -61,6 +61,11 @@ export default {
         numberOfPages() {
             return Math.ceil(this.birdsByHabitat[this.habitat].length / this.resultsPerPage);
         },
+    },
+    updated() {
+        if (!this.habitat) {
+            this.$router.replace({ name: "not-found" });
+        }
     },
 };
 </script>

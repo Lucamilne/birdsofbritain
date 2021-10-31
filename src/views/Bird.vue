@@ -1,18 +1,15 @@
 <template>
-    <NotFound v-if="!birds[bird]" />
-    <BirdProfile :bird="birds[bird]" v-else />
+    <BirdProfile :bird="birds[bird]" v-if="bird"/>
 </template>
 
 <script>
 import birds from "@/common/birds.js";
-import NotFound from "./NotFound.vue";
 import BirdProfile from "@/components/BirdProfile";
 
 export default {
     name: "Bird",
     components: {
-        NotFound,
-        BirdProfile,
+        BirdProfile
     },
     data: function () {
         return {
@@ -23,6 +20,11 @@ export default {
         bird() {
             return birds.birdsByPath()[this.$route.params.id];
         },
+    },
+        updated() {
+        if (!this.bird) {
+            this.$router.replace({ name: "not-found" });
+        }
     },
 };
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <v-list>
+    <v-list v-if="family">
         <v-row>
             <v-col cols="12" md="6" lg="4" xl="3" v-for="bird in sliceOfBirdList" :key="birds[bird].name">
                 <BirdTile :bird="bird" />
@@ -33,6 +33,11 @@ export default {
 
             return this.birdsByFamily[this.family].slice(start, end);
         },
+    },
+    updated() {
+        if (!this.family) {
+            this.$router.replace({ name: "not-found" });
+        }
     },
 };
 </script>
