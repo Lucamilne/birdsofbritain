@@ -1,10 +1,10 @@
 <template>
     <v-container>
         <v-card flat width="100%">
-            <v-card-title>
+            <v-card-title class="text-truncate">
                 {{ currentTitle.title }}
             </v-card-title>
-            <v-card-subtitle>{{ currentTitle.subtitle }}</v-card-subtitle>
+            <v-card-subtitle class="text-truncate">{{ currentTitle.subtitle }}</v-card-subtitle>
             <v-stepper v-model="step" tile flat>
                 <v-stepper-header>
                     <v-stepper-step color="secondary" step="1" :complete="step > 1">

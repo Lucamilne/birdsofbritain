@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div v-if="results.length > 0">
         <Breadcrumbs />
         <v-container>
-            <v-list v-if="results.length > 0">
+            <v-list>
                 <v-row>
                     <v-col cols="12" md="6" lg="4" xl="3" v-for="bird in sliceOfResults" :key="birds[bird].name">
                         <BirdTile :bird="bird" />
@@ -12,23 +12,23 @@
                     <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
                 </div>
             </v-list>
-            <v-card flat v-else min-height="450" class="d-flex align-center justify-center">
-                <v-card-subtitle>No matches found</v-card-subtitle>
-            </v-card>
         </v-container>
     </div>
+    <NotFound title="No matches found" subtitle="Please try the identification process again." btn="identify" v-else />
 </template>
 
 <script>
 import birds from "@/common/birds.js";
 import BirdTile from "../components/BirdTile.vue";
 import Breadcrumbs from "../components/Breadcrumbs.vue";
+import NotFound from "../views/NotFound.vue"
 
 export default {
     name: "results",
     components: {
         BirdTile,
         Breadcrumbs,
+        NotFound
     },
     data: () => ({
         page: 1,
