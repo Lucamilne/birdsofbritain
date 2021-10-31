@@ -14,7 +14,7 @@
             </v-list>
         </v-container>
     </div>
-    <NotFound title="No matches found" subtitle="Please try the identification process again." btn="identify" v-else />
+    <NotFound title="No matches found" subtitle="Please try the identification process again." v-else />
 </template>
 
 <script>

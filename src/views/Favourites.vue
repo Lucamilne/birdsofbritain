@@ -18,7 +18,6 @@
     <NotFound
         title="No favourites added"
         subtitle="Save a bird to favourites by clicking the heart icon on it's profile."
-        btn="browse"
         v-else
     />
 </template>
