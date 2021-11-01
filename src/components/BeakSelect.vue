@@ -1,7 +1,7 @@
 <template>
     <v-item-group v-model="selected" @change="$emit('beak', indexToBeak())">
         <v-row>
-            <v-col v-for="(item, i) in items" :key="i" cols="6" lg="4" xl="3">
+            <v-col v-for="(item, i) in items" :key="i" cols="6" md="4" lg="3">
                 <v-item v-slot="{ active, toggle }">
                     <v-card
                         tile

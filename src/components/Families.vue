@@ -1,7 +1,7 @@
 <template>
     <v-item-group v-model="selected">
         <v-row>
-            <v-col v-for="(family, i) in families" :key="i" cols="6" md="3">
+            <v-col v-for="(family, i) in families" :key="i" cols="6" md="3" xl="2">
                 <v-item v-slot="{ active, toggle }">
                     <v-card
                         tile
