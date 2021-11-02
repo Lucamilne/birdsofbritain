@@ -32,13 +32,7 @@ export default {
             items: [
                 { name: "Identify", icon: "mdi-magnify", route: "/identify" },
                 { name: "Browse", icon: "mdi-binoculars", route: "/browse" },
-            ],
-            images: [
-                { alt: "magpie", path: "magpie.jpg" },
-                { alt: "robin", path: "robin.jpg" },
-                { alt: "blackbird", path: "blackbird.jpg" },
-                { alt: "kingfisher", path: "kingfisher.jpg" },
-            ],
+            ]
         };
     },
     computed: {
@@ -69,7 +63,7 @@ export default {
 <style scoped>
 .hero-background {
     background-image: linear-gradient(to bottom, rgba(187, 200, 186, 0.6) 0%, rgba(84, 103, 71, 0.6) 100%),
-        url("../assets/images/robin.jpg");
+        url("../assets/images/robin.webp");
     background-blend-mode: soft-light;
     background-size: cover;
     background-position: center center;
