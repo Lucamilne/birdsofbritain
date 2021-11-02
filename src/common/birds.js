@@ -53,7 +53,7 @@ birds.data = {
             ],
             "Beak": [
                 "Regular",
-                "Hooked",
+                "Hooked"
             ],
             "habitat": [
                 "Marine and intertidal"
@@ -64,9 +64,9 @@ birds.data = {
         "name": "Arctic tern",
         "scientificName": "Sterna paradisaea",
         "images": [
+            "arctic-tern_adult_inflight_1200x675.jpg",
             "arctic-tern_juvenile_inflight_1200x675.jpg",
-            "arctic-tern_1200x675.jpg",
-            "arctic-tern_adult_inflight_1200x675.jpg"
+            "arctic-tern_1200x675.jpg"
         ],
         "family": "Gulls and terns",
         "conservationStatus": "Amber",
@@ -161,8 +161,8 @@ birds.data = {
         "name": "Bar-tailed godwit",
         "scientificName": "Limosa lapponica",
         "images": [
-            "bar-tailed-godwit_nonbreedingplumage_inflight_1200x675.jpg",
             "bar-tailed-godwit_male_breedingplumage_1200x675.jpg",
+            "bar-tailed-godwit_nonbreedingplumage_inflight_1200x675.jpg",
             "bar-tailed-godwit_nonbreedingplumage_1200x675.jpg"
         ],
         "family": "Sandpipers, snipes and phalaropes",
@@ -246,8 +246,8 @@ birds.data = {
         "name": "Barnacle goose",
         "scientificName": "Branta leucopsis",
         "images": [
-            "barnacle-goose_juvenile_1200x675.jpg",
-            "barnacle-goose_adult_1200x675.jpg"
+            "barnacle-goose_adult_1200x675.jpg",
+            "barnacle-goose_juvenile_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -288,8 +288,8 @@ birds.data = {
         "name": "Bearded tit",
         "scientificName": "Panurus biarmicus",
         "images": [
-            "bearded-tit_female_1200x675.jpg",
-            "bearded-tit_male_1200x675.jpg"
+            "bearded-tit_male_1200x675.jpg",
+            "bearded-tit_female_1200x675.jpg"
         ],
         "family": "Bearded tit",
         "conservationStatus": "Green",
@@ -328,8 +328,8 @@ birds.data = {
         "name": "Bewick's swan",
         "scientificName": "Cygnus columbianus bewickii",
         "images": [
-            "bewick_s-swan_juvenile_1200x675.jpg",
-            "bewick_s-swan_adult_1200x675.jpg"
+            "bewick_s-swan_adult_1200x675.jpg",
+            "bewick_s-swan_juvenile_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -403,8 +403,8 @@ birds.data = {
         "name": "Black grouse",
         "scientificName": "Tetrao tetrix",
         "images": [
-            "black-grouse_female_1200x675.jpg",
-            "black-grouse_male_1200x675.jpg"
+            "black-grouse_male_1200x675.jpg",
+            "black-grouse_female_1200x675.jpg"
         ],
         "family": "Grouse",
         "conservationStatus": "Red",
@@ -465,7 +465,7 @@ birds.data = {
             ],
             "Beak": [
                 "Regular",
-                "Powerful",
+                "Powerful"
             ],
             "habitat": [
                 "Marine and intertidal"
@@ -476,8 +476,8 @@ birds.data = {
         "name": "Black redstart",
         "scientificName": "Phoenicurus ochruros",
         "images": [
-            "black-redstart_female_1200x675.jpg",
-            "black-redstart_male_1200x675.jpg"
+            "black-redstart_male_1200x675.jpg",
+            "black-redstart_female_1200x675.jpg"
         ],
         "family": "Chats",
         "conservationStatus": "Red",
@@ -553,8 +553,8 @@ birds.data = {
         "name": "Black-headed gull",
         "scientificName": "Chroicocephalus ridibundus",
         "images": [
-            "black-headed-gull_juvenile_1200x675.jpg",
             "black-headed-gull_adult_summerplumage_1200x675.jpg",
+            "black-headed-gull_juvenile_1200x675.jpg",
             "black-headed-gull_breedingplumage_inflight_1200x675.jpg",
             "black-headed-gull_firstwinter_1200x675.jpg"
         ],
@@ -675,8 +675,8 @@ birds.data = {
         "name": "Black-throated diver",
         "scientificName": "Gavia arctica",
         "images": [
-            "black-throated-diver_winterplumage_1200x675.jpg",
-            "black-throated-diver_adult_summerplumage_1200x675.jpg"
+            "black-throated-diver_adult_summerplumage_1200x675.jpg",
+            "black-throated-diver_winterplumage_1200x675.jpg"
         ],
         "family": "Divers",
         "conservationStatus": "Amber",
@@ -714,8 +714,8 @@ birds.data = {
         "name": "Blackbird",
         "scientificName": "Turdus merula",
         "images": [
-            "blackbird_juvenile_1200x675.jpg",
             "blackbird_male_1200x675.jpg",
+            "blackbird_juvenile_1200x675.jpg",
             "blackbird_female_1200x675.jpg"
         ],
         "family": "Thrushes",
@@ -753,8 +753,8 @@ birds.data = {
         "name": "Blackcap",
         "scientificName": "Sylvia atricapilla",
         "images": [
-            "blackcap_female_1200x675.jpg",
-            "blackcap_male_1200x675.jpg"
+            "blackcap_male_1200x675.jpg",
+            "blackcap_female_1200x675.jpg"
         ],
         "family": "Warblers",
         "conservationStatus": "Green",
@@ -793,8 +793,8 @@ birds.data = {
         "name": "Blue tit",
         "scientificName": "Cyanistes caeruleus",
         "images": [
-            "blue-tit_juvenile_1200x675.jpg",
-            "blue-tit_adult_1200x675.jpg"
+            "blue-tit_adult_1200x675.jpg",
+            "blue-tit_juvenile_1200x675.jpg"
         ],
         "family": "Tits",
         "conservationStatus": "Green",
@@ -856,8 +856,8 @@ birds.data = {
         "name": "Brambling",
         "scientificName": "Fringilla montifringilla",
         "images": [
-            "brambling_female_winterplumage_1200x675.jpg",
-            "brambling_male_winterplumage_1200x675.jpg"
+            "brambling_male_winterplumage_1200x675.jpg",
+            "brambling_female_winterplumage_1200x675.jpg"
         ],
         "family": "Finches",
         "conservationStatus": "Green",
@@ -938,8 +938,8 @@ birds.data = {
         "name": "Bullfinch",
         "scientificName": "Pyrrhula pyrrhula",
         "images": [
-            "bullfinch_juvenile_1200x675.jpg",
             "bullfinch_male_1200x675.jpg",
+            "bullfinch_juvenile_1200x675.jpg",
             "bullfinch_female_1200x675.jpg"
         ],
         "family": "Finches",
@@ -1064,8 +1064,8 @@ birds.data = {
         "name": "Capercaillie",
         "scientificName": "Tetrao urogallus",
         "images": [
-            "capercaillie_female_1200x675.jpg",
-            "capercaillie_male_1200x675.jpg"
+            "capercaillie_male_1200x675.jpg",
+            "capercaillie_female_1200x675.jpg"
         ],
         "family": "Grouse",
         "conservationStatus": "Red",
@@ -1219,8 +1219,8 @@ birds.data = {
         "name": "Chaffinch",
         "scientificName": "Fringilla coelebs",
         "images": [
-            "chaffinch_female_1200x675.jpg",
-            "chaffinch_male_1200x675.jpg"
+            "chaffinch_male_1200x675.jpg",
+            "chaffinch_female_1200x675.jpg"
         ],
         "family": "Finches",
         "conservationStatus": "Green",
@@ -1330,7 +1330,7 @@ birds.data = {
             ],
             "Beak": [
                 "Regular",
-                "Curved",
+                "Curved"
             ],
             "habitat": [
                 "Farmland",
@@ -1342,8 +1342,8 @@ birds.data = {
         "name": "Cirl bunting",
         "scientificName": "Emberiza cirlus",
         "images": [
-            "cirl-bunting_female_1200x675.jpg",
-            "cirl-bunting_male_1200x675.jpg"
+            "cirl-bunting_male_1200x675.jpg",
+            "cirl-bunting_female_1200x675.jpg"
         ],
         "family": "Buntings",
         "conservationStatus": "Red",
@@ -1381,8 +1381,8 @@ birds.data = {
         "name": "Coal tit",
         "scientificName": "Periparus ater",
         "images": [
-            "coal-tit_juvenile_1200x675.jpg",
-            "coal-tit_adult_1200x675.jpg"
+            "coal-tit_adult_1200x675.jpg",
+            "coal-tit_juvenile_1200x675.jpg"
         ],
         "family": "Tits",
         "conservationStatus": "Green",
@@ -1461,9 +1461,9 @@ birds.data = {
         "name": "Common gull",
         "scientificName": "Larus canus",
         "images": [
-            "common-gull_firstwinter_1200x675.jpg",
             "common-gull_adult_nonbreedingplumage_1200x675.jpg",
-            "common-gull_adult_breedingplumage1200x675.jpg"
+            "common-gull_adult_breedingplumage1200x675.jpg",
+            "common-gull_firstwinter_1200x675.jpg"
         ],
         "family": "Gulls and terns",
         "conservationStatus": "Amber",
@@ -1487,7 +1487,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Farmland",
@@ -1602,8 +1602,8 @@ birds.data = {
         "name": "Common scoter",
         "scientificName": "Melanitta nigra",
         "images": [
-            "common-scoter_female_1200x675.jpg",
-            "common-scoter_male_1200x675.jpg"
+            "common-scoter_male_1200x675.jpg",
+            "common-scoter_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Red",
@@ -1637,9 +1637,9 @@ birds.data = {
         "name": "Common tern",
         "scientificName": "Sterna hirundo",
         "images": [
-            "common-tern_juvenile_1200x675.jpg",
             "common-tern_adult_1200x675.jpg",
-            "common-tern_adult_inflight_1200x675.jpg"
+            "common-tern_adult_inflight_1200x675.jpg",
+            "common-tern_juvenile_1200x675.jpg"
         ],
         "family": "Gulls and terns",
         "conservationStatus": "Amber",
@@ -1675,8 +1675,8 @@ birds.data = {
         "name": "Coot",
         "scientificName": "Fulica atra",
         "images": [
-            "coot_juvenile_1200x675.jpg",
-            "coot_adult_1200x675.jpg"
+            "coot_adult_1200x675.jpg",
+            "coot_juvenile_1200x675.jpg"
         ],
         "family": "Rails, crakes and coots",
         "conservationStatus": "Green",
@@ -1831,9 +1831,9 @@ birds.data = {
         "name": "Crane",
         "scientificName": "Grus grus",
         "images": [
-            "crane_juvenile_1200x675.jpg",
             "crane_adult_1200x675.jpg",
-            "crane_adult_inflight_1200x675.jpg"
+            "crane_adult_inflight_1200x675.jpg",
+            "crane_juvenile_1200x675.jpg"
         ],
         "family": "Cranes",
         "conservationStatus": "Amber",
@@ -1859,7 +1859,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Farmland",
@@ -1909,8 +1909,8 @@ birds.data = {
         "name": "Crossbill",
         "scientificName": "Loxia curvirostra",
         "images": [
-            "common-crossbill_female_1200x675.jpg",
-            "crossbill_male_1200x675.jpg"
+            "crossbill_male_1200x675.jpg",
+            "common-crossbill_female_1200x675.jpg"
         ],
         "family": "Finches",
         "conservationStatus": "Green",
@@ -1946,9 +1946,9 @@ birds.data = {
         "name": "Cuckoo",
         "scientificName": "Cuculus canorus",
         "images": [
-            "cuckoo_grey_female_1200x675.jpg",
             "cuckoo_male_inflight_1200x675.jpg",
             "cuckoo_male_1200x675.jpg",
+            "cuckoo_grey_female_1200x675.jpg",
             "cuckoo_juvenile_1200x675.jpg"
         ],
         "family": "Cuckoos",
@@ -1974,7 +1974,7 @@ birds.data = {
             ],
             "Beak": [
                 "Regular",
-                "Curved",
+                "Curved"
             ],
             "habitat": [
                 "Woodland",
@@ -2031,8 +2031,8 @@ birds.data = {
         "name": "Curlew sandpiper",
         "scientificName": "Calidris ferruginea",
         "images": [
-            "curlew-sandpiper_juvenile_1200x675.jpg",
-            "curlew-sandpiper_adult_breedingplumage_1200x675.jpg"
+            "curlew-sandpiper_adult_breedingplumage_1200x675.jpg",
+            "curlew-sandpiper_juvenile_1200x675.jpg"
         ],
         "family": "Sandpipers, snipes and phalaropes",
         "conservationStatus": "Amber",
@@ -2113,8 +2113,8 @@ birds.data = {
         "name": "Dipper",
         "scientificName": "Cinclus cinclus",
         "images": [
-            "dipper_juvenile_1200x675.jpg",
-            "dipper_adult_1200x675.jpg"
+            "dipper_adult_1200x675.jpg",
+            "dipper_juvenile_1200x675.jpg"
         ],
         "family": "Dippers",
         "conservationStatus": "Amber",
@@ -2150,8 +2150,8 @@ birds.data = {
         "name": "Dotterel",
         "scientificName": "Charadrius morinellus",
         "images": [
-            "dotterel_juvenile_1200x675.jpg",
             "dotterel_adult_female_1200x675.jpg",
+            "dotterel_juvenile_1200x675.jpg",
             "dotterels_1200x675.jpg"
         ],
         "family": "Plovers",
@@ -2178,7 +2178,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Farmland",
@@ -2274,8 +2274,8 @@ birds.data = {
         "name": "Egyptian goose",
         "scientificName": "Alopochen aegyptiaca",
         "images": [
-            "egyption-goose_juvenile_1200x675.jpg",
-            "egyption-goose_adult_1200x675.jpg"
+            "egyption-goose_adult_1200x675.jpg",
+            "egyption-goose_juvenile_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Introduced",
@@ -2317,8 +2317,8 @@ birds.data = {
         "name": "Eider",
         "scientificName": "Somateria mollissima",
         "images": [
-            "eider_female_1200x675.jpg",
-            "eider_male_1200x675.jpg"
+            "eider_male_1200x675.jpg",
+            "eider_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -2381,7 +2381,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Woodland",
@@ -2460,7 +2460,7 @@ birds.data = {
             ],
             "Beak": [
                 "Regular",
-                "Hooked",
+                "Hooked"
             ],
             "habitat": [
                 "Marine and intertidal"
@@ -2471,8 +2471,8 @@ birds.data = {
         "name": "Gadwall",
         "scientificName": "Anas strepera",
         "images": [
-            "gadwall_female_1200x675.jpg",
-            "gadwall_male_1200x675.jpg"
+            "gadwall_male_1200x675.jpg",
+            "gadwall_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -2512,8 +2512,8 @@ birds.data = {
         "name": "Gannet",
         "scientificName": "Morus bassanus",
         "images": [
-            "gannet_immature_1200x675.jpg",
             "gannet_adult_1200x675.jpg",
+            "gannet_immature_1200x675.jpg",
             "gannet_inflight_1200x675.jpg",
             "gannet_juvenile_1200x675.jpg"
         ],
@@ -2588,8 +2588,8 @@ birds.data = {
         "name": "Garganey",
         "scientificName": "Anas querquedula",
         "images": [
-            "garganey_female_1200x675.jpg",
-            "garganey_adult_male_breedingplumage_1200x675.jpg"
+            "garganey_adult_male_breedingplumage_1200x675.jpg",
+            "garganey_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -2630,8 +2630,8 @@ birds.data = {
         "name": "Glaucous gull",
         "scientificName": "Larus hyperboreus",
         "images": [
-            "glaucous-gull_firstwinter_1200x675.jpg",
-            "glaucous-gull_adult_nonbreedingplumage_1200x675.jpg"
+            "glaucous-gull_adult_nonbreedingplumage_1200x675.jpg",
+            "glaucous-gull_firstwinter_1200x675.jpg"
         ],
         "family": "Gulls and terns",
         "conservationStatus": "Amber",
@@ -2669,8 +2669,8 @@ birds.data = {
         "name": "Goldcrest",
         "scientificName": "Regulus regulus",
         "images": [
-            "goldcrest_juvenile_1200x675.jpg",
-            "goldcrest_adult_1200x675.jpg"
+            "goldcrest_adult_1200x675.jpg",
+            "goldcrest_juvenile_1200x675.jpg"
         ],
         "family": "Kinglets and Firecrests",
         "conservationStatus": "Green",
@@ -2711,8 +2711,8 @@ birds.data = {
         "name": "Golden eagle",
         "scientificName": "Aquila chrysaetos",
         "images": [
-            "golden-eagle_juvenile_1200x675.jpg",
-            "golden-eagle_adult_1200x675.jpg"
+            "golden-eagle_adult_1200x675.jpg",
+            "golden-eagle_juvenile_1200x675.jpg"
         ],
         "family": "Kites, hawks and eagles",
         "conservationStatus": "Green",
@@ -2750,8 +2750,8 @@ birds.data = {
         "name": "Golden oriole",
         "scientificName": "Oriolus oriolus",
         "images": [
-            "golden-oriole_female_1200x675.jpg",
-            "golden-oriole_male_1200x675.jpg"
+            "golden-oriole_male_1200x675.jpg",
+            "golden-oriole_female_1200x675.jpg"
         ],
         "family": "Orioles",
         "conservationStatus": "Red",
@@ -2773,7 +2773,7 @@ birds.data = {
                 "Yellow"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Woodland"
@@ -2784,8 +2784,8 @@ birds.data = {
         "name": "Golden pheasant",
         "scientificName": "Chrysolophus pictus",
         "images": [
-            "golden-pheasant_female_1200x675.jpg",
-            "golden-pheasant_male_1200x675.jpg"
+            "golden-pheasant_male_1200x675.jpg",
+            "golden-pheasant_female_1200x675.jpg"
         ],
         "family": "Pheasants and partridges",
         "conservationStatus": "Introduced",
@@ -2854,7 +2854,7 @@ birds.data = {
                 "Yellow"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Farmland",
@@ -2870,8 +2870,8 @@ birds.data = {
         "name": "Goldeneye",
         "scientificName": "Bucephala clangula",
         "images": [
-            "goldeneye_female_1200x675.jpg",
-            "goldeneye_male_1200x675.jpg"
+            "goldeneye_male_1200x675.jpg",
+            "goldeneye_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -2908,8 +2908,8 @@ birds.data = {
         "name": "Goldfinch",
         "scientificName": "Carduelis carduelis",
         "images": [
-            "goldfinch_juvenile_1200x675.jpg",
-            "goldfinch_adult_1200x675.jpg"
+            "goldfinch_adult_1200x675.jpg",
+            "goldfinch_juvenile_1200x675.jpg"
         ],
         "family": "Finches",
         "conservationStatus": "Green",
@@ -2948,8 +2948,8 @@ birds.data = {
         "name": "Goosander",
         "scientificName": "Mergus merganser",
         "images": [
-            "goosander_female_1200x675.jpg",
-            "goosander_male_1200x675.jpg"
+            "goosander_male_1200x675.jpg",
+            "goosander_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Green",
@@ -2991,8 +2991,8 @@ birds.data = {
         "name": "Goshawk",
         "scientificName": "Accipiter gentilis",
         "images": [
-            "goshawk_juvenile_1200x675.jpg",
-            "goshawk_adult_1200x675.jpg"
+            "goshawk_adult_1200x675.jpg",
+            "goshawk_juvenile_1200x675.jpg"
         ],
         "family": "Kites, hawks and eagles",
         "conservationStatus": "Green",
@@ -3072,8 +3072,8 @@ birds.data = {
         "name": "Great black-backed gull",
         "scientificName": "Larus marinus",
         "images": [
-            "great-black-backed-gull_secondwinter_1200x675.jpg",
             "great-black-backed-gull_adult_1200x675.jpg",
+            "great-black-backed-gull_secondwinter_1200x675.jpg",
             "great-black-backed-gull_juvenile_1200x675.jpg"
         ],
         "family": "Gulls and terns",
@@ -3272,8 +3272,8 @@ birds.data = {
         "name": "Great skua",
         "scientificName": "Stercorarius skua",
         "images": [
-            "great-skua_juvenile_1200x675.jpg",
-            "great-skua_adult_1200x675.jpg"
+            "great-skua_adult_1200x675.jpg",
+            "great-skua_juvenile_1200x675.jpg"
         ],
         "family": "Skuas",
         "conservationStatus": "Amber",
@@ -3311,8 +3311,8 @@ birds.data = {
         "name": "Great spotted woodpecker",
         "scientificName": "Dendrocopos major",
         "images": [
-            "great-spotted-woodpecker_juvenile_1200x675.jpg",
             "great-spotted-woodpecker_male_1200x675.jpg",
+            "great-spotted-woodpecker_juvenile_1200x675.jpg",
             "great-spotted-woodpecker_female_1200x675.jpg"
         ],
         "family": "Woodpeckers",
@@ -3353,8 +3353,8 @@ birds.data = {
         "name": "Great tit",
         "scientificName": "Parus major",
         "images": [
-            "great-tit_juvenile_1200x675.jpg",
-            "great-tit_adult_1200x675.jpg"
+            "great-tit_adult_1200x675.jpg",
+            "great-tit_juvenile_1200x675.jpg"
         ],
         "family": "Tits",
         "conservationStatus": "Green",
@@ -3469,8 +3469,8 @@ birds.data = {
         "name": "Green woodpecker",
         "scientificName": "Picus viridis",
         "images": [
-            "green-woodpecker_inflight_1200x675.jpg",
             "green-woodpecker_male_1200x675.jpg",
+            "green-woodpecker_inflight_1200x675.jpg",
             "green-woodpecker_female_1200x675.jpg",
             "green-woodpecker_juvenile_1200x675.jpg"
         ],
@@ -3515,8 +3515,8 @@ birds.data = {
         "name": "Greenfinch",
         "scientificName": "Chloris chloris",
         "images": [
-            "greenfinch_female_1200x675.jpg",
-            "greenfinch_male_1200x675.jpg"
+            "greenfinch_male_1200x675.jpg",
+            "greenfinch_female_1200x675.jpg"
         ],
         "family": "Finches",
         "conservationStatus": "Green",
@@ -3597,8 +3597,8 @@ birds.data = {
         "name": "Grey heron",
         "scientificName": "Ardea cinerea",
         "images": [
-            "grey-heron_immature_1200x675.jpg",
-            "grey-heron_adult_1200x675.jpg"
+            "grey-heron_adult_1200x675.jpg",
+            "grey-heron_immature_1200x675.jpg"
         ],
         "family": "Herons, storks and ibises",
         "conservationStatus": "Green",
@@ -3640,8 +3640,8 @@ birds.data = {
         "name": "Grey partridge",
         "scientificName": "Perdix perdix",
         "images": [
-            "grey-partridge_juvenile_1200x675.jpg",
-            "grey-partridge_adult_male_1200x675.jpg"
+            "grey-partridge_adult_male_1200x675.jpg",
+            "grey-partridge_juvenile_1200x675.jpg"
         ],
         "family": "Pheasants and partridges",
         "conservationStatus": "Red",
@@ -3746,7 +3746,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Grassland",
@@ -3759,8 +3759,8 @@ birds.data = {
         "name": "Grey wagtail",
         "scientificName": "Motacilla cinerea",
         "images": [
-            "grey-wagtail_female_1200x675.jpg",
-            "grey-wagtail_male_1200x675.jpg"
+            "grey-wagtail_male_1200x675.jpg",
+            "grey-wagtail_female_1200x675.jpg"
         ],
         "family": "Pipits and wagtails",
         "conservationStatus": "Red",
@@ -3867,7 +3867,7 @@ birds.data = {
             ],
             "Beak": [
                 "Regular",
-                "Powerful",
+                "Powerful"
             ],
             "habitat": [
                 "Marine and intertidal"
@@ -3878,8 +3878,8 @@ birds.data = {
         "name": "Hawfinch",
         "scientificName": "Coccothraustes coccothraustes",
         "images": [
-            "hawfinch_female_nonbreedingplumage_1200x675.jpg",
-            "hawfinch_male_breedingplumage_1200x675.jpg"
+            "hawfinch_male_breedingplumage_1200x675.jpg",
+            "hawfinch_female_nonbreedingplumage_1200x675.jpg"
         ],
         "family": "Finches",
         "conservationStatus": "Red",
@@ -3920,8 +3920,8 @@ birds.data = {
         "name": "Hen harrier",
         "scientificName": "Circus cyaneus",
         "images": [
-            "hen-harrier_femalejuvenile_1200x675.jpg",
-            "hen-harrier_male_1200x675.jpg"
+            "hen-harrier_male_1200x675.jpg",
+            "hen-harrier_femalejuvenile_1200x675.jpg"
         ],
         "family": "Kites, hawks and eagles",
         "conservationStatus": "Red",
@@ -3961,9 +3961,9 @@ birds.data = {
         "name": "Herring gull",
         "scientificName": "Larus argentatus",
         "images": [
-            "herring-gull_secondwinter_1200x675.jpg",
             "herring-gull_adult_1200x675.jpg",
             "herring-gull_adult_inflight_1200x675.jpg",
+            "herring-gull_secondwinter_1200x675.jpg",
             "herring-gull_juvenile_1200x675.jpg"
         ],
         "family": "Gulls and terns",
@@ -4050,8 +4050,8 @@ birds.data = {
         "name": "Honey buzzard",
         "scientificName": "Pernis apivorus",
         "images": [
-            "honey-buzzard_female_1200x675.jpg",
-            "honey-buzzard_male_inflight_1200x675.jpg"
+            "honey-buzzard_male_inflight_1200x675.jpg",
+            "honey-buzzard_female_1200x675.jpg"
         ],
         "family": "Kites, hawks and eagles",
         "conservationStatus": "Amber",
@@ -4210,8 +4210,8 @@ birds.data = {
         "name": "House sparrow",
         "scientificName": "Passer domesticus",
         "images": [
-            "house-sparrow_adult_female_1200x675.jpg",
             "house-sparrow_adult_male_1200x675.jpg",
+            "house-sparrow_adult_female_1200x675.jpg",
             "house-sparrow_juvenile_1200x675.jpg"
         ],
         "family": "Old World sparrows",
@@ -4250,8 +4250,8 @@ birds.data = {
         "name": "Iceland gull",
         "scientificName": "Larus glaucoides",
         "images": [
-            "iceland-gull_firstwinter_1200x675.jpg",
-            "iceland-gull_adult_nonbreedingplumage_1200x675.jpg"
+            "iceland-gull_adult_nonbreedingplumage_1200x675.jpg",
+            "iceland-gull_firstwinter_1200x675.jpg"
         ],
         "family": "Gulls and terns",
         "conservationStatus": "Amber",
@@ -4274,7 +4274,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Farmland",
@@ -4408,8 +4408,8 @@ birds.data = {
         "name": "Kestrel",
         "scientificName": "Falco tinnunculus",
         "images": [
-            "kestrel_juvenile_1200x675.jpg",
-            "kestrel_male_1200x675.jpg"
+            "kestrel_male_1200x675.jpg",
+            "kestrel_juvenile_1200x675.jpg"
         ],
         "family": "Falcons",
         "conservationStatus": "Amber",
@@ -4492,9 +4492,9 @@ birds.data = {
         "name": "Kittiwake",
         "scientificName": "Rissa tridactyla",
         "images": [
-            "kittiwake_juvenile_inflight_1200x675.jpg",
             "kittiwake_adult_1200x675.jpg",
-            "kittiwake_adult_inflight_1200x675.jpg"
+            "kittiwake_adult_inflight_1200x675.jpg",
+            "kittiwake_juvenile_inflight_1200x675.jpg"
         ],
         "family": "Gulls and terns",
         "conservationStatus": "Red",
@@ -4685,8 +4685,8 @@ birds.data = {
         "name": "Lesser black-backed gull",
         "scientificName": "Larus fuscus",
         "images": [
-            "lesser-black-backed-gull_secondwinter_1200x675.jpg",
             "lesser-black-backed-gull_adult_1200x675.jpg",
+            "lesser-black-backed-gull_secondwinter_1200x675.jpg",
             "lesser-black-backed-gull_juvenile_1200x675.jpg"
         ],
         "family": "Gulls and terns",
@@ -4771,8 +4771,8 @@ birds.data = {
         "name": "Lesser spotted woodpecker",
         "scientificName": "Dendrocopos minor",
         "images": [
-            "lesser-spotted-woodpecker_1200x675.jpg",
-            "lesser-spotted-woodpecker_male_1200x675.jpg"
+            "lesser-spotted-woodpecker_male_1200x675.jpg",
+            "lesser-spotted-woodpecker_1200x675.jpg"
         ],
         "family": "Woodpeckers",
         "conservationStatus": "Red",
@@ -4850,8 +4850,8 @@ birds.data = {
         "name": "Linnet",
         "scientificName": "Linaria cannabina",
         "images": [
-            "linnet_female_1200x675.jpg",
-            "linnet_male_1200x675.jpg"
+            "linnet_male_1200x675.jpg",
+            "linnet_female_1200x675.jpg"
         ],
         "family": "Finches",
         "conservationStatus": "Red",
@@ -5007,9 +5007,9 @@ birds.data = {
         "name": "Little gull",
         "scientificName": "Hydrocoloeus minutus",
         "images": [
-            "little-gull_firstwinter_inflight_1200x675.jpg",
             "little-gull_adult_breedingplumage_1200x675.jpg",
-            "little-gull_adult_nonbreedingplumage_1200x675.jpg"
+            "little-gull_adult_nonbreedingplumage_1200x675.jpg",
+            "little-gull_firstwinter_inflight_1200x675.jpg"
         ],
         "family": "Gulls and terns",
         "conservationStatus": "Green",
@@ -5046,8 +5046,8 @@ birds.data = {
         "name": "Little owl",
         "scientificName": "Athene noctua",
         "images": [
-            "little-owl_juvenile_1200x675.jpg",
-            "little-owl_adult_1200x675.jpg"
+            "little-owl_adult_1200x675.jpg",
+            "little-owl_juvenile_1200x675.jpg"
         ],
         "family": "Owls",
         "conservationStatus": "Introduced",
@@ -5086,8 +5086,8 @@ birds.data = {
         "name": "Little ringed plover",
         "scientificName": "Charadrius dubius",
         "images": [
-            "little-ringed-plover_juvenile_1200x675.jpg",
             "little-ringed-plover_adult_breedingplumage_1200x675.jpg",
+            "little-ringed-plover_juvenile_1200x675.jpg",
             "little-ringed-plover_inflight_1200x675.jpg"
         ],
         "family": "Plovers",
@@ -5112,7 +5112,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Grassland",
@@ -5162,8 +5162,8 @@ birds.data = {
         "name": "Little tern",
         "scientificName": "Sternula albifrons",
         "images": [
-            "little-tern_juvenile_1200x675.jpg",
-            "little-tern_adult_breedingplumage_1200x675.jpg"
+            "little-tern_adult_breedingplumage_1200x675.jpg",
+            "little-tern_juvenile_1200x675.jpg"
         ],
         "family": "Gulls and terns",
         "conservationStatus": "Amber",
@@ -5240,8 +5240,8 @@ birds.data = {
         "name": "Long-tailed duck",
         "scientificName": "Clangula hyemalis",
         "images": [
-            "long-tailed-duck_female_nonbreedingplumage_1200x675.jpg",
-            "long-tailed-duck_male_breedingplumage_1200x675.jpg"
+            "long-tailed-duck_male_breedingplumage_1200x675.jpg",
+            "long-tailed-duck_female_nonbreedingplumage_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Red",
@@ -5278,8 +5278,8 @@ birds.data = {
         "name": "Long-tailed skua",
         "scientificName": "Stercorarius longicaudus",
         "images": [
-            "long-tailed-skua_juvenile_inflight_1200x675.jpg",
-            "long-tailed-skua_adult_1200x675.jpg"
+            "long-tailed-skua_adult_1200x675.jpg",
+            "long-tailed-skua_juvenile_inflight_1200x675.jpg"
         ],
         "family": "Skuas",
         "conservationStatus": "Green",
@@ -5306,7 +5306,7 @@ birds.data = {
             ],
             "Beak": [
                 "Regular",
-                "Hooked",
+                "Hooked"
             ],
             "habitat": [
                 "Marine and intertidal"
@@ -5401,8 +5401,8 @@ birds.data = {
         "name": "Mallard",
         "scientificName": "Anas platyrhynchos",
         "images": [
-            "mallard_female_1200x675.jpg",
-            "mallard_male_1200x675.jpg"
+            "mallard_male_1200x675.jpg",
+            "mallard_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -5446,8 +5446,8 @@ birds.data = {
         "name": "Mandarin",
         "scientificName": "Aix galericulata",
         "images": [
-            "mandarin_female_1200x675.jpg",
-            "mandarin_male_1200x675.jpg"
+            "mandarin_male_1200x675.jpg",
+            "mandarin_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Introduced",
@@ -5475,7 +5475,7 @@ birds.data = {
             ],
             "Beak": [
                 "Regular",
-                "Duck-like",
+                "Duck-like"
             ],
             "habitat": [
                 "Woodland",
@@ -5523,8 +5523,8 @@ birds.data = {
         "name": "Marsh harrier",
         "scientificName": "Circus aeruginosus",
         "images": [
-            "marsh-harrier_juvenile_1200x675.jpg",
             "marsh-harrier_male_1200x675.jpg",
+            "marsh-harrier_juvenile_1200x675.jpg",
             "marsh-harrier_female_1200x675.jpg"
         ],
         "family": "Kites, hawks and eagles",
@@ -5669,8 +5669,8 @@ birds.data = {
         "name": "Mediterranean gull",
         "scientificName": "Larus melanocephalus",
         "images": [
-            "meditteranean-gull_firstwinter_1200x675.jpg",
             "meditteranean-gull_adult_breedingplumage_1200x675.jpg",
+            "meditteranean-gull_firstwinter_1200x675.jpg",
             "meditteranean-gull_winter_1200x675.jpg"
         ],
         "family": "Gulls and terns",
@@ -5695,7 +5695,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Farmland",
@@ -5710,9 +5710,9 @@ birds.data = {
         "name": "Merlin",
         "scientificName": "Falco columbarius",
         "images": [
-            "merlin_adult_female_inflight_1200x675.jpg",
+            "merlin_adult_male_inflight_1200x675.jpg",
             "merlin_male_1200x675.jpg",
-            "merlin_adult_male_inflight_1200x675.jpg"
+            "merlin_adult_female_inflight_1200x675.jpg"
         ],
         "family": "Falcons",
         "conservationStatus": "Red",
@@ -5780,7 +5780,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Woodland",
@@ -5795,8 +5795,8 @@ birds.data = {
         "name": "Montagu's harrier",
         "scientificName": "Circus pygargus",
         "images": [
-            "montagu_s-harrier_female_inflight_1200x675.jpg",
-            "montagu_s-harrier_male_inflight_1200x675.jpg"
+            "montagu_s-harrier_male_inflight_1200x675.jpg",
+            "montagu_s-harrier_female_inflight_1200x675.jpg"
         ],
         "family": "Kites, hawks and eagles",
         "conservationStatus": "Amber",
@@ -5835,8 +5835,8 @@ birds.data = {
         "name": "Moorhen",
         "scientificName": "Gallinula chloropus",
         "images": [
-            "moorhen_juvenile_1200x675.jpg",
-            "moorhen_adult_1200x675.jpg"
+            "moorhen_adult_1200x675.jpg",
+            "moorhen_juvenile_1200x675.jpg"
         ],
         "family": "Rails, crakes and coots",
         "conservationStatus": "Green",
@@ -5874,8 +5874,8 @@ birds.data = {
         "name": "Mute swan",
         "scientificName": "Cygnus olor",
         "images": [
-            "mute-swan_juvenile_1200x675.jpg",
-            "mute-swan_adult_1200x675.jpg"
+            "mute-swan_adult_1200x675.jpg",
+            "mute-swan_juvenile_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -5950,8 +5950,8 @@ birds.data = {
         "name": "Nightjar",
         "scientificName": "Caprimulgus europaeus",
         "images": [
-            "nightjar_female_1200x675.jpg",
-            "nightjar_male_1200x675.jpg"
+            "nightjar_male_1200x675.jpg",
+            "nightjar_female_1200x675.jpg"
         ],
         "family": "Nightjars",
         "conservationStatus": "Amber",
@@ -6016,7 +6016,7 @@ birds.data = {
             ],
             "Beak": [
                 "Regular",
-                "Powerful",
+                "Powerful"
             ],
             "habitat": [
                 "Woodland",
@@ -6028,8 +6028,8 @@ birds.data = {
         "name": "Osprey",
         "scientificName": "Pandion haliaetus",
         "images": [
-            "osprey_juvenile_1200x675.jpg",
-            "osprey_adult_1200x675.jpg"
+            "osprey_adult_1200x675.jpg",
+            "osprey_juvenile_1200x675.jpg"
         ],
         "family": "Osprey",
         "conservationStatus": "Amber",
@@ -6106,8 +6106,8 @@ birds.data = {
         "name": "Parrot crossbill",
         "scientificName": "Loxia pytyopsittacus",
         "images": [
-            "parrot-crossbill_female_1200x675.jpg",
-            "parrot-crossbill_male_1200x675.jpg"
+            "parrot-crossbill_male_1200x675.jpg",
+            "parrot-crossbill_female_1200x675.jpg"
         ],
         "family": "Finches",
         "conservationStatus": "Amber",
@@ -6186,9 +6186,9 @@ birds.data = {
         "name": "Peregrine",
         "scientificName": "Falco peregrinus",
         "images": [
-            "peregrine_juvenile_inflight_1200x675.jpg",
             "peregrine_adult_1200x675.jpg",
             "peregrine_adult_inflight_1200x675.jpg",
+            "peregrine_juvenile_inflight_1200x675.jpg",
             "peregrine_juvenile_1200x675.jpg"
         ],
         "family": "Falcons",
@@ -6230,8 +6230,8 @@ birds.data = {
         "name": "Pheasant",
         "scientificName": "Phasianus colchicus",
         "images": [
-            "pheasant_female_1200x675.jpg",
-            "pheasant_male_1200x675.jpg"
+            "pheasant_male_1200x675.jpg",
+            "pheasant_female_1200x675.jpg"
         ],
         "family": "Pheasants and partridges",
         "conservationStatus": "Introduced",
@@ -6277,8 +6277,8 @@ birds.data = {
         "name": "Pied flycatcher",
         "scientificName": "Ficedula hypoleuca",
         "images": [
-            "pied-flycatcher_female_1200x675.jpg",
-            "pied-flycatcher_male_1200x675.jpg"
+            "pied-flycatcher_male_1200x675.jpg",
+            "pied-flycatcher_female_1200x675.jpg"
         ],
         "family": "Old World flycatchers and chats",
         "conservationStatus": "Red",
@@ -6313,8 +6313,8 @@ birds.data = {
         "name": "Pied wagtail",
         "scientificName": "Motacilla alba",
         "images": [
-            "pied-wagtail_juvenile_1200x675.jpg",
-            "pied-wagtail_adult_1200x675.jpg"
+            "pied-wagtail_adult_1200x675.jpg",
+            "pied-wagtail_juvenile_1200x675.jpg"
         ],
         "family": "Pipits and wagtails",
         "conservationStatus": "Green",
@@ -6395,8 +6395,8 @@ birds.data = {
         "name": "Pintail",
         "scientificName": "Anas acuta",
         "images": [
-            "pintail_female_1200x675.jpg",
-            "pintail_male_1200x675.jpg"
+            "pintail_male_1200x675.jpg",
+            "pintail_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -6437,8 +6437,8 @@ birds.data = {
         "name": "Pochard",
         "scientificName": "Aythya ferina",
         "images": [
-            "pochard_female_1200x675.jpg",
-            "pochard_male_1200x675.jpg"
+            "pochard_male_1200x675.jpg",
+            "pochard_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Red",
@@ -6506,7 +6506,7 @@ birds.data = {
             ],
             "Beak": [
                 "Regular",
-                "Hooked",
+                "Hooked"
             ],
             "habitat": [
                 "Marine and intertidal"
@@ -6554,8 +6554,8 @@ birds.data = {
         "name": "Puffin",
         "scientificName": "Fratercula arctica",
         "images": [
-            "puffin_firstwinter_1200x675.jpg",
-            "puffin_adult_breedingplumage_1200x675.jpg"
+            "puffin_adult_breedingplumage_1200x675.jpg",
+            "puffin_firstwinter_1200x675.jpg"
         ],
         "family": "Auks",
         "conservationStatus": "Red",
@@ -6744,8 +6744,8 @@ birds.data = {
         "name": "Red grouse",
         "scientificName": "Lagopus lagopus",
         "images": [
-            "red-grouse_female_1200x675.jpg",
-            "red-grouse_male_1200x675.jpg"
+            "red-grouse_male_1200x675.jpg",
+            "red-grouse_female_1200x675.jpg"
         ],
         "family": "Grouse",
         "conservationStatus": "Amber",
@@ -6782,8 +6782,8 @@ birds.data = {
         "name": "Red kite",
         "scientificName": "Milvus milvus",
         "images": [
-            "red-kite_juvenile_1200x675.jpg",
-            "red-kite_adult_1200x675.jpg"
+            "red-kite_adult_1200x675.jpg",
+            "red-kite_juvenile_1200x675.jpg"
         ],
         "family": "Kites, hawks and eagles",
         "conservationStatus": "Green",
@@ -6827,8 +6827,8 @@ birds.data = {
         "name": "Red-backed shrike",
         "scientificName": "Lanius collurio",
         "images": [
-            "red-backed-shrike_female_1200x675.jpg",
-            "red-backed-shrike_male_1200x675.jpg"
+            "red-backed-shrike_male_1200x675.jpg",
+            "red-backed-shrike_female_1200x675.jpg"
         ],
         "family": "Shrikes",
         "conservationStatus": "Red",
@@ -6873,8 +6873,8 @@ birds.data = {
         "name": "Red-breasted merganser",
         "scientificName": "Mergus serrator",
         "images": [
-            "red-breasted-merganser_female_1200x675.jpg",
-            "red-breasted-merganser_male_1200x675.jpg"
+            "red-breasted-merganser_male_1200x675.jpg",
+            "red-breasted-merganser_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Green",
@@ -6914,8 +6914,8 @@ birds.data = {
         "name": "Red-crested pochard",
         "scientificName": "Netta rufina",
         "images": [
-            "red-crested-pochard_female_1200x675.jpg",
-            "red-crested-pochard_male_1200x675.jpg"
+            "red-crested-pochard_male_1200x675.jpg",
+            "red-crested-pochard_female_1200x675.jpg"
         ],
         "family": "Duck, goose and swan family",
         "conservationStatus": "Introduced",
@@ -7159,8 +7159,8 @@ birds.data = {
         "name": "Redstart",
         "scientificName": "Phoenicurus phoenicurus",
         "images": [
-            "redstart_female_1200x675.jpg",
-            "redstart_male_1200x675.jpg"
+            "redstart_male_1200x675.jpg",
+            "redstart_female_1200x675.jpg"
         ],
         "family": "Chats",
         "conservationStatus": "Amber",
@@ -7228,7 +7228,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Woodland",
@@ -7242,8 +7242,8 @@ birds.data = {
         "name": "Reed bunting",
         "scientificName": "Emberiza schoeniclus",
         "images": [
-            "reed-bunting_female_1200x675.jpg",
-            "reed-bunting_male_1200x675.jpg"
+            "reed-bunting_male_1200x675.jpg",
+            "reed-bunting_female_1200x675.jpg"
         ],
         "family": "Buntings",
         "conservationStatus": "Amber",
@@ -7321,8 +7321,8 @@ birds.data = {
         "name": "Ring ouzel",
         "scientificName": "Turdus torquatus",
         "images": [
-            "ring-ouzel_female_1200x675.jpg",
-            "ring-ouzel_male_1200x675.jpg"
+            "ring-ouzel_male_1200x675.jpg",
+            "ring-ouzel_female_1200x675.jpg"
         ],
         "family": "Thrushes",
         "conservationStatus": "Red",
@@ -7345,7 +7345,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Farmland",
@@ -7426,7 +7426,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Grassland",
@@ -7559,8 +7559,8 @@ birds.data = {
         "name": "Rook",
         "scientificName": "Corvus frugilegus",
         "images": [
-            "rook_juvenile_1200x675.jpg",
-            "rook_adult_1200x675.jpg"
+            "rook_adult_1200x675.jpg",
+            "rook_juvenile_1200x675.jpg"
         ],
         "family": "Crows",
         "conservationStatus": "Green",
@@ -7893,8 +7893,8 @@ birds.data = {
         "name": "Scaup",
         "scientificName": "Aythya marila",
         "images": [
-            "scaup_female_1200x675.jpg",
-            "scaup_male_1200x675.jpg"
+            "scaup_male_1200x675.jpg",
+            "scaup_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Red",
@@ -7932,8 +7932,8 @@ birds.data = {
         "name": "Scottish crossbill",
         "scientificName": "Loxia scotica",
         "images": [
-            "scottish-crossbill_female_1200x675.jpg",
-            "scottish-crossbill_male_1200x675.jpg"
+            "scottish-crossbill_male_1200x675.jpg",
+            "scottish-crossbill_female_1200x675.jpg"
         ],
         "family": "Finches",
         "conservationStatus": "Amber",
@@ -8071,8 +8071,8 @@ birds.data = {
         "name": "Shelduck",
         "scientificName": "Tadorna tadorna",
         "images": [
-            "shelduck_juvenile_1200x675.jpg",
             "shelduck_male_1200x675.jpg",
+            "shelduck_juvenile_1200x675.jpg",
             "shelduck_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
@@ -8216,9 +8216,9 @@ birds.data = {
         "name": "Shoveler",
         "scientificName": "Anas clypeata",
         "images": [
-            "shoveler_female_1200x675.jpg",
             "shoveler_male_1200x675.jpg",
-            "shoveler_male_eclipseplumage_1200x675.jpg"
+            "shoveler_male_eclipseplumage_1200x675.jpg",
+            "shoveler_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -8260,8 +8260,8 @@ birds.data = {
         "name": "Siskin",
         "scientificName": "Carduelis spinus",
         "images": [
-            "siskin_female_1200x675.jpg",
-            "siskin_male_1200x675.jpg"
+            "siskin_male_1200x675.jpg",
+            "siskin_female_1200x675.jpg"
         ],
         "family": "Finches",
         "conservationStatus": "Green",
@@ -8378,8 +8378,8 @@ birds.data = {
         "name": "Smew",
         "scientificName": "Mergus albellus",
         "images": [
-            "smew_female_1200x675.jpg",
-            "smew_male_1200x675.jpg"
+            "smew_male_1200x675.jpg",
+            "smew_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -8456,8 +8456,8 @@ birds.data = {
         "name": "Snow bunting",
         "scientificName": "Plectrophenax nivalis",
         "images": [
-            "snow-bunting_female_firstwinter_1200x675.jpg",
-            "snow-bunting_male_breedingplumage_1200x675.jpg"
+            "snow-bunting_male_breedingplumage_1200x675.jpg",
+            "snow-bunting_female_firstwinter_1200x675.jpg"
         ],
         "family": "Buntings",
         "conservationStatus": "Amber",
@@ -8519,7 +8519,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Woodland",
@@ -8570,8 +8570,8 @@ birds.data = {
         "name": "Sparrowhawk",
         "scientificName": "Accipiter nisus",
         "images": [
-            "sparrowhawk_female_inflight_1200x675.jpg",
             "sparrowhawk_male_1200x675.jpg",
+            "sparrowhawk_female_inflight_1200x675.jpg",
             "sparrowhawk_female_1200x675.jpg"
         ],
         "family": "Kites, hawks and eagles",
@@ -8653,8 +8653,8 @@ birds.data = {
         "name": "Spotted crake",
         "scientificName": "Porzana porzana",
         "images": [
-            "spotted-crake_juvenile_1200x675.jpg",
-            "spotted-crake_adult_1200x675.jpg"
+            "spotted-crake_adult_1200x675.jpg",
+            "spotted-crake_juvenile_1200x675.jpg"
         ],
         "family": "Rails, crakes and coots",
         "conservationStatus": "Amber",
@@ -8766,8 +8766,8 @@ birds.data = {
         "name": "Starling",
         "scientificName": "Sturnus vulgaris",
         "images": [
-            "starling_juvenile_1200x675.jpg",
-            "starling_adult_1200x675.jpg"
+            "starling_adult_1200x675.jpg",
+            "starling_juvenile_1200x675.jpg"
         ],
         "family": "Starling",
         "conservationStatus": "Red",
@@ -8879,7 +8879,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Farmland",
@@ -8892,8 +8892,8 @@ birds.data = {
         "name": "Stonechat",
         "scientificName": "Saxicola rubicola",
         "images": [
-            "stonechat_female_1200x675.jpg",
-            "stonechat_male_1200x675.jpg"
+            "stonechat_male_1200x675.jpg",
+            "stonechat_female_1200x675.jpg"
         ],
         "family": "Chats",
         "conservationStatus": "Green",
@@ -9078,7 +9078,7 @@ birds.data = {
             ],
             "Beak": [
                 "Regular",
-                "Duck-like",
+                "Duck-like"
             ],
             "habitat": [
                 "Farmland",
@@ -9091,8 +9091,8 @@ birds.data = {
         "name": "Tawny owl",
         "scientificName": "Strix aluco",
         "images": [
-            "tawny-owl_juvenile_1200x675.jpg",
-            "tawny-owl_adult_1200x675.jpg"
+            "tawny-owl_adult_1200x675.jpg",
+            "tawny-owl_juvenile_1200x675.jpg"
         ],
         "family": "Owls",
         "conservationStatus": "Amber",
@@ -9133,8 +9133,8 @@ birds.data = {
         "name": "Teal",
         "scientificName": "Anas crecca",
         "images": [
-            "teal_female_1200x675.jpg",
-            "teal_male_1200x675.jpg"
+            "teal_male_1200x675.jpg",
+            "teal_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -9201,7 +9201,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Grassland",
@@ -9330,8 +9330,8 @@ birds.data = {
         "name": "Tufted duck",
         "scientificName": "Aythya fuligula",
         "images": [
-            "tufted-duck_female_1200x675.jpg",
-            "tufted-duck_male_1200x675.jpg"
+            "tufted-duck_male_1200x675.jpg",
+            "tufted-duck_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Green",
@@ -9395,7 +9395,7 @@ birds.data = {
             ],
             "Beak": [
                 "Regular",
-                "Duck-like",
+                "Duck-like"
             ],
             "habitat": [
                 "Farmland",
@@ -9433,7 +9433,7 @@ birds.data = {
                 "White"
             ],
             "Beak": [
-                "Regular",
+                "Regular"
             ],
             "habitat": [
                 "Marine and intertidal",
@@ -9530,8 +9530,8 @@ birds.data = {
         "name": "Velvet scoter",
         "scientificName": "Melanitta fusca",
         "images": [
-            "velvet-scoter_firstwinter_1200x675.jpg",
-            "velvet-scoter_malefemale_1200x675.jpg"
+            "velvet-scoter_malefemale_1200x675.jpg",
+            "velvet-scoter_firstwinter_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Red",
@@ -9689,8 +9689,8 @@ birds.data = {
         "name": "Wheatear",
         "scientificName": "Oenanthe oenanthe",
         "images": [
-            "wheatear_female_1200x675.jpg",
-            "wheatear_male_1200x675.jpg"
+            "wheatear_male_1200x675.jpg",
+            "wheatear_female_1200x675.jpg"
         ],
         "family": "Chats",
         "conservationStatus": "Green",
@@ -9772,8 +9772,8 @@ birds.data = {
         "name": "Whinchat",
         "scientificName": "Saxicola rubetra",
         "images": [
-            "whinchat_female_1200x675.jpg",
-            "whinchat_male_1200x675.jpg"
+            "whinchat_male_1200x675.jpg",
+            "whinchat_female_1200x675.jpg"
         ],
         "family": "Chats",
         "conservationStatus": "Red",
@@ -9856,9 +9856,9 @@ birds.data = {
         "name": "White-tailed eagle",
         "scientificName": "Haliaeetus albicilla",
         "images": [
-            "white-talied-eagle_juvenile_inflight_1200x675.jpg",
             "white-tailed-eagle_adult_1200x675.jpg",
-            "white-tailed-eagle_adult_inflight1_1200x675.jpg"
+            "white-tailed-eagle_adult_inflight1_1200x675.jpg",
+            "white-talied-eagle_juvenile_inflight_1200x675.jpg"
         ],
         "family": "Kites, hawks and eagles",
         "conservationStatus": "Red",
@@ -9900,8 +9900,8 @@ birds.data = {
         "name": "Whitethroat",
         "scientificName": "Sylvia communis",
         "images": [
-            "whitethroat_female_1200x675.jpg",
-            "whitethroat_male_1200x675.jpg"
+            "whitethroat_male_1200x675.jpg",
+            "whitethroat_female_1200x675.jpg"
         ],
         "family": "Warblers",
         "conservationStatus": "Green",
@@ -9944,8 +9944,8 @@ birds.data = {
         "name": "Whooper swan",
         "scientificName": "Cygnus cygnus",
         "images": [
-            "whooper-swan_juvenile_1200x675.jpg",
-            "whooper-swan_adult_1200x675.jpg"
+            "whooper-swan_adult_1200x675.jpg",
+            "whooper-swan_juvenile_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -9982,9 +9982,9 @@ birds.data = {
         "name": "Wigeon",
         "scientificName": "Anas penelope",
         "images": [
-            "wigeon_female_1200x675.jpg",
             "wigeon_male_1200x675.jpg",
-            "wigeon_male_eclipseplumage_1200x675.jpg"
+            "wigeon_male_eclipseplumage_1200x675.jpg",
+            "wigeon_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -10259,8 +10259,8 @@ birds.data = {
         "name": "Woodpigeon",
         "scientificName": "Columba palumbus",
         "images": [
-            "woodpigeon_juvenile_1200x675.jpg",
-            "woodpigeon_adult_1200x675.jpg"
+            "woodpigeon_adult_1200x675.jpg",
+            "woodpigeon_juvenile_1200x675.jpg"
         ],
         "family": "Pigeons and doves",
         "conservationStatus": "Green",
@@ -10456,8 +10456,8 @@ birds.data = {
         "name": "Yellow-legged gull",
         "scientificName": "Larus michahellis",
         "images": [
-            "yellow-legged-gull_secondwinter_1200x675.jpg",
             "yellow-legged-gull_adult_1200x675.jpg",
+            "yellow-legged-gull_secondwinter_1200x675.jpg",
             "yellow-legged-gull_firstwinter_1200x675.jpg"
         ],
         "family": "Gulls and terns",
@@ -10497,8 +10497,8 @@ birds.data = {
         "name": "Yellowhammer",
         "scientificName": "Emberiza citrinella",
         "images": [
-            "yellowhammer_female_1200x675.jpg",
-            "yellowhammer_male_1200x675.jpg"
+            "yellowhammer_male_1200x675.jpg",
+            "yellowhammer_female_1200x675.jpg"
         ],
         "family": "Buntings",
         "conservationStatus": "Red",
@@ -10668,7 +10668,7 @@ birds.listOfFamilies = [
     "Wrens"
 ]
 
-birds.birdsByFamily = function() {
+birds.birdsByFamily = function () {
     let birdsByFamily = new Object();
 
     birds.listOfFamilies.forEach(family => birdsByFamily[family] = []);
@@ -10726,11 +10726,11 @@ birds.familyByPath = function () {
     birds.listOfFamilies.forEach(family => {
         familyByPath[family.toLowerCase().replaceAll(" ", "-")] = family;
     })
-    
+
     return familyByPath;
 }
 
-birds.birdsByLetter = function() {
+birds.birdsByLetter = function () {
     let birdsByLetter = new Object();
     const listOfBirds = birds.listOfBirds();
 

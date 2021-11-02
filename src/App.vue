@@ -28,7 +28,7 @@
       <router-view />
     </v-main>
     <v-footer color="primary" class="app-bar">
-      <a v-for="link in links" :key="link.title" :href="link.href" target="_blank">
+      <a v-for="link in links" :key="link.title" :href="link.href" target="_blank" rel="noopener">
         <v-icon dark class="mr-1" :title="link.title">{{link.icon}}</v-icon> 
       </a>
     </v-footer>

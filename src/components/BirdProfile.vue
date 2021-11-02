@@ -111,6 +111,9 @@ export default {
             if (image.includes("female")) {
                 metadata = "Female";
             }
+            if (image.includes("adult")) {
+                metadata = "Adult";
+            }
             if (image.includes("juvenile")) {
                 metadata = "Juvenile";
             }
