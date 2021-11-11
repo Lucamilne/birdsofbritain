@@ -71,6 +71,11 @@ export default new Router({
             component: () => import(/* webpackChuckName: "Favourites" */ "./views/Favourites")
         },
         {
+            path: "/play-and-learn",
+            name: "cards",
+            component: () => import(/* webpackChuckName: "Cards" */ "./views/Cards")
+        },
+        {
             path: "/404",
             name: "not-found",
             component: () => import(/* webpackChuckName: "NotFound" */ "./views/NotFound")

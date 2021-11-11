@@ -12,6 +12,7 @@
     "core-js": "^3.18.3",
     "vue": "^2.6.14",
     "vue-router": "^3.5.2",
+    "vuedraggable": "^2.24.3",
     "vuetify": "^2.5.10",
     "vuetify-audio": "^0.3.3"
   },
