@@ -8,7 +8,7 @@
               @click="toggle"
               :aspect-ratio="4 / 3"
               :src="
-                require(`../assets/habitats/thumbnails/${toKebabCase(
+                require(`../assets/habitats/${toKebabCase(
                   item
                 )}.jpg`)
               "

@@ -18,7 +18,7 @@
                     >
                         <v-img
                             :aspect-ratio="4 / 3"
-                            :src="require(`../assets/habitats/thumbnails/${toKebabCase(habitat)}.jpg`)"
+                            :src="require(`../assets/habitats/${toKebabCase(habitat)}.jpg`)"
                             class="d-flex align-center text-center"
                         >
                             <span class="overline white--text">
