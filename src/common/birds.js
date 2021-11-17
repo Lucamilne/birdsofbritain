@@ -21,7 +21,10 @@ birds.data = {
         },
         "found": "Aquatic warblers are best looked for in coastal reedbeds along the south coast, often feeding near the reedbed in low vegetation. The RSPB reserve at Marazion Marsh, Cornwall records several aquatic warblers annually and they have also been seen at Radipole Lake and Lodmoor reserves in Dorset.",
         "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc24869---aquatic-warbler---acrocephalus-paludicola.mp3",
-        "features": null
+        "features": null,
+        "monthsActive": [
+            "aug"
+        ]
     },
     "Arctic skua": {
         "name": "Arctic skua",
@@ -58,7 +61,18 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov"
+        ]
     },
     "Arctic tern": {
         "name": "Arctic tern",
@@ -96,7 +110,15 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Avocet": {
         "name": "Avocet",
@@ -133,7 +155,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Balearic shearwater": {
         "name": "Balearic shearwater",
@@ -155,7 +191,12 @@ birds.data = {
         },
         "found": "The Balearic shearwater can mainly be seen off the coast of south England, in particular Cornwall, Devon and Dorset and west Wales, but also into the North Sea, off the east coast.",
         "audio": null,
-        "features": null
+        "features": null,
+        "monthsActive": [
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Bar-tailed godwit": {
         "name": "Bar-tailed godwit",
@@ -199,7 +240,20 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Barn owl": {
         "name": "Barn owl",
@@ -240,7 +294,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Barnacle goose": {
         "name": "Barnacle goose",
@@ -282,7 +350,16 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Bearded tit": {
         "name": "Bearded tit",
@@ -322,7 +399,21 @@ birds.data = {
             "habitat": [
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Bewick's swan": {
         "name": "Bewick's swan",
@@ -359,7 +450,15 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Bittern": {
         "name": "Bittern",
@@ -397,7 +496,21 @@ birds.data = {
             "habitat": [
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Black grouse": {
         "name": "Black grouse",
@@ -434,7 +547,21 @@ birds.data = {
                 "Woodland",
                 "Upland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Black guillemot": {
         "name": "Black guillemot",
@@ -470,7 +597,21 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Black redstart": {
         "name": "Black redstart",
@@ -510,7 +651,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Black tern": {
         "name": "Black tern",
@@ -547,7 +702,14 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Black-headed gull": {
         "name": "Black-headed gull",
@@ -589,7 +751,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Black-necked grebe": {
         "name": "Black-necked grebe",
@@ -628,7 +804,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Black-tailed godwit": {
         "name": "Black-tailed godwit",
@@ -669,7 +859,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Black-throated diver": {
         "name": "Black-throated diver",
@@ -708,7 +912,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Blackbird": {
         "name": "Blackbird",
@@ -747,7 +965,21 @@ birds.data = {
                 "Grassland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Blackcap": {
         "name": "Blackcap",
@@ -787,7 +1019,21 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Blue tit": {
         "name": "Blue tit",
@@ -828,7 +1074,21 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Bluethroat": {
         "name": "Bluethroat",
@@ -850,7 +1110,15 @@ birds.data = {
         },
         "found": "Bluethroats are best looked for along the east coast in spring and autumn in scrub and grassy areas. Usually seen hopping along the ground or ducking into low cover.",
         "audio": "https://www.rspb.org.uk/globalassets/audio/xc33965---bluethroat---luscinia-svecica-cyanecula.mp3",
-        "features": null
+        "features": null,
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Brambling": {
         "name": "Brambling",
@@ -891,7 +1159,17 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Brent goose": {
         "name": "Brent goose",
@@ -932,7 +1210,16 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Bullfinch": {
         "name": "Bullfinch",
@@ -974,7 +1261,21 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Buzzard": {
         "name": "Buzzard",
@@ -1016,7 +1317,21 @@ birds.data = {
                 "Heathland",
                 "Upland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Canada goose": {
         "name": "Canada goose",
@@ -1058,7 +1373,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Capercaillie": {
         "name": "Capercaillie",
@@ -1097,7 +1426,21 @@ birds.data = {
             "habitat": [
                 "Woodland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Carrion crow": {
         "name": "Carrion crow",
@@ -1137,7 +1480,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Cattle egret": {
         "name": "Cattle egret",
@@ -1177,7 +1534,21 @@ birds.data = {
                 "Grassland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Cetti's warbler": {
         "name": "Cetti's warbler",
@@ -1213,7 +1584,21 @@ birds.data = {
             "habitat": [
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Chaffinch": {
         "name": "Chaffinch",
@@ -1261,7 +1646,21 @@ birds.data = {
                 "Heathland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Chiffchaff": {
         "name": "Chiffchaff",
@@ -1301,7 +1700,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Chough": {
         "name": "Chough",
@@ -1336,7 +1749,21 @@ birds.data = {
                 "Farmland",
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Cirl bunting": {
         "name": "Cirl bunting",
@@ -1375,7 +1802,21 @@ birds.data = {
             "habitat": [
                 "Farmland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Coal tit": {
         "name": "Coal tit",
@@ -1416,7 +1857,21 @@ birds.data = {
                 "Heathland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Collared dove": {
         "name": "Collared dove",
@@ -1455,7 +1910,21 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Common gull": {
         "name": "Common gull",
@@ -1496,7 +1965,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Common redpoll": {
         "name": "Common redpoll",
@@ -1538,7 +2021,16 @@ birds.data = {
                 "Farmland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Common rosefinch": {
         "name": "Common rosefinch",
@@ -1560,7 +2052,15 @@ birds.data = {
         },
         "found": "Common rosefinches are a scarce species, but best looked for in the Northern Isles and along the coasts of eastern Scotland and eastern and south-east England, especially in spring and autumn.",
         "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27694---common-rosefinch---carpodacus-erythrinus.mp3",
-        "features": null
+        "features": null,
+        "monthsActive": [
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Common sandpiper": {
         "name": "Common sandpiper",
@@ -1596,7 +2096,17 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Common scoter": {
         "name": "Common scoter",
@@ -1631,7 +2141,21 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Common tern": {
         "name": "Common tern",
@@ -1669,7 +2193,15 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Coot": {
         "name": "Coot",
@@ -1708,7 +2240,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Cormorant": {
         "name": "Cormorant",
@@ -1750,7 +2296,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Corn bunting": {
         "name": "Corn bunting",
@@ -1786,7 +2346,21 @@ birds.data = {
                 "Farmland",
                 "Grassland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Corncrake": {
         "name": "Corncrake",
@@ -1825,7 +2399,15 @@ birds.data = {
                 "Grassland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Crane": {
         "name": "Crane",
@@ -1866,7 +2448,21 @@ birds.data = {
                 "Grassland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Crested tit": {
         "name": "Crested tit",
@@ -1903,7 +2499,21 @@ birds.data = {
             "habitat": [
                 "Woodland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Crossbill": {
         "name": "Crossbill",
@@ -1940,7 +2550,21 @@ birds.data = {
             "habitat": [
                 "Woodland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Cuckoo": {
         "name": "Cuckoo",
@@ -1984,7 +2608,15 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Curlew": {
         "name": "Curlew",
@@ -2025,7 +2657,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Curlew sandpiper": {
         "name": "Curlew sandpiper",
@@ -2068,7 +2714,15 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Dartford warbler": {
         "name": "Dartford warbler",
@@ -2107,7 +2761,21 @@ birds.data = {
             "habitat": [
                 "Heathland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Dipper": {
         "name": "Dipper",
@@ -2144,7 +2812,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Dotterel": {
         "name": "Dotterel",
@@ -2186,7 +2868,16 @@ birds.data = {
                 "Marine and intertidal",
                 "Upland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Dunlin": {
         "name": "Dunlin",
@@ -2230,7 +2921,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Dunnock": {
         "name": "Dunnock",
@@ -2268,7 +2973,21 @@ birds.data = {
                 "Grassland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Egyptian goose": {
         "name": "Egyptian goose",
@@ -2311,7 +3030,21 @@ birds.data = {
                 "Grassland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Eider": {
         "name": "Eider",
@@ -2350,7 +3083,21 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Fieldfare": {
         "name": "Fieldfare",
@@ -2389,7 +3136,16 @@ birds.data = {
                 "Grassland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Firecrest": {
         "name": "Firecrest",
@@ -2431,7 +3187,21 @@ birds.data = {
                 "Woodland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Fulmar": {
         "name": "Fulmar",
@@ -2465,7 +3235,21 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Gadwall": {
         "name": "Gadwall",
@@ -2506,7 +3290,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Gannet": {
         "name": "Gannet",
@@ -2545,7 +3343,21 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Garden warbler": {
         "name": "Garden warbler",
@@ -2582,7 +3394,16 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Garganey": {
         "name": "Garganey",
@@ -2624,7 +3445,17 @@ birds.data = {
                 "Grassland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Glaucous gull": {
         "name": "Glaucous gull",
@@ -2663,7 +3494,15 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "nov",
+            "dec"
+        ]
     },
     "Goldcrest": {
         "name": "Goldcrest",
@@ -2705,7 +3544,21 @@ birds.data = {
                 "Woodland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Golden eagle": {
         "name": "Golden eagle",
@@ -2744,7 +3597,21 @@ birds.data = {
             "habitat": [
                 "Upland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Golden oriole": {
         "name": "Golden oriole",
@@ -2778,7 +3645,11 @@ birds.data = {
             "habitat": [
                 "Woodland"
             ]
-        }
+        },
+        "monthsActive": [
+            "may",
+            "jun"
+        ]
     },
     "Golden pheasant": {
         "name": "Golden pheasant",
@@ -2821,7 +3692,21 @@ birds.data = {
             "habitat": [
                 "Woodland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Golden plover": {
         "name": "Golden plover",
@@ -2864,7 +3749,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Goldeneye": {
         "name": "Goldeneye",
@@ -2902,7 +3801,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Goldfinch": {
         "name": "Goldfinch",
@@ -2942,7 +3855,21 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Goosander": {
         "name": "Goosander",
@@ -2985,7 +3912,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Goshawk": {
         "name": "Goshawk",
@@ -3029,7 +3970,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Grasshopper warbler": {
         "name": "Grasshopper warbler",
@@ -3066,7 +4021,16 @@ birds.data = {
                 "Heathland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Great black-backed gull": {
         "name": "Great black-backed gull",
@@ -3108,7 +4072,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Great crested grebe": {
         "name": "Great crested grebe",
@@ -3150,7 +4128,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Great grey shrike": {
         "name": "Great grey shrike",
@@ -3191,7 +4183,17 @@ birds.data = {
                 "Heathland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Great northern diver": {
         "name": "Great northern diver",
@@ -3228,7 +4230,19 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Great shearwater": {
         "name": "Great shearwater",
@@ -3266,7 +4280,12 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Great skua": {
         "name": "Great skua",
@@ -3305,7 +4324,17 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov"
+        ]
     },
     "Great spotted woodpecker": {
         "name": "Great spotted woodpecker",
@@ -3347,7 +4376,21 @@ birds.data = {
                 "Woodland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Great tit": {
         "name": "Great tit",
@@ -3389,7 +4432,21 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Great white egret": {
         "name": "Great white egret",
@@ -3426,7 +4483,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Green sandpiper": {
         "name": "Green sandpiper",
@@ -3463,7 +4534,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Green woodpecker": {
         "name": "Green woodpecker",
@@ -3509,7 +4594,21 @@ birds.data = {
                 "Grassland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Greenfinch": {
         "name": "Greenfinch",
@@ -3551,7 +4650,21 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Greenshank": {
         "name": "Greenshank",
@@ -3591,7 +4704,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Grey heron": {
         "name": "Grey heron",
@@ -3634,7 +4761,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Grey partridge": {
         "name": "Grey partridge",
@@ -3675,7 +4816,21 @@ birds.data = {
                 "Farmland",
                 "Grassland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Grey phalarope": {
         "name": "Grey phalarope",
@@ -3713,7 +4868,12 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "sep",
+            "oct",
+            "nov"
+        ]
     },
     "Grey plover": {
         "name": "Grey plover",
@@ -3753,7 +4913,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Grey wagtail": {
         "name": "Grey wagtail",
@@ -3794,7 +4968,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Greylag goose": {
         "name": "Greylag goose",
@@ -3835,7 +5023,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Guillemot": {
         "name": "Guillemot",
@@ -3872,7 +5074,21 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Hawfinch": {
         "name": "Hawfinch",
@@ -3914,7 +5130,21 @@ birds.data = {
                 "Woodland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Hen harrier": {
         "name": "Hen harrier",
@@ -3955,7 +5185,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Herring gull": {
         "name": "Herring gull",
@@ -3998,7 +5242,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Hobby": {
         "name": "Hobby",
@@ -4044,7 +5302,16 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Honey buzzard": {
         "name": "Honey buzzard",
@@ -4083,7 +5350,14 @@ birds.data = {
             "habitat": [
                 "Woodland"
             ]
-        }
+        },
+        "monthsActive": [
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Hooded crow": {
         "name": "Hooded crow",
@@ -4126,7 +5400,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Hoopoe": {
         "name": "Hoopoe",
@@ -4167,7 +5455,15 @@ birds.data = {
                 "Grassland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "House martin": {
         "name": "House martin",
@@ -4204,7 +5500,17 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "House sparrow": {
         "name": "House sparrow",
@@ -4244,7 +5550,21 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Iceland gull": {
         "name": "Iceland gull",
@@ -4281,7 +5601,15 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "nov",
+            "dec"
+        ]
     },
     "Jack snipe": {
         "name": "Jack snipe",
@@ -4321,7 +5649,17 @@ birds.data = {
                 "Grassland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Jackdaw": {
         "name": "Jackdaw",
@@ -4360,7 +5698,21 @@ birds.data = {
                 "Upland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Jay": {
         "name": "Jay",
@@ -4402,7 +5754,21 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Kestrel": {
         "name": "Kestrel",
@@ -4445,7 +5811,21 @@ birds.data = {
                 "Heathland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Kingfisher": {
         "name": "Kingfisher",
@@ -4486,7 +5866,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Kittiwake": {
         "name": "Kittiwake",
@@ -4522,7 +5916,21 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Knot": {
         "name": "Knot",
@@ -4561,7 +5969,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Lapland bunting": {
         "name": "Lapland bunting",
@@ -4600,7 +6022,17 @@ birds.data = {
                 "Grassland",
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Lapwing": {
         "name": "Lapwing",
@@ -4642,7 +6074,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Leach's petrel": {
         "name": "Leach's petrel",
@@ -4679,7 +6125,11 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "sep",
+            "oct"
+        ]
     },
     "Lesser black-backed gull": {
         "name": "Lesser black-backed gull",
@@ -4721,7 +6171,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Lesser redpoll": {
         "name": "Lesser redpoll",
@@ -4765,7 +6229,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Lesser spotted woodpecker": {
         "name": "Lesser spotted woodpecker",
@@ -4804,7 +6282,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Lesser whitethroat": {
         "name": "Lesser whitethroat",
@@ -4844,7 +6336,16 @@ birds.data = {
                 "Grassland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Linnet": {
         "name": "Linnet",
@@ -4887,7 +6388,21 @@ birds.data = {
                 "Heathland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Little auk": {
         "name": "Little auk",
@@ -4923,7 +6438,14 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Little egret": {
         "name": "Little egret",
@@ -4962,7 +6484,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Little grebe": {
         "name": "Little grebe",
@@ -5001,7 +6537,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Little gull": {
         "name": "Little gull",
@@ -5040,7 +6590,18 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Little owl": {
         "name": "Little owl",
@@ -5080,7 +6641,21 @@ birds.data = {
                 "Grassland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Little ringed plover": {
         "name": "Little ringed plover",
@@ -5118,7 +6693,16 @@ birds.data = {
                 "Grassland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Little stint": {
         "name": "Little stint",
@@ -5156,7 +6740,15 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Little tern": {
         "name": "Little tern",
@@ -5193,7 +6785,15 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Long-eared owl": {
         "name": "Long-eared owl",
@@ -5234,7 +6834,21 @@ birds.data = {
                 "Farmland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Long-tailed duck": {
         "name": "Long-tailed duck",
@@ -5272,7 +6886,16 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Long-tailed skua": {
         "name": "Long-tailed skua",
@@ -5311,7 +6934,14 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "may",
+            "jun",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Long-tailed tit": {
         "name": "Long-tailed tit",
@@ -5352,7 +6982,21 @@ birds.data = {
                 "Heathland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Magpie": {
         "name": "Magpie",
@@ -5395,7 +7039,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Mallard": {
         "name": "Mallard",
@@ -5440,7 +7098,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Mandarin": {
         "name": "Mandarin",
@@ -5481,7 +7153,21 @@ birds.data = {
                 "Woodland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Manx shearwater": {
         "name": "Manx shearwater",
@@ -5517,7 +7203,17 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Marsh harrier": {
         "name": "Marsh harrier",
@@ -5559,7 +7255,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Marsh tit": {
         "name": "Marsh tit",
@@ -5597,7 +7307,21 @@ birds.data = {
                 "Woodland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Marsh warbler": {
         "name": "Marsh warbler",
@@ -5619,7 +7343,14 @@ birds.data = {
         },
         "found": "The marsh warbler is a summer visitor which is mainly confined to parts of Worcestershire and south-east England, especially Kent. They are found in areas of dense vegetation with taller bushes nearby.",
         "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/marsh-warbler-acrocephalus-palustris-audio.mp3",
-        "features": null
+        "features": null,
+        "monthsActive": [
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Meadow pipit": {
         "name": "Meadow pipit",
@@ -5663,7 +7394,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Mediterranean gull": {
         "name": "Mediterranean gull",
@@ -5704,7 +7449,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Merlin": {
         "name": "Merlin",
@@ -5750,7 +7509,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Mistle thrush": {
         "name": "Mistle thrush",
@@ -5789,7 +7562,21 @@ birds.data = {
                 "Heathland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Montagu's harrier": {
         "name": "Montagu's harrier",
@@ -5829,7 +7616,15 @@ birds.data = {
                 "Grassland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Moorhen": {
         "name": "Moorhen",
@@ -5868,7 +7663,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Mute swan": {
         "name": "Mute swan",
@@ -5907,7 +7716,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Nightingale": {
         "name": "Nightingale",
@@ -5944,7 +7767,14 @@ birds.data = {
                 "Grassland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug"
+        ]
     },
     "Nightjar": {
         "name": "Nightjar",
@@ -5982,7 +7812,14 @@ birds.data = {
                 "Woodland",
                 "Heathland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug"
+        ]
     },
     "Nuthatch": {
         "name": "Nuthatch",
@@ -6022,7 +7859,21 @@ birds.data = {
                 "Woodland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Osprey": {
         "name": "Osprey",
@@ -6061,7 +7912,17 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Oystercatcher": {
         "name": "Oystercatcher",
@@ -6100,7 +7961,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Parrot crossbill": {
         "name": "Parrot crossbill",
@@ -6140,7 +8015,21 @@ birds.data = {
             "habitat": [
                 "Woodland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Pectoral sandpiper": {
         "name": "Pectoral sandpiper",
@@ -6180,7 +8069,14 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "may",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Peregrine": {
         "name": "Peregrine",
@@ -6224,7 +8120,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Pheasant": {
         "name": "Pheasant",
@@ -6271,7 +8181,21 @@ birds.data = {
                 "Grassland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Pied flycatcher": {
         "name": "Pied flycatcher",
@@ -6307,7 +8231,16 @@ birds.data = {
                 "Woodland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Pied wagtail": {
         "name": "Pied wagtail",
@@ -6348,7 +8281,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Pink-footed goose": {
         "name": "Pink-footed goose",
@@ -6389,7 +8336,17 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Pintail": {
         "name": "Pintail",
@@ -6431,7 +8388,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Pochard": {
         "name": "Pochard",
@@ -6472,7 +8443,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Pomarine skua": {
         "name": "Pomarine skua",
@@ -6511,7 +8496,15 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "aug",
+            "sep",
+            "oct",
+            "nov"
+        ]
     },
     "Ptarmigan": {
         "name": "Ptarmigan",
@@ -6548,7 +8541,21 @@ birds.data = {
             "habitat": [
                 "Upland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Puffin": {
         "name": "Puffin",
@@ -6585,7 +8592,21 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Purple sandpiper": {
         "name": "Purple sandpiper",
@@ -6622,7 +8643,19 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Quail": {
         "name": "Quail",
@@ -6661,7 +8694,16 @@ birds.data = {
                 "Farmland",
                 "Grassland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Raven": {
         "name": "Raven",
@@ -6701,7 +8743,21 @@ birds.data = {
                 "Upland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Razorbill": {
         "name": "Razorbill",
@@ -6738,7 +8794,21 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Red grouse": {
         "name": "Red grouse",
@@ -6776,7 +8846,21 @@ birds.data = {
             "habitat": [
                 "Upland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Red kite": {
         "name": "Red kite",
@@ -6821,7 +8905,21 @@ birds.data = {
                 "Upland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Red-backed shrike": {
         "name": "Red-backed shrike",
@@ -6867,7 +8965,14 @@ birds.data = {
                 "Heathland",
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "may",
+            "jun",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Red-breasted merganser": {
         "name": "Red-breasted merganser",
@@ -6908,7 +9013,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Red-crested pochard": {
         "name": "Red-crested pochard",
@@ -6949,7 +9068,21 @@ birds.data = {
             "habitat": [
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Red-legged partridge": {
         "name": "Red-legged partridge",
@@ -6992,7 +9125,21 @@ birds.data = {
                 "Heathland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Red-necked grebe": {
         "name": "Red-necked grebe",
@@ -7032,7 +9179,18 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Red-necked phalarope": {
         "name": "Red-necked phalarope",
@@ -7073,7 +9231,14 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Red-throated diver": {
         "name": "Red-throated diver",
@@ -7113,7 +9278,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Redshank": {
         "name": "Redshank",
@@ -7153,7 +9332,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Redstart": {
         "name": "Redstart",
@@ -7196,7 +9389,16 @@ birds.data = {
                 "Upland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Redwing": {
         "name": "Redwing",
@@ -7236,7 +9438,21 @@ birds.data = {
                 "Grassland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Reed bunting": {
         "name": "Reed bunting",
@@ -7278,7 +9494,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Reed warbler": {
         "name": "Reed warbler",
@@ -7315,7 +9545,14 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Ring ouzel": {
         "name": "Ring ouzel",
@@ -7352,7 +9589,18 @@ birds.data = {
                 "Grassland",
                 "Upland"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov"
+        ]
     },
     "Ring-necked parakeet": {
         "name": "Ring-necked parakeet",
@@ -7393,7 +9641,21 @@ birds.data = {
                 "Woodland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Ringed plover": {
         "name": "Ringed plover",
@@ -7433,7 +9695,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Robin": {
         "name": "Robin",
@@ -7475,7 +9751,21 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Rock dove": {
         "name": "Rock dove",
@@ -7516,7 +9806,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Rock pipit": {
         "name": "Rock pipit",
@@ -7553,7 +9857,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Rook": {
         "name": "Rook",
@@ -7592,7 +9910,21 @@ birds.data = {
                 "Grassland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Roseate tern": {
         "name": "Roseate tern",
@@ -7629,7 +9961,15 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Rough-legged buzzard": {
         "name": "Rough-legged buzzard",
@@ -7668,7 +10008,16 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Ruddy duck": {
         "name": "Ruddy duck",
@@ -7706,7 +10055,21 @@ birds.data = {
             "habitat": [
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Ruff": {
         "name": "Ruff",
@@ -7748,7 +10111,21 @@ birds.data = {
                 "Grassland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Sand martin": {
         "name": "Sand martin",
@@ -7784,7 +10161,17 @@ birds.data = {
                 "Farmland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Sanderling": {
         "name": "Sanderling",
@@ -7825,7 +10212,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Sandwich tern": {
         "name": "Sandwich tern",
@@ -7865,7 +10266,17 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Savi's warbler": {
         "name": "Savi's warbler",
@@ -7887,7 +10298,14 @@ birds.data = {
         },
         "found": "Savi's warblers are found only in marshes with reedbeds. Most UK birds are seen in east and south-east England.",
         "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc29775---savis-warbler---locustella-luscinioides.mp3",
-        "features": null
+        "features": null,
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug"
+        ]
     },
     "Scaup": {
         "name": "Scaup",
@@ -7926,7 +10344,17 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Scottish crossbill": {
         "name": "Scottish crossbill",
@@ -7966,7 +10394,21 @@ birds.data = {
             "habitat": [
                 "Woodland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Sedge warbler": {
         "name": "Sedge warbler",
@@ -8005,7 +10447,16 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Serin": {
         "name": "Serin",
@@ -8027,7 +10478,11 @@ birds.data = {
         },
         "found": "Records of serin have almost entirely been from southern and eastern England, but they have never been present in large numbers.",
         "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc42292---european-serin---serinus-serinus.mp3",
-        "features": null
+        "features": null,
+        "monthsActive": [
+            "mar",
+            "apr"
+        ]
     },
     "Shag": {
         "name": "Shag",
@@ -8065,7 +10520,21 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Shelduck": {
         "name": "Shelduck",
@@ -8109,7 +10578,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Shore lark": {
         "name": "Shore lark",
@@ -8147,7 +10630,16 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Short-eared owl": {
         "name": "Short-eared owl",
@@ -8188,7 +10680,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Short-toed treecreeper": {
         "name": "Short-toed treecreeper",
@@ -8210,7 +10716,21 @@ birds.data = {
         },
         "found": "Short-toed treecreepers are resident on the Channel Islands and occurs as a very rare vagrant in England. It is common in Europe from Germany and Poland southwards.",
         "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc30552---short-toed-treecreeper---certhia-brachydactyla-rossocaucasica.mp3",
-        "features": null
+        "features": null,
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Shoveler": {
         "name": "Shoveler",
@@ -8254,7 +10774,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Siskin": {
         "name": "Siskin",
@@ -8294,7 +10828,21 @@ birds.data = {
                 "Woodland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Skylark": {
         "name": "Skylark",
@@ -8333,7 +10881,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Upland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Slavonian grebe": {
         "name": "Slavonian grebe",
@@ -8372,7 +10934,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Smew": {
         "name": "Smew",
@@ -8410,7 +10986,15 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "nov",
+            "dec"
+        ]
     },
     "Snipe": {
         "name": "Snipe",
@@ -8450,7 +11034,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Snow bunting": {
         "name": "Snow bunting",
@@ -8488,7 +11086,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Upland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Song thrush": {
         "name": "Song thrush",
@@ -8527,7 +11139,21 @@ birds.data = {
                 "Grassland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Sooty shearwater": {
         "name": "Sooty shearwater",
@@ -8564,7 +11190,13 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Sparrowhawk": {
         "name": "Sparrowhawk",
@@ -8611,7 +11243,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Spoonbill": {
         "name": "Spoonbill",
@@ -8647,7 +11293,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Spotted crake": {
         "name": "Spotted crake",
@@ -8684,7 +11344,18 @@ birds.data = {
             "habitat": [
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov"
+        ]
     },
     "Spotted flycatcher": {
         "name": "Spotted flycatcher",
@@ -8722,7 +11393,15 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Spotted redshank": {
         "name": "Spotted redshank",
@@ -8760,7 +11439,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Starling": {
         "name": "Starling",
@@ -8808,7 +11501,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Stock dove": {
         "name": "Stock dove",
@@ -8849,7 +11556,21 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Stone-curlew": {
         "name": "Stone-curlew",
@@ -8886,7 +11607,17 @@ birds.data = {
                 "Grassland",
                 "Heathland"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Stonechat": {
         "name": "Stonechat",
@@ -8928,7 +11659,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Storm petrel": {
         "name": "Storm petrel",
@@ -8965,7 +11710,16 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Swallow": {
         "name": "Swallow",
@@ -9008,7 +11762,17 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Swift": {
         "name": "Swift",
@@ -9047,7 +11811,15 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Taiga bean goose": {
         "name": "Taiga bean goose",
@@ -9085,7 +11857,15 @@ birds.data = {
                 "Grassland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Tawny owl": {
         "name": "Tawny owl",
@@ -9127,7 +11907,21 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Teal": {
         "name": "Teal",
@@ -9170,7 +11964,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Temminck's stint": {
         "name": "Temminck's stint",
@@ -9208,7 +12016,13 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "aug",
+            "sep"
+        ]
     },
     "Tree pipit": {
         "name": "Tree pipit",
@@ -9245,7 +12059,16 @@ birds.data = {
                 "Grassland",
                 "Heathland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Tree sparrow": {
         "name": "Tree sparrow",
@@ -9284,7 +12107,21 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Treecreeper": {
         "name": "Treecreeper",
@@ -9324,7 +12161,21 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Tufted duck": {
         "name": "Tufted duck",
@@ -9364,7 +12215,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Tundra bean goose": {
         "name": "Tundra bean goose",
@@ -9402,7 +12267,15 @@ birds.data = {
                 "Grassland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Turnstone": {
         "name": "Turnstone",
@@ -9439,7 +12312,20 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Turtle dove": {
         "name": "Turtle dove",
@@ -9484,7 +12370,15 @@ birds.data = {
                 "Heathland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Twite": {
         "name": "Twite",
@@ -9524,7 +12418,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Upland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Velvet scoter": {
         "name": "Velvet scoter",
@@ -9561,7 +12469,19 @@ birds.data = {
             "habitat": [
                 "Marine and intertidal"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Water pipit": {
         "name": "Water pipit",
@@ -9600,7 +12520,16 @@ birds.data = {
             "habitat": [
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Water rail": {
         "name": "Water rail",
@@ -9642,7 +12571,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Waxwing": {
         "name": "Waxwing",
@@ -9683,7 +12626,16 @@ birds.data = {
                 "Farmland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Wheatear": {
         "name": "Wheatear",
@@ -9725,7 +12677,17 @@ birds.data = {
                 "Grassland",
                 "Upland"
             ]
-        }
+        },
+        "monthsActive": [
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Whimbrel": {
         "name": "Whimbrel",
@@ -9766,7 +12728,15 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Whinchat": {
         "name": "Whinchat",
@@ -9808,7 +12778,16 @@ birds.data = {
                 "Heathland",
                 "Upland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "White-fronted goose": {
         "name": "White-fronted goose",
@@ -9850,7 +12829,16 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "White-tailed eagle": {
         "name": "White-tailed eagle",
@@ -9894,7 +12882,21 @@ birds.data = {
                 "Upland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Whitethroat": {
         "name": "Whitethroat",
@@ -9938,7 +12940,16 @@ birds.data = {
                 "Heathland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Whooper swan": {
         "name": "Whooper swan",
@@ -9976,7 +12987,16 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Wigeon": {
         "name": "Wigeon",
@@ -10022,7 +13042,21 @@ birds.data = {
                 "Marine and intertidal",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Willow tit": {
         "name": "Willow tit",
@@ -10060,7 +13094,21 @@ birds.data = {
                 "Woodland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Willow warbler": {
         "name": "Willow warbler",
@@ -10099,7 +13147,16 @@ birds.data = {
                 "Heathland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Wood sandpiper": {
         "name": "Wood sandpiper",
@@ -10136,7 +13193,16 @@ birds.data = {
                 "Grassland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Wood warbler": {
         "name": "Wood warbler",
@@ -10175,7 +13241,15 @@ birds.data = {
                 "Woodland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep"
+        ]
     },
     "Woodcock": {
         "name": "Woodcock",
@@ -10215,7 +13289,21 @@ birds.data = {
                 "Upland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Woodlark": {
         "name": "Woodlark",
@@ -10253,7 +13341,21 @@ birds.data = {
                 "Farmland",
                 "Heathland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Woodpigeon": {
         "name": "Woodpigeon",
@@ -10295,7 +13397,21 @@ birds.data = {
                 "Grassland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Wren": {
         "name": "Wren",
@@ -10334,7 +13450,21 @@ birds.data = {
                 "Heathland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Wryneck": {
         "name": "Wryneck",
@@ -10372,7 +13502,14 @@ birds.data = {
                 "Grassland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Yellow wagtail": {
         "name": "Yellow wagtail",
@@ -10412,7 +13549,16 @@ birds.data = {
                 "Grassland",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct"
+        ]
     },
     "Yellow-browed warbler": {
         "name": "Yellow-browed warbler",
@@ -10450,7 +13596,12 @@ birds.data = {
                 "Woodland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "sep",
+            "oct",
+            "nov"
+        ]
     },
     "Yellow-legged gull": {
         "name": "Yellow-legged gull",
@@ -10491,7 +13642,21 @@ birds.data = {
                 "Urban and suburban",
                 "Wetland"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     },
     "Yellowhammer": {
         "name": "Yellowhammer",
@@ -10532,7 +13697,21 @@ birds.data = {
                 "Heathland",
                 "Urban and suburban"
             ]
-        }
+        },
+        "monthsActive": [
+            "jan",
+            "feb",
+            "mar",
+            "apr",
+            "may",
+            "jun",
+            "jul",
+            "aug",
+            "sep",
+            "oct",
+            "nov",
+            "dec"
+        ]
     }
 }
 
