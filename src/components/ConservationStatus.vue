@@ -1,22 +1,15 @@
 <template>
-  <div>
-    <v-tooltip bottom>
-      <template v-slot:activator="{ on, attrs }">
-        <v-chip
-          label
-          small
-          dark
-          v-bind="attrs"
-          v-on="on"
-          :color="colours[conservationStatus]"
-          class="overline"
-        >
-          {{ conservationStatus }}
-        </v-chip>
-      </template>
-      <span>Conservation Status</span>
-    </v-tooltip>
-  </div>
+  <v-chip
+    label
+    small
+    dark
+    v-bind="attrs"
+    v-on="on"
+    :color="colours[conservationStatus]"
+    class="overline"
+  >
+    {{ conservationStatus }}
+  </v-chip>
 </template>
 
 <script>

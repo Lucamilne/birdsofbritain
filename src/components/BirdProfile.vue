@@ -25,13 +25,10 @@
           </v-img>
         </v-carousel-item>
       </v-carousel>
-      <div class="position-absolute top right ma-4 d-flex align-center">
-        <ConservationStatus
-          :conservationStatus="bird.conservationStatus"
-          v-if="bird.conservationStatus"
-        />
-        <FavouriteToggle :bird="bird.name" />
-      </div>
+      <FavouriteToggle
+        :bird="bird.name"
+        class="position-absolute top right ma-4 d-flex align-center"
+      />
       <v-divider></v-divider>
       <v-card-text class="text--primary position-relative">
         <v-card-title class="overline position-absolute top right mr-3">
@@ -55,7 +52,7 @@
           <v-chip
             v-for="habitat in bird.features.habitat"
             :key="habitat"
-            class="mr-2"
+            class="mr-2 mb-2"
             color="primary"
             label
             outlined
@@ -70,7 +67,16 @@
           <tbody>
             <tr v-for="item in items" :key="item.label">
               <td>{{ item.label }}</td>
-              <td>{{ bird[item.value] }}</td>
+              <td
+                v-if="
+                  bird.conservationStatus && item.value === 'conservationStatus'
+                "
+              >
+                <ConservationStatus
+                  :conservationStatus="bird.conservationStatus"
+                />
+              </td>
+              <td v-else>{{ bird[item.value] }}</td>
             </tr>
           </tbody>
         </template>
@@ -120,6 +126,7 @@ export default {
         { label: "Length", value: "length" },
         { label: "Wingspan", value: "wingspan" },
         { label: "Weight", value: "weight" },
+        { label: "Conservation Status", value: "conservationStatus" },
       ],
     };
   },
