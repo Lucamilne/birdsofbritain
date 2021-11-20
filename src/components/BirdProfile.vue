@@ -25,10 +25,13 @@
           </v-img>
         </v-carousel-item>
       </v-carousel>
-      <FavouriteToggle
-        class="position-absolute top right ma-4"
-        :bird="bird.name"
-      />
+      <div class="position-absolute top right ma-4 d-flex align-center">
+        <ConservationStatus
+          :conservationStatus="bird.conservationStatus"
+          v-if="bird.conservationStatus"
+        />
+        <FavouriteToggle :bird="bird.name" />
+      </div>
       <v-divider></v-divider>
       <v-card-text class="text--primary position-relative">
         <v-card-title class="overline position-absolute top right mr-3">
@@ -52,7 +55,7 @@
           <v-chip
             v-for="habitat in bird.features.habitat"
             :key="habitat"
-            class="mr-2 mb-2"
+            class="mr-2"
             color="primary"
             label
             outlined
@@ -90,6 +93,7 @@
 </template>
 
 <script>
+import ConservationStatus from "./ConservationStatus.vue";
 import FavouriteToggle from "./FavouriteToggle.vue";
 import MonthsActive from "./MonthsActive.vue";
 import utils from "@/common/utils.js";
@@ -99,6 +103,7 @@ export default {
   props: ["bird"],
   components: {
     VuetifyAudio: () => import("vuetify-audio"),
+    ConservationStatus,
     FavouriteToggle,
     MonthsActive,
   },

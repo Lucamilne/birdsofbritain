@@ -30,8 +30,8 @@ birds.data = {
         "name": "Arctic skua",
         "scientificName": "Stercorarius parasiticus",
         "images": [
-            "arctic-skua_juvenile_1200x675.jpg",
-            "arctic-skua_lightform_1200x675.jpg"
+            "arctic-skua_lightform_1200x675.jpg",
+            "arctic-skua_juvenile_1200x675.jpg"
         ],
         "family": "Skuas",
         "conservationStatus": "Red",
@@ -671,8 +671,8 @@ birds.data = {
         "name": "Black tern",
         "scientificName": "Chlidonias niger",
         "images": [
-            "black-tern_juvenile_1200x675.jpg",
-            "black-tern_breedingplumage_1200x675.jpg"
+            "black-tern_breedingplumage_1200x675.jpg",
+            "black-tern_juvenile_1200x675.jpg"
         ],
         "family": "Gulls and terns",
         "conservationStatus": "Green",
@@ -933,8 +933,8 @@ birds.data = {
         "scientificName": "Turdus merula",
         "images": [
             "blackbird_male_1200x675.jpg",
-            "blackbird_juvenile_1200x675.jpg",
-            "blackbird_female_1200x675.jpg"
+            "blackbird_female_1200x675.jpg",
+            "blackbird_juvenile_1200x675.jpg"
         ],
         "family": "Thrushes",
         "conservationStatus": "Green",
@@ -1226,8 +1226,8 @@ birds.data = {
         "scientificName": "Pyrrhula pyrrhula",
         "images": [
             "bullfinch_male_1200x675.jpg",
-            "bullfinch_juvenile_1200x675.jpg",
-            "bullfinch_female_1200x675.jpg"
+            "bullfinch_female_1200x675.jpg",
+            "bullfinch_juvenile_1200x675.jpg"
         ],
         "family": "Finches",
         "conservationStatus": "Amber",
@@ -2833,8 +2833,8 @@ birds.data = {
         "scientificName": "Charadrius morinellus",
         "images": [
             "dotterel_adult_female_1200x675.jpg",
-            "dotterel_juvenile_1200x675.jpg",
-            "dotterels_1200x675.jpg"
+            "dotterels_1200x675.jpg",
+            "dotterel_juvenile_1200x675.jpg"
         ],
         "family": "Plovers",
         "conservationStatus": "Red",
@@ -2883,8 +2883,8 @@ birds.data = {
         "name": "Dunlin",
         "scientificName": "Calidris alpina",
         "images": [
-            "dunlin_nonbreedingplumage_1200x675.jpg",
             "dunlin_breedingplumage_1200x675.jpg",
+            "dunlin_nonbreedingplumage_1200x675.jpg",
             "dunlin_juvenile_1200x675.jpg"
         ],
         "family": "Sandpipers, snipes and phalaropes",
@@ -3712,8 +3712,8 @@ birds.data = {
         "name": "Golden plover",
         "scientificName": "Pluvialis apricaria",
         "images": [
-            "golden-plover_juvenile_1200x675.jpg",
-            "golden-plover_breedingplumage_1200x675.jpg"
+            "golden-plover_breedingplumage_1200x675.jpg",
+            "golden-plover_juvenile_1200x675.jpg"
         ],
         "family": "Plovers",
         "conservationStatus": "Green",
@@ -4341,8 +4341,8 @@ birds.data = {
         "scientificName": "Dendrocopos major",
         "images": [
             "great-spotted-woodpecker_male_1200x675.jpg",
-            "great-spotted-woodpecker_juvenile_1200x675.jpg",
-            "great-spotted-woodpecker_female_1200x675.jpg"
+            "great-spotted-woodpecker_female_1200x675.jpg",
+            "great-spotted-woodpecker_juvenile_1200x675.jpg"
         ],
         "family": "Woodpeckers",
         "conservationStatus": "Green",
@@ -4879,9 +4879,9 @@ birds.data = {
         "name": "Grey plover",
         "scientificName": "Pluvialis squatarola",
         "images": [
-            "grey-plover_juvenile_1200x675.jpg",
             "grey-plover_breedingplumage_1200x675.jpg",
-            "grey-plover_winterplumage_1200x675.jpg"
+            "grey-plover_winterplumage_1200x675.jpg",
+            "grey-plover_juvenile_1200x675.jpg"
         ],
         "family": "Plovers",
         "conservationStatus": "Amber",
@@ -5262,8 +5262,8 @@ birds.data = {
         "name": "Hobby",
         "scientificName": "Falco subbuteo",
         "images": [
-            "hobby_juvenile_1200x675.jpg",
-            "hobby_1200x675.jpg"
+            "hobby_1200x675.jpg",
+            "hobby_juvenile_1200x675.jpg"
         ],
         "family": "Falcons",
         "conservationStatus": "Green",
@@ -6947,8 +6947,8 @@ birds.data = {
         "name": "Long-tailed tit",
         "scientificName": "Aegithalos caudatus",
         "images": [
-            "long-tailed-tit_juvenile_1200x675.jpg",
-            "long-tailed-tit_1200x675.jpg"
+            "long-tailed-tit_1200x675.jpg",
+            "long-tailed-tit_juvenile_1200x675.jpg"
         ],
         "family": "Long-tailed tits",
         "conservationStatus": "Green",
@@ -7220,8 +7220,8 @@ birds.data = {
         "scientificName": "Circus aeruginosus",
         "images": [
             "marsh-harrier_male_1200x675.jpg",
-            "marsh-harrier_juvenile_1200x675.jpg",
-            "marsh-harrier_female_1200x675.jpg"
+            "marsh-harrier_female_1200x675.jpg",
+            "marsh-harrier_juvenile_1200x675.jpg"
         ],
         "family": "Kites, hawks and eagles",
         "conservationStatus": "Amber",
@@ -8463,8 +8463,8 @@ birds.data = {
         "name": "Pomarine skua",
         "scientificName": "Stercorarius pomarinus",
         "images": [
-            "pomarine-skua_juvenile_1200x675.jpg",
-            "pomarine-skua_paleform_1200x675.jpg"
+            "pomarine-skua_paleform_1200x675.jpg",
+            "pomarine-skua_juvenile_1200x675.jpg"
         ],
         "family": "Skuas",
         "conservationStatus": "Green",
@@ -9930,8 +9930,8 @@ birds.data = {
         "name": "Roseate tern",
         "scientificName": "Sterna dougallii",
         "images": [
-            "roseate-tern_juvenile_1200x675.jpg",
-            "roseate-tern_breedingplumage_1200x675.jpg"
+            "roseate-tern_breedingplumage_1200x675.jpg",
+            "roseate-tern_juvenile_1200x675.jpg"
         ],
         "family": "Gulls and terns",
         "conservationStatus": "Red",
@@ -10232,10 +10232,10 @@ birds.data = {
         "name": "Sandwich tern",
         "scientificName": "Sterna sandvicensis",
         "images": [
-            "sandwich-tern_juvenile_1200x675.jpg",
             "sandwich-tern_breedingplumage_1200x675.jpg",
             "sandwich-tern_breedingplumage_inflight_1200x675.jpg",
-            "sandwich-tern_nonbreedingplumage_inflight_1200x675.jpg"
+            "sandwich-tern_nonbreedingplumage_inflight_1200x675.jpg",
+            "sandwich-tern_juvenile_1200x675.jpg"
         ],
         "family": "Gulls and terns",
         "conservationStatus": "Amber",
@@ -10488,9 +10488,9 @@ birds.data = {
         "name": "Shag",
         "scientificName": "Phalacrocorax aristotelis",
         "images": [
-            "shag_juvenile_swimming_1200x675.jpg",
             "shag_1200x675.jpg",
-            "shag_inflight_1200x675.jpg"
+            "shag_inflight_1200x675.jpg",
+            "shag_juvenile_swimming_1200x675.jpg"
         ],
         "family": "Cormorants and shags",
         "conservationStatus": "Red",
@@ -10541,8 +10541,8 @@ birds.data = {
         "scientificName": "Tadorna tadorna",
         "images": [
             "shelduck_male_1200x675.jpg",
-            "shelduck_juvenile_1200x675.jpg",
-            "shelduck_female_1200x675.jpg"
+            "shelduck_female_1200x675.jpg",
+            "shelduck_juvenile_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
         "conservationStatus": "Amber",
@@ -11725,8 +11725,8 @@ birds.data = {
         "name": "Swallow",
         "scientificName": "Hirundo rustica",
         "images": [
-            "swallow_juvenile_1200x675.jpg",
-            "swallow_1200x675.jpg"
+            "swallow_1200x675.jpg",
+            "swallow_juvenile_1200x675.jpg"
         ],
         "family": "Swallows and martins",
         "conservationStatus": "Green",
