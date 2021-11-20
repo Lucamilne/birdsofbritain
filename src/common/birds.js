@@ -1340,7 +1340,7 @@ birds.data = {
             "canada-goose_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
-        "conservationStatus": "Introduced",
+        "conservationStatus": "None",
         "protectedBy": "The Wildlife and Countryside Act 1981",
         "description": "The canada goose is a large goose, with a distinctive black head and neck and large white throat patch. An introduced species from North America, it has successfully spread to cover most of the UK. It forms noisy flocks and is often regarded as a nuisance in areas where large numbers occur on amenity grassland and parks.",
         "diet": "Vegetation - roots, grass, leaves and seeds.",
@@ -1504,7 +1504,7 @@ birds.data = {
             "cattle-egret_breedingplumage_1200x675.jpg"
         ],
         "family": "Herons, storks and ibises",
-        "conservationStatus": "Introduced",
+        "conservationStatus": "None",
         "protectedBy": "The Wildlife and Countryside Act 1981",
         "description": "Slightly smaller but much rarer than the little egret, cattle egrets are visiting the UK in increasing numbers. They often spend time close to livestock and grab insects and worms which their hooves disturb. Cattle egrets have yellow or greyish legs and a yellow beak, compared to the black legs (with yellow feet) and black beak of the little egret.",
         "diet": "Insects, worms, reptiles, frogs and mice.",
@@ -2997,7 +2997,7 @@ birds.data = {
             "egyption-goose_juvenile_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
-        "conservationStatus": "Introduced",
+        "conservationStatus": "None",
         "protectedBy": "The Wildlife and Countryside Act 1981",
         "description": "Related to the shelduck, this pale brown and grey goose has distinctive dark brown eye-patches and contrasting white wing patches in flight. It was introduced as an ornamental wildfowl species and has escaped into the wild, now successfully breeding in a feral state.",
         "diet": "Seeds and grass.",
@@ -3659,7 +3659,7 @@ birds.data = {
             "golden-pheasant_female_1200x675.jpg"
         ],
         "family": "Pheasants and partridges",
-        "conservationStatus": "Introduced",
+        "conservationStatus": "None",
         "protectedBy": "The Wildlife and Countryside Act 1981",
         "description": "Smaller than a pheasant, the male is very brightly coloured with a yellow crown and lower back, dark wings and upper neck, red underparts and long finely barred tail. The female is paler brown than a female pheasant. It is a shy bird, keeping to dark, dense woodland. Roosts in trees at night.",
         "diet": "Leaves and buds, insects and spiders.",
@@ -4839,7 +4839,7 @@ birds.data = {
             "grey-phalarope_1200x675.jpg"
         ],
         "family": "Sandpipers, snipes and phalaropes",
-        "conservationStatus": "Introduced",
+        "conservationStatus": "None",
         "protectedBy": "The Wildlife and Countryside Act 1981",
         "description": "This Arctic-breeding wader sometimes comes to the coasts of the UK after storms. They are most often seen at the coast - around 200 birds per year are seen. Like the other phalarope species, the female is the more colourful and leaves the male to incubate the eggs and bring up the young. In North America, these birds are known as red phalaropes, due to the birds' orangey-red breeding plumage.",
         "diet": "In winter, eats marine plankton picked from the sea's surface. On breeding grounds, grey phalaropes eat small insects and aquatic creatures.",
@@ -6611,7 +6611,7 @@ birds.data = {
             "little-owl_juvenile_1200x675.jpg"
         ],
         "family": "Owls",
-        "conservationStatus": "Introduced",
+        "conservationStatus": "None",
         "protectedBy": "The Wildlife and Countryside Act 1981",
         "description": "This small owl was introduced to the UK in the 19th century. It can be seen in the daylight, usually perching on a tree branch, telegraph pole or rock. It will bob its head up and down when alarmed. In flight it has long, rounded wings, rapid wingbeats and flies with a slight undulation. Breeding Bird Survey data suggest that little owl numbers are declining, with the UK population estimated to be down by 24 per cent between 1995 and 2008.",
         "diet": "Small mammals and birds, beetles and worms.",
@@ -7122,7 +7122,7 @@ birds.data = {
             "mandarin_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
-        "conservationStatus": "Introduced",
+        "conservationStatus": "None",
         "protectedBy": "The Wildlife and Countryside Act 1981",
         "description": "The male mandarin has the most elaborate and ornate plumage with distinctive long orange feathers on the side of the face, orange 'sails' on the back, and pale orange flanks.The female is dull by comparison with a grey head and white stripe behind the eye, brown back and mottled flanks.",
         "diet": "Insects, vegetation and seeds.",
@@ -8144,7 +8144,7 @@ birds.data = {
             "pheasant_female_1200x675.jpg"
         ],
         "family": "Pheasants and partridges",
-        "conservationStatus": "Introduced",
+        "conservationStatus": "None",
         "protectedBy": "The Wildlife and Countryside Act 1981",
         "description": "Pheasants are large, long-tailed gamebirds. The males have rich chestnut, golden-brown and black markings on their bodies and tails, with a dark green head and red face wattling. Females are mottled with paler brown and black. ",
         "diet": "Seeds, grain, shoots and insects.",
@@ -9037,7 +9037,7 @@ birds.data = {
             "red-crested-pochard_female_1200x675.jpg"
         ],
         "family": "Duck, goose and swan family",
-        "conservationStatus": "Introduced",
+        "conservationStatus": "None",
         "protectedBy": "The Wildlife and Countryside Act 1981",
         "description": "Larger than a pochard, the male has an orange-brown head with a red beak and pale flanks. Females are brown with pale cheeks. In flight they show whitish primaries. They dive, dabble and up-end for their food. There is a large population in Spain and nearer but smaller numbers in France, Netherlands and Germany - and occasional wild birds may come to the UK from the Continent. The UK breeding birds almost certainly all come from escaped birds.",
         "diet": "Stems, roots and seeds of aquatic vegetation.",
@@ -9091,7 +9091,7 @@ birds.data = {
             "red-legged-partridge_1200x675.jpg"
         ],
         "family": "Pheasants and partridges",
-        "conservationStatus": "Introduced",
+        "conservationStatus": "None",
         "protectedBy": "The Wildlife and Countryside Act 1981",
         "description": "Larger than the grey partridge, it has a large white chin and throat patch, bordered with black. It has a greyish body with bold black flank stripes and a chestnut-sided tail. It is an introduced species, brought to the UK from continental Europe, where it is largely found in France and Spain.",
         "diet": "Seeds and roots.",
@@ -9609,7 +9609,7 @@ birds.data = {
             "ring-necked-parakeet_1200x675.jpg"
         ],
         "family": "Parrots",
-        "conservationStatus": "Introduced",
+        "conservationStatus": "None",
         "protectedBy": "The Wildlife and Countryside Act 1981",
         "description": "The UK's only naturalised parrot - it is large, long-tailed and green with a red beak and a pink and black ring around its face and neck. In flight it has pointed wings, a long tail and very steady, direct flight. Often found in flocks, numbering hundreds at a roost site, it can be very noisy.",
         "diet": "Fruit, berries, nuts and seeds.",
@@ -10027,7 +10027,7 @@ birds.data = {
             "ruddy-duck_female_1200x675.jpg"
         ],
         "family": "Ducks, geese and swans",
-        "conservationStatus": "Introduced",
+        "conservationStatus": "None",
         "protectedBy": "The Wildlife and Countryside Act 1981",
         "description": "Ruddy ducks are small, stout freshwater diving ducks with broad, short wings and narrow, stiff tails. The male ruddy duck has a bright chestnut body, black crown, white cheeks and blue bill. They swim buoyantly, often with the tail cocked up, and can also gradually submerge without diving. They hardly ever leave the water, being very ungainly on land. This species is subject to a Government-led eradication programme. As a result, the UK population of ruddy ducks now stands at fewer than 100 birds.",
         "diet": "Aquatic insect larvae and plant seeds.",
