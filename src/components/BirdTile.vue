@@ -22,7 +22,7 @@
 
 <script>
 import birds from "@/common/birds.js";
-import common from "@/common/utils.js";
+import utils from "@/common/utils.js";
 
 export default {
     name: "BirdTile",
@@ -32,7 +32,7 @@ export default {
     }),
     methods: {
         toKebabCase(bird) {
-            return common.toKebabCase(bird);
+            return utils.toKebabCase(bird);
         },
     },
 };

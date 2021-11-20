@@ -1,11 +1,11 @@
-let common = {}
+let utils = {}
 
-common.toKebabCase = function (str) {
+utils.toKebabCase = function (str) {
     return str.toLowerCase().replaceAll(" ", "-");
 }
 
-common.capitalise = function (str) {
+utils.capitalise = function (str) {
     return str[0].toUpperCase() + str.substring(1).toLowerCase();
 }
 
-module.exports = common;
+module.exports = utils;

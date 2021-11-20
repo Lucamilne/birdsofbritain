@@ -92,7 +92,7 @@
 <script>
 import FavouriteToggle from "./FavouriteToggle.vue";
 import MonthsActive from "./MonthsActive.vue";
-import common from "@/common/utils.js";
+import utils from "@/common/utils.js";
 
 export default {
   name: "BirdProfile",
@@ -120,7 +120,7 @@ export default {
   },
   methods: {
     toKebabCase(habitat) {
-      return common.toKebabCase(habitat);
+      return utils.toKebabCase(habitat);
     },
     getImageMetadata(image) {
       let metadata;

@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import common from "../common/utils";
+import utils from "../common/utils";
 
 export default {
     name: "Breadcrumbs",
@@ -50,7 +50,7 @@ export default {
     },
     methods: {
         getCapatalisedCrumbFromPath(crumb) {
-            return Array.from(crumb.split("-"), (el) => common.capitalise(el)).join(" ");
+            return Array.from(crumb.split("-"), (el) => utils.capitalise(el)).join(" ");
         },
     },
 };

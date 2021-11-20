@@ -30,7 +30,7 @@
 
 <script>
 import birds from "@/common/birds.js";
-import common from "@/common/utils.js";
+import utils from "@/common/utils.js";
 
 export default {
     name: "Families",
@@ -43,7 +43,7 @@ export default {
     },
     methods: {
         toKebabCase(family) {
-            return common.toKebabCase(family);
+            return utils.toKebabCase(family);
         },
     },
 };

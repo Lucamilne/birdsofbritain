@@ -34,7 +34,7 @@
 
 <script>
 import birds from "@/common/birds.js";
-import common from "@/common/utils.js";
+import utils from "@/common/utils.js";
 
 export default {
     name: "Habitats",
@@ -48,7 +48,7 @@ export default {
     },
     methods: {
         toKebabCase(habitat) {
-            return common.toKebabCase(habitat);
+            return utils.toKebabCase(habitat);
         },
     },
 };
