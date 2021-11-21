@@ -3,8 +3,6 @@
     label
     small
     dark
-    v-bind="attrs"
-    v-on="on"
     :color="colours[conservationStatus]"
     class="overline"
   >
