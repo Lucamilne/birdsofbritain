@@ -3,7 +3,8 @@
     <v-col
       v-for="(family, index) in families"
       :key="index"
-      cols="6"
+      cols="12"
+      sm="6"
       md="4"
       lg="3"
       xl="2"
@@ -14,7 +15,7 @@
           $router.push({
             name: 'family',
             params: { id: toKebabCase(index) },
-          });
+          })
         "
         class="d-flex flex-column justify-space-between"
       >
