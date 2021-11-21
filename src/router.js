@@ -50,7 +50,7 @@ export default new Router({
                 },
                 {
                     path: "family",
-                    name: "famililes",
+                    name: "families",
                     component: () => import(/* webpackChuckName: "Families" */ "./components/Families")
                 },
                 {
