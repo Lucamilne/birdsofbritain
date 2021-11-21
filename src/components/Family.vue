@@ -20,7 +20,7 @@ export default {
     data: () => ({
         resultsPerPage: 24,
         birds: birds.data,
-        birdsByFamily: birds.birdsByFamily(),
+        birdFamilies: birds.families,
     }),
     computed: {
         family() {
@@ -50,7 +50,7 @@ export default {
             const start = (this.page - 1) * this.resultsPerPage;
             const end = this.page * this.resultsPerPage;
 
-            return this.birdsByFamily[this.family].slice(start, end);
+            return this.birdFamilies[this.family].birds.slice(start, end);
         },
     },
     updated() {

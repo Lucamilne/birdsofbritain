@@ -567,8 +567,8 @@ birds.data = {
         "name": "Black guillemot",
         "scientificName": "Cepphus grylle",
         "images": [
-            "black-guillemot_nonbreedingplumage_1200x675.jpg",
-            "black-guillemot_breedingplumage_1200x675.jpg"
+            "black-guillemot_breedingplumage_1200x675.jpg",
+            "black-guillemot_nonbreedingplumage_1200x675.jpg"
         ],
         "family": "Auks",
         "conservationStatus": "Amber",
@@ -5002,7 +5002,7 @@ birds.data = {
             "type": "breeding",
             "value": "46,000 pairs"
         },
-        "found": "Greylag geese are easily seen in lowland areas of the UK all year, sometimes even in suburban parks with lakes but especially on low-lying grassy fields in river valleys. Wild ones, however, are found mostly north of the Solway and can be seen at RSPB nature reserves such as Mersehead (Dumfries & Galloway), Vane Farm (Fife) and Loch of Strathbeg (Grampian) from September to April. Wild breeding greylags can be found at Forsinard (Caithnes & Sutherland).",
+        "found": "Greylag geese are easily seen in lowland areas of the UK all year, sometimes even in suburban parks with lakes but especially on low-lying grassy fields in river valleys. Wild ones, however, are found mostly north of the Solway and can be seen at RSPB nature reserves such as Mersehead (Dumfries and Galloway), Vane Farm (Fife) and Loch of Strathbeg (Grampian) from September to April. Wild breeding greylags can be found at Forsinard (Caithnes & Sutherland).",
         "audio": "https://www.rspb.org.uk/globalassets/audio/xc27164---greylag-goose---anser-anser.mp3",
         "features": {
             "featherColor": [
@@ -13788,79 +13788,604 @@ birds.listOfFeatures = {
     ],
 }
 
-birds.listOfFamilies = [
-    "Accentors",
-    "Auks",
-    "Avocets and stilts",
-    "Bearded tit",
-    "Boobies and gannets",
-    "Buntings",
-    "Chats",
-    "Cormorants and shags",
-    "Cranes",
-    "Crows",
-    "Cuckoos",
-    "Dippers",
-    "Divers",
-    "Duck, goose and swan family",
-    "Ducks, geese and swans",
-    "Falcons",
-    "Finches",
-    "Grebes",
-    "Grouse",
-    "Gulls and terns",
-    "Herons, storks and ibises",
-    "Hoopoe",
-    "Kingfishers",
-    "Kinglets and Firecrests",
-    "Kites, hawks and eagles",
-    "Larks",
-    "Long-tailed tits",
-    "Nightjars",
-    "Nuthatches",
-    "Old World flycatchers and chats",
-    "Old World sparrows",
-    "Orioles",
-    "Osprey",
-    "Owls",
-    "Oystercatchers",
-    "Parrots",
-    "Petrels and shearwaters",
-    "Pheasants and partridges",
-    "Pigeons and doves",
-    "Pipits and wagtails",
-    "Plovers",
-    "Rails, crakes and coots",
-    "Sandpipers, snipes and phalaropes",
-    "Shrikes",
-    "Skuas",
-    "Starling",
-    "Swallows and martins",
-    "Swifts",
-    "Thick-knees",
-    "Thrushes",
-    "Tits",
-    "Treecreepers",
-    "Warblers",
-    "Waxwings",
-    "Woodpeckers",
-    "Wrens"
-]
-
-birds.birdsByFamily = function () {
-    let birdsByFamily = new Object();
-
-    birds.listOfFamilies.forEach(family => birdsByFamily[family] = []);
-
-    for (const bird in birds.data) {
-        if (birds.data[bird].family) {
-            birdsByFamily[birds.data[bird].family].push(birds.data[bird].name);
-        } else {
-            continue;
-        }
+birds.families = {
+    "Accentors": {
+        "birds": [
+            "Dunnock"
+        ],
+        "description": "A European and Asian family, with few species, only two regularly in Europe and one in the UK.",
+        "appearance": "Accentors are small, inconspicuous, streaked birds, with sharp, pointed bills and a slightly robin-like, pot-bellied shape. They live mostly close to the ground, with a quick, shuffling and hopping action when feeding."
+    },
+    "Auks": {
+        "birds": [
+            "Black guillemot",
+            "Guillemot",
+            "Little auk",
+            "Puffin",
+            "Razorbill"
+        ],
+        "description": "These are small to medium-sized seabirds with long, barrel-shaped bodies, short tails, very small wings and short legs set far back on the body.",
+        "appearance": "Most can hardly walk, but stand upright on cliff ledges where they come to breed each spring. They fly low and fast with whirring wings and poor manoeuvrability, but they are excellent swimmers and divers, using their wings to ‘fly’ underwater. There are more species in North America."
+    },
+    "Avocets and stilts": {
+        "birds": [
+            "Avocet"
+        ],
+        "description": "Elegant, long-legged wading birds; avocets have slender, upcurved bills adapted for a sideways sweep across the surface of wet mud or through shallow water to find food, whereas stilts have especially long, slender legs with short toes and needle-like bills.",
+        "appearance": "Essentially black and white birds, strikingly patterned, living on shallow lagoons and lakes, saltpans and similar areas, and, in winter, on muddy estuaries. There are a few similar species elsewhere in the world."
+    },
+    "Bearded tit": {
+        "birds": [
+            "Bearded tit"
+        ],
+        "description": "Despite some similarities - and its name - scientists have decided it is not actually related to the tit family.",
+        "appearance": "It was removed from the tit family Paridae (which includes blue, great and crested tits), and instead placed in Paradoxornithidae, the parrotbills, before further research revealed it belonged alone in its own family, Panuridae."
+    },
+    "Boobies and gannets": {
+        "birds": [
+            "Gannet"
+        ],
+        "description": "Gannets are large seabirds, with long, tapered bodies, long, angular, pointed wings, pointed tails and dagger-like, pointed bills.",
+        "appearance": "They feed by diving into the sea for fish. Only one species is regularly seen in the UK but a few other kinds are found, mostly in tropical seas, around the world. Most are largely white, with black on the wings, but one species is mostly dark brown. They breed in colonies on cliffs and islands, some tropical species nesting in trees."
+    },
+    "Buntings": {
+        "birds": [
+            "Cirl bunting",
+            "Corn bunting",
+            "Lapland bunting",
+            "Reed bunting",
+            "Snow bunting",
+            "Yellowhammer"
+        ],
+        "description": "The buntings of Europe, Asia and Africa are related to American sparrows. They are rather finch-like but have differently-structured bills, slightly flatter heads, longer bodies, and many have longer tails with white sides.",
+        "appearance": "Some are short-legged and heavy-bodied and strictly terrestrial, others are lighter and live more in trees and bushes. Most have simple, unmusical but distinctive songs. Some are long-distance migrants and several European and Asian species have appeared in the UK as rare vagrants."
+    },
+    "Chats": {
+        "birds": [
+            "Black redstart",
+            "Bluethroat",
+            "Nightingale",
+            "Redstart",
+            "Stonechat",
+            "Wheatear",
+            "Whinchat"
+        ],
+        "description": "Chats are small, quite slender or robin-like birds with fine bills and slender legs.",
+        "appearance": "They have slim and sometimes colourful tails and short, round wings. Chats in the UK include six regular breeders and several rare visitors."
+    },
+    "Cormorants and shags": {
+        "birds": [
+            "Cormorant",
+            "Shag"
+        ],
+        "description": "These are large, dark water birds. In the UK there are just two species, one essentially marine, the other found on all kinds of waters. Many other species are found in seas worldwide.",
+        "appearance": "They are long-bodied, quite large-tailed birds, with broad wings and long necks, and a general shape somewhere between divers and geese. They have short, thick legs, showing a relationship to gannets by the fact that webs join all four toes. Their bills are thick and hooked at the tip, helping to grasp fish, which they catch by diving under water. Characteristic behaviour includes standing with wings held half open."
+    },
+    "Cranes": {
+        "birds": [
+            "Crane"
+        ],
+        "description": "Cranes are large birds that are somewhat heron- or stork-like.",
+        "appearance": "They have thicker, tapered necks, small heads and strong bills, heavy but tapered bodies, long legs, and long, broad wings which allow them to soar and glide expertly in flight. One species is a very rare breeding bird and rare migrant in the UK, but there are several others worldwide."
+    },
+    "Crows": {
+        "birds": [
+            "Carrion crow",
+            "Chough",
+            "Hooded crow",
+            "Jackdaw",
+            "Jay",
+            "Magpie",
+            "Raven",
+            "Rook"
+        ],
+        "description": "Crows are medium to large birds. Many species are black or black and grey; some are pied; others are more colourful or well-patterned.",
+        "appearance": "Most crows are adaptable but often shy where persecuted. In towns, some become tame and may visit gardens. They all have strong, scaly feet, and stout (or downcurved) bills, mostly with a small patch of bristly feathers covering the nostrils. Northern populations of some species are migratory or nomadic, others are entirely resident. Eight species breed in the UK, but there are many others around the world."
+    },
+    "Cuckoos": {
+        "birds": [
+            "Cuckoo"
+        ],
+        "description": "Three species of cuckoos regularly visit Europe. There is only one in the UK, but there are many other species worldwide.",
+        "appearance": "They take their name from the familiar European one which calls ‘cuckoo’ in spring. Most cuckoos are migrants; ours spend the winter in Africa. They are parasitic, laying their eggs in the nests of other species, which rear the young cuckoos in place of their own offspring."
+    },
+    "Dippers": {
+        "birds": [
+            "Dipper"
+        ],
+        "description": "Dippers are rounded, short-tailed, rather wren-like birds in form but almost thrush-sized. A striking feature of these birds are their large white bib against otherwise dark plumage.",
+        "appearance": "Only one species breeds in the UK. A slightly different race (subspecies) is a rare visitor from the continent. Dippers are unique in the songbirds, for their ability to wade, swim and dive in running water. They are exclusively confined to the water’s edge."
+    },
+    "Divers": {
+        "birds": [
+            "Black-throated diver",
+            "Great northern diver",
+            "Red-throated diver"
+        ],
+        "description": "This is a small family of large water birds, with three species regularly seen in the UK (two of which breed) plus one rare vagrant from northern Asia (the white-billed diver). There is another similar species (the Pacific loon) in North America.",
+        "appearance": "Divers all have long, slender bodies, moderately long necks and dagger-shaped bills, quite long but narrow wings and small legs (with long, lobed toes) set far back on the body. They are expert swimmers and divers but unable to stand or walk on land. All are migratory, breeding on freshwater lakes and pools but moving to the sea coast in winter."
+    },
+    "Ducks, geese and swans": {
+        "birds": [
+            "Barnacle goose",
+            "Bewick's swan",
+            "Brent goose",
+            "Canada goose",
+            "Common scoter",
+            "Egyptian goose",
+            "Eider",
+            "Gadwall",
+            "Garganey",
+            "Goldeneye",
+            "Goosander",
+            "Greylag goose",
+            "Long-tailed duck",
+            "Mallard",
+            "Mandarin",
+            "Mute swan",
+            "Pink-footed goose",
+            "Pintail",
+            "Pochard",
+            "Red-breasted merganser",
+            "Red-crested pochard",
+            "Ruddy duck",
+            "Scaup",
+            "Shelduck",
+            "Shoveler",
+            "Smew",
+            "Taiga bean goose",
+            "Teal",
+            "Tufted duck",
+            "Tundra bean goose",
+            "Velvet scoter",
+            "White-fronted goose",
+            "Whooper swan",
+            "Wigeon"
+        ],
+        "description": "The ‘wildfowl’ are medium to large birds with rather long or very long necks, mostly short, broad bills, short legs and the front three toes joined by webs.",
+        "appearance": "There are specialised groups, such as the mergansers (‘sawbills’), which have saw-tooth edges to more slender, hooked bills, which help them to grasp fish. Swans are the largest and longest-necked; one species resident in the UK, two species visit from autumn to spring. Geese are divided into two main groups, the ‘grey’ geese (including the greylag) and the ‘black’ geese, such as brent and barnacle geese. One of the most widespread, the Canada goose, is not native, but introduced to the UK from North America."
+    },
+    "Falcons": {
+        "birds": [
+            "Hobby",
+            "Kestrel",
+            "Merlin",
+            "Peregrine"
+        ],
+        "description": "These are small to medium-sized birds of prey with tapered wings and tails. They include kestrels, which hover while searching for food, and the larger, peregrine-like falcons, which are fast-flying, agile and dramatic.",
+        "appearance": "Some are regular migrants, including the lesser kestrel and red-footed falcon, which breed in southern and eastern Europe but winter in Africa; others roam more randomly, such as the peregrine. The kestrel is largely resident in the UK but a migrant in northern Europe. All have sharp, arched claws, large eyes and short, hooked bills with a small notch on the cutting edge."
+    },
+    "Finches": {
+        "birds": [
+            "Brambling",
+            "Bullfinch",
+            "Chaffinch",
+            "Common redpoll",
+            "Common rosefinch",
+            "Crossbill",
+            "Goldfinch",
+            "Greenfinch",
+            "Hawfinch",
+            "Lesser redpoll",
+            "Linnet",
+            "Parrot crossbill",
+            "Scottish crossbill",
+            "Serin",
+            "Siskin",
+            "Twite"
+        ],
+        "description": "Finches are small birds with forked or notched tails, moderately pointed wings, rounded or elongated bodies and round heads, with more or less triangular bills.",
+        "appearance": "The bill shape varies according to the principal type of food, from short and rounded to rather long and sharp. Some species are agile and feed while perching on, or hanging from, plants. Others are essentially ground feeders. Most also take insects from foliage in the breeding season. They have distinctive flight calls and simple, but sometimes musical, songs."
+    },
+    "Grebes": {
+        "birds": [
+            "Black-necked grebe",
+            "Great crested grebe",
+            "Little grebe",
+            "Red-necked grebe",
+            "Slavonian grebe"
+        ],
+        "description": "Grebes are small to medium-sized water birds, characterised by their pointed bills (long and dagger-like in larger species), round bodies, tiny tails and legs set far back on the body.",
+        "appearance": "The legs are flattened and the toes have broad, leaf-like lobes, so that the forward stroke underwater has minimum drag but the backward stroke can exert maximum pressure for forward movement. They are expert swimmers and divers but unable to walk on dry land. They build floating nests anchored to aquatic vegetation. Many other species are found almost worldwide."
+    },
+    "Grouse": {
+        "birds": [
+            "Black grouse",
+            "Capercaillie",
+            "Ptarmigan",
+            "Red grouse"
+        ],
+        "description": "Grouse are medium to large-sized ‘gamebirds’, somewhat partridge-like, with rounded bodies, short, broad wings and small heads with stout, arched bills.",
+        "appearance": "They feed on shoots, buds and seeds of small shrubs and herbs. Red grouse are especially associated with heather; black grouse prefer a mixture of heather, rushy areas, rough grass and woodland edge; capercaillies survive best where pine woodland intermingles with boggy heath and plentiful supplies of bilberry, cranberry and crowberry. There are several other non-UK species in North America, Europe and Asia."
+    },
+    "Gulls and terns": {
+        "birds": [
+            "Arctic tern",
+            "Black tern",
+            "Black-headed gull",
+            "Common gull",
+            "Common tern",
+            "Glaucous gull",
+            "Great black-backed gull",
+            "Herring gull",
+            "Iceland gull",
+            "Kittiwake",
+            "Lesser black-backed gull",
+            "Little gull",
+            "Little tern",
+            "Mediterranean gull",
+            "Roseate tern",
+            "Sandwich tern",
+            "Yellow-legged gull"
+        ],
+        "description": "Gulls are small to large seabirds, many of which also live inland for at least part of the year; some are strictly marine. Most are grey, black and white when fully mature, but extensively marked with various shades of brown during from one to four years of immaturity.",
+        "appearance": "Terns are small to medium birds, often smaller and slimmer than most of the gulls. All are migratory, often seen outside their breeding areas in spring and autumn, but absent from Europe in winter. There are two main groups, the ‘sea’ terns (not always strictly marine), which look pale grey and white except for a black cap in summer, have long tail streamers and dive to catch fish, and the ‘marsh terns’, which are blunt-tailed, almost black underneath in summer, and dip to pick their food from the surface without diving."
+    },
+    "Herons, storks and ibises": {
+        "birds": [
+            "Bittern",
+            "Cattle egret",
+            "Great white egret",
+            "Grey heron",
+            "Little egret",
+            "Spoonbill"
+        ],
+        "description": "Herons have long legs and long toes, useful when wading on soft mud. Their wings are broad and rounded, often markedly bowed in flight, and they all have long sinuous necks and dagger-shaped bills. Many species nest in trees in mixed colonies, while bitterns are much more secretive and nest in dense reeds.",
+        "appearance": "Spoonbills are characterised by their flattened bills with spatulate tips which are swept from side to side, partly open, through shallow water to detect food. The glossy ibis is an increasingly frequent stray from southern Europe. Ibises are somewhat heron-like but have shorter necks, rounder (often bare) heads and more slender, curved bills. The sacred ibis, common in Africa, is the emblem of the British Ornithologists’ Union."
+    },
+    "Hoopoe": {
+        "birds": [
+            "Hoopoe"
+        ],
+        "description": "Hoopoes are medium-sized birds with long, broad, rounded wings, slightly decurved bills and unique fan-like crests that open over the top of the head.",
+        "appearance": "There is one European species, rare in the UK, and a closely related species in Africa. Hoopoes are medium-sized birds with long, broad, rounded wings, slightly decurved bills and unique fan-like crests that open over the top of the head. Their calls are soft, quick, poo-poo-poo notes, which give them their common name. They nest in cavities in rocks, trees and buildings and feed on the ground, searching for insects, worms, small reptiles and other creatures."
+    },
+    "Kingfishers": {
+        "birds": [
+            "Kingfisher"
+        ],
+        "description": "Kingfishers have stout bodies, very short tails, short, rounded wings, large heads and long, dagger-like bills.",
+        "appearance": "Their feet are very small, with the two outer toes partly fused together. They nest in holes tunnelled into earth banks. There is only one UK species, but many more worldwide, most of which are dry-land birds rather than waterside ones like the UK kingfisher."
+    },
+    "Kinglets and Firecrests": {
+        "birds": [
+            "Firecrest",
+            "Goldcrest"
+        ],
+        "description": "The smallest birds in Europe with short necks that give them a rounded appearance. Both goldcrest and firecrest are green above with off-white below and distinctive yellow/orange crests.",
+        "appearance": "They spend much of their time feeding on insects high in trees of coniferous and deciduous woodland meaning their high-pitch calls are often the easiest way to identify them. Incredibly, for such tiny birds, ringing has shown that goldcrests from Northern Europe and Scandinavia regularly migrate to the UK. Less is known about firecrest migrations but there is some evidence to suggest that some birds also move between the UK and southern Europe."
+    },
+    "Kites, hawks and eagles": {
+        "birds": [
+            "Buzzard",
+            "Golden eagle",
+            "Goshawk",
+            "Hen harrier",
+            "Honey buzzard",
+            "Marsh harrier",
+            "Montagu's harrier",
+            "Red kite",
+            "Rough-legged buzzard",
+            "Sparrowhawk",
+            "White-tailed eagle"
+        ],
+        "description": "These birds of prey have hooked bills, and vary in size from the sparrowhawk up to the white-tailed eagle.",
+        "appearance": "Hawks include the bird-eating hawks such as the sparrowhawk, with broad, rounded wings and long, slender tails. Buzzards are mostly larger, longer-winged, substantial birds, which use broad wings for soaring. Eagles are much larger, with deep, arched, sharply-hooked bills, long, strong, curved claws. There are many more species outside Europe."
+    },
+    "Larks": {
+        "birds": [
+            "Shore lark",
+            "Skylark",
+            "Woodlark"
+        ],
+        "description": "Most larks are pale brown with dark streaks in subtly different patterns. They have rounded wings and rather short tails, stout legs with a long, straight hind claw and strong, triangular, pointed bills.",
+        "appearance": "Most species sing while in flight in open areas with few high perches. They nest on the ground and avoid wooded or bushy areas. Two species breed in the UK, one is a regular visitor in winter and some others are rare vagrants from Europe, where several other species are common. There are many more species worldwide."
+    },
+    "Long-tailed tits": {
+        "birds": [
+            "Long-tailed tit"
+        ],
+        "description": "Long-tailed tits are related to several species in Asia, but are the only member of the family found in the UK and Europe. They have small bodies and long tails, with short legs and tiny, triangular bills.",
+        "appearance": "They move through foliage and hang upside down to feed, like smaller tits, but have a complex social system and are almost always seen in small parties, often moving line astern from tree to tree. They make enclosed, elastic nests of cobwebs, lichen and feathers."
+    },
+    "Nightjars": {
+        "birds": [
+            "Nightjar"
+        ],
+        "description": "Nightjars are inactive by day, well hidden by their cryptic plumage patterns, but become active at dusk, when their strange calls and songs may be heard.",
+        "appearance": "They have broad heads and very short bills, but wide mouths, helping them to catch moths in flight. They are exceptionally agile fliers, with long, tapered wings and long tails, but they have very short legs and can scarcely walk. Their shape is similar to a kestrel or cuckoo. The European species are long-distance migrants, spending the winter in Africa. Europe has two species of nightjars, and there are many more worldwide, but the UK has just one."
+    },
+    "Nuthatches": {
+        "birds": [
+            "Nuthatch"
+        ],
+        "description": "Nuthatches are somewhat woodpecker-like, but more agile, perching up on their feet with bodies and tails held well clear. They can descend head-first and hang upside down beneath twigs and branches.",
+        "appearence": "There is one UK species of nuthatch, with a second in Europe and a few elsewhere. The UK species is a woodland bird, always associated with trees or tall bushes. It has the unique habit in the UK of plastering mud around the entrance to its nest hole."
+    },
+    "Old World flycatchers and chats": {
+        "birds": [
+            "Pied flycatcher",
+            "Robin",
+            "Spotted flycatcher"
+        ],
+        "description": "A large family worldwide, with several European but just two regular UK species, both migrants from Africa.",
+        "appearance": "They sit rather upright on short legs, have tapered tails, large eyes and shallow but broad bills, which help them catch flying insects. They are quite long-winged and agile in flight."
+    },
+    "Old World sparrows": {
+        "birds": [
+            "House sparrow",
+            "Tree sparrow"
+        ],
+        "description": "Sparrows are finch-like birds. They have stout bodies, rounded wings and broad heads, with deep, conical bills adapted for seed-eating.",
+        "appearance": "There are two UK species but several others in Europe, Asia and Africa (American ‘sparrows’ are not closely related). They are social and loosely colonial when breeding. Most nest in cavities but some may nest in bushes or trees, building untidy nests of grass and assorted rubbish. They have no well-developed songs, but several variations on loud chirps and cheeps. Some species are closely associated with people."
+    },
+    "Orioles": {
+        "birds": [
+            "Golden oriole"
+        ],
+        "description": "Orioles are boldly patterned, especially in males (and some older females) with much black and yellow in the plumage. They have loud, fluty, musical songs.",
+        "appearance": "They are thrush-like in general form but more elongated, with thicker bills. One species breeds in the UK, but is very rare. There are others in Africa and Asia. American orioles are not closely related. The European species migrates to Africa in winter."
+    },
+    "Osprey": {
+        "birds": [
+            "Osprey"
+        ],
+        "description": "Ospreys are a specialised, fish-eating bird of prey, most similar to the buzzards or eagles in general appearance.",
+        "appearance": "Seen in flight from below, the osprey has white or slightly mottled underparts. They catch fish by diving and have a long hook on their bill to tear them apart. Their legs and feet are specially adapted too, with an outer toe that can turn backwards, spiny scales on the soles of the feet and remarkably long, arched, pointed claws - all ideal for grasping muscular fish. There is just one species, very widely spread around the world."
+    },
+    "Owls": {
+        "birds": [
+            "Barn owl",
+            "Little owl",
+            "Long-eared owl",
+            "Short-eared owl",
+            "Tawny owl"
+        ],
+        "description": "Owls are specialised birds with round heads and rather flat or dished faces, with forward-facing eyes and a short, hooked bill. Most are nocturnal or crepuscular (active at dawn and dusk), but some may be seen by day.",
+        "appearance": "Many species are resident but others are more or less nomadic, wandering and settling wherever there is plentiful food. Residents may rear regular families of three or four chicks each year, while nomadic ones may rear many more young in ‘good’ years and none at all in others. Owls are found all over the temperate and tropical parts of the world."
+    },
+    "Oystercatchers": {
+        "birds": [
+            "Oystercatcher"
+        ],
+        "description": "Oystercatchers are wading birds, found on freshwater and seawater margins and on drier ground inland, including pastures, riverside fields and similar areas around flooded gravel workings. They have striking black and white plumage.",
+        "appearance": "Their long, orange bill is pointed or chisel-shaped, helping to open shellfish such as mussels and cockles but also to probe for worms. Very sociable, forming large, noisy flocks on sea shores, especially larger estuaries. There are a few other similar species on coasts in the Americas and Africa."
+    },
+    "Parrots": {
+        "birds": [
+            "Ring-necked parakeet"
+        ],
+        "description": "There are no native parrots in Europe, but one species has been accidentally introduced into a number of areas, including south-east England.There are no native parrots in Europe, but one species has been accidentally introduced into a number of areas, including south-east England.",
+        "appearance": "Parrots (and parakeets, cockatoos, lovebirds and other related species) have rounded heads, short, deeply hooked beaks, usually long and tapered wings and, in many species, long tails. Their short legs and feet have two toes forwards, two back - most birds have three facing forwards, one back - and they are exceptionally agile when feeding."
+    },
+    "Petrels and shearwaters": {
+        "birds": [
+            "Balearic shearwater",
+            "Fulmar",
+            "Great shearwater",
+            "Leach's petrel",
+            "Manx shearwater",
+            "Sooty shearwater",
+            "Storm petrel"
+        ],
+        "description": "These are seabirds, related to albatrosses and sharing peculiar arrangement of nostrils, giving the alternative name, ‘tubenoses’. There are many small petrels, as well as larger species, and many other kinds of shearwaters worldwide.",
+        "appearance": "They are strictly marine, many coming ashore to breed in burrows, then only under the cover of darkness, although one of the most widespread, the fulmar, nests on open ledges. None are properly able to walk on land. Petrels in the UK are small, oceanic birds, which fly low over the sea, except for the larger fulmar. Shearwaters are larger, long-winged, flying over vast areas of sea by using winds and air currents over the waves."
+    },
+    "Pheasants and partridges": {
+        "birds": [
+            "Golden pheasant",
+            "Grey partridge",
+            "Pheasant",
+            "Quail",
+            "Red-legged partridge"
+        ],
+        "description": "These include medium and large-sized gamebirds, from the grey and red-legged partridges to the large-bodied pheasants, all with short, curved bills, small heads, rounded bodies and short legs.",
+        "appearance": "Most are social birds, often found in family groups, but in the pheasants the males have little to do with the family. They are all resident species in the UK. There are many more species of pheasants in Asia and North America, with the red-legged partridge originating from continental Europe."
+    },
+    "Pigeons and doves": {
+        "birds": [
+            "Collared dove",
+            "Rock dove",
+            "Stock dove",
+            "Turtle dove",
+            "Woodpigeon"
+        ],
+        "description": "There is no strict division between pigeons and doves, which share certain features.",
+        "appearance": "These features include their small, rounded heads, small, slim bills with a small fleshy patch at the base, rounded bodies with dense, soft feathers, tapered wings and short, scaly legs, and cooing or crooning calls. The wild rock dove has long been domesticated and ‘escaped’ to live wild as the familiar town pigeon. There are many species all over the world."
+    },
+    "Pipits and wagtails": {
+        "birds": [
+            "Grey wagtail",
+            "Meadow pipit",
+            "Pied wagtail",
+            "Rock pipit",
+            "Tree pipit",
+            "Water pipit",
+            "Yellow wagtail"
+        ],
+        "description": "Three species of pipit and three wagtails breed in the UK but several others are rare visitors.",
+        "appearance": "Pipits are lark-like in their streaky plumage and long hind claws but smaller and more slender than larks, often longer-tailed. Wagtails are similar in form but even longer-tailed, most species more or less associated with watery habitats. Some species are black, white and grey, while others have much yellow in their plumage."
+    },
+    "Plovers": {
+        "birds": [
+            "Dotterel",
+            "Golden plover",
+            "Grey plover",
+            "Lapwing",
+            "Little ringed plover",
+            "Ringed plover"
+        ],
+        "description": "This is one of the largest groups within the ‘waders’ or shorebirds. They have quite short to long legs, but short bills; feed with characteristic run-stop-tilt forward action on areas of open sand, mud, shingle, bare earth or short turf.",
+        "appearance": "Lapwings have broad, rounded wings, plovers have pointed wings. Plovers may be separated into smaller groups, including the ‘ringed’ plovers (several species worldwide, two in the UK) and the ‘golden’ type, with spangled upperparts and extensive areas of black beneath in breeding plumages. Many are long-distance migrants and several can be found in large flocks on dry ground, well away from water."
+    },
+    "Rails, crakes and coots": {
+        "birds": [
+            "Coot",
+            "Corncrake",
+            "Moorhen",
+            "Spotted crake",
+            "Water rail"
+        ],
+        "description": "Rails are mostly secretive and elusive rather than shy, living in dense vegetation such as reeds and overgrown pools and communicating with loud calls.",
+        "appearance": "They have, in a side view, rounded bodies, remarkably narrow end-on, helping them slip easily through reeds. Two commoner species in the UK, the moorhen and the coot, are larger and less secretive, living at the water’s edge or swimming on open water. One, the corncrake, lives in much drier habitat, where tall grass replaces similar waterside plants. Some are resident, others are migratory in parts of their range, while others (including the corncrake) are regular migrants to Africa."
+    },
+    "Sandpipers, snipes and phalaropes": {
+        "birds": [
+            "Bar-tailed godwit",
+            "Black-tailed godwit",
+            "Common sandpiper",
+            "Curlew",
+            "Curlew sandpiper",
+            "Dunlin",
+            "Green sandpiper",
+            "Greenshank",
+            "Grey phalarope",
+            "Jack snipe",
+            "Knot",
+            "Little stint",
+            "Pectoral sandpiper",
+            "Purple sandpiper",
+            "Red-necked phalarope",
+            "Redshank",
+            "Ruff",
+            "Sanderling",
+            "Snipe",
+            "Spotted redshank",
+            "Temminck's stint",
+            "Turnstone",
+            "Whimbrel",
+            "Wood sandpiper",
+            "Woodcock"
+        ],
+        "description": "The sandpipers, snipes and phalaropes family is a large group of waders with several distinct sub-groups including curlews, godwit, turnstone, sandpipers, woodcock, snipe and phalaropes.",
+        "appearance": "Generally shoreline birds, some wade in shallow water, while others feed on rocky shores. Curlew, whimbrel and godwit are larger waders with mottled brown plumage and long curved or straight beaks. Sandpipers and phalaropes are smaller to medium sized waders with relatively long bills. Many species of wader have seasonal plumages and some are among the World's greatest long-distance migrants travelling annually from the Arctic to Europe, South America, Africa and Australia."
+    },
+    "Shrikes": {
+        "birds": [
+            "Great grey shrike",
+            "Red-backed shrike"
+        ],
+        "description": "Two species of shrike are regular seasonal visitors to the UK and red-backed shrikes used to breed here. Two other species of shrike breed in parts of Europe but are very rare visitors to our shores.",
+        "appearance": "Shrike are small to medium sized birds with large round heads, slightly hooked bills and long, sharp claws. They eat insects, small birds, rodents and reptiles which may be impaled on thorns for ease of feeding or to store for later. All shrikes are migrants, moving either within Europe or to over-winter in Africa."
+    },
+    "Skuas": {
+        "birds": [
+            "Arctic skua",
+            "Great skua",
+            "Long-tailed skua",
+            "Pomarine skua"
+        ],
+        "description": "Skuas are 'piratical' birds, gaining much of their food by stealing it from other seabirds. They make a very small family with just four northern hemisphere species and three southern hemisphere species.",
+        "appearance": "All four are regularly seen in the UK, with two breeding. Skuas can be divided into two main types, the ‘great skua’ kind which are large, broad-winged and mottled brown and the rest, which are more slender, long-winged and have distinctive tail projections. These (including the Arctic skua) are unusual among birds as they appear in two or three plumage forms (‘dark’, ‘intermediate’ and ‘pale’)."
+    },
+    "Starling": {
+        "birds": [
+            "Starling"
+        ],
+        "description": "A family of small birds in Europe, Asia and Africa; many are strikingly coloured and iridescent. One species is regular in the UK, both as a resident and as a winter visitor.",
+        "appearance": "Starlings are almost thrush-sized, but more upright, on strong legs, with short tails, pointed wings and sharply-pointed bills. They are also more social, forming closer, often much larger, flocks and feeding quickly in busy, squabbling groups where food is abundant."
+    },
+    "Swallows and martins": {
+        "birds": [
+            "House martin",
+            "Sand martin",
+            "Swallow"
+        ],
+        "description": "Swallows and martins are mostly small, elegant, aerial species with long, tapered wings, forked tails (swallows have elongated outer feathers) and small bills but wide mouths, for catching insects in flight.",
+        "appearance": "There are three regular species in the UK plus some rare visitors, and many species worldwide. They tend to fly lower and slower than swifts but different species exploit different levels of air space and different sizes of aerial insects. Unlike swifts, they perch frequently on wires and (less often) trees and may be seen on roofs, sometimes on the ground."
+    },
+    "Swifts": {
+        "birds": [
+            "Swift"
+        ],
+        "description": "The UK has seen numbers plummeting, with a 53% decline between 1995 and 2016. To help them, we want to get 1,000 swift nestboxes put up before they arrive at the end of April.",
+        "appearance": "The swift is black all over, with a small, pale patch on its throat. Looking a bit like a boomerang when in the air, it is very sociable and can often be spotted in groups wheeling over roofs and calling to each other with high-pitched screams. It is larger than swallows and martins (which have white undersides) and, unlike them, does not perch on wires, buildings or trees."
+    },
+    "Thick-knees": {
+        "birds": [
+            "Stone-curlew"
+        ],
+        "description": "Thick-knees are crow-sized birds, related to waders and bustards, most of which live in dry places (but some live on river and lake sides and on coastal beaches).",
+        "appearance": "One species in the UK and Europe, but a few others in Australasia, south-east Asia, Africa and South America. They share features including large, bulging eyes (useful at dawn and dusk when they are most active), rather short, stout, pointed bills and strong yellow legs. They are noisy birds at dusk."
+    },
+    "Thrushes": {
+        "birds": [
+            "Blackbird",
+            "Fieldfare",
+            "Mistle thrush",
+            "Redwing",
+            "Ring ouzel",
+            "Song thrush"
+        ],
+        "description": "There are many thrushes worldwide. Four regularly breed in the UK, and there are two types of winter thrushes that occasionally breed over here.",
+        "appearance": "Thrushes are generally larger than chats, often spotted underneath, but in some species, males are unspotted and clearly different from females. Many are superb songsters."
+    },
+    "Tits": {
+        "birds": [
+            "Blue tit",
+            "Coal tit",
+            "Crested tit",
+            "Great tit",
+            "Marsh tit",
+            "Willow tit"
+        ],
+        "description": "Tits are small birds with plain or colourful plumages, stout legs and strong feet and short, triangular bills. Several species have crests.",
+        "appearance": "In the UK, six species breed (plus one unrelated species in reedbeds); there are a few more in Europe and Asia, plus others in Africa and the Americas. They are social, often in mixed flocks, but territorial when nesting. They are among the most persistent and successful visitors to garden feeders."
+    },
+    "Treecreepers": {
+        "birds": [
+            "Short-toed treecreeper",
+            "Treecreeper"
+        ],
+        "description": "Treecreepers are mottled brown above, white or whitish beneath, and have stiff tails, used in the manner of woodpeckers’ as support when climbing, and large feet with sharp, arched claws.",
+        "appearance": "Their bills are curved and sharp, for extracting insect food and seeds from crevices in tree bark. One is a UK species, the other a very rare visitor from Europe; several other species are found worldwide. The two European treecreepers are exceptionally difficult to tell apart except by their calls and songs."
+    },
+    "Warblers": {
+        "birds": [
+            "Aquatic warbler",
+            "Blackcap",
+            "Cetti's warbler",
+            "Chiffchaff",
+            "Dartford warbler",
+            "Garden warbler",
+            "Grasshopper warbler",
+            "Lesser whitethroat",
+            "Marsh warbler",
+            "Reed warbler",
+            "Savi's warbler",
+            "Sedge warbler",
+            "Whitethroat",
+            "Willow warbler",
+            "Wood warbler",
+            "Yellow-browed warbler"
+        ],
+        "description": "‘Old World’ warblers, unrelated to the New World warblers, some of which appear as rare vagrants in the UK. Many species throughout Europe, Africa, Asia and Australasia.",
+        "appearance": "In the UK, warblers can be separated into several groups – leaf warblers (slender, greenish birds of woodland and scrub, with simple soft call notes), reed, bush and grasshopper warblers (browner birds that live in wet places) and the Old World warblers (generally more patterned birds of woods and bushy places with short, hard call notes). Most are migrants but two species (plus increasing numbers of two others) remain in the UK in winter."
+    },
+    "Waxwings": {
+        "birds": [
+            "Waxwing"
+        ],
+        "description": "Waxwings are starling-sized, stout-bodied, short-legged birds with an upstanding, pointed crest. They have black throats, black wings with white, yellow and waxy red markings and yellow-tipped tails.",
+        "appearance": "Just one species breeds in Europe and visits the UK erratically in winter during 'irruption years'. Irruptions occur when population increases and shortages of food, particularly rowan berries, in its normal European range trigger large movements of birds to the south and west. One other species of waxwing normally found in North America has appeared in the UK on rare occasions."
+    },
+    "Woodpeckers": {
+        "birds": [
+            "Great spotted woodpecker",
+            "Green woodpecker",
+            "Lesser spotted woodpecker",
+            "Wryneck"
+        ],
+        "description": "There are over two hundred species of woodpecker and two species of wrynecks worldwide. Of these, three species of woodpecker and one species of wryneck are found in the UK.",
+        "appearance": "Woodpeckers are small to large birds, mostly boldly-patterned, sharing features such as a chisel-like bill, round head, long tongue, stiff tail and two toes facing forwards and two back to give a better grip on rounded branches. Wrynecks are well-camouflaged, brown birds with shorter bills and normal tails."
+    },
+    "Wrens": {
+        "birds": [
+            "Wren"
+        ],
+        "description": "Wrens are round-bodied, short-tailed and short-winged, with pointed bills and quite strong feet.",
+        "appearance": "Wrens explore shady, overgrown places on or near the ground, for small insects and spiders. They are well known for their unusually loud, vibrant songs. Males make several nests, from which the female chooses one in which to lay her eggs. Only one species is found in Europe with many more in North America."
     }
-
-    return birdsByFamily;
 }
 
 birds.birdsByHabitat = function () {
@@ -13902,7 +14427,7 @@ birds.habitatByPath = function () {
 birds.familyByPath = function () {
     let familyByPath = new Object();
 
-    birds.listOfFamilies.forEach(family => {
+    Object.keys(birds.families).forEach(family => {
         familyByPath[family.toLowerCase().replaceAll(" ", "-")] = family;
     })
 

@@ -15,7 +15,7 @@
             </v-list-item-avatar>
         </v-list-item>
         <v-card-text>
-            <span class="text-button" color="primary">Learn More</span>
+            <span class="text-button secondary--text">Learn More</span>
         </v-card-text>
     </v-card>
 </template>
