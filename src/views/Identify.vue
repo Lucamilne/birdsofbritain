@@ -24,7 +24,7 @@
                     </v-stepper-step>
                 </v-stepper-header>
             </v-stepper>
-            <v-window v-model="step" class="my-4">
+            <v-window v-model="step" class="my-4" style="overflow: visible">
                 <v-window-item :value="1">
                     <HabitatSelect v-on:habitat="habitat = $event" />
                 </v-window-item>
