@@ -21,9 +21,9 @@
           class="d-flex flex-column justify-space-between"
         >
           <div>
-            <v-card-title
-              ><span class="text-truncate">{{ family }}</span>
-            </v-card-title>
+            <v-toolbar flat color="secondary" dark>
+              <v-toolbar-title><span class="text-truncate">{{ family }}</span></v-toolbar-title>
+            </v-toolbar>
             <v-card-text>
               <p class="mb-0">
                 {{ families[family].description }}
