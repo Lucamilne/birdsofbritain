@@ -18,6 +18,7 @@
               params: { id: toKebabCase(family) },
             })
           "
+          tile
           class="d-flex flex-column justify-space-between"
         >
           <div>

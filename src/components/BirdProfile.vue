@@ -25,10 +25,10 @@
           </v-img>
         </v-carousel-item>
       </v-carousel>
-      <FavouriteToggle
-        :bird="bird.name"
-        class="position-absolute top right ma-4 d-flex align-center"
-      />
+      <div class="position-absolute top right ma-4 d-flex align-center">
+        <FavouriteToggle :bird="bird.name" />
+        <Share :bird="bird.name" />
+      </div>
       <v-divider></v-divider>
       <v-card-text class="text--primary position-relative">
         <v-card-title class="overline position-absolute top right mr-3">
@@ -101,6 +101,7 @@
 <script>
 import ConservationStatus from "./ConservationStatus.vue";
 import FavouriteToggle from "./FavouriteToggle.vue";
+import Share from "./Share.vue";
 import MonthsActive from "./MonthsActive.vue";
 import utils from "@/common/utils.js";
 
@@ -111,6 +112,7 @@ export default {
     VuetifyAudio: () => import("vuetify-audio"),
     ConservationStatus,
     FavouriteToggle,
+    Share,
     MonthsActive,
   },
   data: function () {
