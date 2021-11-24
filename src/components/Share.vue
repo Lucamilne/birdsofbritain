@@ -40,7 +40,7 @@ export default {
         await navigator.share(shareData);
         this.text = "Bird shared successfully";
       } catch (err) {
-        this.text = "Error: " + err;
+        this.text = err;
       } finally {
         this.snackbar = true;
       }
