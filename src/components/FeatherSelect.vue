@@ -5,12 +5,12 @@
     @change="$emit('feather-color', indexFeatherColors())"
   >
     <v-row>
-      <v-col v-for="item in items" :key="item" cols="6" md="4" lg="3">
+      <v-col v-for="item in items" :key="item" cols="6" sm="4" lg="3">
         <v-item v-slot="{ active, toggle }">
           <v-card tile v-ripple="false" class="pointer">
             <v-responsive v-ripple @click="toggle" class="text-center">
               <v-img
-              contain
+                contain
                 :aspect-ratio="16 / 10"
                 :src="
                   require(`../assets/feathers/${item
