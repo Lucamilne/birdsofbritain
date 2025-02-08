@@ -20,7 +20,7 @@ birds.data = {
             "value": "42 birds"
         },
         "found": "Aquatic warblers are best looked for in coastal reedbeds along the south coast, often feeding near the reedbed in low vegetation. The RSPB reserve at Marazion Marsh, Cornwall records several aquatic warblers annually and they have also been seen at Radipole Lake and Lodmoor reserves in Dorset.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc24869---aquatic-warbler---acrocephalus-paludicola.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1726.mp3",
         "features": null,
         "monthsActive": [
             "aug"
@@ -46,7 +46,7 @@ birds.data = {
             "value": "2,136 pairs"
         },
         "found": "In summer the arctic skua is most easily seen in the Shetland and Orkney islands, also on some coastal moorlands of north and west Scotland. On passage it is best looked for from coasts in August and September, especially in areas near tern colonies where there are good numbers of feeding terns.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc44267---arctic-skua--parasitic-jaeger---stercorarius-parasiticus-.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -95,7 +95,7 @@ birds.data = {
             "value": "53,000 pairs"
         },
         "found": "Breeding terns can best be seen on island such as the Farne Islands in Northumberland or on the Northern Isles where the greatest breeding densities occur. Look out for them on spring passage at inland reservoirs and around the coast in autumn as they head south.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc25068---arctic-tern---sterna-paradisaea.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/878.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -139,7 +139,7 @@ birds.data = {
             "value": "1,500 pairs"
         },
         "found": "The avocet can be seen in coastal lagoons on the east coast in summer and the Exe estuary in winter.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc29225---pied-avocet---recurvirostra-avosetta.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1419.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -219,7 +219,7 @@ birds.data = {
             "value": "41,000 birds"
         },
         "found": "Largest numbers of bar-tailed godwits occur on large estuaries - the Wash, Thames, Ribble, Dee, Humber, Solway and Forth estuaries, and Lough Foyle for example.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc58555---bar-tailed-godwit---limosa-lapponica.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/891.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -275,7 +275,7 @@ birds.data = {
             "value": "4,000 pairs"
         },
         "found": "Barn owls can be seen in open country, along field edges, riverbanks and roadside verges.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc186611---western-barn-owl---tyto-alba.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/807.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -330,7 +330,7 @@ birds.data = {
             "value": "900 pairs"
         },
         "found": "The largest numbers of barnacle geese reside in the Solway Firth (England and Scotland) and on Islay, Scotland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27707---barnacle-goose---branta-leucopsis.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/638.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -381,7 +381,7 @@ birds.data = {
             "value": "630 pairs"
         },
         "found": "The bearded tit is found only in reedbeds but small numbers may be found away from breeding areas in winter.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc25560---bearded-reedling---panurus-biarmicus.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -435,7 +435,7 @@ birds.data = {
             "value": "7,000 birds"
         },
         "found": "Bewick's swans are found mainly in eastern England, around the Severn estuary and in Lancashire. The Ouse and Nene Washes (Cambridgeshire), Martin Mere (Lancashire) and Slimbridge (Gloucestershire) are good places to see Bewick's swans.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc66286---tundra-swan---cygnus-columbianus-bewickii.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "White"
@@ -480,7 +480,7 @@ birds.data = {
             "value": "80 pairs"
         },
         "found": "Bitterns can be found around wetlands with large reedbeds, especially RSPB reserves at Minsmere (Suffolk) and Leighton Moss (Lancashire).",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc25558---eurasian-bittern---botaurus-stellaris.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -532,7 +532,7 @@ birds.data = {
             "value": "<5,100 males"
         },
         "found": "Black grouse are found in upland areas of Wales, the Pennines and most of Scotland. Best looked for on farmland and moorland with nearby forestry or scattered trees. They have traditional 'lek' sites where the males display.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/695.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -583,7 +583,7 @@ birds.data = {
             "value": "19,000 pairs"
         },
         "found": "Highest numbers of black guillemot can be found on the Shetland and Orkney islands, and down the west coast of Scotland. Small numbers can also be found on the Cumbrian coast at St Bees Head, along the N Ireland coast, and on the Isle of Man.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc48276---black-guillemot---cepphus-grylle.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/899.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -633,7 +633,7 @@ birds.data = {
             "value": "19-44 pairs"
         },
         "found": "Breeding birds occur mainly in urban areas of Greater London, Birmingham and the Black Country with a few pairs in Nottingham, Liverpool, Manchester and Ipswich, and the odd pair at cliff sites and power stations along the south coast between Suffolk and Dorset.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc25584---black-redstart---phoenicurus-ochruros.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1596.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -687,7 +687,7 @@ birds.data = {
             "value": "Hundreds"
         },
         "found": "Black terns can be seen around freshwater lakes, gravel pits and reservoirs, almost anywhere.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc25467---black-tern---chlidonias-niger.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/792.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -733,7 +733,7 @@ birds.data = {
             "value": "140,000 pairs"
         },
         "found": "Black-headed gulls are the commonest inland gull, particularly in N England, Scotland and Wales. Large colonies along the south and east coasts of England.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27027---black-headed-gull---chroicocephalus-ridibundus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/726.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -787,7 +787,7 @@ birds.data = {
             "value": "32-51 pairs"
         },
         "found": "Black-necked grebes like reservoirs, gravel pits and estuaries in winter - the Fal Estuary, Cornwall and Poole Harbour, Dorset are good places to look.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc26932---black-necked-grebe---podiceps-nigricollis.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/708.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -840,7 +840,7 @@ birds.data = {
             "value": "54-57 pairs of the limosa 'Eurasian' subspecies, and 7-9 pairs of the islandica subspecies"
         },
         "found": "Estuaries and coastal lagoons are the best places to look for black-tailed godwits at almost any time of year, though they also visit wetland sites inland. We also have a small, vulnerable breeding population, on a select few wet meadows and marshes. They migrate to west Africa for winter. Birds from Iceland spend winter in the UK.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc42436---black-tailed-godwit---limosa-limosa.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/812.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -895,7 +895,7 @@ birds.data = {
             "value": "200 pairs"
         },
         "found": "Black-throated divers can be seen in Scottish Highland lochs in summer and around sheltered coasts in winter, but rarely along Irish Sea coasts. Moray Firth and W coast of Scotland best in winter, as well as the NE and SW coasts of England. Sometimes seen at inland reservoirs.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc34108---black-throated-loon---gavia-arctica.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/710.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -949,7 +949,7 @@ birds.data = {
             "value": "5,100,000 pairs"
         },
         "found": "Blackbirds are found everywhere in gardens and countryside and from coasts to hills, although not on the highest peaks.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/blackbird_song_xc25554.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/653.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -1001,7 +1001,7 @@ birds.data = {
             "value": "1,200,000 territories"
         },
         "found": "Blackcap are best looked for in woodland, parks and gardens with plenty of trees and shrubs. In winter will readily come into gardens.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc29723---eurasian-blackcap---sylvia-atricapilla.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1497.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -1055,7 +1055,7 @@ birds.data = {
             "value": "3,600,000 territories"
         },
         "found": "Blue tits are common in woodland, hedgerows, parks and gardens. They're widespread and found across the whole of the UK with the exception of some Scottish islands.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/blue_tit_song-xc28208.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/718.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -1109,7 +1109,7 @@ birds.data = {
             "value": "0-1 pairs"
         },
         "found": "Bluethroats are best looked for along the east coast in spring and autumn in scrub and grassy areas. Usually seen hopping along the ground or ducking into low cover.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc33965---bluethroat---luscinia-svecica-cyanecula.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/646.mp3",
         "features": null,
         "monthsActive": [
             "mar",
@@ -1140,7 +1140,7 @@ birds.data = {
             "value": "0-2 pairs"
         },
         "found": "In winter bramblings like beech woodland and farmland fields near woods. Look in flocks of chaffinches and other finches. In autumn look along east coast woodlands and fields. Bramblings will visit gardens in winter.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc24726---brambling---fringilla-montifringilla.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1749.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -1191,7 +1191,7 @@ birds.data = {
             "value": "102,000"
         },
         "found": "Brent geese can be seen around estuaries and saltmarshes. Main concentrations of dark-bellied birds in the Wash, the North Norfolk coastal marshes, Essex estuaries, the Thames Estuary and Chichester and Langstone Harbours. Most light-bellied birds are found at Strangford Lough and Lough Foyle, N Ireland and at Lindisfarne, Northumberland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc37495---brant-goose---branta-bernicla.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -1242,7 +1242,7 @@ birds.data = {
             "value": "190,000"
         },
         "found": "Bullfinches can be seen in woodlands, orchard and hedgerows. Best looked for at woodland edges - usually located by its mournful call.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc25564---eurasian-bullfinch---pyrrhula-pyrrhula.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1486.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -1297,7 +1297,7 @@ birds.data = {
             "value": "57,000-79,000 pairs"
         },
         "found": "Greatest numbers of buzzards can be found in Scotland, Wales, the Lake District and SW England, but now breeding in every county of the UK. They are found in most habitats particularly woodland, moorland, scrub, pasture, arable, marsh bog and villages. Buzzards can even be seen in towns and cities including Glasgow. Look for birds soaring over wooded hillsides in fine weather, or perched on fence posts and pylons. In some areas they are known as the tourists' eagle, often being mistaken for this larger bird of prey.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc30950---common-buzzard---buteo-buteo.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/751.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -1352,7 +1352,7 @@ birds.data = {
             "value": "62,000 pairs"
         },
         "found": "A familiar goose seen around lakes, gravel pits and town parks.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27165---canada-goose---branta-canadensis.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/975.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -1409,7 +1409,7 @@ birds.data = {
             "value": "1,300 birds"
         },
         "found": "Capercaillie are generally confined to native pinewoods. Occasionally seen from hides at RSPB Abernethy Forest, Loch Garten reserve.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc26782---western-capercaillie---tetrao-urogallus.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -1461,7 +1461,7 @@ birds.data = {
             "value": "1,000,000 territories"
         },
         "found": "Carrion crows are found almost everywhere, from the centre of cities to upland moorlands, and from woodlands to seashore.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc28238---carrion-crow---corvus-corone-corone.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1432.mp3",
         "features": {
             "featherColor": [
                 "Black"
@@ -1569,7 +1569,7 @@ birds.data = {
             "value": "2,000 males"
         },
         "found": "Cetti's warblers like damp areas close to wetlands. Look for them at RSPB reserves at Radipole Lake and Lodmoor, Dorset; Exminster Marshes, Devon; Marazion Marsh, Cornwall and Strumpshaw Fen, Norfolk.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc40233---cettis-warbler---cettia-cetti.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1465.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -1620,7 +1620,7 @@ birds.data = {
             "value": "6.2 million (plus 2 million in Ireland)"
         },
         "found": "Chaffinches can be seen around the UK in woodlands, hedgerows, fields, parks and gardens anywhere.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27602---common-chaffinch---fringilla-coelebs.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/669.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -1681,7 +1681,7 @@ birds.data = {
             "value": "1,200,000 territories"
         },
         "found": "Chiffchaffs can be found in lowland woodlands, parks and large gardens.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc26762---common-chiffchaff---phylloscopus-collybita.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/769.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -1736,7 +1736,7 @@ birds.data = {
             "value": "250-350 pairs in Great Britain; 120-150 pairs on the Isle of Man"
         },
         "found": "Choughs can be seen around rocky coasts with short grassland. RSPB reserves at South Stack, Anglesey; Loch Gruinart, Islay and along the Causeway coast, N Ireland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc55319---red-billed-chough---pyrrhocorax-pyrrhocorax.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black"
@@ -1785,7 +1785,7 @@ birds.data = {
             "value": "860 territories"
         },
         "found": "Cirl buntings are confined to south-west England. They are best looked for in fields and hedges of south Devon, near to the coast. For details of some recommended sites, please see the 'Watching cirl buntings' page.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc29456---cirl-bunting---emberiza-cirlus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/823.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -1838,7 +1838,7 @@ birds.data = {
             "value": "680,000 territories"
         },
         "found": "Coal tits can be seen in woodland, especially conifer woods, parks and gardens.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc24884---coal-tit---periparus-ater-britannicus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/722.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -1892,7 +1892,7 @@ birds.data = {
             "value": "990,000 pairs"
         },
         "found": "Collared doves can be seen just about anywhere, but often around towns and villages. They're common visitors to gardens. But collared doves only came to the UK in the 1950s, after a rapid spread across Europe from the Middle East.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc37443---eurasian-collared-dove---streptopelia-decaocto.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/659.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -1947,7 +1947,7 @@ birds.data = {
             "value": "49,000 pairs"
         },
         "found": "In summer look along coasts and inland marshes and lakes of Scotland, N Ireland and N England. Elsewhere in England and Wales seen in winter on farmland, near lakes and marshes and on the coast.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc25066---mew-gull---larus-canus.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -2001,7 +2001,7 @@ birds.data = {
             "value": "1-4 pairs"
         },
         "found": "There is a possibility of seeing the common redpoll on the east coast of Britain in the autumn or winter. Birds then move west in search of food, so can turn up in suitable habitat inland.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/664.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -2051,7 +2051,7 @@ birds.data = {
             "value": "0-4 pairs"
         },
         "found": "Common rosefinches are a scarce species, but best looked for in the Northern Isles and along the coasts of eastern Scotland and eastern and south-east England, especially in spring and autumn.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27694---common-rosefinch---carpodacus-erythrinus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/666.mp3",
         "features": null,
         "monthsActive": [
             "may",
@@ -2081,7 +2081,7 @@ birds.data = {
             "value": "15,000 pairs"
         },
         "found": "In summer the common sandpiper breeds along fast rivers and by lakes, lochs and reservoirs in Scotland, Wales, Northern Ireland and the north of England. In winter it may be seen along the south coast. On its spring and autumn passage, the common sandpiper can be found elsewhere in the UK, near any freshwater areas and on some estuaries.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc25127---common-sandpiper---actitis-hypoleucos.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1750.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -2128,7 +2128,7 @@ birds.data = {
             "value": "52 pairs"
         },
         "found": "In the breeding season the common scoter favours small lochs in N and W Scotland, especially the Flow Country of Caithness and Sutherland. In winter it is found off the UK coast with concentrations in Carmarthen and Cardigan Bays, along the Moray Firth and along the North Norfolk coast.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/1018.mp3",
         "features": {
             "featherColor": [
                 "Black"
@@ -2178,7 +2178,7 @@ birds.data = {
             "value": "12,000 pairs"
         },
         "found": "The common tern breeds along coasts with shingle beaches and rocky islands, on rivers with shingle bars, and at inland gravel pits and reservoirs, feeding along rivers and over freshwater. Migrating birds can be seen offshore in autumn.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc37485---common-tern---sterna-hirundo.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/798.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -2223,7 +2223,7 @@ birds.data = {
             "value": "31,000 pairs"
         },
         "found": "Coot can be seen mainly on freshwater lakes, gravel pits, reservoirs, rivers and town park lakes when deep enough. Sometimes seen offshore, especially in winter if freshwater areas are frozen.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc37445---eurasian-coot---fulica-atra.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/818.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -2278,7 +2278,7 @@ birds.data = {
             "value": "9,018 pairs"
         },
         "found": "The cormorant is found around the UK coastline on rocky shores, coastal lagoons and estuaries, it is increasingly being seen inland at reservoirs, lakes and gravel pits.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc31619---great-cormorant---phalacrocorax-carbo.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -2331,7 +2331,7 @@ birds.data = {
             "value": "11,000 territories"
         },
         "found": "The corn bunting is often seen perched prominently on a hedge, post or wire, singing its jangling song. In the summer corn buntings prefer open farmland and in winter they may be found in stubbles, root crops, weedy fields and cattle yards or stockyards.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc25929---corn-bunting---emberiza-calandra.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/829.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -2381,7 +2381,7 @@ birds.data = {
             "value": "1,017 calling males"
         },
         "found": "Corncrakes are best looked and listened for on the Western Isles. RSPB reserves at Balranald and Coll provide some of the best opportunities.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc30188---corn-crake---crex-crex.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -2430,7 +2430,7 @@ birds.data = {
             "value": "48 pairs"
         },
         "found": "In Britain, migrating cranes are seen mostly in the south and east. The location of the single breeding site is kept secret to protect the birds.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27234---common-crane---grus-grus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1503.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -2483,7 +2483,7 @@ birds.data = {
             "value": "1,500 pairs"
         },
         "found": "The crested tit is largely confined to ancient Caledonian pine forests and Scots pine plantations. It spends its time foraging on the trunk and large branches of pine trees and after the breeding season will join other tit species in roving flocks. Will visit garden birdtables and feeders.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc46279---european-crested-tit---lophophanes-cristatus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/719.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -2535,7 +2535,7 @@ birds.data = {
             "value": "40,000 pairs"
         },
         "found": "The crossbill are an irruptive species and may be numerous and widespread in some years, less so in others. Established breeding areas include the Scottish Highlands, the North Norfolk coast, Breckland, the New Forest and the Forest of Dean. It regularly comes down to pools to drink.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc30574---red-crossbill---loxia-curvirostra.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Brown",
@@ -2588,7 +2588,7 @@ birds.data = {
             "value": "15,000 pairs"
         },
         "found": "Cuckoos can be seen throughout the UK, but are especially numerous in southern and central England.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc37447---common-cuckoo---cuculus-canorus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/681.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -2637,7 +2637,7 @@ birds.data = {
             "value": "66,000 pairs"
         },
         "found": "The curlew can be seen around the whole UK coastline with the largest concentrations of found at Morecambe Bay, the Solway Firth, the Wash, and the Dee, Severn, Humber and Thames estuaries. Greatest breeding numbers are found in N Wales, the Pennines, the southern uplands and E Highlands of Scotland and the Northern Isles.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc37497---eurasian-curlew---numenius-arquata.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1584.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -2693,7 +2693,7 @@ birds.data = {
             "value": "740 individuals"
         },
         "found": "Curlew sandpipers like saltmarshes with muddy pools and shallow coastal lagoons. Largest numbers along the E England coast in autumn in places like the RSPB's Titchwell Marsh reserve.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/837.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -2743,7 +2743,7 @@ birds.data = {
             "value": "3,200 pairs"
         },
         "found": "Dartford warbler can be seen in lowland heathland with gorse and heather. Look for them at RSPB reserves at Arne, Dorset; Aylesbeare, Devon and North Warren Suffolk. Also try Dunwich Heath, Suffolk, the Surrey and Dorset heathlands and the New Forest.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc54914---dartford-warbler---sylvia-undata-undata.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1444.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -2797,7 +2797,7 @@ birds.data = {
             "value": "6,200-18,700 pairs"
         },
         "found": "The dipper can be found along fast-flowing rivers, mainly in upland areas but also on lowland rivers in SW England. Look for tell-tale droppings on stones in the river.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc29601---white-throated-dipper---cinclus-cinclus.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -2849,7 +2849,7 @@ birds.data = {
             "value": "510-750 males"
         },
         "found": "In summer dotterel are found only on Scotland's high tops. They are best looked for on spring and autumn migration. Spring groups are usually seen at traditional stopping points, especially in Eastern England.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/1751.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -2900,7 +2900,7 @@ birds.data = {
             "value": "9,600 pairs"
         },
         "found": "Dunlins breed in the uplands of Scotland, Wales and England. Greatest numbers can be found on the Western and Northern Isles and the Flow Country of Caithness and Sutherland in Scotland, in the Pennines in England. They are found on all UK estuaries with largest numbers in winter.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc83894---dunlin---calidris-alpina.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1033.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -2956,7 +2956,7 @@ birds.data = {
             "value": "2,300,000 territories"
         },
         "found": "Dunnocks inhabit any well vegetated areas with scrub, brambles and hedges. Look in deciduous woodland, farmland edges, parks and gardens. They keep largely on the ground and often close to cover.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27116---dunnock---prunella-modularis.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/779.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -3009,7 +3009,7 @@ birds.data = {
             "value": "1,100 pairs"
         },
         "found": "Egyptian geese are frequently seen on ornamental ponds where it was originally brought. Now can be seen on gravel pits and lowland lakes and wetlands. The north Norfolk coast holds the highest numbers - also in areas like the Norfolk Broads.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/1467.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -3066,7 +3066,7 @@ birds.data = {
             "value": "26,000 pairs"
         },
         "found": "In the breeding season, eiders are best looked for from the Northumberland coast northwards and off the west coast of Scotland. They are found in the same areas in winter and also further south on the Yorkshire coast and around the east and south coast as far a Cornwall. Belfast Lough is a N Ireland stronghold and some are also found off the Welsh coast.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc57852---common-eider---somateria-mollissima-borealis.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/643.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -3118,7 +3118,7 @@ birds.data = {
             "value": "1-2 pairs"
         },
         "found": "Fieldfares are best looked for in the countryside, along hedges and in fields. Hawthorn hedges with berries are a favourite feeding area. In late winter grass fields, playing fields and arable fields with nearby trees and hedges are a favourite place. May come into gardens in severe winters when snow covers the countryside.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc25765---fieldfare---turdus-pilaris.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1512.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -3166,7 +3166,7 @@ birds.data = {
             "value": "550 territories"
         },
         "found": "Evergreen woodland is good place to see firecrests, but they range around in flocks of other small birds during autumn and winter. Then, they can sometimes appear in gardens, along hedgerows and in scrub. Firecrests breed in the UK - mainly in south-east England - though only in very small numbers. Some arrive from across the North Sea in autumn, along with goldcrests.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc34047---common-firecrest---regulus-ignicapilla.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1435.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -3271,7 +3271,7 @@ birds.data = {
             "value": "1,200 summer nesting pairs"
         },
         "found": "The gadwall visits gravel pits, lakes, reservoirs and coastal wetlands and estuaries in winter. To see breeding gadwalls look in the shallow edges of lakes and gravel pits where there is vegetation - mainly in the Midlands and south-east of England, eastern central Scotland, eastern Northern Ireland and the south-east of Ireland and south-east Wales.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc41249---gadwall---anas-strepera.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1060.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -3328,7 +3328,7 @@ birds.data = {
             "value": "220,000 nests"
         },
         "found": "Biggest mainland breeding colony of gannets is at RSPB's Bempton Cliffs. Two mainland colonies - at Bempton and Troup Head, Scotland. Big island colonies on St Kilda, the Northern Isles and Bass Rock in Scotland and Grassholm in Wales. They can be seen offshore almost anywhere, especially when they migrate south between August and September.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc42301---northern-gannet---morus-bassanus.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -3378,7 +3378,7 @@ birds.data = {
             "value": "170,000 territories"
         },
         "found": "Garden warblers can be see in deciduous and mixed woodland and woodland edges, with glades, rides and other open areas. They especially like coppiced woodland and can sometimes be found in farmland hedgerows. It is commonest in England, Wales and S Scotland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc30101---garden-warbler---sylvia-borin.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1711.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -3425,7 +3425,7 @@ birds.data = {
             "value": "14-93 pairs"
         },
         "found": "Garganey are mostly found in central and southern England. They favour shallow wetlands, with flooded meadows and ditches, and plenty of aquatic vegetation - this can make it difficult to see.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc26963---garganey---anas-querquedula.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/635.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -3477,7 +3477,7 @@ birds.data = {
             "value": "170 birds"
         },
         "found": "Glaucous gulls can be seen at the coast, most often on beaches and in harbours and bays. They are found inland where large gulls gather in numbers - at rubbish tips and in roosts at reservoirs.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/734.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -3524,7 +3524,7 @@ birds.data = {
             "value": "610,000 territories"
         },
         "found": "Coniferous woodland or parks with large mature trees are the best places to see goldcrests, but they range around in flocks of other small birds during autumn and winter. They're widespread and common across the whole of the UK. In autumn, large numbers arrive on the east coast from Scandinavia and make their way across dunes to more suitable habitat.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc42341---goldcrest---regulus-regulus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1712.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -3580,7 +3580,7 @@ birds.data = {
             "value": "440 pairs"
         },
         "found": "The golden eagle lives in the wild, open moorlands and mountains of Scotland, favouring islands and remote glens. Best looked for soaring high over hillsides in the Scottish Highlands. ",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/1066.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -3633,7 +3633,7 @@ birds.data = {
             "value": "85 birds"
         },
         "found": "The golden oriole is very secretive and difficult to see. May be encountered an migration on the south or east coast of England, but best looked for in the poplar plantations at the RSPB's Lakenheath reserve in Suffolk.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc30187---eurasian-golden-oriole---oriolus-oriolus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1553.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -3728,7 +3728,7 @@ birds.data = {
             "value": "38,000-59,000 pairs"
         },
         "found": "In summer they inhabit upland moorlands in the S Uplands and Highlands of Scotland, the Western and Northern Isles, the Peak District, N Yorkshire, Wales and Devon. In winter they move to lowland fields, forming large flocks, often in the company of lapwings.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc57855---european-golden-plover---pluvialis-apricaria.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/849.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -3785,7 +3785,7 @@ birds.data = {
             "value": "200 pairs"
         },
         "found": "In summer goldeneye are mainly in the Highlands of Scotland. They are best looked for in winter on lakes, large rivers and sheltered coasts, particularly in north and west Britain.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc42334---common-goldeneye---bucephala-clangula.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1007.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -3837,7 +3837,7 @@ birds.data = {
             "value": "1.2 million pairs"
         },
         "found": "Goldfinches can be seen anywhere there are scattered bushes and trees, rough ground with thistles and other seeding plants. Likes orchards, parks, gardens, heathland and commons. Less common in upland areas and most numerous in southern England.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc34678---european-goldfinch---carduelis-carduelis.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/663.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -3891,7 +3891,7 @@ birds.data = {
             "value": "3,100-3,800 pairs"
         },
         "found": "Goosanders can be seen in the upland rivers of N England, Scotland and Wales in summer. In winter they move to lakes, gravel pits and reservoirs, occasionally to sheltered estuaries.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc30058---common-merganser---mergus-merganser-merganser.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -3948,7 +3948,7 @@ birds.data = {
             "value": "280-430 pairs"
         },
         "found": "Best looked for near large areas of woodland and forests with glades and paths for it to hunt along. They can also be seen hunting over more open countryside.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27024---northern-goshawk---accipiter-gentilis.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -4005,7 +4005,7 @@ birds.data = {
             "value": "16,000 pairs"
         },
         "found": "The grasshopper warbler is found scattered across the UK in summer, although less common in Scotland. Likes areas of scrub, thick grassland, the edges of reedbeds, new forestry plantations and gravel pits with plenty of scattered bushes.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc26936---common-grasshopper-warbler---locustella-naevia.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/768.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -4053,7 +4053,7 @@ birds.data = {
             "value": "17,000 pairs"
         },
         "found": "Great black-backed gulls are found around the coasts in the breeding season. At other times of year it can be found wherever gulls congregate - at reservoir roosts, rubbish tips inland, and bays and harbours.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc30996---great-black-backed-gull---larus-marinus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/735.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -4108,7 +4108,7 @@ birds.data = {
             "value": "4,600 pairs"
         },
         "found": "Great crested grebes can be seen in lowland lakes, gravel pits, reservoirs and rivers. Also found along coasts in winter.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc40184---great-crested-grebe---podiceps-cristatus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/706.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -4215,7 +4215,7 @@ birds.data = {
             "value": "2,500 birds"
         },
         "found": "Great northern divers can be found around coasts where it is usually solitary, often farther out to sea than other divers. Occasionally seen inland on reservoirs. Largest numbers off the Northern and Western Isles of Scotland and also the Cornish coast.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/711.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -4307,7 +4307,7 @@ birds.data = {
             "value": "9,634 pairs"
         },
         "found": "Great skua can be seen in breeding areas on coastal rocky islands and moorland - at other times seen around coasts, often in the neighbourhood of seabird colonies, scavenging from other birds, or picking food from the surface of the sea.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc57403---great-skua---stercorarius-skua.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1088.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -4357,7 +4357,7 @@ birds.data = {
             "value": "140,000 pairs"
         },
         "found": "Great spotted woodpeckers can be seen in woodlands, especially with mature broad-leaved trees, although mature conifers will support them. They can also be found in parks and large gardens. They will come to peanut feeders and bird tables. Not found in the far North of Scotland. Only a handful of pairs nest in Ireland, but numbers are increasing. Common in England and Wales.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc28028---great-spotted-woodpecker---dendrocopos-major.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/781.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -4412,7 +4412,7 @@ birds.data = {
             "value": "2,500,000 territories"
         },
         "found": "Great tits can be seen in woodlands, parks and gardens across the UK. Absent only from the Northern and Western Isles of Scotland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/great_tit_song_xc45953.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/721.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -4518,7 +4518,7 @@ birds.data = {
             "value": "1-2 pairs"
         },
         "found": "The green sandpiper is largely confined to England and Wales. Look for migrant birds near almost any freshwater margins - marshes, lakes, gravel pits and rivers. In winter it likes sewage works, watercress beds and freshwater marshes.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc34109---green-sandpiper---tringa-ochropus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/850.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -4572,7 +4572,7 @@ birds.data = {
             "value": "52,000 pairs"
         },
         "found": "Green woodpeckers spend most of their time feeding on the ground. Look out for them on your garden lawn or in parks - short grass provides good feeding opportunities for them. Like other woodpeckers, these birds breed in holes they peck in dead wood. They can be seen in England, Wales and Scotland, though they're absent from the far north and west and Ireland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc55183---european-green-woodpecker---picus-viridis-viridis.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/787.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -4630,7 +4630,7 @@ birds.data = {
             "value": "1,700,000 pairs"
         },
         "found": "A common countryside bird found in woods and hedges, but mostly found close to man on farmland and in parks, town and village gardens and orchards. Only absent from upland areas without trees and bushes.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc35048---european-greenfinch---chloris-chloris.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/667.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -4686,7 +4686,7 @@ birds.data = {
             "value": "700-1,500 pairs"
         },
         "found": "The greenshank is confined to the N and W of Scotland in summer around boggy moorland and peatland pools. On migration it can be found across the UK, inland around lakes and freshwater marshes, as well as at coastal wetlands and estuaries, with the largest numbers close to the coast. In winter it is found on the estuaries of SW England, Wales, W Scotland and N Ireland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc58586---common-greenshank---tringa-nebularia.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/815.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -4740,7 +4740,7 @@ birds.data = {
             "value": "13,000 nests"
         },
         "found": "Grey herons can be seen around any kind of water - garden ponds, lakes, rivers and even on estuaries. Sometimes, grey herons circle high up into the sky and can be mistaken for large birds of prey.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27971---grey-heron---ardea-cinerea.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/684.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -4797,7 +4797,7 @@ birds.data = {
             "value": "43,000 territories"
         },
         "found": "Grey partridges are traditionally found in lowland arable areas of Great Britain from the chalk areas in the south, into East Anglia, Lincolnshire and Nottinghamshire, reaching into the north of England and the East of Scotland as far as Aberdeenshire. There are small populations in other parts such as the permanent rushy pastures in the north Pennines. They are largely absent from N Ireland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc42430---grey-partridge---perdix-perdix.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/696.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -4896,7 +4896,7 @@ birds.data = {
             "value": "43,000 birds"
         },
         "found": "Grey plovers are found only along coasts, preferring large muddy and sandy estuaries. Largest numbers are found on the Wash, Ribble, Thames, Blackwater, Medway, Dee and Humber estuaries and Chichester and Langstone Harbours.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc67370---grey-plover---pluvialis-squatarola.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/911.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -4949,7 +4949,7 @@ birds.data = {
             "value": "38,000 pairs"
         },
         "found": "Grey wagtails are found over most of the UK, with the exception of the Northern and western isles of Scotland. Likes fast-flowing rivers in summer their greatest densities are in the hills of England, Scotland and Wales. In winter they can be seen around farmyards and lowland streams, even in city centres. Scarce in central and eastern England in summer and from upland areas in winter.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27019---grey-wagtail---motacilla-cinerea.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/746.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -5003,7 +5003,7 @@ birds.data = {
             "value": "46,000 pairs"
         },
         "found": "Greylag geese are easily seen in lowland areas of the UK all year, sometimes even in suburban parks with lakes but especially on low-lying grassy fields in river valleys. Wild ones, however, are found mostly north of the Solway and can be seen at RSPB nature reserves such as Mersehead (Dumfries and Galloway), Vane Farm (Fife) and Loch of Strathbeg (Grampian) from September to April. Wild breeding greylags can be found at Forsinard (Caithnes & Sutherland).",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27164---greylag-goose---anser-anser.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/636.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -5060,7 +5060,7 @@ birds.data = {
             "value": "950,000 pairs"
         },
         "found": "Guillemot are found on small areas of cliffs on the south coast of England, very locally on the coasts and islands of Wales and in a handful of places in the north of England and Northern Ireland. More widely spread on cliffs of Scotland. RSPB nature reserves such as Bempton Cliffs in Yorkshire, Fowlsheugh in Grampian and Marwick Head in Orkney have large colonies. In winter it is widespread around UK coasts but usually well offshore. It is sometimes seen inshore after gales or passing by longer headlands.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/1011.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -5110,7 +5110,7 @@ birds.data = {
             "value": "500-1,000 pairs"
         },
         "found": "Hawfinches are now mostly restricted to England in the UK and have declined in many areas. Parts of western England near the Welsh Borders, the Home Counties and the south-east from Hampshire to Kent remain the most likely places to find them. They can occasionally be seen at RSPB nature reserves such as Nagshead, Gloucestershire and Blean Woods, Kent. Hawfinches may perch high in trees, but also feed on the ground and much more inconspicuously among the foliage.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/hawfinch-coccothraustes-coccothraustes-call.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/668.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -5166,7 +5166,7 @@ birds.data = {
             "value": "617 pairs (and 29 on the Isle of Man) in 2010"
         },
         "found": "The hen harrier lives in open areas with low vegetation. In the breeding season UK birds are to be found on the upland heather moorlands of Wales, Northern England, Northern Ireland and Scotland (as well as the Isle of Man). In winter they move to lowland farmland, heathland, coastal marshes, fenland and river valleys. Those found in eastern and south-east England are probably mostly visitors from mainland Europe.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/753.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -5223,7 +5223,7 @@ birds.data = {
             "value": "140,000 pairs"
         },
         "found": "Herring gulls are widespread and can easily be seen at virtually any seaside town in the breeding season and inland all year round, especially at rubbish tips, playing fields and reservoir roosts.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/-european-herring-gull-larus-argentatus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/729.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -5278,7 +5278,7 @@ birds.data = {
             "value": "2,800 pairs"
         },
         "found": "Hobbies now breed across northern, central, southern and eastern England, southern Scotland and south Wales. Best looked for hunting over woodland and heathland, where there is plenty of large insect prey. Gravel pits are popular feeding areas in late summer when there is an abundance of food.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/hobby-falco-subbuteo-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1442.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -5333,7 +5333,7 @@ birds.data = {
             "value": "41 pairs"
         },
         "found": "Honey buzzards nest in southern and eastern England, Wales, northern England and northern Scotland. There are wardened watchpoints in Devon and Norfolk.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/761.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -5379,7 +5379,7 @@ birds.data = {
             "value": "260,000 pairs"
         },
         "found": "Hooded crows can be found in N and W Scotland, N Ireland and on the Isle of Man, where it replaces the carrion crow. Outside the breeding season it is found across the breeding range and is also found, but scarce in E Scotland and even rarer down the eastern side of England. Most of the winter visitors come from Scandinavia.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/700.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -5435,7 +5435,7 @@ birds.data = {
             "value": "100 birds"
         },
         "found": "The best chance of seeing a hoopoe is during spring migration along the south coast and not far inland, but birds have turned up as far north as Shetland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/eurasian-hoopoe-upupa-epops-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -5484,7 +5484,7 @@ birds.data = {
             "value": "510,000 pairs"
         },
         "found": "You'll find house martins across UK, although they are scarce in far N and W of Scotland. Mostly associated with man, found around towns and villages. Feeds on aerial insects and so is most frequently seen in areas of mixed agriculture, near water and in the vicinity of woodland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/common-house-martin-delichon-urbicum-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -5533,7 +5533,7 @@ birds.data = {
             "value": "5,300,000 pairs"
         },
         "found": "House sparrows can be found from the centre of cities to the farmland of the countryside, they feed and breed near to people. It is a species vanishing from the centre of many cities, but is not uncommon in most towns and villages. It is absent from parts of the Scottish Highlands and is thinly distributed in most upland areas.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/house-sparrow-passer-domesticus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/777.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -5631,7 +5631,7 @@ birds.data = {
             "value": "110,000 birds"
         },
         "found": "You can see jack snipes in winter, found in lowland wetland areas - the edges of reedbeds and shallow lagoons, fenland, flooded meadows, river edges and muddy ditches.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/835.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -5681,7 +5681,7 @@ birds.data = {
             "value": "1,400,000 pairs"
         },
         "found": "Jackdaws can be found in fields, woods, parks and gardens. They're social birds and roost communally in woodlands. They're widespread and common across the UK, except the Scottish Highlands.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/western-jackdaw-coloeus-monedula-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/702.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -5733,7 +5733,7 @@ birds.data = {
             "value": "170,000 territories"
         },
         "found": "You can find jay across most of the UK, except northern Scotland. Lives in both deciduous and coniferous woodland, parks and mature gardens. Likes oak trees in autumn when there are plenty of acorns. Often seen flying across a woodland glade giving its screeching call, it becomes more obvious in autumn when it may fly some distance in the open in search of acorns.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/eurasian-jay-garrulus-glandarius-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1547.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -5790,7 +5790,7 @@ birds.data = {
             "value": "46,000 pairs"
         },
         "found": "Kestrels are found in a wide variety of habitats, from moor and heath, to farmland and urban areas. The only places they do not favour are dense forests, vast treeless wetlands and mountains. They are a familiar sight, hovering beside a motorway or other main road. They can often be seen perched on a high tree branch, or on a telephone post or wire, on the look out for prey.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/common-kestrel-falco-tinnunculus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1537.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -5846,7 +5846,7 @@ birds.data = {
             "value": "3,800-6,400 pairs"
         },
         "found": "Kingfishers are widespread, especially in central and southern England, becoming less common further north but following some declines last century, they are currently increasing in their range in Scotland. They are found by still or slow flowing water such as lakes, canals and rivers in lowland areas. In winter, some individuals move to estuaries and the coast. Occasionally they may visit garden ponds if of a suitable size.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/common-kingfisher-alcedo-atthis-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1445.mp3",
         "features": {
             "featherColor": [
                 "Blue",
@@ -5903,7 +5903,7 @@ birds.data = {
             "value": "380,000 pairs"
         },
         "found": "Kittiwakes are strictly coastal gulls. In the breeding season, look for them at seabird colonies around the UK. In late summer and autumn they can be seen flying past offshore, or gathering at roosts. They spend the winter months out at sea.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/black-legged-kittiwake-rissa-tridactyla-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -6004,7 +6004,7 @@ birds.data = {
             "value": "710 birds"
         },
         "found": "You can find wintering birds along the east coast of the UK, from East Lothian to Kent. Yorkshire, Lincolnshire and North Norfolk coasts usually hold the most birds.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/lapland-bunting-calcarius-lapponicus-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -6054,7 +6054,7 @@ birds.data = {
             "value": "140,000 pairs"
         },
         "found": "Lapwings are found on farmland throughout the UK particularly in lowland areas of northern England, the Borders and eastern Scotland. In the breeding season prefer spring sown cereals, root crops, permanent unimproved pasture, meadows and fallow fields. They can also be found on wetlands with short vegetation. In winter they flock on pasture and ploughed fields. The highest known winter concentrations of lapwings are found at the Somerset Levels, Humber and Ribble estuaries, Breydon Water/Berney Marshes, the Wash and Morecambe Bay.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/northern-lapwing-vanellus-vanellus-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -6152,7 +6152,7 @@ birds.data = {
             "value": "110,000 pairs"
         },
         "found": "Lesser black-backed gulls can be seen around the UK's coastline in summer and on some inland high moors. The biggest UK colony is on Walney Island, Cumbria, home to a staggering one third of the UK population. More than half the UK population is found at fewer than ten sites. They are increasingly common in urban habitats, even in inland locations such as the West Midlands. In winter, it is mainly found from southern Scotland southwards and is best looked for feeding over fields and at rubbish tips, congregating at large reservoir roosts each evening.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/lesser-black-backed-gull-larus-fuscus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/733.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -6207,7 +6207,7 @@ birds.data = {
             "value": "220,000 pairs"
         },
         "found": "Lesser redpolls breed in woodland, but also visit gardens. They can be seen dangling from tiny twigs in birch and alder trees, or perhaps on shrub stems. This is a widespread breeding species in Scotland, northern and eastern England and Wales. It is less common in central, southern and south-west England, but does occur in these places in winter.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/1721.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -6265,7 +6265,7 @@ birds.data = {
             "value": "1,000-2,000 pairs"
         },
         "found": "You can find the lesser spotted woodpecker in open woods, copses, parkland, gardens and orchards, but it tends to frequent the tops of trees, searching for larvae, spiders and wood-boring insects on smaller branches.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/lesser-spotted-woodpecker-dendrocopos-minor-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/783.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -6317,7 +6317,7 @@ birds.data = {
             "value": "74,000 territories"
         },
         "found": "The lesser whitethroat is a fairly secretive warbler which lives in areas of scrub and hedges. It's found in England, Wales and southern Scotland, but absent from upland areas.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/lesser-whitethroat-sylvia-curruca-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/776.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -6367,7 +6367,7 @@ birds.data = {
             "value": "430,000 territories"
         },
         "found": "While widespread across the UK, there are concentrations of linnets along the east coast from Kent to Aberdeenshire, but they are scarce in upland regions and north west Scotland. Look for them on commons, heathland, rough ground, farmland hedges, saltmarshes and in parks and gardens.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/common-linnet-linaria-cannabina-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/662.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -6424,7 +6424,7 @@ birds.data = {
             "value": "Variable"
         },
         "found": "Storms in late autumn can drive large numbers of little auks into the North Sea. Look for them from seawatching places along the coast of eastern Scotland and England in late October and early November. Wintering birds can be seen off the northern coast of the UK.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/1031.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -6467,7 +6467,7 @@ birds.data = {
             "value": "660-740 pairs"
         },
         "found": "The little egret is a recent colonist, and is most common along the south and east coasts of England and in Wales. The estuaries of Devon and Cornwall, Poole Harbour and Chichester Harbour hold some of the largest concentrations and they are also common in East Anglia. They are an increasingly common sight in inland areas too and are gradually increasing their range northwards here.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/little-egret-egretta-garzetta-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/690.mp3",
         "features": {
             "featherColor": [
                 "White"
@@ -6520,7 +6520,7 @@ birds.data = {
             "value": "5,300 pairs"
         },
         "found": "Little grebes are found across the UK although they are largely absent from upland areas. Look for it wherever there are suitable lakes, gravel pits, canals and slow rivers with plenty of vegetation. In winter it can be found on more exposed lakes, as well as sheltered coasts and estuaries. Winter concentrations can be found in places like the Thames Estuary, Chew Valley Lake and Rutland Water.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/little-grebe-tachybaptus-ruficollis-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/709.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -6574,7 +6574,7 @@ birds.data = {
             "value": "400-800"
         },
         "found": "Little gulls can be seen around UK coasts from July to April. In late summer and autumn, birds are largely seen between Tayside and Yorkshire, with smaller numbers further south. In spring, birds can be seen around the Irish Sea with concentrations in places like the Alt estuary.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/little-gull-hydrocoloeus-minutus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/727.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -6623,7 +6623,7 @@ birds.data = {
             "value": "5,700 pairs"
         },
         "found": "The little owl can be found in England and Wales, with a few in southern Scotland. It likes lowland farmland with hedges and copses, parkland and orchards. Most common in central, southern and south eastern England and the Welsh borders.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/little-owl-athene-noctua-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/803.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -6678,7 +6678,7 @@ birds.data = {
             "value": "1,200-1,300 pairs"
         },
         "found": "The little ringed plover is virtually confined to England and Wales, uncommon in the latter and very occasionally in Scotland. Gravel pits, reservoirs, sewage works and shingle river banks are all worth checking for this wading bird.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/809.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -6723,7 +6723,7 @@ birds.data = {
             "value": "14 birds"
         },
         "found": "The best place to see little stints is in suitable habitat on the east and west coast of the UK in autumn.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/1151.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -6770,7 +6770,7 @@ birds.data = {
             "value": "1,900 pairs"
         },
         "found": "Little terns are a strictly coastal species found around the UK coastline at suitable breeding beaches. The largest colonies are found along the east and south coasts of Scotland and England at sites which include Blakeney Point and Great Yarmouth, Norfolk, Minsmere, Suffolk and Langstone Harbour, Hampshire.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/little-tern-sternula-albifrons-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/796.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -6815,7 +6815,7 @@ birds.data = {
             "value": "1,800-6,000 pairs"
         },
         "found": "Long-eared owls are nocturnal and secretive, so unlikely to be seen other than on migration (when birds may turn up on coasts at any time of day) or when leaving or returning to a communal roost site in winter.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/long-eared-owl-asio-otus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/802.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -6870,7 +6870,7 @@ birds.data = {
             "value": "11,000 birds"
         },
         "found": "The best chance of seeing long-tailed ducks is from seawatching points around the coast in winter, particularly in northern Scotland, Shetland and Orkney.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/long-tailed-duck-clangula-hyemalis-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/639.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -6917,7 +6917,7 @@ birds.data = {
             "value": null
         },
         "found": "This scarce passage migrant is best looked for from seawatching places on the east coast, particularly in September. Another good place to see them is from the Outer Hebrides in May. Onshore winds and rough weather further out to sea are the best conditions for bringing them to our coasts.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/long-tailed-skua-stercorarius-longicaudus-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -6963,7 +6963,7 @@ birds.data = {
             "value": "340,000 territories"
         },
         "found": "Long-tailed tits are found across the UK except for the far north and west of Scotland. They can be seen in woodland, farmland hedgerows, scrubland, parkland and gardens. In winter they form flocks with other tit species.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/long-tailed-tit-aegithalos-caudatus-caudatus-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -7017,7 +7017,7 @@ birds.data = {
             "value": "600,000 territories"
         },
         "found": "You can find magpies across England, Wales and N Ireland, but more localised in Scotland, absent from the Highlands. They are seen in a range of habitats from lowland farmland to upland moors.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/magpie-pica-pica-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/704.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -7075,7 +7075,7 @@ birds.data = {
             "value": "61,000-146,000 pairs"
         },
         "found": "The mallard is the commonest duck and most widespread, so you have a chance of seeing it just about anywhere where there is suitable wetland habitat, even in urban areas.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/mallard-anas-platyrhynchos-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1605.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -7188,7 +7188,7 @@ birds.data = {
             "value": "280,000-320,000 pairs"
         },
         "found": "Manx shearwaters breed on a few islands off the west coast of the UK, such as Skomer in Wales and Rum in Scotland. Otherwise, they can be seen from seawatching points in spring and autumn while on migration. Western coasts might be more productive than eastern coasts.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/manx-shearwater-puffinus-puffinus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1164.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -7236,7 +7236,7 @@ birds.data = {
             "value": "400 pairs"
         },
         "found": "Marsh harriers are mainly found in eastern and south-east England, with some in the north-west, south-west and Scotland. They can be seen over reedbeds and marshes, as well as farmland near wetlands. Marsh harriers can be seen at: Elmley, Kent; Leighton Moss, Lancashire; Minsmere, Suffolk; Titchwell Marsh and Strumpshaw Fen, Norfolk; Ouse and Nene Washes, Cambs and Blacktoft Sands, Yorkshire. Other nature reserves with marsh harriers include Stodmarsh, Kent and Wicken Fen, Cambridgeshire.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/marsh-harrier-circus-aeruginosus-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -7290,7 +7290,7 @@ birds.data = {
             "value": "41,000 territories"
         },
         "found": "Despite their name, marsh tits are most often found in broadleaf woodland, and also copses, parks and gardens. They occur across England and Wales, with a few in southern Scotland but are most abundant in south Wales and southern and eastern England.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/marsh-tit-poecile-palustris-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/724.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -7342,7 +7342,7 @@ birds.data = {
             "value": "2-8 pairs"
         },
         "found": "The marsh warbler is a summer visitor which is mainly confined to parts of Worcestershire and south-east England, especially Kent. They are found in areas of dense vegetation with taller bushes nearby.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/marsh-warbler-acrocephalus-palustris-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/763.mp3",
         "features": null,
         "monthsActive": [
             "may",
@@ -7371,7 +7371,7 @@ birds.data = {
             "value": "2,000,000 territories"
         },
         "found": "Meadow pipits are found across the UK but are most common in the west and north. In winter it moves south, to more lowland areas and becomes much commoner in the southern half of the UK. They are found in open country - upland moors to saltmarshes in summer, more agricultural land and marshes in winter. They will even come to suburban parks and playing fields.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/meadow-pipit-anthus-pratensis-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/742.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -7431,7 +7431,7 @@ birds.data = {
             "value": "600-630 pairs"
         },
         "found": "The Mediterranean gull is mainly found along the east and south coasts of England. Most of the breeding population nest within black-headed gull colonies at coastal wetlands. More widespread in winter with some beaches in Norfolk and Kent attracting more than a hundred Mediterranean gulls. Also found inland in small numbers wherever black-headed and common gulls gather (especially in roosts on reservoirs).",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/mediterranean-gull-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/728.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -7486,7 +7486,7 @@ birds.data = {
             "value": "900-1,500 pairs"
         },
         "found": "The UK breeding population is at the south-west extremity of the merlin's European range and is thinly scattered across upland moorland from south-west England north to Shetland. In winter, birds leave upland areas and come down to inland lowland and coastal areas. They can be seen in almost any open country but are often found near coasts. They can be found at roosts in reedbeds, bogs and on heaths, often with hen harriers.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/merlin-falco-columbarius-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1171.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -7544,7 +7544,7 @@ birds.data = {
             "value": "170,000 territories"
         },
         "found": "The mistle thrush is a widespread bird in the UK, found almost everywhere except the highest, barest ground, and absent from the northern and western isles of Scotland. It can be seen in woodland, parkland and gardens.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/mistle-thrush-turdus-viscivorus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/656.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -7598,7 +7598,7 @@ birds.data = {
             "value": "Less than 5 pairs"
         },
         "found": "The nest sites of Montagu's harriers are kept secret to protect them from egg collectors and unwitting disturbance. It is possible to see them on passage, particularly on the south and eastern coasts of England.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/754.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -7646,7 +7646,7 @@ birds.data = {
             "value": "270,000 pairs"
         },
         "found": "You can see moorhens around any pond, lake, stream or river, or even ditches in farmland. Moorhens can live in cities as well as the countryside. In the UK they breed in in lowland areas, especially in central and eastern England. They're scarce in northern Scotland and the uplands of Wales and northern England. UK breeding birds are residents and seldom travel far.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/moorhen-gallinula-chloropus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/819.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -7699,7 +7699,7 @@ birds.data = {
             "value": "6,400 pairs"
         },
         "found": "The mute swan breeds across most of the UK, other than in northern Scotland, mid-Wales and the moors of south-west England. It's possible to see them anywhere there is a shallow lake, or a slow-flowing rivers, even in urban areas and parks.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/mute-swan-cygnus-olor-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/641.mp3",
         "features": {
             "featherColor": [
                 "White"
@@ -7751,7 +7751,7 @@ birds.data = {
             "value": "6,700 males"
         },
         "found": "The nightingale is a secretive bird which likes nothing better than hiding in the middle of an impenetrable bush or thicket. In the UK they breed mostly south of the Severn-Wash line and east from Dorset to Kent. The highest densities are found in the south east - Essex, Suffolk, Norfolk, Kent and Sussex.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/nightingale-luscinia-megarhynchos-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1464.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -7796,7 +7796,7 @@ birds.data = {
             "value": "4,600 males"
         },
         "found": "Nightjars can be found on heathlands, moorlands, in open woodland with clearings and in recently felled conifer plantations. They are most numerous in southern England with good numbers in the New Forest, Dorset and Surrey heathlands and Thetford Forest in Suffolk. They are also found in parts of Wales, northern England and SW Scotland. RSPB reserves with nightjars are - Arne, Dorset; Aylesbeare, Devon and Minsmere and North Warren, Suffolk.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/nightjar-caprimulgus-europaeus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/741.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -7840,7 +7840,7 @@ birds.data = {
             "value": "220,000 territories"
         },
         "found": "Nuthatches are best looked for in mature woods and established parkland throughout England and Wales, on the sides of tree trunks and underside of branches. There are occasional sightings of them in southern Scotland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/nuthatch-sitta-europaea-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -7895,7 +7895,7 @@ birds.data = {
             "value": "200-250 pairs"
         },
         "found": "The ospreys' main UK stronghold is in Scotland (with some sites in North East England) where you can visit many nest sites with public viewing facilities, including Loch Garten (Highland), Wigtown (Dumfries and Galloway) and Loch of the Lowes (Perthshire). In 2001, it began breeding in England at Bassenthwaite in Cumbria, at Rutland Water (where it was introduced) and there are two pairs with viewing facilities in Wales. They can be seen at almost any large body of freshwater during spring and autumn migration.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/osprey-pandion-haliaetus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/760.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -7943,7 +7943,7 @@ birds.data = {
             "value": "110,000 pairs"
         },
         "found": "It's possible to see oystercatchers on almost all coasts of the UK. Look for breeding birds in summer at RSPB coastal reserves. In winter, you can see large numbers on major estuaries, such as Morecambe Bay.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/oystercatcher-haematopus-ostralegus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1420.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -7997,7 +7997,7 @@ birds.data = {
             "value": "50 pairs"
         },
         "found": "A small number breed in Scottish forests and very occasionally further south in Britain.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/674.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -8100,7 +8100,7 @@ birds.data = {
             "value": "1,500 pairs"
         },
         "found": "Peregrines can often be found above rocky sea cliffs and upland areas throughout the UK in the breeding season. In winter, they are often seen hunting above East Coast marshland. The RSPB hosts a series of Date with Nature events across the UK during the breeding season to help nature lovers spot these stunning birds.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/peregrine-falcon-falco-peregrinus-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -8156,7 +8156,7 @@ birds.data = {
             "value": "2.3 million females"
         },
         "found": "You can see pheasants across most of the UK, apart from the far north and west of Scotland. They are least common in upland and urban areas. They can usually be seen in the open countryside near woodland edges, copses and hedgerows.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/pheasant-phasianus-colchicus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/697.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -8217,7 +8217,7 @@ birds.data = {
             "value": "17,000-20,000 pairs"
         },
         "found": "Pied flycatchers can be found in mature woodlands mainly to the west of the UK, not in N Ireland. The valleys and hillsides of Wales are a good place to look for breeding birds in summer and the RSPB's Nagshead reserve has a good population. You may also see it in spring and autumn at coastal migration watchpoints.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/pied-flycatcher-ficedula-hypoleuca-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/678.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -8262,7 +8262,7 @@ birds.data = {
             "value": "470,000 pairs"
         },
         "found": "Pied wagtails can be found across the UK, leaving some of the highland and northern areas of Scotland in winter. They are best looked for near water and can be found in most habitats, even town centres. They gather together in large roosts, sometimes in towns, often assembling on roofs beforehand.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/wagtail-motacilla-alba-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -8317,7 +8317,7 @@ birds.data = {
             "value": "360,000 birds"
         },
         "found": "You can see pink-footed geese near large estuaries, such as on the east Scottish coast, The Wash, the Ribble and the Solway, or on surrounding farmland where birds go in the day to feed.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/pink-footed-goose-anser-brachyrhynchus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1229.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -8368,7 +8368,7 @@ birds.data = {
             "value": "9-33 pairs"
         },
         "found": "Pintails are a localised species, occurring at sheltered coasts and estuaries. Particularly large concentrations can be found on sites such as the Dee Estuary, Solway Estuary and Ouse Washes.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/pintail-anas-acuta-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -8424,7 +8424,7 @@ birds.data = {
             "value": "681 pairs"
         },
         "found": "Good places to look in summer are open lakes and gravel pits in lowland eastern England and Scotland. They're much easier to see in winter across the whole of the UK, often on larger lakes and even on estuaries.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/pochard-aythya-ferina-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1015.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -8525,7 +8525,7 @@ birds.data = {
             "value": "2,000-15,000 pairs"
         },
         "found": "The only place to see ptarmigans is on the highest mountains of the highlands of Scotland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/ptarmigan-lagopus-muta-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -8577,7 +8577,7 @@ birds.data = {
             "value": "580,000 pairs"
         },
         "found": "To see puffins, it is best to look for a breeding colony. Try the RSPB's Bempton Cliffs (N Yorks) and South Stack (Anglesey) reserves, the Farne Islands and Coquet Island (Northumberland), the Isle of May (off the Fife coast) and the Shetland and Orkney Islands.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/puffin-fratercula-arctica-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -8627,7 +8627,7 @@ birds.data = {
             "value": "1-3 pairs"
         },
         "found": "You can see purple sandpipers around the coast, particularly on the east coast north of the Humber. A good place to look can be around piers and groynes and also on stony beaches and mussel beds at low tide.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/1239.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -8677,7 +8677,7 @@ birds.data = {
             "value": "540 males"
         },
         "found": "Traditional strongholds of quails appear to be parts of Wiltshire, Dorset and in good years the Welsh Marches, East Anglia, low-lying parts of northern England and parts of southern Scotland can be occupied by calling birds. They are very difficult to see, so are easier to hear, usually calling from grass or cereal fields.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/quail-coturnix-coturnix-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/693.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -8725,7 +8725,7 @@ birds.data = {
             "value": "7,400 pairs"
         },
         "found": "Ravens are best looked for in upland areas of south-west England, Wales, the north Pennines and Lake District and much of Scotland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc57509---northern-raven---corvus-corax.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1505.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -8780,7 +8780,7 @@ birds.data = {
             "value": "130,000 pairs"
         },
         "found": "Razorbills are best looked for at seabird colonies in the breeding season, particularly in northern Scotland. You may see them from seawatching points around the coast at other times.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc343129---razorbill---alca-torda.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1242.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -8882,7 +8882,7 @@ birds.data = {
             "value": "1,600 pairs"
         },
         "found": "At one time confined to Wales as a result of persecution, a reintroduction scheme has brought red kites back to many parts of England and Scotland. Central Wales, central England - especially the Chilterns, central Scotland - at Argaty and along the Galloway Kite Trail are the best areas to find them.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc89115---red-kite---milvus-milvus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/759.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -8941,7 +8941,7 @@ birds.data = {
             "value": "1-3 pairs"
         },
         "found": "Red-backed shrikes are now effectively extinct as a breeding bird and best looked for on passage in spring and autumn. Most birds are seen on the south and east coasts of the UK as far north as northern Scotland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc72627---red-backed-shrike---lanius-collurio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -8994,7 +8994,7 @@ birds.data = {
             "value": "2,800 pairs"
         },
         "found": "The UK breeding population of red-breasted mergansers are concentrated in the north-west of Scotland, England, Wales and in parts of N Ireland. RSPB reserves with red-breasted mergansers in winter include Morecambe Bay, Lancs; Langstone Harbour, Hants; Exe Estuary, Devon; Arne, Dorset; Snettisham and Titchwell Marsh, Norfolk; Lough Foyle, Co Londonderry; Belfast Lough, Co Antrim; Culbin Sands, Highland; Udale Bay, Highland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc57853---red-breasted-merganser---mergus-serrator.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1246.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -9103,7 +9103,7 @@ birds.data = {
             "value": "82,000 territories"
         },
         "found": "Red-legged partridges are most numerous in England, especially in the east, with some birds in the Welsh borders and in eastern Scotland. Usually seen in groups in open fields.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc61796---red-legged-partridge---alectoris-rufa.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1707.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -9161,7 +9161,7 @@ birds.data = {
             "value": "1 pair"
         },
         "found": "The best place to see red-necked grebes is from seawatching points around the east coast of the UK in winter. Summering birds are mainly found in the south and east of England.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc26934---red-necked-grebe---podiceps-grisegena.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/707.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -9212,7 +9212,7 @@ birds.data = {
             "value": "22 males"
         },
         "found": "Small numbers of red-necked phalaropes breed on the Western and Northern Isles of Scotland. Birds are also seen on passage in the autumn, usually along the east coast.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc46110---red-necked-phalarope---phalaropus-lobatus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1257.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -9260,7 +9260,7 @@ birds.data = {
             "value": "1,300 pairs"
         },
         "found": "Shetland is the UK stronghold for red-throated divers with other key populations on Orkney, the Outer Hebrides and the north Scottish mainland. They are also found along the whole of west Scotland south to the Mull of Kintyre. Outside the breeding season it is numerous along the UK's east coast, and occurs patchily along the west coast, with concentrations off west Scotland and around north-west Wales.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/red-throated-diver-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/712.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -9314,7 +9314,7 @@ birds.data = {
             "value": "25,000 pairs"
         },
         "found": "Redshanks breed in damp places like saltmarshes, flood meadows and around lakes, but during winter you'll see lots more of them on estuaries and coastal lagoons - as many as half of these birds may be from Iceland. The greatest concentrations of breeding birds are in parts of Scotland and north-west England.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc57914---common-redshank---tringa-totanus-robusta.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/816.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -9368,7 +9368,7 @@ birds.data = {
             "value": "100,000 pairs"
         },
         "found": "Redstarts are mainly found in the north and west of the UK, with the greatest concentrations in Wales. Particularly likes oak woodlands, also hedgerows, alongside streams and parkland. On passage it is best looked for in coastal scrub, thickets and woodland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27565---common-redstart---phoenicurus-phoenicurus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/649.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -9419,7 +9419,7 @@ birds.data = {
             "value": "13 pairs"
         },
         "found": "In open countryside redwings like hedges and orchards as well as open, grassy fields. They will come to parks and gardens. Often they join with flocks of fieldfares.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc42438---redwing---turdus-iliacus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/845.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -9474,7 +9474,7 @@ birds.data = {
             "value": "250,000 territories"
         },
         "found": "Reed buntings are predominantly a farmland and wetland bird. Typically found in wet vegetation but has recently spread into farmland and, in winter, into gardens. When singing the male usually perched on top of a bush, or reed.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27598---common-reed-bunting---emberiza-schoeniclus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/830.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -9529,7 +9529,7 @@ birds.data = {
             "value": "130,000 pairs"
         },
         "found": "In the summer, reed warblers can be looked for in reedbeds in lowland central and southern England and Wales - it is rarer elsewhere. Sings from within the reedbed rather than from a perch, so often heard rather than seen.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27122---eurasian-reed-warbler---acrocephalus-scirpaceus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/765.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -9574,7 +9574,7 @@ birds.data = {
             "value": "6,348 pairs"
         },
         "found": "Ring ouzels can be found in upland areas of Scotland, northern England, north west Wales and Dartmoor. When on spring and autumn migration they may be seen away from their breeding areas, often on the east and south coasts of the UK where they favour short grassy areas.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc55410---ring-ouzel---turdus-torquatus-alpestris.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1446.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -9679,7 +9679,7 @@ birds.data = {
             "value": "5,400 pairs"
         },
         "found": "You can see ringed plovers on suitable beaches and coasts around the UK - look for them at RSPB coastal reserves. Inland, look for them at flooded gravel pits.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc54035---common-ringed-plover---charadrius-hiaticula.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1017.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -9731,7 +9731,7 @@ birds.data = {
             "value": "6,700,000 territories"
         },
         "found": "Robins live across the UK in woodland, hedgerows, parks and gardens.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27554---european-robin---erithacus-rubecula.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/644.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -9786,7 +9786,7 @@ birds.data = {
             "value": "550,000 pairs"
         },
         "found": "The wild rock dove is now found only along the north and west coasts of Scotland, on islands and on Northern Ireland coasts. Feral, or domestic, pigeons breed almost everywhere apart from upland areas, with the highest density in the most populated urban and suburban areas.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc42690---rock-dove---columba-livia-domestica.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -9841,7 +9841,7 @@ birds.data = {
             "value": "34,000 pairs"
         },
         "found": "Look for rock pipits on rocky shorelines around the UK as it hops, walks and runs foraging for food among the boulders. Birds are sometimes seen perched on prominent rocks. Absent from the less rocky parts of north-west, east and south England coastlines.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc39339---eurasian-rock-pipit---anthus-petrosus.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Brown",
@@ -9893,7 +9893,7 @@ birds.data = {
             "value": "1,100,000 pairs"
         },
         "found": "Rooks are most usually seen in flocks in open fields, or feeding in small groups along a roadside. They will come into town parks and villages but largely keep clear of the middle of big towns and cities. They are absent from the far north west of Scotland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27146---rook---corvus-frugilegus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/701.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -9946,7 +9946,7 @@ birds.data = {
             "value": "111 pairs"
         },
         "found": "A strictly coastal bird, with breeding in the UK confined to a few colonies. Most likely place to see roseate terns in summer are off the Northumberland coast, Anglesey and the Firth of Forth. Passage birds can be seen along the south and east coasts, with Dungeness, Kent a regular site.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc37484---roseate-tern---sterna-dougallii.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -10091,7 +10091,7 @@ birds.data = {
             "value": "0-11 females"
         },
         "found": "Ruffs are best looked for on passage in spring and autumn in suitable habitat, particularly on the east and south coasts of the UK. Some birds overwinter, generally near the coast. Try some of the RSPB coastal wetland reserves, where there are lagoons, such as Titchwell, Norfolk.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/840.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -10146,7 +10146,7 @@ birds.data = {
             "value": "100,000 nests"
         },
         "found": "Sand martins are found along rivers and other water bodies throughout the UK. Also found around man-made gravel pits where artificial nesting banks are sometimes provided.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27277---sand-martin---riparia-riparia.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/791.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -10193,7 +10193,7 @@ birds.data = {
             "value": "16,000 individuals"
         },
         "found": "Sanderlings are best looked for where there are long, sandy beaches, around most of the coast other than in the south-west and the rocky coasts of mainland Scotland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc70466---sanderling---calidris-alba.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1289.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -10250,7 +10250,7 @@ birds.data = {
             "value": "11,000 pairs"
         },
         "found": "There are colonies of Sandwich terns scattered around the UK coasts including the North Norfolk coast; Minsmere, Suffolk and Dungeness, Kent.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc37592---sandwich-tern---thalasseus-sandvicensis.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/797.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -10297,7 +10297,7 @@ birds.data = {
             "value": "1-3 pairs"
         },
         "found": "Savi's warblers are found only in marshes with reedbeds. Most UK birds are seen in east and south-east England.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc29775---savis-warbler---locustella-luscinioides.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1459.mp3",
         "features": null,
         "monthsActive": [
             "apr",
@@ -10327,7 +10327,7 @@ birds.data = {
             "value": "1-2 pairs"
         },
         "found": "Scaups are best looked for in winter on estuaries such as the Dee in Cheshire, the Solway Firth, the Firth of Forth and the Moray Firth. Also, look on enclosed waters such as Lough Neagh in Ireland. A small number occur inland on deeper waters, where they associate with pochards and tufted ducks.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc44265---greater-scaup---aythya-marila.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -10429,7 +10429,7 @@ birds.data = {
             "value": "260,000 territories"
         },
         "found": "Sedge warblers are found across the UK. A good place to try in summer is near a reedbed or a damp wetland, particularly near dawn and dusk when sedge warblers are most active. Look for singing birds perched on the outside of a bush.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27120---sedge-warbler---acrocephalus-schoenobaenus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/764.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -10477,7 +10477,7 @@ birds.data = {
             "value": "1-2 pairs annually (average)"
         },
         "found": "Records of serin have almost entirely been from southern and eastern England, but they have never been present in large numbers.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc42292---european-serin---serinus-serinus.mp3",
+        "audio": null,
         "features": null,
         "monthsActive": [
             "mar",
@@ -10557,7 +10557,7 @@ birds.data = {
             "value": "15,000 pairs"
         },
         "found": "Shelducks are found mainly in coastal areas, though they can also be found around inland waters such as reservoirs and gravel workings.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc40197---common-shelduck---tadorna-tadorna.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1466.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -10660,7 +10660,7 @@ birds.data = {
             "value": "620-2,180 pairs"
         },
         "found": "In the UK short-eared owls breed primarily in Northern England and Scotland, but are seen more widely in winter. Short-eared owls are best looked for in winter on coastal marshes and wetlands. However, birdwatchers must be careful to avoid disturbance at communal roost sites.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27372---short-eared-owl---asio-flammeus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1304.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -10715,7 +10715,7 @@ birds.data = {
             "value": "200-500 pairs (Jersey)"
         },
         "found": "Short-toed treecreepers are resident on the Channel Islands and occurs as a very rare vagrant in England. It is common in Europe from Germany and Poland southwards.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc30552---short-toed-treecreeper---certhia-brachydactyla-rossocaucasica.mp3",
+        "audio": null,
         "features": null,
         "monthsActive": [
             "jan",
@@ -10753,7 +10753,7 @@ birds.data = {
             "value": "700 pairs"
         },
         "found": "Although widespread in winter, shovelers can be seen in large numbers at places such as the RSPB's Ouse Washes nature reserve, Rutland Water and Abberton Reservoir in Essex.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc70560---northern-shoveler---anas-clypeata.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -10810,7 +10810,7 @@ birds.data = {
             "value": "410,000 pairs"
         },
         "found": "In the breeding season, look for siskins in the tops of trees in suitable habitat in Scotland and Wales, where they are fairly common. In winter they are seen more widely across England as well.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc35044---eurasian-siskin---spinus-spinus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/665.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -10863,7 +10863,7 @@ birds.data = {
             "value": "1,500,000 territories"
         },
         "found": "Skylarks are found everywhere in the UK. Likes open countryside, from lowland farmland to upland moorland. Often inconspicuous on the ground, it is easy to see when in its distinctive song flight.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27004---eurasian-skylark---alauda-arvensis.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -10917,7 +10917,7 @@ birds.data = {
             "value": "30 pairs"
         },
         "found": "In the breeding season Slavonian grebes are mainly found north and south of the Great Glen and in Strathspey and can be watched in the breeding season at the RSPB Loch Ruthven nature reserve. In winter they can be found around UK coasts with the Moray Firth, the Firth of Forth, the Clyde Estuary and Islay in Scotland and Pagham Harbour, Sussex being important sites.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc26933---horned-grebe---podiceps-auritus.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -10970,7 +10970,7 @@ birds.data = {
             "value": "180 birds"
         },
         "found": "Smews are found south of a line between the Wash and the Severn. Birds sometimes turn up on quite small areas of water so it's worth looking for at any inland lake in winter, particularly in very cold weather.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/1305.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -11015,7 +11015,7 @@ birds.data = {
             "value": "80,000 pairs"
         },
         "found": "During the breeding season snipe are best look for on moorland, especially on early spring mornings when males can be heard giving their 'drumming' or 'bleating' display. In winter, look patiently around the edges of pools in well-vegetated wetlands.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27081---common-snipe---gallinago-gallinago.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/810.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -11070,7 +11070,7 @@ birds.data = {
             "value": "60 pairs"
         },
         "found": "Snow buntings are best looked for in winter on coastal sites in Scotland and eastern England (as far south as Kent).",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc48183---snow-bunting---plectrophenax-nivalis.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1309.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -11121,7 +11121,7 @@ birds.data = {
             "value": "1,200,000 territories"
         },
         "found": "Woods, hedgerows, parks and gardens across the UK - wherever there are bushes and trees you will find song thrushes.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc26981---song-thrush---turdus-philomelos.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/654.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -11219,7 +11219,7 @@ birds.data = {
             "value": "35,000 pairs"
         },
         "found": "Sparrowhawks breed in woodland but also visit gardens and more open country. They can be seen in towns and cities, as well as rural areas. Listen for the alarm calls of smaller birds as they spot a sparrowhawk and will alert other birds in the area to the danger. In the UK sparrowhawks are found everywhere, except for parts of the Scottish Highlands, the Western Isles and Shetland.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/750.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -11278,7 +11278,7 @@ birds.data = {
             "value": "0-4 pairs"
         },
         "found": "Although still uncommon, spoonbills can be seen on coastal sites in north-west and south-west England and East Anglia. RSPB reserves to visit include the Exe Estuary reserves, Arne, and Titchwell Marsh.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/1462.mp3",
         "features": {
             "featherColor": [
                 "Cream",
@@ -11329,7 +11329,7 @@ birds.data = {
             "value": "28 males"
         },
         "found": "Spotted crakes live in freshwater wetlands with shallow water and dense vegetation. It is rare in the UK and is difficult to see, as it spends most of its time in thick cover.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc26784---spotted-crake---porzana-porzana.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1686.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -11376,7 +11376,7 @@ birds.data = {
             "value": "36,000 territories"
         },
         "found": "Churchyards, cemeteries, parks and mature gardens are good places. Spotted flycatchers are often found in woodland with open glades - good for catching insects. During the breeding season spotted flycatchers can be found throughout the UK, although they are scarce in the far north and west and almost absent from Scottish islands. High densities are found from Devon and Kent as far north as Scotland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27529---spotted-flycatcher---muscicapa-striata.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/680.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -11423,7 +11423,7 @@ birds.data = {
             "value": "98 birds"
         },
         "found": "Spotted redshanks spend winter on coastal wetland sites, especially in North Kent and Essex, Hampshire and West Wales.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27089---spotted-redshank---tringa-erythropus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/834.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -11475,7 +11475,7 @@ birds.data = {
             "value": "1.8 million"
         },
         "found": "Starlings are conspicuous and widespread in the UK, occurring everywhere except for the highest parts of the Scottish Highlands. They are most abundant in southern England and are more thinly distributed in upland areas with moorland. Still one of the UK's commonest garden birds. In winter, huge roosts can be found in plantations, reedbeds and city centres. \n",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc27154---common-starling---sturnus-vulgaris.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/788.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -11537,7 +11537,7 @@ birds.data = {
             "value": "260,000 territories"
         },
         "found": "Stock doves live across the UK. In the breeding season, look in parkland, along woodland edges and near quarries and cliffs. In winter, look for small flocks feeding on farmland stubbles.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc32006---stock-dove---columba-oenas-oenas.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -11639,7 +11639,7 @@ birds.data = {
             "value": "59,000 pairs"
         },
         "found": "Stonechats can be found on heaths, conifer plantations or coastal sites, especially in southern and western counties.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc34070---european-stonechat---saxicola-rubicola.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/651.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -11694,7 +11694,7 @@ birds.data = {
             "value": "25,700 pairs"
         },
         "found": "The storm petrel breeds largely on islands on the west coast of the UK and on the Northern Isles. Only comes to shore to breed and then at night. Best looked for by seawatching in spring and autumn from a westerly headland with onshore gales.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/xc46091---european-storm-petrel---hydrobates-pelagicus.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -11741,7 +11741,7 @@ birds.data = {
             "value": "860,000 territories"
         },
         "found": "Swallows are found in areas where there is a ready and accessible supply of small insects. They are particularly fond of open pasture with access to water and quiet farm buildings. Large reedbeds in late summer and early autumn can be good places to look for pre-migration roosts.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc36375---barn-swallow---hirundo-rustica.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -11793,7 +11793,7 @@ birds.data = {
             "value": "59,000 pairs"
         },
         "found": "Look up in the sky in summer, often very high. They never perch on wires like swallows. You might see excited screaming parties of them careering madly at high speed around rooftops and houses, often low, especially towards dusk.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27236---common-swift---apus-apus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/836.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -11840,7 +11840,7 @@ birds.data = {
             "value": "410"
         },
         "found": "The best place in Britain to see taiga bean geese is the Yare Valley in Norfolk, which includes the RSPB's Mid-Yare nature reserves. Another flock winters near Falkirk in southern Scotland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27162---taiga-bean-goose---anser-fabalis-fabalis.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1335.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -11887,7 +11887,7 @@ birds.data = {
             "value": "50,000 pairs"
         },
         "found": "The tawny owl is nocturnal so it is often heard calling at night, but much less often seen. In the daytime, you may see one only if you disturb it inadvertently from its roost site in woodland up against a tree trunk or among ivy. Look for pellets below roosting places.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc72589---tawny-owl---strix-aluco.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/806.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -11943,7 +11943,7 @@ birds.data = {
             "value": "2,100 pairs"
         },
         "found": "Teals are best looked for in good numbers in winter on wetlands, both coastal and inland. Particularly important sites include the Somerset Levels and the Mersey Estuary.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc37491---eurasian-teal---anas-crecca.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/632.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -11999,7 +11999,7 @@ birds.data = {
             "value": "100 birds"
         },
         "found": "Temminck's stints occur mainly by freshwater marshes, pools and lakes in the UK, although they also visit creeks and lagoons in estuaries. The species breeds mostly in the Arctic and is rare in this country.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/832.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -12043,7 +12043,7 @@ birds.data = {
             "value": "88,000 territories"
         },
         "found": "Look in suitable habitat, especially newly planted conifers or open heath, in western UK.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27016---tree-pipit---anthus-trivialis.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/744.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -12089,7 +12089,7 @@ birds.data = {
             "value": "200,000 territories"
         },
         "found": "The tree sparrow is scarcer in the uplands, and the far north and west of the UK. The main populations are now found across the Midlands, southern and eastern England. It is almost absent from the south west, Wales and the north west. Best looked for in hedgerows and woodland edges.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc42213---eurasian-tree-sparrow---passer-montanus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/778.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -12143,7 +12143,7 @@ birds.data = {
             "value": "200,000 territories"
         },
         "found": "Treecreepers are best looked for on the trunks of trees in suitable woodland. In autumn and winter, they often join flocks of tits and other small birds, so if you come across such a flock in a wood, it is worth listening out for a treecreeper among them.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc72675---eurasian-treecreeper---certhia-familiaris.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -12197,7 +12197,7 @@ birds.data = {
             "value": "16,000-19,000 pairs"
         },
         "found": "The tufted duck is found across the UK at most times of year. Look in suitable habitat such as a local reservoir, gravel pit or lake.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc34072---tufted-duck---aythya-fuligula.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/637.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -12250,7 +12250,7 @@ birds.data = {
             "value": "320"
         },
         "found": "Small numbers of tundra bean geese spend winter here but they are erratic in their appearances. They are most commonly seen in eastern and south-eastern England.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27162---taiga-bean-goose---anser-fabalis-fabalis.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1346.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -12297,7 +12297,7 @@ birds.data = {
             "value": "48,000 birds"
         },
         "found": "Turnstones can be found around the UK coastline. Likes rocky shores as well as sandy and muddy ones. Particularly likes feeding on rocks covered with seaweed, and will feed along seawalls and jetties.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc89000---ruddy-turnstone---arenaria-interpres.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -12347,7 +12347,7 @@ birds.data = {
             "value": "14,000 territories"
         },
         "found": "The turtle dove is mainly a bird of southern and eastern England, although it does reach as far as Wales. Best looked for in woodland edges, hedgerows and open land with scattered bushes.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc58791---european-turtle-dove---streptopelia-turtur.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/660.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -12399,7 +12399,7 @@ birds.data = {
             "value": "10,000 pairs"
         },
         "found": "Twite breeds on the moorlands of the Scottish Highlands, northern England and north Wales. In winter some remain in north and west Scotland, near the coast, while others, including continental birds, move to the coast of eastern England where they can be found on saltmarshes and coastal fields.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27692---twite---linaria-flavirostris.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/671.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -12454,7 +12454,7 @@ birds.data = {
             "value": "2,500 birds"
         },
         "found": "The best place to look is from seawatching points on the east coast, particularly from Norfolk northwards. Birds may be seen in small groups, often loosely associated with flocks of common scoters.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/642.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -12503,7 +12503,7 @@ birds.data = {
             "value": "190 birds"
         },
         "found": "Water pipits can be seen in suitable habitat in the winter in eastern and southern England.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/743.mp3",
         "features": {
             "featherColor": [
                 "Blue",
@@ -12550,7 +12550,7 @@ birds.data = {
             "value": "1,100 territories"
         },
         "found": "Water rail can be seen widely but are thinly distributed as breeding birds across the UK, however they are absent from upland areas. They are most abundant in eastern England and among suitable habitat along the south coast.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc26925---water-rail---rallus-aquaticus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1456.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -12606,7 +12606,7 @@ birds.data = {
             "value": "10,000 birds"
         },
         "found": "The first British arrivals each winter are usually seen on the east coast from Scotland to East Anglia, but birds move inland in search of food, increasing the chances of seeing one inland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27110---bohemian-waxwing---bombycilla-garrulus.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -12657,7 +12657,7 @@ birds.data = {
             "value": "240,000 pairs"
         },
         "found": "In the breeding season, wheatear are best looked for on upland suitable habitat in northern and western Britain. May be seen on passage at coastal migration watchpoints and inland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc35411---northern-wheatear---oenanthe-oenanthe.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -12708,7 +12708,7 @@ birds.data = {
             "value": "400-500 pairs"
         },
         "found": "You could see breeding birds on a visit to Shetland or Orkney in summer. Otherwise, passage migrants can be seen on the coast and sometimes inland in suitable habitat, when hearing its distinctive call can be the best clue to its presence.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc56945---whimbrel---numenius-phaeopus.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1743.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -12758,7 +12758,7 @@ birds.data = {
             "value": "47,000 pairs"
         },
         "found": "In the breeding season, whinchat are best looked for in suitable habitat in upland parts of northern and western Britain. It can also be seen on passage at coastal migration watchpoints and suitable habitat inland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc27571---whinchat---saxicola-rubetra.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/650.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -12809,7 +12809,7 @@ birds.data = {
             "value": "2,400 birds from the European population and 13,000 from Greenland"
         },
         "found": "White-fronted geese can be seen in south England especially the Severn estuary in Gloucestershire and the Swale estuary in Kent for Siberian birds. Ireland and West Scotland for Greenland birds.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/xc42011---greater-white-fronted-goose---anser-albifrons.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -12861,7 +12861,7 @@ birds.data = {
             "value": "106 pairs"
         },
         "found": "White-tailed eagles are a rare breeding bird which was previously confined to the west coast of Scotland, though a reintroduction programme is taking place in east Scotland.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/white-tailed-eagle-haliaeetus-albicilla-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/758.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -12918,7 +12918,7 @@ birds.data = {
             "value": "1,100,000 territories"
         },
         "found": "Whitethroats are found over most of the UK. Look in any piece of suitable habitat in summer.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/whitethroat-sylvia-communis-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/775.mp3",
         "features": {
             "featherColor": [
                 "Blue",
@@ -12971,7 +12971,7 @@ birds.data = {
             "value": "23 pairs"
         },
         "found": "You can see whooper swans in Scotland, Northern Ireland, northern England and parts of East Anglia.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/whooper-swan-cygnus-cygnus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/1724.mp3",
         "features": {
             "featherColor": [
                 "White"
@@ -13019,7 +13019,7 @@ birds.data = {
             "value": "400 pairs"
         },
         "found": "Large numbers of wigeons winter on the coast. A great place to see thousands together is on the RSPB Ouse Washes nature reserve in Cambridgeshire.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/wigeon-anas-penelope-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/633.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -13077,7 +13077,7 @@ birds.data = {
             "value": "3,400 pairs"
         },
         "found": "Willow tits are mainly found in England and Wales, with some in south Scotland. Willow tits are often, but by no means exclusively, found in willow thickets in damp places, such as the edge of lowland peat bogs, marshes and around gravel pits.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/willow-tit-poecile-montanus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/723.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -13129,7 +13129,7 @@ birds.data = {
             "value": "2,400,000 territories"
         },
         "found": "Willow warblers are widespread and can be seen in suitable habitat across most of the UK.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/willow-warbler-phylloscopus-trochilus-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/771.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -13177,7 +13177,7 @@ birds.data = {
             "value": "28 pairs"
         },
         "found": "These passage birds most commonly appear in southern and eastern England - a good place to look for them in spring and autumn is at RSPB coastal reserves in these areas.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/wood-sandpiper-tringa-glareola-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/844.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -13223,7 +13223,7 @@ birds.data = {
             "value": "6,500 males"
         },
         "found": "Wood warblers are found in deciduous woodland under closed canopies where there is little or no shrub layer. Much of the population in Europe is found in forested lowlands, though in the UK it is predominantly found in upland western oak woods.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/wood-warbler-phylloscopus-sibilatrix-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/770.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -13271,7 +13271,7 @@ birds.data = {
             "value": "55,241 pairs"
         },
         "found": "Woodcocks can be found in suitable habitat in summer throughout the UK, except for south-west England. In winter, birds are widespread in lowland areas. You would be very lucky to see one, but you may inadvertently disturb one from its resting place, when it flies off, zigzagging between the trees and dropping back into cover.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/woodcock-scolopax-rusticola-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/814.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -13324,7 +13324,7 @@ birds.data = {
             "value": "3,100 pairs"
         },
         "found": "Woodlarks are mainly found breeding in eastern and southern England - the New Forest, Surrey/Berkshire heaths, Breckland and some Suffolk heaths are the best areas to find them. The ones which remain in winter are usually found in Hampshire, west Surrey and Devon and in recent years some wintering flocks have been found in East Anglia. Woodlarks can be looked for at Minsmere and North Warren RSPB reserves, Suffolk and occur in good numbers in Breckland (Norfolk/Suffolk), the New Forest (Hants) and Surrey/Berkshire heathlands.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/woodlark-lullula-arborea-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -13377,7 +13377,7 @@ birds.data = {
             "value": "5,400,000 pairs"
         },
         "found": "Woodpigeons are found across the UK in fields and woods, and also in towns and cities where they frequent parks and gardens.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/wood-pigeon-columba-palumbus-audio.mp3",
+        "audio": null,
         "features": {
             "featherColor": [
                 "Black",
@@ -13432,7 +13432,7 @@ birds.data = {
             "value": "8,600,000 territories"
         },
         "found": "Wrens can be found across the UK in a wide range of habitats - woodland, farmland, heathland, moorland and islands. Most are found in deciduous woodland but it is least abundant in Scotland and northern England, with the smallest numbers found in upland areas. They are a regular visitor to most gardens.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/wren-troglodytes-troglodytes-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/682.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -13485,7 +13485,7 @@ birds.data = {
             "value": "280 birds"
         },
         "found": "The wryneck is still a regular autumn migrant in small numbers to sites in eastern and southern coasts, and a few are seen each spring. Occasionally seen in gardens in autumn.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/wryneck-jynx-torquilla-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/785.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -13531,7 +13531,7 @@ birds.data = {
             "value": "15,000 territories"
         },
         "found": "You find yellow wagtails in suitable habitat in central and eastern England, eastern Wales and southern Scotland. A good place to look is lowland grassland where cattle are being grazed.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/yellow-wagtail-motacilla-flava-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/747.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -13579,7 +13579,7 @@ birds.data = {
             "value": "8 birds"
         },
         "found": "You can find yellow-browed warbler in coastal trees and scrub, arriving on the east coast initially, though some birds do make it into south-west England.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/848.mp3",
         "features": {
             "featherColor": [
                 "Brown",
@@ -13624,7 +13624,7 @@ birds.data = {
             "value": "1-4 pairs"
         },
         "found": "Yellow-legged gulls can be found on reservoirs, on rubbish tips, in fields, on coastal marshes and in large evening gull roosts on reservoirs and lakes. They are most often found among large gatherings of lesser black-backed gulls.",
-        "audio": null,
+        "audio": "https://www.british-birdsongs.uk/sounds/736.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -13678,7 +13678,7 @@ birds.data = {
             "value": "700,000 territories"
         },
         "found": "Yellowhammers are found across the UK. They are least abundant in the north and west and absent from some upland areas, such as the Pennines and Highlands of Scotland, as well as some lowland areas, such as the Inner Hebrides and the Orkneys. Look in open countryside with bushes and hedgerows.",
-        "audio": "https://www.rspb.org.uk/globalassets/audio/bird-species/yellowhammer-emberiza-citrinella-audio.mp3",
+        "audio": "https://www.british-birdsongs.uk/sounds/828.mp3",
         "features": {
             "featherColor": [
                 "Black",
@@ -13713,11 +13713,12 @@ birds.data = {
             "dec"
         ]
     }
-}
+},
 
-birds.listOfBirds = function () {
-    return Object.keys(birds.data)
-}
+
+    birds.listOfBirds = function () {
+        return Object.keys(birds.data)
+    }
 
 birds.searchCharacteristics = function (habitat, featherColor, beak) {
     if (!habitat || !featherColor || !beak) {
