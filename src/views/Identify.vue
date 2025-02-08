@@ -41,21 +41,15 @@
             <v-card-actions>
                 <v-btn :disabled="step === 1" text @click="step--">Back </v-btn>
                 <v-spacer></v-spacer>
-                <v-btn v-if="step < 3" :disabled="!currentValue" color="primary" depressed @click="step++">
+                <v-btn v-if="step < 3" :disabled="!currentValue" color="primary" depressed @click="step++; scrollToTop()">
                     Next
                 </v-btn>
-                <v-btn
-                    v-else-if="step === 3"
-                    :disabled="!currentValue"
-                    color="primary"
-                    depressed
-                    @click="
-                        $router.push({
-                            name: 'results',
-                            query: { habitat: habitat, featherColor: featherColor.join(), beak: beak },
-                        })
-                    "
-                >
+                <v-btn v-else-if="step === 3" :disabled="!currentValue" color="primary" depressed @click="
+                    $router.push({
+                        name: 'results',
+                        query: { habitat: habitat, featherColor: featherColor.join(), beak: beak },
+                    })
+                    ">
                     Find
                 </v-btn>
             </v-card-actions>
@@ -124,5 +118,12 @@ export default {
             }
         },
     },
+    methods: {
+        scrollToTop() {
+            window.scrollTo({
+                top: 0,
+            });
+        }
+    }
 };
 </script>
