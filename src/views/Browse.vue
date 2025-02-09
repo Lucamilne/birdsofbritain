@@ -15,7 +15,7 @@
 <script>
 import Species from "../components/Species.vue";
 import Habitats from "../components/Habitats.vue";
-import Families from "../components/Families.vue";
+// import Families from "../components/Families.vue";
 import Breadcrumbs from "../components/Breadcrumbs.vue";
 
 export default {
@@ -27,7 +27,7 @@ export default {
         tabs: [
             { label: "Species", component: Species, path: "/browse/species" },
             { label: "Habitat", component: Habitats, path: "/browse/habitat" },
-            { label: "Family", component: Families, path: "/browse/family" },
+            // { label: "Family", component: Families, path: "/browse/family" },
         ],
     }),
 };
