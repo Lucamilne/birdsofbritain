@@ -6,7 +6,7 @@
             </v-col>
         </v-row>
         <div class="text-center">
-            <v-pagination v-model="page" :length="numberOfPages"></v-pagination>
+            <v-pagination class="mt-3" v-model="page" :length="numberOfPages"></v-pagination>
         </div>
     </div>
 </template>
