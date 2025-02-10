@@ -24,7 +24,7 @@
                     </v-stepper-step>
                 </v-stepper-header>
             </v-stepper>
-            <v-window v-model="step" class="my-4" style="overflow: visible">
+            <v-window v-model="step" class="my-4">
                 <v-window-item :value="1">
                     <HabitatSelect v-on:habitat="habitat = $event" />
                 </v-window-item>
@@ -37,22 +37,24 @@
                     <BeakSelect v-on:beak="beak = $event" />
                 </v-window-item>
             </v-window>
-            <v-divider></v-divider>
-            <v-card-actions>
-                <v-btn :disabled="step === 1" text @click="step--">Back </v-btn>
-                <v-spacer></v-spacer>
-                <v-btn v-if="step < 3" :disabled="!currentValue" color="primary" depressed @click="step++; scrollToTop()">
-                    Next
-                </v-btn>
-                <v-btn v-else-if="step === 3" :disabled="!currentValue" color="primary" depressed @click="
-                    $router.push({
-                        name: 'results',
-                        query: { habitat: habitat, featherColor: featherColor.join(), beak: beak },
-                    })
-                    ">
-                    Find
-                </v-btn>
-            </v-card-actions>
+            <div class="sticky-controls">
+                <v-divider></v-divider>
+                <v-card-actions>
+                    <v-btn :disabled="step === 1" text @click="step--">Back </v-btn>
+                    <v-spacer></v-spacer>
+                    <v-btn v-if="step < 3" :disabled="!currentValue" color="primary" depressed @click="step++; scrollToTop()">
+                        Next
+                    </v-btn>
+                    <v-btn v-else-if="step === 3" :disabled="!currentValue" color="primary" depressed @click="
+                        $router.push({
+                            name: 'results',
+                            query: { habitat: habitat, featherColor: featherColor.join(), beak: beak },
+                        })
+                        ">
+                        Find
+                    </v-btn>
+                </v-card-actions>
+            </div>
         </v-card>
     </v-container>
 </template>
@@ -127,3 +129,11 @@ export default {
     }
 };
 </script>
+
+<style scoped>
+.sticky-controls {
+    position: sticky;
+    bottom: 0;
+    background: white;
+}
+</style>
