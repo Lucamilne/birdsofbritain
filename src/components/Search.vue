@@ -1,16 +1,5 @@
 <template>
-    <v-autocomplete
-        v-model="value"
-        dense
-        filled
-        hide-details
-        single-line
-        append-icon="mdi-magnify"
-        :items="listOfBirds"
-        label="Search"
-        outlined
-        @input="navigateTo(value)"
-    >
+    <v-autocomplete v-model="value" dense filled hide-details single-line append-icon="mdi-magnify" :items="listOfBirds" label="Search" outlined @input="navigateTo(value)" clearable>
     </v-autocomplete>
 </template>
 
@@ -41,7 +30,7 @@ export default {
                         name: "birds",
                         params: { id: this.toKebabCase(value) },
                     })
-                    .catch(() => {});
+                    .catch(() => { });
             } else {
                 return;
             }
@@ -52,6 +41,6 @@ export default {
 
 <style>
 .v-autocomplete.v-select--is-menu-active .v-input__icon--append .v-icon {
-    transform: none;
+    transform: none !important;
 }
 </style>
