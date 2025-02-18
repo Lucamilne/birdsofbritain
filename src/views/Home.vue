@@ -1,12 +1,10 @@
 <template>
     <v-container fluid class="fill-height">
         <v-card tile dark height="100%" width="100%" class="d-flex flex-column justify-space-between" :class="{ 'hero-background': isLargeScreen, 'hero-background-mobile': !isLargeScreen }">
-            <!-- Video Background -->
             <video v-if="isLargeScreen" autoplay loop muted playsinline class="background-video">
-                <source :src="robinVideo" type="video/mp4" /> Your browser does not support the video tag.
+                <source src="@/assets/videos/robin_compressed.mp4" type="video/mp4" /> Your browser does not support the video tag.
             </video>
 
-            <!-- Overlay -->
             <div v-if="isLargeScreen" class="overlay"></div>
 
             <v-card-text class="text-overline">Discover </v-card-text>
@@ -26,13 +24,10 @@
 </template>
 
 <script>
-import robinVideo from "../assets/videos/robin_compressed.mp4"
-
 export default {
     name: "Home",
     data: function () {
         return {
-            robinVideo,
             items: [
                 { name: "Identify", icon: "mdi-magnify", route: "/identify" },
                 { name: "Browse", icon: "mdi-binoculars", route: "/browse" },
