@@ -2,7 +2,8 @@
     <v-container fluid class="fill-height">
         <v-card tile dark height="100%" width="100%" class="d-flex flex-column justify-space-between" :class="{ 'hero-background': isLargeScreen, 'hero-background-mobile': !isLargeScreen }">
             <video v-if="isLargeScreen" autoplay loop muted playsinline class="background-video">
-                <source src="/videos/robin_compressed.mp4" type="video/mp4" /> Your browser does not support the video tag.
+                <source :src="videoSrc" type="video/mp4" />
+                Your browser does not support the video tag.
             </video>
 
             <div v-if="isLargeScreen" class="overlay"></div>
@@ -28,6 +29,9 @@ export default {
     name: "Home",
     data: function () {
         return {
+            videoSrc: process.env.NODE_ENV === "production"
+                ? "/birdsofbritain/videos/robin_compressed.mp4"
+                : "/videos/robin_compressed.mp4",
             items: [
                 { name: "Identify", icon: "mdi-magnify", route: "/identify" },
                 { name: "Browse", icon: "mdi-binoculars", route: "/browse" },
