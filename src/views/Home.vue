@@ -2,7 +2,7 @@
     <v-container fluid class="fill-height">
         <v-card tile dark height="100%" width="100%" class="d-flex flex-column justify-space-between" :class="{ 'hero-background': isLargeScreen, 'hero-background-mobile': !isLargeScreen }">
             <video v-if="isLargeScreen" autoplay loop muted playsinline class="background-video">
-                <source src="@/videos/robin_compressed.mp4" type="video/mp4" /> Your browser does not support the video tag.
+                <source src="/videos/robin_compressed.mp4" type="video/mp4" /> Your browser does not support the video tag.
             </video>
 
             <div v-if="isLargeScreen" class="overlay"></div>
